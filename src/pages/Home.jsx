@@ -1,0 +1,778 @@
+import React from "react";
+
+import "../styles/Home.css";
+import Lottie from "lottie-react";
+import mobileAnimation from "../assets/lottie/mobile-app.json";
+import mobileAnimations from "../assets/lottie/banner-animation.json";
+
+const Home = () => {
+  return (
+    <>
+      {/* Banner Section */}
+      <section className="hero-banner d-flex align-items-center text-white">
+  <div className="container">
+    <div className="row align-items-center">
+      <div className="col-lg-6 text-center text-lg-start">
+        <h1 className="display-4 fw-bold">Welcome to OncoBridge</h1>
+        <p className="lead mb-4">
+          Delivering compassionate cancer care through innovation and technology.
+        </p>
+        <div>
+          <a href="#about" className="btn btn-primary me-3 px-4 py-2">Discover More</a>
+          <a href="#services" className="btn btn-outline-light px-4 py-2">Hospital Services</a>
+        </div>
+      </div>
+      <div className="col-lg-6 text-center">
+        <Lottie animationData={mobileAnimations} loop={true} />
+      </div>
+    </div>
+  </div>
+</section>
+
+
+{/* Section 1 */}
+<section className="research-innovation py-5 bg-light">
+  <div className="container text-center">
+    <h2 className="section-title">Pioneering Cancer Research</h2>
+    <p className="section-subtitle">
+      Backed by global experts and data-driven platforms, we contribute to the evolution of oncology care.
+    </p>
+    <div className="row mt-4">
+      {[
+        { icon: "bi bi-bar-chart", title: "AI-Powered Diagnostics" },
+        { icon: "bi bi-globe-central-south-asia", title: "Cross-Border Studies" },
+        { icon: "bi bi-capsule", title: "Precision Medicine Trials" }, // <- FIXED HERE
+      ].map((item, i) => (
+        <div className="col-md-4" key={i}>
+          <div className="research-card p-4 h-100">
+            <i className={`${item.icon} display-6 text-primary mb-3`}></i>
+            <h5>{item.title}</h5>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
+
+      {/* Section 1: Mission Quote */}
+      {/* <section className="mission-quote-section py-5 bg-light">
+        <div className="container">
+          <div className="row justify-content-center text-center">
+            <div className="col-lg-10">
+              <blockquote className="mission-quote text-muted fst-italic">
+                “OncoBridge unites pioneers in precision oncology to deliver compassionate, data-driven cancer care — one patient at a time.”
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </section> */}
+
+
+
+   {/* Section 2 */}
+<section className="about-oncobridge py-5">
+  <div className="container">
+    <div className="row align-items-center">
+      
+      {/* Left: Image with graphics */}
+      <div className="col-md-6 position-relative mb-4 mb-md-0">
+        <div className="image-wrapper">
+          <img
+            src="https://iylon.com/wp-content/uploads/2024/04/800x500-focus-on-group-of-young-and-mature-clinicians-look-2023-11-27-05-28-04-utc.jpg"
+            alt="OncoBridge Team"
+            className="img-fluid main-img extra-rounded"
+          />
+          <div className="decor-circle top-left d-flex justify-content-center align-items-center">
+            <i className="bi bi-stars icon-inside"></i>
+          </div>
+          <div className="decor-circle bottom-right d-flex justify-content-center align-items-center">
+            <i className="bi bi-globe icon-inside"></i>
+          </div>
+        </div>
+      </div>
+
+      {/* Right: Text */}
+      <div className="col-md-6">
+        <h3 className="section-heading">A Unified Network of Experts</h3>
+        <div className="theme-underline mb-3"></div>
+        <p className="text-muted">
+          At OncoBridge, collaboration is at the heart of everything we do.
+          Our team of compassionate oncologists, researchers, and care
+          coordinators from across the globe work together to craft
+          individualized treatment plans for every patient.
+        </p>
+        <p className="text-muted">
+          Whether you're seeking a second opinion, virtual tumor board access,
+          or coordinated care across borders, OncoBridge ensures you’re
+          connected to cutting-edge expertise — anytime, anywhere.
+        </p>
+
+        {/* Button */}
+        <button className="btn-theme">
+  <i className="bi bi-arrow-right-circle"></i>
+  Meet Our Experts
+</button>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+{/* Section 3*/}
+<section className="empowering-care py-5">
+  <div className="container">
+    <div className="row align-items-center">
+
+      {/* Left: Text Content */}
+      <div className="col-md-6 mb-4 mb-md-0">
+        <h3 className="section-heading">Empowering Global Cancer Care</h3>
+        <div className="theme-underline mb-3"></div>
+        <p className="text-muted">
+          With access to international expertise and evidence-based practices, we break down barriers
+          to quality cancer care — no matter where you are. OncoBridge serves as your digital gateway 
+          to seamless coordination, faster second opinions, and innovative treatment strategies.
+        </p>
+        <p className="text-muted">
+          Our patient-first philosophy drives our commitment to accessibility, technology, and transparency 
+          in oncology. We believe every life deserves the best chance.
+        </p>
+
+       {/* Button */}
+<button className="btn-theme-section4">
+  <i className="bi bi-activity me-2"></i>
+  How It Works
+</button>
+
+      </div>
+
+      {/* Right: Image with Decorations */}
+      <div className="col-md-6 position-relative">
+        <div className="image-wrapper">
+          <img
+            src="https://www.mdanderson.org/content/dam/mdanderson/images/publications/cancerfrontline/WorldCancerDay2017.jpeg.resize.jpg"
+            alt="Global Cancer Care"
+            className="img-fluid main-img rounded"
+          />
+          <div className="decor-circle top-right d-flex justify-content-center align-items-center">
+            <i className="bi bi-globe icon-inside"></i>
+          </div>
+          <div className="decor-circle bottom-left d-flex justify-content-center align-items-center">
+            <i className="bi bi-people icon-inside"></i>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      {/* Section 4 */}
+      <section className="why-choose-us py-5">
+        <div className="container">
+          <div className="text-center mb-5">
+            <h2 className="section-title">Why Choose OncoBridge</h2>
+            <p className="section-subtitle">
+              Personalized oncology care supported by global expertise and compassionate technology.
+            </p>
+          </div>
+
+          <div className="row g-4">
+            {[ 
+              {
+                title: "Expert Specialists",
+                icon: "bi bi-person-badge",
+                desc: "Connect with globally respected oncologists for personalized treatment recommendations."
+              },
+              {
+                title: "Affordable Options",
+                icon: "bi bi-wallet2",
+                desc: "Comprehensive, budget-friendly cancer care solutions for all patients."
+              },
+              {
+                title: "Advanced Facilities",
+                icon: "bi bi-building-add",
+                desc: "Access to cutting-edge diagnostics, labs, and virtual tumor boards."
+              },
+              {
+                title: "Seamless Consults",
+                icon: "bi bi-calendar2-check",
+                desc: "Book appointments with international specialists from anywhere with ease."
+              }
+            ].map((item, i) => (
+              <div key={i} className="col-md-6 col-lg-3">
+                <div className="feature-card text-center p-4 h-100">
+                  <div className="feature-icon mb-3">
+                    <i className={item.icon}></i>
+                  </div>
+                  <h5 className="fw-semibold mb-2">{item.title}</h5>
+                  <p className="text-muted small mb-4">{item.desc}</p>
+                  <a href="#" className="read-more-btn">Read More</a>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+
+
+
+{/* Section 5 */}
+<section className="onco-app-section text-white py-5">
+  <div className="container">
+    <div className="row align-items-center justify-content-between">
+
+      {/* Left Content */}
+      <div className="col-lg-6 text-center text-lg-start mb-5 mb-lg-0">
+        <h2 className="display-5 fw-bold mb-3 text-white">Experience OncoBridge on the Go</h2>
+        <p className="lead mb-4 text-light-subtle">
+          Manage appointments, view reports, and connect with oncology experts anytime, anywhere. Now available on all major platforms.
+        </p>
+
+        <div className="d-flex flex-wrap justify-content-center justify-content-lg-start gap-3">
+          <a href="#" className="store-btn google-play">
+            <i className="bi bi-google-play me-2"></i> Google Play
+          </a>
+          <a href="#" className="store-btn app-store">
+            <i className="bi bi-apple me-2"></i> App Store
+          </a>
+        </div>
+      </div>
+
+      {/* Right Animation */}
+      <div className="col-lg-6 text-center">
+        <div className="app-animation">
+          <Lottie animationData={mobileAnimation} loop={true} />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+{/* <section className="research-innovation py-5 bg-light">
+  <div className="container text-center">
+    <h2 className="section-title">Pioneering Cancer Research</h2>
+    <p className="section-subtitle">
+      Backed by global experts and data-driven platforms, we contribute to the evolution of oncology care.
+    </p>
+    <div className="row mt-4">
+      {[
+        { icon: "bi bi-bar-chart", title: "AI-Powered Diagnostics" },
+        { icon: "bi bi-globe-central-south-asia", title: "Cross-Border Studies" },
+        { icon: "bi bi-capsule", title: "Precision Medicine Trials" }, // <- FIXED HERE
+      ].map((item, i) => (
+        <div className="col-md-4" key={i}>
+          <div className="research-card p-4 h-100">
+            <i className={`${item.icon} display-6 text-primary mb-3`}></i>
+            <h5>{item.title}</h5>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section> */}
+
+
+{/* <section className="vision-section text-white d-flex align-items-center">
+  <div className="container">
+    <div className="row justify-content-center text-center">
+      <div className="col-lg-10">
+        <h2 className="display-5 fw-bold mb-4">A Future Without Borders in Cancer Care</h2>
+        <p className="lead mb-5">
+          Imagine a world where expert opinions are a click away. Where data empowers healing. 
+          Where language, distance, and cost no longer define your treatment.  
+        </p>
+
+        <div className="quote-highlight fst-italic">
+          “At OncoBridge, this future is not imagined. It's being built every day.”
+        </div>
+
+        <div className="mt-5">
+          <a href="#contact" className="btn btn-outline-light btn-lg px-5 py-3">
+            Join Our Mission
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> */}
+
+
+{/* <section className="vision-section-upgraded text-white d-flex align-items-center">
+  <div className="container">
+    <div className="row justify-content-center text-center">
+      <div className="col-lg-10">
+
+        <h2 className="display-4 fw-bold mb-4 animate-fade-in">
+          A Future Without Borders in Cancer Care
+        </h2>
+
+        <p className="lead mb-5 animate-fade-in-slow">
+          Imagine a world where expert opinions are a click away. Where data empowers healing. 
+          Where language, distance, and cost no longer define your treatment.
+        </p>
+
+        <div className="quote-glass animate-fade-in-delay">
+          <i className="bi bi-stars me-2 text-info"></i>
+          “At OncoBridge, this future is not imagined. It's being built every day.”
+        </div>
+
+        <div className="mt-5">
+          <a href="#contact" className="btn-join-glow px-5 py-3">
+            Join Our Mission
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</section> */}
+
+
+{/* <section className="vision-hero">
+  <div className="container">
+    <div className="row gx-5 align-items-center">
+
+     
+      <div className="col-lg-6 mb-5 mb-lg-0">
+        <div className="vision-image-wrapper">
+          <img
+            src="https://images.unsplash.com/photo-1607746882042-944635dfe10e?auto=format&fit=crop&w=1200&q=80"
+            alt="Vision"
+            className="vision-image"
+          />
+          <div className="vision-label">Future-Ready</div>
+        </div>
+      </div>
+
+      
+      <div className="col-lg-6">
+        <h1 className="vision-heading">
+          A New Era of <br />
+          <span>Borderless Cancer Care</span>
+        </h1>
+
+        <p className="vision-subtitle">
+          Empowering healing through global access, precision data, and seamless expert connections.  
+          Where distance, language, and cost are no longer obstacles.
+        </p>
+
+        <div className="vision-quote">
+          “At OncoBridge, this future isn't a dream. It's what we deliver every day.”
+        </div>
+
+        <a href="#contact" className="vision-button">Join Our Mission</a>
+      </div>
+    </div>
+  </div>
+</section> */}
+
+
+
+{/* <section className="vision-elevated text-white">
+  <div className="vision-glass container">
+    <div className="row align-items-center gx-5 gy-5">
+
+      
+      <div className="col-lg-6 text-content">
+        <h1 className="display-title">
+          Breaking Barriers in <span>Cancer Care</span>
+        </h1>
+        <p className="vision-lead">
+          Access expert opinions in seconds. Connect across borders. Empower healing through smart, human-centered innovation.
+        </p>
+        <blockquote className="vision-quote">
+          <i className="bi bi-activity me-2 text-info"></i>
+          “We’re not imagining the future. We’re engineering it.”
+        </blockquote>
+        <a href="#contact" className="btn-glow">
+          Join Our Mission
+        </a>
+      </div>
+
+      
+      <div className="col-lg-6">
+        <div className="vision-image-stack">
+          <img
+            src="https://images.unsplash.com/photo-1607746882042-944635dfe10e?auto=format&fit=crop&w=1200&q=80"
+            alt="Cancer Research"
+            className="main-image"
+          />
+          <div className="image-float-box">Trusted by experts worldwide</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section> */}
+
+{/* Section 6 */}
+<section className="cancer-hero-alt py-5">
+  <div className="container">
+    <div className="text-center mb-5">
+      <h1 className="hero-heading">
+        Breaking Barriers in <span>Cancer Care</span>
+      </h1>
+      <p className="hero-subtext">
+        Empowering faster healing through global connectivity, expert intelligence, and human-first design.
+      </p>
+    </div>
+
+    <div className="row align-items-center gy-4 gx-5">
+      <div className="col-md-6">
+        <div className="hero-alt-image-box">
+          <img
+            src="https://images.unsplash.com/photo-1607746882042-944635dfe10e?auto=format&fit=crop&w=1200&q=80"
+            alt="Empathy in Cancer Care"
+            className="img-fluid rounded-4 shadow-lg"
+          />
+          <div className="hero-badge">Global Experts, One Mission</div>
+        </div>
+      </div>
+
+      <div className="col-md-6">
+        <ul className="list-unstyled hero-feature-list">
+          {[
+            {
+              icon: "bi bi-lightning-charge",
+              title: "Instant Specialist Access",
+              desc: "Second opinions from global oncology leaders—on demand.",
+            },
+            {
+              icon: "bi bi-graph-up-arrow",
+              title: "Smart Treatment Matching",
+              desc: "AI-powered platforms personalize therapy options by case data.",
+            },
+            {
+              icon: "bi bi-person-heart",
+              title: "Human-Centered Experience",
+              desc: "We bridge empathy and science to empower every patient journey.",
+            },
+          ].map((item, i) => (
+            <li key={i} className="d-flex mb-4">
+              <div className="me-3 icon-box text-primary">
+                <i className={`${item.icon} fs-3`}></i>
+              </div>
+              <div>
+                <h5 className="mb-1">{item.title}</h5>
+                <p className="mb-0 text-muted">{item.desc}</p>
+              </div>
+            </li>
+          ))}
+        </ul>
+        <a href="#contact" className="btn btn-cta mt-4">Join Our Mission</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+{/* Section 7 */}
+
+<section className="timeline-section">
+  <div className="container">
+    <h2 className="timeline-title text-center mb-5">How OncoBridge Works</h2>
+    <div className="timeline">
+      {[
+        {
+          title: "Submit Your Case",
+          desc: "Upload your reports, symptoms, and medical history securely.",
+          icon: "bi-upload",
+        },
+        {
+          title: "Get Matched",
+          desc: "We connect you with top oncology experts around the globe.",
+          icon: "bi-person-check",
+        },
+        {
+          title: "Consult & Plan",
+          desc: "Get a virtual consult and a personalized treatment strategy.",
+          icon: "bi-camera-video",
+        },
+        {
+          title: "Ongoing Support",
+          desc: "Receive continuous care coordination and follow-ups.",
+          icon: "bi-heart-pulse",
+        },
+      ].map((step, idx) => (
+        <div className="timeline-item" key={idx}>
+          <div className="timeline-icon">
+            <i className={`bi ${step.icon}`}></i>
+          </div>
+          <div className="timeline-content">
+            <h4>{step.title}</h4>
+            <p>{step.desc}</p>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
+
+
+<section className="testimonials-section py-5 bg-light">
+  <div className="container">
+    <div className="text-center mb-5">
+      <h2 className="section-title fw-bold">Real Stories, Real Impact</h2>
+      <p className="section-subtitle text-muted">
+        Hear from patients and families who’ve experienced compassionate care with OncoBridge.
+      </p>
+    </div>
+
+    <div className="row g-4">
+      {[
+        {
+          name: "Anjali Mehta",
+          role: "Breast Cancer Survivor",
+          message:
+            "OncoBridge gave me confidence to explore options I didn’t know existed. The virtual tumor board saved my life.",
+          image: "https://randomuser.me/api/portraits/women/65.jpg"
+        },
+        {
+          name: "Rajesh Patel",
+          role: "Family Caregiver",
+          message:
+            "The care coordination team was always available, always kind. I felt heard and supported throughout my wife's treatment.",
+          image: "https://randomuser.me/api/portraits/men/33.jpg"
+        },
+        {
+          name: "Fatima Noor",
+          role: "Patient, Middle East",
+          message:
+            "Connecting to international specialists from home was seamless. OncoBridge truly empowers patients globally.",
+          image: "https://randomuser.me/api/portraits/women/44.jpg"
+        }
+      ].map((t, idx) => (
+        <div key={idx} className="col-md-6 col-lg-4">
+          <div className="testimonial-box shadow-sm p-4 h-100 bg-white rounded-4 text-center fade-up">
+            <img
+              src={t.image}
+              alt={t.name}
+              className="testimonial-avatar mb-3"
+              width="70"
+              height="70"
+            />
+            <h6 className="fw-bold mb-1">{t.name}</h6>
+            <small className="text-muted">{t.role}</small>
+            <p className="text-muted mt-3 fst-italic">“{t.message}”</p>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
+
+
+
+{/* Section 6: Testimonials */}
+{/* <section className="testimonials-section py-5 bg-light">
+  <div className="container">
+    <div className="text-center mb-5">
+      <h2 className="section-title">Real Stories, Real Impact</h2>
+      <p className="section-subtitle">
+        Hear from patients and families who’ve experienced compassionate care with OncoBridge.
+      </p>
+    </div>
+
+    <div className="row g-4">
+      {[
+        {
+          name: "Anjali Mehta",
+          role: "Breast Cancer Survivor",
+          message: "OncoBridge gave me the confidence to explore options I didn’t even know existed. The virtual tumor board saved my life.",
+          image: "https://randomuser.me/api/portraits/women/65.jpg"
+        },
+        {
+          name: "Rajesh Patel",
+          role: "Family Caregiver",
+          message: "The care coordination team was always available, always kind. I felt heard and supported throughout my wife's treatment.",
+          image: "https://randomuser.me/api/portraits/men/33.jpg"
+        },
+        {
+          name: "Fatima Noor",
+          role: "Patient, Middle East",
+          message: "Connecting to international specialists from my home country was seamless. OncoBridge truly empowers patients globally.",
+          image: "https://randomuser.me/api/portraits/women/44.jpg"
+        }
+      ].map((testimonial, idx) => (
+        <div className="col-md-6 col-lg-4" key={idx}>
+          <div className="testimonial-card p-4 h-100 shadow-sm bg-white rounded">
+            <div className="d-flex align-items-center mb-3">
+              <img
+                src={testimonial.image}
+                alt={testimonial.name}
+                className="rounded-circle me-3"
+                width="50"
+                height="50"
+              />
+              <div>
+                <h6 className="mb-0 fw-bold">{testimonial.name}</h6>
+                <small className="text-muted">{testimonial.role}</small>
+              </div>
+            </div>
+            <p className="text-muted fst-italic">“{testimonial.message}”</p>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section> */}
+
+
+
+{/* <section className="how-it-works py-5 bg-light">
+  <div className="container text-center">
+    <h2 className="section-title mb-4">How OncoBridge Works</h2>
+    <div className="row">
+      {[
+        { step: "1", title: "Submit Your Case", desc: "Upload reports, symptoms, and case history." },
+        { step: "2", title: "Get Matched", desc: "We match you with global oncology experts." },
+        { step: "3", title: "Consult & Plan", desc: "Video consult and receive a detailed treatment plan." },
+        { step: "4", title: "Ongoing Support", desc: "Continuous care coordination through our platform." }
+      ].map((item, idx) => (
+        <div key={idx} className="col-md-3 mb-4">
+          <div className="card h-100 shadow-sm border-0">
+            <div className="card-body">
+              <div className="step-number display-4 text-primary">{item.step}</div>
+              <h5 className="card-title mt-3">{item.title}</h5>
+              <p className="card-text">{item.desc}</p>
+            </div>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section> */}
+
+
+
+{/* <section className="cta-banner text-white text-center py-5" style={{ backgroundColor: '#0a2540' }}>
+  <div className="container">
+    <h2>Ready to take the next step in your cancer care?</h2>
+    <p>Connect with world-class oncologists now — no matter where you are.</p>
+    <a href="/register" className="btn btn-warning px-4 py-2 mt-3">Get Started</a>
+  </div>
+</section> */}
+
+
+
+{/* Section 8 */}
+
+<section className="newsletter-beauty text-white">
+  <div className="container py-5 text-center">
+    <h2 className="newsletter-heading">Get Health Insights & Breakthroughs</h2>
+    <p className="newsletter-subtext">
+      Join our newsletter for expert tips, latest research, and early access to new care innovations — exclusively for subscribers.
+    </p>
+
+    <form className="newsletter-form mt-4">
+      <div className="newsletter-input-wrapper">
+        <input
+          type="email"
+          className="newsletter-input"
+          placeholder="Enter your email address"
+          required
+        />
+        <button type="submit" className="btn-inside">Subscribe</button>
+      </div>
+    </form>
+
+    <small className="newsletter-note mt-3 d-block">
+      No spam. Unsubscribe anytime.
+    </small>
+  </div>
+</section>
+
+
+
+{/* Section: FAQ */}
+<section className="faq-section py-5 bg-white">
+  <div className="container">
+    <div className="text-center mb-5">
+      <h2 className="section-title">Frequently Asked Questions</h2>
+      <p className="section-subtitle">Got questions? We’ve got answers.</p>
+    </div>
+
+    <div className="accordion" id="faqAccordion">
+      {[
+        {
+          question: "What services does OncoBridge provide?",
+          answer:
+            "OncoBridge offers virtual tumor boards, second opinions, care coordination, and access to global oncologists and diagnostic tools.",
+        },
+        {
+          question: "How do I connect with a specialist?",
+          answer:
+            "You can book an appointment directly through our platform or mobile app. A coordinator will guide you through the process.",
+        },
+        {
+          question: "Is OncoBridge available globally?",
+          answer:
+            "Yes, we serve patients worldwide through virtual consultations, international partnerships, and digital tools.",
+        },
+      ].map((faq, index) => (
+        <div className="accordion-item" key={index}>
+          <h2 className="accordion-header" id={`heading${index}`}>
+            <button
+              className={`accordion-button ${index !== 0 ? "collapsed" : ""}`}
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target={`#collapse${index}`}
+              aria-expanded={index === 0 ? "true" : "false"}
+              aria-controls={`collapse${index}`}
+            >
+              {faq.question}
+            </button>
+          </h2>
+          <div
+            id={`collapse${index}`}
+            className={`accordion-collapse collapse ${
+              index === 0 ? "show" : ""
+            }`}
+            aria-labelledby={`heading${index}`}
+            data-bs-parent="#faqAccordion"
+          >
+            <div className="accordion-body">{faq.answer}</div>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+    </>
+  );
+};
+
+export default Home;

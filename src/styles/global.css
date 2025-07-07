@@ -1,0 +1,77 @@
+:root {
+  --blue-100: #E6F0FA;
+  --blue-200: #B3D9F2;
+  --blue-300: #40C4FF;
+  --blue-400: #0288D1;
+  --blue-500: #01579B;
+
+  --pink-100: #FCE4EC;
+  --pink-200: #F8BBD0;
+  --pink-300: #F06292;
+  --pink-400: #C2185B;
+  --pink-500: #880E4F;
+
+  --primary: var(--blue-400);
+  --secondary: var(--pink-300);
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--blue-100);
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--primary);
+}
+
+a {
+  color: var(--secondary);
+}
+
+/* Bootstrap override if needed */
+.bg-primary {
+  background-color: var(--primary) !important;
+}
+
+.text-primary {
+  color: var(--primary) !important;
+}
+
+.text-secondary {
+  color: var(--secondary) !important;
+}
+
+
+
+.footer {
+  /* Optional: Uncomment below to fix footer at bottom */
+  /* position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999; */
+}
+
+.social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-decoration: none;
+  font-size: 16px;
+  transition: all 0.3s ease-in-out;
+}
+
+.social-icon:hover {
+  background-color: var(--secondary, #17a2b8);
+  border-color: var(--secondary, #17a2b8);
+  color: white;
+}
