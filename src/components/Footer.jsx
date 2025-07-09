@@ -6,7 +6,6 @@ function Footer() {
     <footer className="bg-dark text-light pt-5 pb-4 footer">
       <div className="container">
         <div className="row">
-
           {/* Brand Description */}
           <div className="col-md-4 mb-4">
             <h5 className="text-uppercase fw-bold mb-3">OncoBridge</h5>
