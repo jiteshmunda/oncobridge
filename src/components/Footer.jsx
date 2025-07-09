@@ -16,9 +16,9 @@ function Footer() {
           </div>
 
           {/* Quick Links */}
-          <div className="col-md-2 mb-4">
+          <div className="col-md-3 mb-4">
             <h5 className="text-uppercase fw-bold mb-3">Quick Links</h5>
-            <div className='d-flex'>
+            <div className='d-flex justify-content-end'>
             <ul className="list-unstyled">
               <li><a href="#home" className="text-light text-decoration-none">Home</a></li>
               <li><a href="#about" className="text-light text-decoration-none">About</a></li>
