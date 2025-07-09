@@ -1,6 +1,6 @@
 .custom-navbar {
-  background-color: var(--primary);
-  padding: 1.5rem 0;
+  background-color: #c0e2f5ed;
+  padding: 0.1rem 0;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   position: sticky;
   top: 0;
@@ -10,8 +10,9 @@
 
 .custom-navbar.scrolled {
   padding: 0.6rem 0;
-  background-color: var(--blue-500);
+  background-color: #fff;
 }
+
 
 .navbar-container {
   max-width: 1200px;
@@ -55,7 +56,7 @@
   font-size: 1rem;
   font-weight: 500;
   text-transform: uppercase;
-  color: white;
+  color: #000;
   text-decoration: none;
   position: relative;
   overflow: hidden;
@@ -204,6 +205,19 @@
     pointer-events: auto;
   }
 }
+.navbar-logo
+{
+   background: url('../assets/logo.png')  ;
+   background-repeat: no-repeat;
+     background-position: 0px -13px;
+    background-size: 140px 115px;
+    color: white;
+    text-align: center;
+    padding: 45px 71px;
 
-
+}
+.logo_nabvar 
+{
+      width: 142px;
+}
 

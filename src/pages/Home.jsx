@@ -4,6 +4,10 @@ import "../styles/Home.css";
 import Lottie from "lottie-react";
 import mobileAnimation from "../assets/lottie/mobile-app.json";
 import mobileAnimations from "../assets/lottie/banner-animation.json";
+import pat1 from '../assets/pat1.jpg';
+import pat3 from '../assets/pat3.jpg';
+import pat2 from '../assets/pat2.jpg';
+import global from '../assets/globle.jpg';
 
 const Home = () => {
   return (
@@ -13,13 +17,15 @@ const Home = () => {
   <div className="container">
     <div className="row align-items-center">
       <div className="col-lg-6 text-center text-lg-start">
-        <h1 className="display-4 fw-bold">Welcome to OncoBridge</h1>
+        <h1 className="display-4 fw-bold">
+         Expert Help for Cancer Journey
+        </h1>
         <p className="lead mb-4">
-          Delivering compassionate cancer care through innovation and technology.
+        OncoBridge links patients, hospitals, and insurers with top oncologists for expert insights into cancer diagnosis and treatment.
         </p>
         <div>
-          <a href="#about" className="btn btn-primary me-3 px-4 py-2">Discover More</a>
-          <a href="#services" className="btn btn-outline-light px-4 py-2">Hospital Services</a>
+          <a href="#about" className="btn btn-primary me-3 px-4 py-2">Get Your Second Opinion </a>
+          <a href="#services" className="btn btn-outline-light px-4 py-2">How It Works </a>
         </div>
       </div>
       <div className="col-lg-6 text-center">
@@ -33,15 +39,16 @@ const Home = () => {
 {/* Section 1 */}
 <section className="research-innovation py-5 bg-light">
   <div className="container text-center">
-    <h2 className="section-title">Pioneering Cancer Research</h2>
+    {/* <h2 className="section-title">Pioneering Cancer Research</h2> */}
+    <h2 className="section-title">Expert Cancer Guidance</h2>     
     <p className="section-subtitle">
-      Backed by global experts and data-driven platforms, we contribute to the evolution of oncology care.
+      Diverse Indian patients and families finding hope with a global network of oncology experts
     </p>
     <div className="row mt-4">
       {[
-        { icon: "bi bi-bar-chart", title: "AI-Powered Diagnostics" },
-        { icon: "bi bi-globe-central-south-asia", title: "Cross-Border Studies" },
-        { icon: "bi bi-capsule", title: "Precision Medicine Trials" }, // <- FIXED HERE
+        { icon: "bi bi-bar-chart", title: "Hopeful Patients, Caring Families" },
+        { icon: "bi bi-globe-central-south-asia", title: "Collaborative Expert Doctors" },
+        { icon: "bi bi-capsule", title: "A Reassuring, Professional Environment" }, // <- FIXED HERE
       ].map((item, i) => (
         <div className="col-md-4" key={i}>
           <div className="research-card p-4 h-100">
@@ -94,18 +101,18 @@ const Home = () => {
 
       {/* Right: Text */}
       <div className="col-md-6">
-        <h3 className="section-heading">A Unified Network of Experts</h3>
+        {/* <h3 className="section-heading">A Unified Network of Experts</h3> */}
+         <h3 className="section-heading"> Expert Insight, Better Decisions</h3>       
         <div className="theme-underline mb-3"></div>
-        <p className="text-muted">
-          At OncoBridge, collaboration is at the heart of everything we do.
-          Our team of compassionate oncologists, researchers, and care
-          coordinators from across the globe work together to craft
-          individualized treatment plans for every patient.
+        <p className="text-muted">        
+        Doubts about diagnosis, treatment options, or potential side effects are natural.
+         A second opinion from a specialized oncologist can provide invaluable peace of mind, 
+         confirm your diagnosis, refine treatment strategies,
+         and open doors to advanced therapies, ultimately improving outcomes.
         </p>
         <p className="text-muted">
-          Whether you're seeking a second opinion, virtual tumor board access,
-          or coordinated care across borders, OncoBridge ensures you’re
-          connected to cutting-edge expertise — anytime, anywhere.
+           A cancer diagnosis brings immense challenges and critical decisions.
+      
         </p>
 
         {/* Button */}
@@ -129,17 +136,28 @@ const Home = () => {
 
       {/* Left: Text Content */}
       <div className="col-md-6 mb-4 mb-md-0">
-        <h3 className="section-heading">Empowering Global Cancer Care</h3>
+        {/* <h3 className="section-heading">Empowering Global Cancer Care</h3> */}
+        <h3 className="section-heading">Trusted by Thousands, Backed by Experts.</h3> 
         <div className="theme-underline mb-3"></div>
         <p className="text-muted">
+          We partner with a network of board-certified oncologists from premier institutions globally.
+          Secure, confidential, and compliant processes.
+          Dedicated case management team to guide you every step of the way.
+        </p>
+        <p className="text-muted">
+          Indian patient thoughtfully considering medical information on a tablet,
+       seeking clarity for complex decisions.
+       
+        </p>
+        {/* <p className="text-muted">
           With access to international expertise and evidence-based practices, we break down barriers
           to quality cancer care — no matter where you are. OncoBridge serves as your digital gateway 
           to seamless coordination, faster second opinions, and innovative treatment strategies.
-        </p>
-        <p className="text-muted">
+        </p> */}
+        {/* <p className="text-muted">
           Our patient-first philosophy drives our commitment to accessibility, technology, and transparency 
           in oncology. We believe every life deserves the best chance.
-        </p>
+        </p> */}
 
        {/* Button */}
 <button className="btn-theme-section4">
@@ -152,11 +170,13 @@ const Home = () => {
       {/* Right: Image with Decorations */}
       <div className="col-md-6 position-relative">
         <div className="image-wrapper">
-          <img
+          <img src={global}  alt="Global Cancer Care"
+            className="img-fluid main-img rounded" />
+          {/* <img
             src="https://www.mdanderson.org/content/dam/mdanderson/images/publications/cancerfrontline/WorldCancerDay2017.jpeg.resize.jpg"
             alt="Global Cancer Care"
             className="img-fluid main-img rounded"
-          />
+          /> */}
           <div className="decor-circle top-right d-flex justify-content-center align-items-center">
             <i className="bi bi-globe icon-inside"></i>
           </div>
@@ -496,24 +516,20 @@ const Home = () => {
     <h2 className="timeline-title text-center mb-5">How OncoBridge Works</h2>
     <div className="timeline">
       {[
+        
         {
-          title: "Submit Your Case",
-          desc: "Upload your reports, symptoms, and medical history securely.",
-          icon: "bi-upload",
-        },
-        {
-          title: "Get Matched",
-          desc: "We connect you with top oncology experts around the globe.",
+          title: "For Patients",
+          desc: "Access to leading global oncologists, personalized insights, peace of mind.",
           icon: "bi-person-check",
         },
         {
-          title: "Consult & Plan",
-          desc: "Get a virtual consult and a personalized treatment strategy.",
+          title: "For Hospitals",
+          desc: "Expand your expertise, support your patients with external validation, collaborate seamlessly.",
           icon: "bi-camera-video",
         },
         {
-          title: "Ongoing Support",
-          desc: "Receive continuous care coordination and follow-ups.",
+          title: "For Insurance Providers",
+          desc: ": Ensure appropriate care, manage costs effectively, enhance policyholder satisfaction.",
           icon: "bi-heart-pulse",
         },
       ].map((step, idx) => (
@@ -537,33 +553,36 @@ const Home = () => {
   <div className="container">
     <div className="text-center mb-5">
       <h2 className="section-title fw-bold">Real Stories, Real Impact</h2>
-      <p className="section-subtitle text-muted">
+      {/* <p className="section-subtitle text-muted">
         Hear from patients and families who’ve experienced compassionate care with OncoBridge.
-      </p>
+      </p> */}
+       <p className="section-subtitle text-muted">
+       OncoBridge gave us confidence. We felt supported and informed.
+       </p>
     </div>
 
     <div className="row g-4">
       {[
         {
-          name: "Anjali Mehta",
+          name: "Priya S",
           role: "Breast Cancer Survivor",
           message:
-            "OncoBridge gave me confidence to explore options I didn’t know existed. The virtual tumor board saved my life.",
-          image: "https://randomuser.me/api/portraits/women/65.jpg"
+            "I felt lost after my cancer diagnosis. OncoBridge connected me to a top oncologist who reassured me and explained all my options.",
+          image: pat1
         },
         {
           name: "Rajesh Patel",
-          role: "Family Caregiver",
+          role: "Patient, Delhi",
           message:
-            "The care coordination team was always available, always kind. I felt heard and supported throughout my wife's treatment.",
-          image: "https://randomuser.me/api/portraits/men/33.jpg"
+            "As a caregiver, I needed clarity fast. OncoBridge’s team was responsive, kind, and truly expert. They made a tough time easier",
+          image: pat3
         },
         {
           name: "Fatima Noor",
-          role: "Patient, Middle East",
+          role: "Caregiver, Jaipur",
           message:
-            "Connecting to international specialists from home was seamless. OncoBridge truly empowers patients globally.",
-          image: "https://randomuser.me/api/portraits/women/44.jpg"
+            "OncoBridge helped us understand my father's diagnosis clearly. The second opinion gave us the confidence to move forward with the right treatment.",
+          image: pat2
         }
       ].map((t, idx) => (
         <div key={idx} className="col-md-6 col-lg-4">
@@ -720,17 +739,22 @@ const Home = () => {
     <div className="accordion" id="faqAccordion">
       {[
         {
-          question: "What services does OncoBridge provide?",
+          question: "Who are your experts?",
           answer:
             "OncoBridge offers virtual tumor boards, second opinions, care coordination, and access to global oncologists and diagnostic tools.",
         },
         {
-          question: "How do I connect with a specialist?",
+          question: "How long does it take?",
           answer:
             "You can book an appointment directly through our platform or mobile app. A coordinator will guide you through the process.",
         },
         {
-          question: "Is OncoBridge available globally?",
+          question: "What if I don't have all my records?",
+          answer:
+            "Yes, we serve patients worldwide through virtual consultations, international partnerships, and digital tools.",
+        },
+          {
+          question: "Is this covered by insurance?",
           answer:
             "Yes, we serve patients worldwide through virtual consultations, international partnerships, and digital tools.",
         },
