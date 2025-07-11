@@ -86,7 +86,7 @@
 }
 
 .navbar-menu a:hover {
-  color: white;
+  color: #000;
 }
 
 @media (max-width: 991px) {

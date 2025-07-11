@@ -14,52 +14,53 @@ const Home = () => {
     <>
       {/* Banner Section */}
       <section className="hero-banner d-flex align-items-center text-white">
-  <div className="container">
-    <div className="row align-items-center">
-      <div className="col-lg-6 text-center text-lg-start">
-        <h1 className="display-4 fw-bold">
-         Expert Help for Cancer Journey
-        </h1>
-        <p className="lead mb-4">
-        OncoBridge links patients, hospitals, and insurers with top oncologists for expert insights into cancer diagnosis and treatment.
-        </p>
-        <div>
-          <a href="#about" className="btn btn-primary me-3 px-4 py-2">Get Your Second Opinion </a>
-          <a href="#services" className="btn btn-outline-light px-4 py-2">How It Works </a>
-        </div>
-      </div>
-      <div className="col-lg-6 text-center">
-        <Lottie animationData={mobileAnimations} loop={true} />
-      </div>
-    </div>
-  </div>
-</section>
-
-
-{/* Section 1 */}
-<section className="research-innovation py-5 bg-light">
-  <div className="container text-center">
-    {/* <h2 className="section-title">Pioneering Cancer Research</h2> */}
-    <h2 className="section-title">Expert Cancer Guidance</h2>     
-    <p className="section-subtitle">
-      Diverse Indian patients and families finding hope with a global network of oncology experts
-    </p>
-    <div className="row mt-4">
-      {[
-        { icon: "bi bi-bar-chart", title: "Hopeful Patients, Caring Families" },
-        { icon: "bi bi-globe-central-south-asia", title: "Collaborative Expert Doctors" },
-        { icon: "bi bi-capsule", title: "A Reassuring, Professional Environment" }, // <- FIXED HERE
-      ].map((item, i) => (
-        <div className="col-md-4" key={i}>
-          <div className="research-card p-4 h-100">
-            <i className={`${item.icon} display-6 text-primary mb-3`}></i>
-            <h5>{item.title}</h5>
+        <div className="container">
+          <div className="row align-items-center">
+            <div className="col-lg-6 text-center text-lg-start">
+              <h1 className="display-4 fw-bold">
+              Lorem ipsum dolor sit amet
+              </h1>
+              <p className="lead mb-4">
+               Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+               Integer efficitur tortor eu egestas pulvinar
+              </p>
+              <div>
+                <a href="#about" className="btn btn-primary me-3 px-4 py-2">Get Your Second Opinion </a>
+                <a href="#services" className="btn btn-outline-light px-4 py-2">How It Works </a>
+              </div>
+            </div>
+            <div className="col-lg-6 text-center">
+              <Lottie animationData={mobileAnimations} loop={true} />
+            </div>
           </div>
         </div>
-      ))}
-    </div>
-  </div>
-</section>
+      </section>
+
+
+      {/* Section 1 */}
+      <section className="research-innovation py-5 bg-light">
+        <div className="container text-center">
+          {/* <h2 className="section-title">Pioneering Cancer Research</h2> */}
+          <h2 className="section-title">Expert Cancer Guidance</h2>
+          <p className="section-subtitle">
+            Diverse Indian patients and families finding hope with a global network of oncology experts
+          </p>
+          <div className="row mt-4">
+            {[
+              { icon: "bi bi-bar-chart", title: "Hopeful Patients, Caring Families" },
+              { icon: "bi bi-globe-central-south-asia", title: "Collaborative Expert Doctors" },
+              { icon: "bi bi-capsule", title: "A Reassuring, Professional Environment" }, // <- FIXED HERE
+            ].map((item, i) => (
+              <div className="col-md-4" key={i}>
+                <div className="research-card p-4 h-100">
+                  <i className={`${item.icon} display-6 text-primary mb-3`}></i>
+                  <h5>{item.title}</h5>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
 
 
       {/* Section 1: Mission Quote */}
@@ -77,118 +78,118 @@ const Home = () => {
 
 
 
-   {/* Section 2 */}
-<section className="about-oncobridge py-5">
-  <div className="container">
-    <div className="row align-items-center">
-      
-      {/* Left: Image with graphics */}
-      <div className="col-md-6 position-relative mb-4 mb-md-0">
-        <div className="image-wrapper">
-          <img
-            src="https://iylon.com/wp-content/uploads/2024/04/800x500-focus-on-group-of-young-and-mature-clinicians-look-2023-11-27-05-28-04-utc.jpg"
-            alt="OncoBridge Team"
-            className="img-fluid main-img extra-rounded"
-          />
-          <div className="decor-circle top-left d-flex justify-content-center align-items-center">
-            <i className="bi bi-stars icon-inside"></i>
-          </div>
-          <div className="decor-circle bottom-right d-flex justify-content-center align-items-center">
-            <i className="bi bi-globe icon-inside"></i>
+      {/* Section 2 */}
+      <section className="about-oncobridge py-5">
+        <div className="container">
+          <div className="row align-items-center">
+
+            {/* Left: Image with graphics */}
+            <div className="col-md-6 position-relative mb-4 mb-md-0">
+              <div className="image-wrapper">
+                <img
+                  src="https://iylon.com/wp-content/uploads/2024/04/800x500-focus-on-group-of-young-and-mature-clinicians-look-2023-11-27-05-28-04-utc.jpg"
+                  alt="OncoBridge Team"
+                  className="img-fluid main-img extra-rounded"
+                />
+                <div className="decor-circle top-left d-flex justify-content-center align-items-center">
+                  <i className="bi bi-stars icon-inside"></i>
+                </div>
+                <div className="decor-circle bottom-right d-flex justify-content-center align-items-center">
+                  <i className="bi bi-globe icon-inside"></i>
+                </div>
+              </div>
+            </div>
+
+            {/* Right: Text */}
+            <div className="col-md-6">
+              {/* <h3 className="section-heading">A Unified Network of Experts</h3> */}
+              <h3 className="section-heading"> Expert Insight, Better Decisions</h3>
+              <div className="theme-underline mb-3"></div>
+              <p className="text-muted">
+                Doubts about diagnosis, treatment options, or potential side effects are natural.
+                A second opinion from a specialized oncologist can provide invaluable peace of mind,
+                confirm your diagnosis, refine treatment strategies,
+                and open doors to advanced therapies, ultimately improving outcomes.
+              </p>
+              <p className="text-muted">
+                A cancer diagnosis brings immense challenges and critical decisions.
+
+              </p>
+
+              {/* Button */}
+              <button className="btn-theme">
+                <i className="bi bi-arrow-right-circle"></i>
+                Meet Our Experts
+              </button>
+
+            </div>
           </div>
         </div>
-      </div>
-
-      {/* Right: Text */}
-      <div className="col-md-6">
-        {/* <h3 className="section-heading">A Unified Network of Experts</h3> */}
-         <h3 className="section-heading"> Expert Insight, Better Decisions</h3>       
-        <div className="theme-underline mb-3"></div>
-        <p className="text-muted">        
-        Doubts about diagnosis, treatment options, or potential side effects are natural.
-         A second opinion from a specialized oncologist can provide invaluable peace of mind, 
-         confirm your diagnosis, refine treatment strategies,
-         and open doors to advanced therapies, ultimately improving outcomes.
-        </p>
-        <p className="text-muted">
-           A cancer diagnosis brings immense challenges and critical decisions.
-      
-        </p>
-
-        {/* Button */}
-        <button className="btn-theme">
-  <i className="bi bi-arrow-right-circle"></i>
-  Meet Our Experts
-</button>
-
-      </div>
-    </div>
-  </div>
-</section>
+      </section>
 
 
 
 
-{/* Section 3*/}
-<section className="empowering-care py-5">
-  <div className="container">
-    <div className="row align-items-center">
+      {/* Section 3*/}
+      <section className="empowering-care py-5">
+        <div className="container">
+          <div className="row align-items-center">
 
-      {/* Left: Text Content */}
-      <div className="col-md-6 mb-4 mb-md-0">
-        {/* <h3 className="section-heading">Empowering Global Cancer Care</h3> */}
-        <h3 className="section-heading">Trusted by Thousands, Backed by Experts.</h3> 
-        <div className="theme-underline mb-3"></div>
-        <p className="text-muted">
-          We partner with a network of board-certified oncologists from premier institutions globally.
-          Secure, confidential, and compliant processes.
-          Dedicated case management team to guide you every step of the way.
-        </p>
-        <p className="text-muted">
-          Indian patient thoughtfully considering medical information on a tablet,
-       seeking clarity for complex decisions.
-       
-        </p>
-        {/* <p className="text-muted">
+            {/* Left: Text Content */}
+            <div className="col-md-6 mb-4 mb-md-0">
+              {/* <h3 className="section-heading">Empowering Global Cancer Care</h3> */}
+              <h3 className="section-heading">Trusted by Thousands, Backed by Experts.</h3>
+              <div className="theme-underline mb-3"></div>
+              <p className="text-muted">
+                We partner with a network of board-certified oncologists from premier institutions globally.
+                Secure, confidential, and compliant processes.
+                Dedicated case management team to guide you every step of the way.
+              </p>
+              <p className="text-muted">
+                Indian patient thoughtfully considering medical information on a tablet,
+                seeking clarity for complex decisions.
+
+              </p>
+              {/* <p className="text-muted">
           With access to international expertise and evidence-based practices, we break down barriers
           to quality cancer care — no matter where you are. OncoBridge serves as your digital gateway 
           to seamless coordination, faster second opinions, and innovative treatment strategies.
         </p> */}
-        {/* <p className="text-muted">
+              {/* <p className="text-muted">
           Our patient-first philosophy drives our commitment to accessibility, technology, and transparency 
           in oncology. We believe every life deserves the best chance.
         </p> */}
 
-       {/* Button */}
-<button className="btn-theme-section4">
-  <i className="bi bi-activity me-2"></i>
-  How It Works
-</button>
+              {/* Button */}
+              <button className="btn-theme-section4">
+                <i className="bi bi-activity me-2"></i>
+                How It Works
+              </button>
 
-      </div>
+            </div>
 
-      {/* Right: Image with Decorations */}
-      <div className="col-md-6 position-relative">
-        <div className="image-wrapper">
-          <img src={global}  alt="Global Cancer Care"
-            className="img-fluid main-img rounded" />
-          {/* <img
+            {/* Right: Image with Decorations */}
+            <div className="col-md-6 position-relative">
+              <div className="image-wrapper">
+                <img src={global} alt="Global Cancer Care"
+                  className="img-fluid main-img rounded" />
+                {/* <img
             src="https://www.mdanderson.org/content/dam/mdanderson/images/publications/cancerfrontline/WorldCancerDay2017.jpeg.resize.jpg"
             alt="Global Cancer Care"
             className="img-fluid main-img rounded"
           /> */}
-          <div className="decor-circle top-right d-flex justify-content-center align-items-center">
-            <i className="bi bi-globe icon-inside"></i>
-          </div>
-          <div className="decor-circle bottom-left d-flex justify-content-center align-items-center">
-            <i className="bi bi-people icon-inside"></i>
+                <div className="decor-circle top-right d-flex justify-content-center align-items-center">
+                  <i className="bi bi-globe icon-inside"></i>
+                </div>
+                <div className="decor-circle bottom-left d-flex justify-content-center align-items-center">
+                  <i className="bi bi-people icon-inside"></i>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
-      </div>
-
-    </div>
-  </div>
-</section>
+      </section>
 
 
 
@@ -218,7 +219,7 @@ const Home = () => {
           </div>
 
           <div className="row g-4">
-            {[ 
+            {[
               {
                 title: "Expert Specialists",
                 icon: "bi bi-person-badge",
@@ -258,41 +259,41 @@ const Home = () => {
 
 
 
-{/* Section 5 */}
-<section className="onco-app-section text-white py-5">
-  <div className="container">
-    <div className="row align-items-center justify-content-between">
+      {/* Section 5 */}
+      <section className="onco-app-section text-white py-5">
+        <div className="container">
+          <div className="row align-items-center justify-content-between">
 
-      {/* Left Content */}
-      <div className="col-lg-6 text-center text-lg-start mb-5 mb-lg-0">
-        <h2 className="display-5 fw-bold mb-3 text-white">Experience OncoBridge on the Go</h2>
-        <p className="lead mb-4 text-light-subtle">
-          Manage appointments, view reports, and connect with oncology experts anytime, anywhere. Now available on all major platforms.
-        </p>
+            {/* Left Content */}
+            <div className="col-lg-6 text-center text-lg-start mb-5 mb-lg-0">
+              <h2 className="display-5 fw-bold mb-3 text-white">Experience OncoBridge on the Go</h2>
+              <p className="lead mb-4 text-light-subtle">
+                Manage appointments, view reports, and connect with oncology experts anytime, anywhere. Now available on all major platforms.
+              </p>
 
-        <div className="d-flex flex-wrap justify-content-center justify-content-lg-start gap-3">
-          <a href="#" className="store-btn google-play">
-            <i className="bi bi-google-play me-2"></i> Google Play
-          </a>
-          <a href="#" className="store-btn app-store">
-            <i className="bi bi-apple me-2"></i> App Store
-          </a>
+              <div className="d-flex flex-wrap justify-content-center justify-content-lg-start gap-3">
+                <a href="#" className="store-btn google-play">
+                  <i className="bi bi-google-play me-2"></i> Google Play
+                </a>
+                <a href="#" className="store-btn app-store">
+                  <i className="bi bi-apple me-2"></i> App Store
+                </a>
+              </div>
+            </div>
+
+            {/* Right Animation */}
+            <div className="col-lg-6 text-center">
+              <div className="app-animation">
+                <Lottie animationData={mobileAnimation} loop={true} />
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-
-      {/* Right Animation */}
-      <div className="col-lg-6 text-center">
-        <div className="app-animation">
-          <Lottie animationData={mobileAnimation} loop={true} />
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+      </section>
 
 
 
-{/* <section className="research-innovation py-5 bg-light">
+      {/* <section className="research-innovation py-5 bg-light">
   <div className="container text-center">
     <h2 className="section-title">Pioneering Cancer Research</h2>
     <p className="section-subtitle">
@@ -316,7 +317,7 @@ const Home = () => {
 </section> */}
 
 
-{/* <section className="vision-section text-white d-flex align-items-center">
+      {/* <section className="vision-section text-white d-flex align-items-center">
   <div className="container">
     <div className="row justify-content-center text-center">
       <div className="col-lg-10">
@@ -341,7 +342,7 @@ const Home = () => {
 </section> */}
 
 
-{/* <section className="vision-section-upgraded text-white d-flex align-items-center">
+      {/* <section className="vision-section-upgraded text-white d-flex align-items-center">
   <div className="container">
     <div className="row justify-content-center text-center">
       <div className="col-lg-10">
@@ -372,7 +373,7 @@ const Home = () => {
 </section> */}
 
 
-{/* <section className="vision-hero">
+      {/* <section className="vision-hero">
   <div className="container">
     <div className="row gx-5 align-items-center">
 
@@ -412,7 +413,7 @@ const Home = () => {
 
 
 
-{/* <section className="vision-elevated text-white">
+      {/* <section className="vision-elevated text-white">
   <div className="vision-glass container">
     <div className="row align-items-center gx-5 gy-5">
 
@@ -449,166 +450,171 @@ const Home = () => {
   </div>
 </section> */}
 
-{/* Section 6 */}
-<section className="cancer-hero-alt py-5">
-  <div className="container">
-    <div className="text-center mb-5">
-      <h1 className="hero-heading">
-        Breaking Barriers in <span>Cancer Care</span>
-      </h1>
-      <p className="hero-subtext">
-        Empowering faster healing through global connectivity, expert intelligence, and human-first design.
-      </p>
-    </div>
-
-    <div className="row align-items-center gy-4 gx-5">
-      <div className="col-md-6">
-        <div className="hero-alt-image-box">
-          <img
-            src="https://images.unsplash.com/photo-1607746882042-944635dfe10e?auto=format&fit=crop&w=1200&q=80"
-            alt="Empathy in Cancer Care"
-            className="img-fluid rounded-4 shadow-lg"
-          />
-          <div className="hero-badge">Global Experts, One Mission</div>
-        </div>
-      </div>
-
-      <div className="col-md-6">
-        <ul className="list-unstyled hero-feature-list">
-          {[
-            {
-              icon: "bi bi-lightning-charge",
-              title: "Instant Specialist Access",
-              desc: "Second opinions from global oncology leaders—on demand.",
-            },
-            {
-              icon: "bi bi-graph-up-arrow",
-              title: "Smart Treatment Matching",
-              desc: "AI-powered platforms personalize therapy options by case data.",
-            },
-            {
-              icon: "bi bi-person-heart",
-              title: "Human-Centered Experience",
-              desc: "We bridge empathy and science to empower every patient journey.",
-            },
-          ].map((item, i) => (
-            <li key={i} className="d-flex mb-4">
-              <div className="me-3 icon-box text-primary">
-                <i className={`${item.icon} fs-3`}></i>
-              </div>
-              <div>
-                <h5 className="mb-1">{item.title}</h5>
-                <p className="mb-0 text-muted">{item.desc}</p>
-              </div>
-            </li>
-          ))}
-        </ul>
-        <a href="#contact" className="btn btn-cta mt-4">Join Our Mission</a>
-      </div>
-    </div>
-  </div>
-</section>
-
-{/* Section 7 */}
-
-<section className="timeline-section">
-  <div className="container">
-    <h2 className="timeline-title text-center mb-5">How OncoBridge Works</h2>
-    <div className="timeline">
-      {[
-        
-        {
-          title: "For Patients",
-          desc: "Access to leading global oncologists, personalized insights, peace of mind.",
-          icon: "bi-person-check",
-        },
-        {
-          title: "For Hospitals",
-          desc: "Expand your expertise, support your patients with external validation, collaborate seamlessly.",
-          icon: "bi-camera-video",
-        },
-        {
-          title: "For Insurance Providers",
-          desc: ": Ensure appropriate care, manage costs effectively, enhance policyholder satisfaction.",
-          icon: "bi-heart-pulse",
-        },
-      ].map((step, idx) => (
-        <div className="timeline-item" key={idx}>
-          <div className="timeline-icon">
-            <i className={`bi ${step.icon}`}></i>
+      {/* Section 6 */}
+      <section className="cancer-hero-alt py-5">
+        <div className="container">
+          <div className="text-center mb-5">
+            <h1 className="hero-heading">
+              Breaking Barriers in <span>Cancer Care</span>
+            </h1>
+            <p className="hero-subtext">
+              Empowering faster healing through global connectivity, expert intelligence, and human-first design.
+            </p>
           </div>
-          <div className="timeline-content">
-            <h4>{step.title}</h4>
-            <p>{step.desc}</p>
+
+          <div className="row align-items-center gy-4 gx-5">
+            <div className="col-md-6">
+              <div className="hero-alt-image-box">
+                <img
+                  src="https://images.unsplash.com/photo-1607746882042-944635dfe10e?auto=format&fit=crop&w=1200&q=80"
+                  alt="Empathy in Cancer Care"
+                  className="img-fluid rounded-4 shadow-lg"
+                />
+                <div className="hero-badge">Global Experts, One Mission</div>
+              </div>
+            </div>
+
+            <div className="col-md-6">
+              <ul className="list-unstyled hero-feature-list">
+                {[
+                  {
+                    icon: "bi bi-lightning-charge",
+                    title: "Instant Specialist Access",
+                    desc: "Second opinions from global oncology leaders—on demand.",
+                  },
+                  {
+                    icon: "bi bi-graph-up-arrow",
+                    title: "Smart Treatment Matching",
+                    desc: "AI-powered platforms personalize therapy options by case data.",
+                  },
+                  {
+                    icon: "bi bi-person-heart",
+                    title: "Human-Centered Experience",
+                    desc: "We bridge empathy and science to empower every patient journey.",
+                  },
+                ].map((item, i) => (
+                  <li key={i} className="d-flex mb-4">
+                    <div className="me-3 icon-box text-primary">
+                      <i className={`${item.icon} fs-3`}></i>
+                    </div>
+                    <div>
+                      <h5 className="mb-1">{item.title}</h5>
+                      <p className="mb-0 text-muted">{item.desc}</p>
+                    </div>
+                  </li>
+                ))}
+              </ul>
+              <a href="#contact" className="btn btn-cta mt-4">Join Our Mission</a>
+            </div>
           </div>
         </div>
-      ))}
-    </div>
-  </div>
-</section>
+      </section>
+
+      {/* Section 7 */}
+
+      <section className="timeline-section">
+        <div className="container">
+          <div className="text-center mb-5">
+            <h2 className="section-title">How OncoBridge Works</h2>
+            <p className="section-subtitle">
+              OncoBridge: Bridging You to World-Class Oncology Expertise
+            </p>
+          </div>
+          <div className="timeline">
+            {[
+
+              {
+                title: "For Patients",
+                desc: "Access to leading global oncologists, personalized insights, peace of mind.",
+                icon: "bi-person-check",
+              },
+              {
+                title: "For Hospitals",
+                desc: "Expand your expertise, support your patients with external validation, collaborate seamlessly.",
+                icon: "bi-camera-video",
+              },
+              {
+                title: "For Insurance Providers",
+                desc: ": Ensure appropriate care, manage costs effectively, enhance policyholder satisfaction.",
+                icon: "bi-heart-pulse",
+              },
+            ].map((step, idx) => (
+              <div className="timeline-item" key={idx}>
+                <div className="timeline-icon">
+                  <i className={`bi ${step.icon}`}></i>
+                </div>
+                <div className="timeline-content">
+                  <h4>{step.title}</h4>
+                  <p>{step.desc}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
 
 
 
-<section className="testimonials-section py-5 bg-light">
-  <div className="container">
-    <div className="text-center mb-5">
-      <h2 className="section-title fw-bold">Real Stories, Real Impact</h2>
-      {/* <p className="section-subtitle text-muted">
+      <section className="testimonials-section py-5 bg-light">
+        <div className="container">
+          <div className="text-center mb-5">
+            <h2 className="section-title fw-bold">Real Stories, Real Impact</h2>
+            {/* <p className="section-subtitle text-muted">
         Hear from patients and families who’ve experienced compassionate care with OncoBridge.
       </p> */}
-       <p className="section-subtitle text-muted">
-       OncoBridge gave us confidence. We felt supported and informed.
-       </p>
-    </div>
+            <p className="section-subtitle text-muted">
+              OncoBridge gave us confidence. We felt supported and informed.
+            </p>
+          </div>
 
-    <div className="row g-4">
-      {[
-        {
-          name: "Priya S",
-          role: "Breast Cancer Survivor",
-          message:
-            "I felt lost after my cancer diagnosis. OncoBridge connected me to a top oncologist who reassured me and explained all my options.",
-          image: pat1
-        },
-        {
-          name: "Rajesh Patel",
-          role: "Patient, Delhi",
-          message:
-            "As a caregiver, I needed clarity fast. OncoBridge’s team was responsive, kind, and truly expert. They made a tough time easier",
-          image: pat3
-        },
-        {
-          name: "Fatima Noor",
-          role: "Caregiver, Jaipur",
-          message:
-            "OncoBridge helped us understand my father's diagnosis clearly. The second opinion gave us the confidence to move forward with the right treatment.",
-          image: pat2
-        }
-      ].map((t, idx) => (
-        <div key={idx} className="col-md-6 col-lg-4">
-          <div className="testimonial-box shadow-sm p-4 h-100 bg-white rounded-4 text-center fade-up">
-            <img
-              src={t.image}
-              alt={t.name}
-              className="testimonial-avatar mb-3"
-              width="70"
-              height="70"
-            />
-            <h6 className="fw-bold mb-1">{t.name}</h6>
-            <small className="text-muted">{t.role}</small>
-            <p className="text-muted mt-3 fst-italic">“{t.message}”</p>
+          <div className="row g-4">
+            {[
+              {
+                name: "Priya S",
+                role: "Breast Cancer Survivor",
+                message:
+                  "I felt lost after my cancer diagnosis. OncoBridge connected me to a top oncologist who reassured me and explained all my options.",
+                image: pat1
+              },
+              {
+                name: "Rajesh Patel",
+                role: "Patient, Delhi",
+                message:
+                  "As a caregiver, I needed clarity fast. OncoBridge’s team was responsive, kind, and truly expert. They made a tough time easier",
+                image: pat3
+              },
+              {
+                name: "Fatima Noor",
+                role: "Caregiver, Jaipur",
+                message:
+                  "OncoBridge helped us understand my father's diagnosis clearly. The second opinion gave us the confidence to move forward with the right treatment.",
+                image: pat2
+              }
+            ].map((t, idx) => (
+              <div key={idx} className="col-md-6 col-lg-4">
+                <div className="testimonial-box shadow-sm p-4 h-100 bg-white rounded-4 text-center fade-up">
+                  <img
+                    src={t.image}
+                    alt={t.name}
+                    className="testimonial-avatar mb-3"
+                    width="70"
+                    height="70"
+                  />
+                  <h6 className="fw-bold mb-1">{t.name}</h6>
+                  <small className="text-muted">{t.role}</small>
+                  <p className="text-muted mt-3 fst-italic">“{t.message}”</p>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
-      ))}
-    </div>
-  </div>
-</section>
+      </section>
 
 
 
 
-{/* Section 6: Testimonials */}
-{/* <section className="testimonials-section py-5 bg-light">
+      {/* Section 6: Testimonials */}
+      {/* <section className="testimonials-section py-5 bg-light">
   <div className="container">
     <div className="text-center mb-5">
       <h2 className="section-title">Real Stories, Real Impact</h2>
@@ -663,7 +669,7 @@ const Home = () => {
 
 
 
-{/* <section className="how-it-works py-5 bg-light">
+      {/* <section className="how-it-works py-5 bg-light">
   <div className="container text-center">
     <h2 className="section-title mb-4">How OncoBridge Works</h2>
     <div className="row">
@@ -689,7 +695,7 @@ const Home = () => {
 
 
 
-{/* <section className="cta-banner text-white text-center py-5" style={{ backgroundColor: '#0a2540' }}>
+      {/* <section className="cta-banner text-white text-center py-5" style={{ backgroundColor: '#0a2540' }}>
   <div className="container">
     <h2>Ready to take the next step in your cancer care?</h2>
     <p>Connect with world-class oncologists now — no matter where you are.</p>
@@ -699,94 +705,93 @@ const Home = () => {
 
 
 
-{/* Section 8 */}
+      {/* Section 8 */}
 
-<section className="newsletter-beauty text-white">
-  <div className="container py-5 text-center">
-    <h2 className="newsletter-heading">Get Health Insights & Breakthroughs</h2>
-    <p className="newsletter-subtext">
-      Join our newsletter for expert tips, latest research, and early access to new care innovations — exclusively for subscribers.
-    </p>
+      <section className="newsletter-beauty text-white">
+        <div className="container py-5 text-center">
+          <h2 className="newsletter-heading">Get Health Insights & Breakthroughs</h2>
+          <p className="newsletter-subtext">
+            Join our newsletter for expert tips, latest research, and early access to new care innovations — exclusively for subscribers.
+          </p>
 
-    <form className="newsletter-form mt-4">
-      <div className="newsletter-input-wrapper">
-        <input
-          type="email"
-          className="newsletter-input"
-          placeholder="Enter your email address"
-          required
-        />
-        <button type="submit" className="btn-inside">Subscribe</button>
-      </div>
-    </form>
+          <form className="newsletter-form mt-4">
+            <div className="newsletter-input-wrapper">
+              <input
+                type="email"
+                className="newsletter-input"
+                placeholder="Enter your email address"
+                required
+              />
+              <button type="submit" className="btn-inside">Subscribe</button>
+            </div>
+          </form>
 
-    <small className="newsletter-note mt-3 d-block">
-      No spam. Unsubscribe anytime.
-    </small>
-  </div>
-</section>
+          <small className="newsletter-note mt-3 d-block">
+            No spam. Unsubscribe anytime.
+          </small>
+        </div>
+      </section>
 
 
 
-{/* Section: FAQ */}
-<section className="faq-section py-5 bg-white">
-  <div className="container">
-    <div className="text-center mb-5">
-      <h2 className="section-title">Frequently Asked Questions</h2>
-      <p className="section-subtitle">Got questions? We’ve got answers.</p>
-    </div>
+      {/* Section: FAQ */}
+      <section className="faq-section py-5 bg-white">
+        <div className="container">
+          <div className="text-center mb-5">
+            <h2 className="section-title">Frequently Asked Questions</h2>
+            <p className="section-subtitle">Got questions? We’ve got answers.</p>
+          </div>
 
-    <div className="accordion" id="faqAccordion">
-      {[
-        {
-          question: "Who are your experts?",
-          answer:
-            "OncoBridge offers virtual tumor boards, second opinions, care coordination, and access to global oncologists and diagnostic tools.",
-        },
-        {
-          question: "How long does it take?",
-          answer:
-            "You can book an appointment directly through our platform or mobile app. A coordinator will guide you through the process.",
-        },
-        {
-          question: "What if I don't have all my records?",
-          answer:
-            "Yes, we serve patients worldwide through virtual consultations, international partnerships, and digital tools.",
-        },
-          {
-          question: "Is this covered by insurance?",
-          answer:
-            "Yes, we serve patients worldwide through virtual consultations, international partnerships, and digital tools.",
-        },
-      ].map((faq, index) => (
-        <div className="accordion-item" key={index}>
-          <h2 className="accordion-header" id={`heading${index}`}>
-            <button
-              className={`accordion-button ${index !== 0 ? "collapsed" : ""}`}
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target={`#collapse${index}`}
-              aria-expanded={index === 0 ? "true" : "false"}
-              aria-controls={`collapse${index}`}
-            >
-              {faq.question}
-            </button>
-          </h2>
-          <div
-            id={`collapse${index}`}
-            className={`accordion-collapse collapse ${
-              index === 0 ? "show" : ""
-            }`}
-            aria-labelledby={`heading${index}`}
-            data-bs-parent="#faqAccordion"
-          >
-            <div className="accordion-body">{faq.answer}</div>
+          <div className="accordion" id="faqAccordion">
+            {[
+              {
+                question: "Who are your experts?",
+                answer:
+                  "OncoBridge offers virtual tumor boards, second opinions, care coordination, and access to global oncologists and diagnostic tools.",
+              },
+              {
+                question: "How long does it take?",
+                answer:
+                  "You can book an appointment directly through our platform or mobile app. A coordinator will guide you through the process.",
+              },
+              {
+                question: "What if I don't have all my records?",
+                answer:
+                  "Yes, we serve patients worldwide through virtual consultations, international partnerships, and digital tools.",
+              },
+              {
+                question: "Is this covered by insurance?",
+                answer:
+                  "Yes, we serve patients worldwide through virtual consultations, international partnerships, and digital tools.",
+              },
+            ].map((faq, index) => (
+              <div className="accordion-item" key={index}>
+                <h2 className="accordion-header" id={`heading${index}`}>
+                  <button
+                    className={`accordion-button ${index !== 0 ? "collapsed" : ""}`}
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target={`#collapse${index}`}
+                    aria-expanded={index === 0 ? "true" : "false"}
+                    aria-controls={`collapse${index}`}
+                  >
+                    {faq.question}
+                  </button>
+                </h2>
+                <div
+                  id={`collapse${index}`}
+                  className={`accordion-collapse collapse ${index === 0 ? "show" : ""
+                    }`}
+                  aria-labelledby={`heading${index}`}
+                  data-bs-parent="#faqAccordion"
+                >
+                  <div className="accordion-body">{faq.answer}</div>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
-      ))}
-    </div>
-  </div>
-</section>
+      </section>
 
 
 

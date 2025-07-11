@@ -75,3 +75,53 @@ a {
   border-color: var(--secondary, #17a2b8);
   color: white;
 }
+.text-justify {
+    text-align: justify;
+  }
+  .about_services .icon-box {
+    width: 50px;
+    height: 50px;
+    background: #eaf2f8;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        margin-right: auto;
+    margin-left: auto;
+}
+.carousel-indicators
+{
+  margin-bottom: -2rem;
+}
+.carousel-indicators [data-bs-target]
+{
+ background-color: var(--primary) !important;
+}
+.unlocking_img
+{
+  height: 460px;
+}
+.steps_img_height {
+   height: 400px;
+}
+.card_header_for_hospital
+{
+  background-color: #1A5276;
+    color: #fff;
+}
+@media  (min-width: 1024px) {
+ .unlocking_img 
+{
+  height: 400px;
+}
+}
+@media  (max-width: 768px) {
+.steps_img_height {
+    height: 200px;
+}
+}
+ .w_70
+ {
+      width: 70%;
+          margin: auto;
+ }

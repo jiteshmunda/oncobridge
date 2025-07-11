@@ -41,8 +41,9 @@ function Navbar() {
         <ul className={`navbar-menu ${menuOpen ? 'open' : ''}`}>
           <li><Link to="/" onClick={closeMenu}><span>Home</span></Link></li>
           <li><Link to="/about" onClick={closeMenu}><span>About</span></Link></li>
-            <li><Link to="/about" onClick={closeMenu}><span>Product</span></Link></li>
-              <li><Link to="/about" onClick={closeMenu}><span>Services</span></Link></li>
+          <li><Link to="/hospital" onClick={closeMenu}><span>Hospitals & Treating </span></Link></li>
+          <li><Link to="/insurance" onClick={closeMenu}><span>Insurance</span></Link></li>
+          <li><Link to="/blog" onClick={closeMenu}><span>Blog</span></Link></li>
           <li><Link to="/contact" onClick={closeMenu}><span>Contact</span></Link></li>
           {/* <li><Link to="/career" onClick={closeMenu}><span>Career</span></Link></li>
           <li><Link to="/terms" onClick={closeMenu}><span>Terms</span></Link></li>

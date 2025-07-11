@@ -13,7 +13,9 @@ import Contact from './pages/Contact';
 import Career from './pages/Career';
 import Terms from './pages/Terms';
 import Disclaimers from './pages/Disclaimers';
-
+import Hospitals from './pages/Hospitals';
+import Insurance from './pages/Insurance';
+import BlogSection from './pages/BlogSection';
 function App() {
   return (
     <Router>
@@ -22,6 +24,9 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path="/hospital" element={<Hospitals />} />
+          <Route path="/insurance" element={<Insurance />} />
+          <Route path="/blog" element={<BlogSection />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/career" element={<Career />} />
           <Route path="/terms" element={<Terms />} />
