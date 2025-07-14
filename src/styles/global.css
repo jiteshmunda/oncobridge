@@ -125,3 +125,28 @@ a {
       width: 70%;
           margin: auto;
  }
+ .lead {
+    font-size: 1rem;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+.contact_us_left 
+{
+  background-color: #fff;
+      padding: 7% 7%;
+}
+.contact_us_right 
+{
+    background-color: #fff;
+      padding: 7% 7%;
+}
+.terms_block h4
+{
+    font-size: 1.5rem;
+    color: #1A5276;
+}
+.hamburger span {
+
+    background-color: #a79d9d;
+
+}
