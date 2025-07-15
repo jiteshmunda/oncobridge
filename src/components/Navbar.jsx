@@ -50,7 +50,7 @@ Services
   </button>
 
  
-  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+  <ul class="dropdown-menu " aria-labelledby="dropdownMenuButton">
     <li><a class="dropdown-item" href="/patients">Patients</a></li>
     <li><a class="dropdown-item" href="/hospital">Hospital </a></li>
     <li><a class="dropdown-item" href="/insurance">Insurance</a></li>
