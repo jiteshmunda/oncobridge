@@ -49,11 +49,24 @@ function Navbar() {
 Services
   </button>
   <ul class="dropdown-menu " aria-labelledby="dropdownMenuButton">
-    <li><a class="dropdown-item" href="/patients">Patients</a></li>
-    <li><a class="dropdown-item" href="/hospital">Hospital </a></li>
-    <li><a class="dropdown-item" href="/insurance">Insurance</a></li>
-     <li><a class="dropdown-item" href="/blog">Blog</a></li>
-      <li><a class="dropdown-item" href="/productdesc">Product description</a></li>
+    <li>
+      {/* <a class="dropdown-item" href="/patients">Patients</a> */}
+      <Link class="dropdown-item" to="/patients">Patients</Link>
+    </li>
+    <li>
+       <Link class="dropdown-item" to="/hospital">Hospital</Link>
+      {/* <a class="dropdown-item" href="/hospital">Hospital </a> */}
+      </li>
+    <li>
+      {/* <a class="dropdown-item" href="/insurance">Insurance</a> */}
+       <Link class="dropdown-item" to="/insurance">Insurance</Link>
+      </li>
+     <li>
+      {/* <a class="dropdown-item" href="/blog">Blog</a> */}
+        <Link class="dropdown-item" to="/blog">Blog</Link>
+     </li>
+      {/* <li><a class="dropdown-item" href="/productdesc">Product description</a></li> */}
+       <Link class="dropdown-item" to="/productdesc">Product description</Link>
   </ul>
 </div>
 
