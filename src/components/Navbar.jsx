@@ -48,8 +48,6 @@ function Navbar() {
   <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
 Services
   </button>
-
- 
   <ul class="dropdown-menu " aria-labelledby="dropdownMenuButton">
     <li><a class="dropdown-item" href="/patients">Patients</a></li>
     <li><a class="dropdown-item" href="/hospital">Hospital </a></li>
