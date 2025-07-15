@@ -40,12 +40,12 @@ function Navbar() {
 
         <ul className={`navbar-menu ${menuOpen ? 'open' : ''}`}>
           <li><Link to="/" onClick={closeMenu}><span>Home</span></Link></li>
-          <li><Link to="/about" onClick={closeMenu}><span>About Us</span></Link></li>
+          <li><Link to="/patients" onClick={closeMenu}><span>About Us</span></Link></li>
           <li><Link to="/hospital" onClick={closeMenu}><span>Products</span></Link></li>
           {/* <li><Link to="/productdesc" onClick={closeMenu}><span>Product Description</span></Link></li> */}
           <li><Link to="/insurance" onClick={closeMenu}><span>Services</span></Link></li>
-          <li><Link to="/insurance" onClick={closeMenu}><span>Partners</span></Link></li>
-          <li><Link to="/insurance" onClick={closeMenu}><span>Career</span></Link></li>
+          <li><Link to="/blog" onClick={closeMenu}><span>Partners</span></Link></li>
+          <li><Link to="/career" onClick={closeMenu}><span>Career</span></Link></li>
            <li><Link to="/faq" onClick={closeMenu}><span>FAQ</span></Link></li>
           {/* <li><Link to="/blog" onClick={closeMenu}><span>Blog</span></Link></li> */}
           <li><Link to="/contact" onClick={closeMenu}><span>Contact</span></Link></li>
