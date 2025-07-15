@@ -19,11 +19,11 @@ function Footer() {
             <h5 className="text-uppercase fw-bold mb-3">Quick Links</h5>
             <div className='d-flex justify-content-end'>
             <ul className="list-unstyled">
-              <li><a href="#home" className="text-light text-decoration-none">Home</a></li>
-              <li><a href="#about" className="text-light text-decoration-none">About</a></li>
-              <li><a href="#about" className="text-light text-decoration-none">Product</a></li>
-              <li><a href="#services" className="text-light text-decoration-none">Services</a></li>
-              <li><a href="#contact" className="text-light text-decoration-none">Contact</a></li>
+              <li><a href="/" className="text-light text-decoration-none">Home</a></li>
+              <li><a href="/patients" className="text-light text-decoration-none">About</a></li>
+              <li><a href="/hospital" className="text-light text-decoration-none">Product</a></li>
+              <li><a href="/insurance" className="text-light text-decoration-none">Services</a></li>
+              <li><a href="/contact" className="text-light text-decoration-none">Contact</a></li>
             </ul>
             <ul className="list-unstyled mx-auto ">
              <li><Link to="/career" className='text-white text-decoration-none'><span>Career</span></Link></li>
