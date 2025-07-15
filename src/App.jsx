@@ -20,6 +20,7 @@ import ProductDesc from './pages/ProductDesc';
 import BlogDetail from './pages/BlogDetail';
 import Faq from './pages/Faq';
 import Partners from './pages/Partners';
+import NotFound from './pages/NotFound';
 function App() {
   return (
     <Router>
@@ -27,6 +28,7 @@ function App() {
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
+                <Route path="*" element={<NotFound />} />
           <Route path="/about" element={<About />} />
           <Route path="/hospital" element={<Hospitals />} />
           <Route path="/insurance" element={<Insurance />} />
