@@ -146,7 +146,14 @@ a {
     color: #1A5276;
 }
 .hamburger span {
-
     background-color: #a79d9d;
-
+}
+.faq_list li
+{
+margin-bottom: 12px;
+}
+.faq_list
+{
+    font-size: 13.5px;
+    font-weight: 400;
 }

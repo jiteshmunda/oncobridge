@@ -18,6 +18,7 @@ import Insurance from './pages/Insurance';
 import BlogSection from './pages/BlogSection';
 import ProductDesc from './pages/ProductDesc';
 import BlogDetail from './pages/BlogDetail';
+import Faq from './pages/Faq';
 function App() {
   return (
     <Router>
@@ -28,9 +29,10 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/hospital" element={<Hospitals />} />
           <Route path="/insurance" element={<Insurance />} />
-          <Route path="/productdesc" element={<ProductDesc />} />         
+          <Route path="/productdesc" element={<ProductDesc />} />
           <Route path="/blog" element={<BlogSection />} />
-            <Route path="/blogdetail" element={<BlogDetail />} />
+          <Route path="/blogdetail" element={<BlogDetail />} />
+          <Route path="/faq" element={<Faq />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/career" element={<Career />} />
           <Route path="/terms" element={<Terms />} />
