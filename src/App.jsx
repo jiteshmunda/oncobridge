@@ -20,6 +20,7 @@ import ProductDesc from './pages/ProductDesc';
 import BlogDetail from './pages/BlogDetail';
 import Faq from './pages/Faq';
 import Partners from './pages/Partners';
+import Patients from './pages/Patients';
 import NotFound from './pages/NotFound';
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/hospital" element={<Hospitals />} />
           <Route path="/insurance" element={<Insurance />} />
+           <Route path="/patients" element={<Patients />} />
            <Route path="/partners" element={<Partners />} />
           <Route path="/productdesc" element={<ProductDesc />} />
           <Route path="/blog" element={<BlogSection />} />

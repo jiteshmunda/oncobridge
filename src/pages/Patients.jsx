@@ -28,7 +28,7 @@ function Patients() {
   return (
     <section className="section py-5 text-center">
       <div className="container-fluid">
-        <h2>About OncoBridge</h2>
+        <h2>Patients OncoBridge</h2>
         <section className="text-center mb-3 mt-5">
           <div className='row align-items-center'>
             <div className='col-md-12 col-lg-6 col-sm-6'>
