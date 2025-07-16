@@ -29,6 +29,7 @@ function Navbar() {
     <nav className={`custom-navbar ${scrolled ? 'scrolled' : ''}`}>
       <div className="navbar-container">
         <div className="navbar-logo">
+          <h4>OncoBridge</h4>
          {/* <img src={logo} className='logo_nabvar'/>       */}
         </div>
 

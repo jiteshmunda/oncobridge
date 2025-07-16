@@ -15,7 +15,7 @@ function Faq() {
                 </p>
                 <p>
                     For personalised assistance, Please reach out to us at
-                    <a href="mailto:care@oncobridge.in "> care@oncobridge.in </a>
+                    <a href="mailto:care@oncobridge.in" className='text-primary'> care@oncobridge.in </a>
                 </p>
             </div>
             <div className="container">
@@ -52,7 +52,7 @@ function Faq() {
                                 <p>
                                     Second opinions are especially valuable in <strong>  rare cancers, complex cases, </strong> or when you're uncertain about your
                                     current treatment plan.  Please reach out to us at
-                                    <a href='mailto:care@oncobridge.in'>  care@oncobridge.in</a>
+                                    <a href='mailto:care@oncobridge.in' className='text-primary'>  care@oncobridge.in</a>
                                 </p>
                             </div>
                         </div>
@@ -92,7 +92,7 @@ function Faq() {
                                 </ul>
                                 <p>
                                     Our services are accessible at any stage of your cancer journey.
-                                    Please reach out to us at  <a href='mailto:care@oncobridge.in'> care@oncobridge.in </a>
+                                    Please reach out to us at  <a href='mailto:care@oncobridge.in' className='text-primary'> care@oncobridge.in </a>
                                 </p>
                             </div>
                         </div>
@@ -130,7 +130,7 @@ function Faq() {
                                 </ul>
                                 <p>
                                     We also facilitate virtual consults, eliminating the need for immediate travel. Please reach out to us at
-                                    <a href="mailto:care@oncobridge.in "> care@oncobridge.in </a>
+                                    <a href="mailto:care@oncobridge.in" className='text-primary'> care@oncobridge.in </a>
                                 </p>
                             </div>
                         </div>
@@ -174,7 +174,7 @@ function Faq() {
                                 </ul>
                                 <p>
                                     Our coordinators can help you with secure transfer of your records and offer a checklist. Please reach out to us at
-                                    <a href="mailto:care@oncobridge.in "> care@oncobridge.in </a>
+                                    <a href="mailto:care@oncobridge.in" className='text-primary'> care@oncobridge.in </a>
                                 </p>
                             </div>
                         </div>
@@ -213,7 +213,7 @@ function Faq() {
                                 </ul>
                                 <p>
                                     Differing opinions are common and often helpful in choosing the best path forward. Please reach out to us at
-                                    <a href="mailto:care@oncobridge.in "> care@oncobridge.in </a>
+                                    <a href="mailto:care@oncobridge.in" className='text-primary'> care@oncobridge.in </a>
                                 </p>
                             </div>
                         </div>
@@ -240,7 +240,7 @@ function Faq() {
                         >
                             <div className="accordion-body">
                                 <p>
-                                    Please reach out to us at <a href="mailto:care@oncobridge.in "> care@oncobridge.in </a>
+                                    Please reach out to us at <a href="mailto:care@oncobridge.in" className='text-primary'> care@oncobridge.in </a>
                                 </p>
                                 <p>
                                     Our team will guide you on the next steps, record submissions, and consultation timelines.
@@ -279,7 +279,7 @@ function Faq() {
                                 </ul>
                                 <p>
                                     We also suggest checking with your insurer regarding international consultation benefits or charitable support options.
-                                    Please reach out to us at  <a href="mailto:care@oncobridge.in "> care@oncobridge.in </a>
+                                    Please reach out to us at  <a href="mailto:care@oncobridge.in" className='text-primary'> care@oncobridge.in </a>
                                 </p>
                             </div>
                         </div>
@@ -316,7 +316,7 @@ function Faq() {
                                 </ul>
                                 <p>
                                     This is especially useful for National, International or regionally distant patients. Neighbouring countries Please reach out to us at
-                                    <a href="mailto:care@oncobridge.in "> care@oncobridge.in </a>
+                                    <a href="mailto:care@oncobridge.in" className='text-primary'> care@oncobridge.in </a>
                                 </p>
                             </div>
                         </div>
@@ -352,7 +352,7 @@ function Faq() {
                                     <li><i className="fas fa-check me-2 "></i>Matching patients to targeted drugs or trials</li>
                                 </ul>
                                 <p>
-                                    Please reach out to us at <a href="mailto:care@oncobridge.in "> care@oncobridge.in </a>
+                                    Please reach out to us at <a href="mailto:care@oncobridge.in" className='text-primary'> care@oncobridge.in </a>
                                 </p>
                             </div>
                         </div>
@@ -388,8 +388,8 @@ function Faq() {
                                 </ul>
                                 <p>
                                     This information is used to match patients with <strong> targeted therapies, </strong> assess <strong> resistance to drugs, </strong>  or recommend
-                                    <strong> immunotherapy </strong> based on tumour behaviour. Please reach out to us at  care@oncobridge.in
-                                    Please reach out to us at <a href="mailto:care@oncobridge.in "> care@oncobridge.in </a>
+                                    <strong> immunotherapy </strong> based on tumour behaviour. 
+                                    Please reach out to us at <a href="mailto:care@oncobridge.in" className='text-primary'> care@oncobridge.in </a>
                                 </p>
                             </div>
                         </div>
@@ -425,7 +425,7 @@ function Faq() {
                                     <li><i className="fas fa-check me-2 "></i>Anyone seeking a more precise, biology-driven treatment approach</li>
                                 </ul>
                                 <p>
-                                    Please reach out to us at <a href="mailto:care@oncobridge.in "> care@oncobridge.in </a>
+                                    Please reach out to us at <a href="mailto:care@oncobridge.in" className='text-primary'> care@oncobridge.in </a>
                                 </p>
                             </div>
                         </div>
@@ -463,7 +463,7 @@ function Faq() {
                                     We can guide you on lab selection and sample preparation.
                                 </p>
                                 <p>
-                                    Please reach out to us at <a href="mailto:care@oncobridge.in "> care@oncobridge.in </a>
+                                    Please reach out to us at <a href="mailto:care@oncobridge.in" className='text-primary'> care@oncobridge.in </a>
                                 </p>
                             </div>
                         </div>
@@ -499,7 +499,7 @@ function Faq() {
                                 </ul>
                                 <p>
                                     A detailed interpretive report with therapeutic implications is provided.
-                                    Please reach out to us at <a href="mailto:care@oncobridge.in "> care@oncobridge.in </a>
+                                    Please reach out to us at <a href="mailto:care@oncobridge.in" className='text-primary'> care@oncobridge.in </a>
                                 </p>
                             </div>
                         </div>
@@ -537,7 +537,7 @@ function Faq() {
                                     Insights gained can supplement or redirect existing treatment strategies.
                                 </p>
                                 <p>
-                                    Please reach out to us at <a href="mailto:care@oncobridge.in "> care@oncobridge.in </a>
+                                    Please reach out to us at <a href="mailto:care@oncobridge.in" className='text-primary'> care@oncobridge.in </a>
                                 </p>
                             </div>
                         </div>
@@ -564,7 +564,7 @@ function Faq() {
                         >
                             <div className="accordion-body">
                                 <p>
-                                    You can: Please reach out to us at  <a href="mailto:care@oncobridge.in "> care@oncobridge.in </a>
+                                    You can: Please reach out to us at  <a href="mailto:care@oncobridge.in" className='text-primary'> care@oncobridge.in </a>
                                 </p>
                                 <ul className="list-unstyled faq_list">
                                     <li><i className="fas fa-check me-2 "></i>Email digitised documents (PDF preferred) </li>
@@ -609,7 +609,7 @@ function Faq() {
                                 </ul>
                                 <p>
                                     Our team can assist in <strong>  lab selection, test ordering,</strong>  and <strong>
-                                        report interpretation.</strong>  Please reach out to us at <a href="mailto:care@oncobridge.in "> care@oncobridge.in </a>
+                                        report interpretation.</strong>  Please reach out to us at <a href="mailto:care@oncobridge.in" className='text-primary'> care@oncobridge.in </a>
                                 </p>
                             </div>
                         </div>
@@ -646,7 +646,7 @@ function Faq() {
                                 </ul>
                                 <p>
                                     Clinicians are welcome to refer patients directly or request co-consultation. Please reach out to us at
-                                    <a href="mailto:care@oncobridge.in "> care@oncobridge.in </a>
+                                    <a href="mailto:care@oncobridge.in" className='text-primary'> care@oncobridge.in </a>
                                 </p>
                             </div>
                         </div>
@@ -676,7 +676,7 @@ function Faq() {
                                     Absolutely. All services—molecular analysis, second opinions, report interpretation, and expert
                                     consults—are available to anyone seeking treatment in India and medical tourism patient
                                     physically in India . Please reach out to us at
-                                    <a href="mailto:care@oncobridge.in "> care@oncobridge.in </a>
+                                    <a href="mailto:care@oncobridge.in" className='text-primary'> care@oncobridge.in </a>
                                 </p>
                                 <ul className="list-unstyled faq_list">
                                     <li><i className="fas fa-check me-2 "></i>Interpreting complex molecular data</li>
@@ -686,7 +686,7 @@ function Faq() {
                                 </ul>
                                 <p>
                                     Clinicians are welcome to refer patients directly or request co-consultation. Please reach out to us at
-                                    <a href="mailto:care@oncobridge.in "> care@oncobridge.in </a>
+                                    <a href="mailto:care@oncobridge.in" className='text-primary'> care@oncobridge.in </a>
                                 </p>
                             </div>
                         </div>
@@ -723,7 +723,7 @@ function Faq() {
                                 </ul>
                                 <p>
                                     We customise recommendations based on tumour biology, not just cancer type. Please reach out to us at
-                                    <a href="mailto:care@oncobridge.in "> care@oncobridge.in </a>
+                                    <a href="mailto:care@oncobridge.in" className='text-primary'> care@oncobridge.in </a>
                                 </p>
                             </div>
                         </div>

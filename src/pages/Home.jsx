@@ -18,11 +18,11 @@ const Home = () => {
           <div className="row align-items-center">
             <div className="col-lg-6 text-center text-lg-start">
               <h1 className="display-4 fw-bold">
-              Lorem ipsum dolor sit amet
+                Lorem ipsum dolor sit amet
               </h1>
               <p className="lead mb-4">
-               Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-               Integer efficitur tortor eu egestas pulvinar
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Integer efficitur tortor eu egestas pulvinar
               </p>
               <div>
                 <a href="#about" className="btn btn-primary me-3 px-4 py-2 mb-4">Get Your Second Opinion </a>
@@ -41,15 +41,16 @@ const Home = () => {
       <section className="research-innovation py-5 bg-light">
         <div className="container text-center">
           {/* <h2 className="section-title">Pioneering Cancer Research</h2> */}
-          <h2 className="section-title">Expert Cancer Guidance</h2>
+          <h2 className="section-title">Lorem ipsum dolor sit amet.</h2>
           <p className="section-subtitle">
-            Diverse Indian patients and families finding hope with a global network of oncology experts
+
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae pellentesque leo
           </p>
           <div className="row mt-4">
             {[
-              { icon: "bi bi-bar-chart", title: "Hopeful Patients, Caring Families" },
-              { icon: "bi bi-globe-central-south-asia", title: "Collaborative Expert Doctors" },
-              { icon: "bi bi-capsule", title: "A Reassuring, Professional Environment" }, // <- FIXED HERE
+              { icon: "bi bi-bar-chart", title: "Lorem ipsum dolor sit consectetur" },
+              { icon: "bi bi-globe-central-south-asia", title: "Lorem ipsum dolor sit consectetur" },
+              { icon: "bi bi-capsule", title: "Lorem ipsum dolor sit consectetur" }, // <- FIXED HERE
             ].map((item, i) => (
               <div className="col-md-4" key={i}>
                 <div className="research-card p-4 h-100">
@@ -103,7 +104,7 @@ const Home = () => {
             {/* Right: Text */}
             <div className="col-md-6">
               {/* <h3 className="section-heading">A Unified Network of Experts</h3> */}
-              <h3 className="section-heading"> Expert Insight, Better Decisions</h3>
+              <h3 className="section-heading"> Lorem ipsum dolor sit amet</h3>
               <div className="theme-underline mb-3"></div>
               <p className="text-muted">
                 Doubts about diagnosis, treatment options, or potential side effects are natural.
@@ -212,33 +213,34 @@ const Home = () => {
       <section className="why-choose-us py-5">
         <div className="container">
           <div className="text-center mb-5">
-            <h2 className="section-title">Why Choose OncoBridge</h2>
+            <h2 className="section-title">Lorem ipsum dolor</h2>
             <p className="section-subtitle">
-              Personalized oncology care supported by global expertise and compassionate technology.
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit
+              Nunc vitae pellentesque leo. 
             </p>
           </div>
 
           <div className="row g-4">
             {[
               {
-                title: "Expert Specialists",
+                title: "Lorem ipsum dolor",
                 icon: "bi bi-person-badge",
-                desc: "Connect with globally respected oncologists for personalized treatment recommendations."
+                desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae pellentesque"
               },
               {
-                title: "Affordable Options",
+                title: "Lorem ipsum dolor",
                 icon: "bi bi-wallet2",
-                desc: "Comprehensive, budget-friendly cancer care solutions for all patients."
+                desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae pellentesque"
               },
               {
-                title: "Advanced Facilities",
+                title: "Lorem ipsum dolor",
                 icon: "bi bi-building-add",
-                desc: "Access to cutting-edge diagnostics, labs, and virtual tumor boards."
+                desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae pellentesque"
               },
               {
-                title: "Seamless Consults",
+                title: "Lorem ipsum dolor",
                 icon: "bi bi-calendar2-check",
-                desc: "Book appointments with international specialists from anywhere with ease."
+                desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae pellentesque"
               }
             ].map((item, i) => (
               <div key={i} className="col-md-6 col-lg-3">
@@ -266,9 +268,9 @@ const Home = () => {
 
             {/* Left Content */}
             <div className="col-lg-6 text-center text-lg-start mb-5 mb-lg-0">
-              <h2 className="display-5 fw-bold mb-3 text-white">Experience OncoBridge on the Go</h2>
+              <h2 className="display-5 fw-bold mb-3 text-white">Lorem ipsum dolor sit amet</h2>
               <p className="lead mb-4 text-light-subtle">
-                Manage appointments, view reports, and connect with oncology experts anytime, anywhere. Now available on all major platforms.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae pellentesque leo Nam venenatis eros
               </p>
 
               <div className="d-flex flex-wrap justify-content-center justify-content-lg-start gap-3">
@@ -455,10 +457,10 @@ const Home = () => {
         <div className="container">
           <div className="text-center mb-5">
             <h1 className="hero-heading">
-              Breaking Barriers in <span>Cancer Care</span>
+             Lorem ipsum dolor   <span> adipiscing elit.</span>
             </h1>
             <p className="hero-subtext">
-              Empowering faster healing through global connectivity, expert intelligence, and human-first design.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae pellentesque leo. 
             </p>
           </div>
 
@@ -479,18 +481,18 @@ const Home = () => {
                 {[
                   {
                     icon: "bi bi-lightning-charge",
-                    title: "Instant Specialist Access",
-                    desc: "Second opinions from global oncology leaders—on demand.",
+                    title: "Lorem ipsum dolor",
+                    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae pellentesque leo. ",
                   },
                   {
                     icon: "bi bi-graph-up-arrow",
-                    title: "Smart Treatment Matching",
-                    desc: "AI-powered platforms personalize therapy options by case data.",
+                    title: "Lorem ipsum dolor",
+                    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae pellentesque leo.",
                   },
                   {
                     icon: "bi bi-person-heart",
-                    title: "Human-Centered Experience",
-                    desc: "We bridge empathy and science to empower every patient journey.",
+                    title: "Lorem ipsum dolor",
+                    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae pellentesque leo.",
                   },
                 ].map((item, i) => (
                   <li key={i} className="d-flex mb-4">
@@ -515,7 +517,7 @@ const Home = () => {
       <section className="timeline-section">
         <div className="container">
           <div className="text-center mb-5">
-            <h2 className="section-title">How OncoBridge Works</h2>
+            <h2 className="section-title">How OncoBridge Helps </h2>
             <p className="section-subtitle">
               OncoBridge: Bridging You to World-Class Oncology Expertise
             </p>
