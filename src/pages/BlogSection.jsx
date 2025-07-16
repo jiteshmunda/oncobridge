@@ -6,9 +6,9 @@ function Terms() {
   return (
     <section className="section py-5 text-center">
       <div className="container">
-        <h2>Terms OncoBridge</h2>
+        <h2>Blog</h2>
         <div className="container">
-          <h2 className="mb-5 text-center">Insights from OncoBridge</h2>
+          {/* <h2 className="mb-5 text-center">Insights from OncoBridge</h2> */}
           <div className="row">
             {/* tab start  */}
             <div className="container py-4 ">

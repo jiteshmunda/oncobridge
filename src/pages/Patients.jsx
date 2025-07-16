@@ -26,19 +26,19 @@ const testimonials = [
 ];
 function Patients() {
   return (
-    <section className="section text-center">
+    <>
       <section className="text-center">
         <div className='container-fluid px-0'>
           <div className='row gx-0 align-items-center'>
             <div className="bg-image d-flex justify-content-center align-items-center text-center text-white vh-100">
               <div className="overlay-content">
-                <div className='col-md-7'>
-                <h2 className="fw-bold text-white">Your Second Opinion Journey: Clearer Answers, Confident Decisions.</h2>
-                <p className="lead"> OncoBridge empowers you with expert insights from world-renowned oncologists, giving you clarity and control over your cancer treatment path.
-                </p>
-                <div className="d-flex justify-content-left gap-3">
-                  <button className="btn btn-primary">Start Your Second Opinion Request</button>
-                </div>
+                <div className='col-md-7 p-3'>
+                  <h2 className="fw-bold text-white">Your Second Opinion Journey: Clearer Answers, Confident Decisions.</h2>
+                  <p className="lead"> OncoBridge empowers you with expert insights from world-renowned oncologists, giving you clarity and control over your cancer treatment path.
+                  </p>
+                  <div className="d-flex justify-content-left gap-3">
+                    <button className="btn btn-primary">Start Your Second Opinion Request</button>
+                  </div>
                 </div>
               </div>
             </div>
@@ -58,10 +58,11 @@ function Patients() {
           </div>
         </div>
       </section>
-      <div className="container-fluid">
+      <section className=" py-5 bg-light">
+        <div className="container-fluid">
 
 
-        <section className="mb-5 mt-5 pt-3">
+
           <div class="text-center mb-5">
             <h2 class="section-title fw-bold">Why Get a Second Opinion with OncoBridge?</h2>
             <p class="section-subtitle text-muted">Unlocking Peace of Mind and Better Outcomes</p>
@@ -96,8 +97,8 @@ function Patients() {
             </div>
 
           </div>
-        </section>
-        {/* <section className="text-center mb-5">
+
+          {/* <section className="text-center mb-5">
           <h1 className="display-5 fw-bold">Your Second Opinion Journey: Clearer Answers, Confident Decisions.</h1>
           <p className="lead text-muted">
             OncoBridge empowers you with expert insights from world-renowned oncologists, giving you clarity and control over your cancer treatment path.
@@ -108,11 +109,10 @@ function Patients() {
               alt="Empowered Indian cancer patient looking confidently towards their treatment journey." />
           </div>
         </section> */}
-      </div>
-      <div className="container py-5">
-
-
-        <section className="mb-5">
+        </div>
+      </section>
+      <section className="py-5 ">
+        <div className='container'>
           <div class="text-center mb-5">
             <h2 className="section-title fw-bold ">Your Path to an Expert Second Opinion in 4 Simple Steps</h2>
           </div>
@@ -160,9 +160,11 @@ function Patients() {
               </div>
             </div>
           </div>
-        </section>
+        </div>
+      </section>
 
-        <section className="mb-5 text-center about_services">
+      <section className="py-5  text-center about_services">
+        <div className='container'>
           <div class="text-center mb-5">
             <h2 className="section-title fw-bold ">Choose the Right Second Opinion Service for You</h2>
           </div>
@@ -207,9 +209,69 @@ function Patients() {
               </div>
             </div>
           </div>
-        </section>
+        </div>
+      </section>
 
-        <section className="mb-5">
+      {/* Section: FAQ */}
+      <section className="faq-section py-5 bg-white">
+        <div className="container">
+          <div className="text-center mb-5">
+            <h2 className="section-title">Frequently Asked Questions</h2>
+            <p className="section-subtitle">Got questions? We’ve got answers.</p>
+          </div>
+
+          <div className="accordion" id="faqAccordion">
+            {[
+              {
+                question: "Who are your experts?",
+                answer:
+                  "OncoBridge offers virtual tumor boards, second opinions, care coordination, and access to global oncologists and diagnostic tools.",
+              },
+              {
+                question: "How long does it take?",
+                answer:
+                  "You can book an appointment directly through our platform or mobile app. A coordinator will guide you through the process.",
+              },
+              {
+                question: "What if I don't have all my records?",
+                answer:
+                  "Yes, we serve patients worldwide through virtual consultations, international partnerships, and digital tools.",
+              },
+              {
+                question: "Is this covered by insurance?",
+                answer:
+                  "Yes, we serve patients worldwide through virtual consultations, international partnerships, and digital tools.",
+              },
+            ].map((faq, index) => (
+              <div className="accordion-item" key={index}>
+                <h2 className="accordion-header" id={`heading${index}`}>
+                  <button
+                    className={`accordion-button ${index !== 0 ? "collapsed" : ""}`}
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target={`#collapse${index}`}
+                    aria-expanded={index === 0 ? "true" : "false"}
+                    aria-controls={`collapse${index}`}
+                  >
+                    {faq.question}
+                  </button>
+                </h2>
+                <div
+                  id={`collapse${index}`}
+                  className={`accordion-collapse collapse ${index === 0 ? "show" : ""
+                    }`}
+                  aria-labelledby={`heading${index}`}
+                  data-bs-parent="#faqAccordion"
+                >
+                  <div className="accordion-body">{faq.answer}</div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+      {/* <section className="py-5 bg-white">
+            <div className='container'>
           <div class="text-center mb-5">
             <h2 className="section-title fw-bold ">Frequently Asked Questions</h2>
           </div>
@@ -233,73 +295,62 @@ function Patients() {
               </div>
             ))}
           </div>
-        </section>
+          </div>
+        </section> */}
 
-        <section className="py-5 ">
-          <div className="container text-center">
-            <div class="text-center mb-5">
-              <h2 className="section-title fw-bold ">What Our Patients Say</h2>
+      <section className="py-5 ">
+        <div className="container text-center">
+          <div class="text-center mb-5">
+            <h2 className="section-title fw-bold ">What Our Patients Say</h2>
+          </div>
+          <div id="testimonialCarousel" className="carousel slide" data-bs-ride="carousel">
+            <div className="carousel-inner">
+
+              {testimonials.map((item, index) => (
+                <div
+                  className={`carousel-item ${index === 0 ? "active" : ""}`}
+                  key={index}
+                >
+                  <p className="fs-5 fst-italic text-dark mx-auto" style={{ maxWidth: "800px" }}>
+                    "{item.quote}"
+                  </p>
+                  <p className="text-secondary mt-3 fw-semibold">
+                    — {item.author}, <span className="fw-normal">{item.title}</span>
+                  </p>
+                  <img
+                    src={item.image}
+                    alt={item.author}
+                    className="rounded-circle mt-3"
+                    style={{ width: "80px", height: "80px", objectFit: "cover" }}
+                  />
+                </div>
+              ))}
             </div>
-            <div id="testimonialCarousel" className="carousel slide" data-bs-ride="carousel">
-              <div className="carousel-inner">
 
-                {testimonials.map((item, index) => (
-                  <div
-                    className={`carousel-item ${index === 0 ? "active" : ""}`}
-                    key={index}
-                  >
-                    <p className="fs-5 fst-italic text-dark mx-auto" style={{ maxWidth: "800px" }}>
-                      "{item.quote}"
-                    </p>
-                    <p className="text-secondary mt-3 fw-semibold">
-                      — {item.author}, <span className="fw-normal">{item.title}</span>
-                    </p>
-                    <img
-                      src={item.image}
-                      alt={item.author}
-                      className="rounded-circle mt-3"
-                      style={{ width: "80px", height: "80px", objectFit: "cover" }}
-                    />
-                  </div>
-                ))}
-              </div>
-
-              <div className="carousel-indicators">
-                {testimonials.map((_, index) => (
-                  <button
-                    key={index}
-                    type="button"
-                    data-bs-target="#testimonialCarousel"
-                    data-bs-slide-to={index}
-                    className={index === 0 ? "active" : ""}
-                    aria-current={index === 0}
-                    aria-label={`Slide ${index + 1}`}
-                  ></button>
-                ))}
-              </div>
+            <div className="carousel-indicators">
+              {testimonials.map((_, index) => (
+                <button
+                  key={index}
+                  type="button"
+                  data-bs-target="#testimonialCarousel"
+                  data-bs-slide-to={index}
+                  className={index === 0 ? "active" : ""}
+                  aria-current={index === 0}
+                  aria-label={`Slide ${index + 1}`}
+                ></button>
+              ))}
             </div>
           </div>
-        </section>
-        {/* <section className="mb-5 text-center">
-            <div class="text-center mb-5">
-              <h2 className="section-title fw-bold ">What Our Patients Say</h2>
-            </div>
-            <blockquote className="blockquote">
-              <p className="mb-0">"OncoBridge helped me feel sure about my treatment. The expert guidance was clear, compassionate, and empowering."</p>
-              <footer className="blockquote-footer mt-2">Rohan K., cancer patient</footer>
-            </blockquote>
-            <img src="https://placehold.co/600x400" className="rounded-circle mt-3" alt="Rohan K., an Indian cancer patient, sharing his hopeful story." width="100" height="100" />
-          </section> */}
+        </div>
+      </section>
+      <section className="text-center py-5 bg-light rounded mt-3">
+        <h2 className="fw-bold mb-3">Don't face cancer alone. Get the clarity you deserve.</h2>
+        <a href="#start" className="btn btn-lg btn-danger">Get Started</a>
+      </section>
+
+    </>
 
 
-        <section className="text-center py-5 bg-light rounded mt-3">
-          <h2 className="fw-bold mb-3">Don't face cancer alone. Get the clarity you deserve.</h2>
-          <a href="#start" className="btn btn-lg btn-danger">Get Started</a>
-        </section>
-      </div>
-
-
-    </section>
   );
 }
 

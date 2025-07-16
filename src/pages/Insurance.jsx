@@ -6,56 +6,32 @@ import teamuser from '../assets/teamuser.png';
 
 function Insurance() {
     return (
-        <section className="section  text-center">
-             <section className="text-center mb-5">
-        <div className='container-fluid px-0'>
-          <div className='row gx-0 align-items-center'>
-            <div className="bg-image_ins d-flex justify-content-center align-items-center text-center text-white vh-100">
-              <div className="overlay-content">
-                <div className='col-md-7 ps-4'>
-                <h2 className="fw-bold text-white">Optimizing Cancer Care: Strategic Partnerships for Insurance Providers</h2>
-                <p className="lead">  OncoBridge collaborates with insurance companies to ensure policyholders receive the most appropriate,
-                                high-quality cancer care, leading to better outcomes and managed costs.    
-                </p>
-                <div className="d-flex justify-content-left gap-3">
-                    <button className="btn btn-primary btn-lg">Explore Partnership Benefits</button>
-                                <button className="btn btn-primary btn-lg">Request a Consultation</button>
-                </div>
-                </div>
-              </div>
-            </div>
-           
-          </div>
-        </div>
-      </section>
-            
-                {/* Hero Section */}
-                {/* <section className="text-center mb-3 mt-5">
-                    <div className='row align-items-center'>
-                        <div className='col-md-7 col-lg-6 col-sm-6'>
-                            <h4 className="fw-bold"> Optimizing Cancer Care: Strategic Partnerships for Insurance Providers.</h4>
-                            <p className="lead">
-                                OncoBridge collaborates with insurance companies to ensure policyholders receive the most appropriate,
-                                high-quality cancer care, leading to better outcomes and managed costs.              </p>
-                            <div className="d-md-flex justify-content-center gap-3">
-                                <button className="btn btn-primary btn-lg">Explore Partnership Benefits</button>
-                                <button className="btn btn-outline-secondary btn-lg">Request a Consultation</button>
+        <>
+            <section className="text-center">
+                <div className='container-fluid px-0'>
+                    <div className='row gx-0 align-items-center'>
+                        <div className="bg-image_ins d-flex justify-content-center align-items-center text-center text-white vh-100">
+                            <div className="overlay-content">
+                                <div className='col-lg-7 col-md-12 col-sm-12  ps-lg-4 ps-3 pe-4'>
+                                    <h2 className="fw-bold text-white fs-2 fs-sm-5 fs-md-3">Optimizing Cancer Care: Strategic Partnerships for Insurance Providers</h2>
+                                    <p className="lead">  OncoBridge collaborates with insurance companies to ensure policyholders receive the most appropriate,
+                                        high-quality cancer care, leading to better outcomes and managed costs.
+                                    </p>
+                                    <div className="d-flex justify-content-left gap-3">
+                                        <button className="btn btn-primary btn-lg btn-mobile-sm">Explore Partnership Benefits</button>
+                                        <button className="btn btn-primary btn-lg btn-mobile-sm">Request a Consultation</button>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div className='col-md-5 col-lg-6 col-sm-6'>
-                            <img src={insurance}
-                                className="img-fluid rounded shadow"
-                                alt="Indian doctors and medical staff collaborating in a modern hospital setting." />
-                        </div>
+
                     </div>
-                </section> */}
+                </div>
+            </section>
 
-
-            
-            <div className="container-fluid">
-
-                {/* Why Partner Section */}
-                <section className="mb-5">
+            {/* Why Partner Section */}
+            <section className="py-5 bg-light">
+                <div className='container'>
                     <div class="text-center mb-5">
                         <h2 class="section-title fw-bold">Driving Value Through Informed Oncology Decisions</h2>
                     </div>
@@ -99,7 +75,8 @@ function Insurance() {
                             </div>
                         </div>
                     </div>
-                    {/* <div className="row">
+                </div>
+                {/* <div className="row">
                         <div className=" col-md-12 col-lg-8 col-sm-12">
                             <ul className="list-group list-group-flush text-justify rounded-4 ">
                                 <li className="list-group-item">
@@ -137,10 +114,11 @@ function Insurance() {
                             </div>
                         </div>
                     </div> */}
-                </section>
+            </section>
 
-                {/* Value Proposition Section */}
-                <section className="mb-5">
+            {/* Value Proposition Section */}
+            <section className="py-5">
+                <div className='container-fluid ps-0'>
                     <div class="text-center mb-5">
                         <h2 class="section-title fw-bold">A Proactive Approach to Oncology Management</h2>
                     </div>
@@ -148,7 +126,7 @@ function Insurance() {
                     <div class="bg-cover d-flex align-items-center justify-content-center text-center">
                         <div class="bg-overlay"></div>
 
-                        <div class="container content-wrapper">
+                        <div class="container content-wrapper col-lg-p-0 p-4">
                             <div className="row g-4">
                                 <div className="col-md-5">
                                     <div className="card h-100 shadow-sm">
@@ -201,68 +179,12 @@ function Insurance() {
                             </div>
                         </div>
                     </div>
-                    {/* <div className="row g-4 bg-white">
-                            <div className="col-md-12 col-lg-7 col-sm-12">
-                                <div className="row g-4">
-                                    <div className="col-md-6">
-                                        <div className="card h-100 shadow-sm">
-                                            <div className="card-header card_header_for_hospital">
-                                                <h5 className="card-title mb-0">Expert Network</h5>
-                                            </div>
-                                            <div className="card-body">
-                                                <p className="card-text">
-                                                    Access to a vetted global network of oncology specialists.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="col-md-6">
-                                        <div className="card h-100 shadow-sm">
-                                            <div className="card-header card_header_for_hospital">
-                                                <h5 className="card-title mb-0">Rigorous Process</h5>
-                                            </div>
-                                            <div className="card-body">
-                                                <p className="card-text">
-                                                    Standardized, confidential, and timely second opinion delivery.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="col-md-6">
-                                        <div className="card h-100 shadow-sm">
-                                            <div className="card-header card_header_for_hospital">
-                                                <h5 className="card-title mb-0">Customizable Solutions</h5>
-                                            </div>
-                                            <div className="card-body">
-                                                <p className="card-text">
-                                                    Tailored programs to fit your specific policyholder needs and operational models.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="col-md-6">
-                                        <div className="card h-100 shadow-sm">
-                                            <div className="card-header card_header_for_hospital">
-                                                <h5 className="card-title mb-0">Compliance & Security</h5>
-                                            </div>
-                                            <div className="card-body">
-                                                <p className="card-text">
-                                                    Adherence to data privacy and healthcare regulations.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-md-12 col-lg-5 col-sm-12">
-                                <img src={digi} className='img-fluid  rounded-4 shadow-lg w_70 d-none d-lg-block' alt="Secure digital lock symbolizing data compliance and security" />
-                            </div>
-                        </div> */}
-                </section>
-            </div>
-            <div className="container py-5">
-                {/* Partnership Flow Section */}
-                <section className="mb-5">
+                </div>
+            </section>
+
+            {/* Partnership Flow Section */}
+            <section className=" py-4">
+                <div className='container'>
                     <div class="text-center mb-2">
                         <h2 className="section-title fw-bold ">How the Partnership Works</h2>
                     </div>
@@ -277,14 +199,16 @@ function Insurance() {
                             className="img-fluid  rounded-4 shadow-lg w-25"
                         />
                     </div>
-                </section>
+                </div>
+            </section>
 
-                {/* Case Studies Section */}
-                <section className="mb-5">
+            {/* Case Studies Section */}
+            <section className=" py-5">
+                <div className='container'>
                     <div class="text-center">
                         <h2 className="section-title fw-bold ">Case Studies & Success Metrics</h2>
                     </div>
-                    <p>Explore anonymized data showing improvements in cost and patient outcomes.</p>
+                    <p className='text-center'>Explore anonymized data showing improvements in cost and patient outcomes.</p>
                     <div className="row">
                         <div className="col-md-6">
                             <img src="https://placehold.co/600x400" alt="Graph showing reduction in healthcare costs" className="img-fluid mb-3" />
@@ -293,50 +217,82 @@ function Insurance() {
                             <img src="https://placehold.co/600x400" alt="Icon representing improved patient outcomes" className="img-fluid mb-3" />
                         </div>
                     </div>
-                </section>
+                </div>
+            </section>
 
-                {/* FAQ Section */}
-                <section className="mb-5">
-                    <div class="text-center mb-5">
-                        <h2 className="section-title fw-bold ">Frequently Asked Questions</h2>
+
+            {/* Section: FAQ */}
+            <section className="faq-section py-5 bg-white">
+                <div className="container">
+                    <div className="text-center mb-5">
+                        <h2 className="section-title">Frequently Asked Questions</h2>
+                        <p className="section-subtitle">Got questions? We’ve got answers.</p>
                     </div>
+
                     <div className="accordion" id="faqAccordion">
                         {[
-                            "What kind of reporting can you provide?",
-                            "How do you ensure data security and compliance?",
-                            "What are the typical cost savings?",
-                            "Can you customize the service for our plans?",
-                        ].map((question, index) => (
+                            {
+                                question: "Who are your experts?",
+                                answer:
+                                    "OncoBridge offers virtual tumor boards, second opinions, care coordination, and access to global oncologists and diagnostic tools.",
+                            },
+                            {
+                                question: "How long does it take?",
+                                answer:
+                                    "You can book an appointment directly through our platform or mobile app. A coordinator will guide you through the process.",
+                            },
+                            {
+                                question: "What if I don't have all my records?",
+                                answer:
+                                    "Yes, we serve patients worldwide through virtual consultations, international partnerships, and digital tools.",
+                            },
+                            {
+                                question: "Is this covered by insurance?",
+                                answer:
+                                    "Yes, we serve patients worldwide through virtual consultations, international partnerships, and digital tools.",
+                            },
+                        ].map((faq, index) => (
                             <div className="accordion-item" key={index}>
                                 <h2 className="accordion-header" id={`heading${index}`}>
-                                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target={`#collapse${index}`} aria-expanded="false">
-                                        {question}
+                                    <button
+                                        className={`accordion-button ${index !== 0 ? "collapsed" : ""}`}
+                                        type="button"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target={`#collapse${index}`}
+                                        aria-expanded={index === 0 ? "true" : "false"}
+                                        aria-controls={`collapse${index}`}
+                                    >
+                                        {faq.question}
                                     </button>
                                 </h2>
-                                <div id={`collapse${index}`} className="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                                    <div className="accordion-body">Answer coming soon.</div>
+                                <div
+                                    id={`collapse${index}`}
+                                    className={`accordion-collapse collapse ${index === 0 ? "show" : ""
+                                        }`}
+                                    aria-labelledby={`heading${index}`}
+                                    data-bs-parent="#faqAccordion"
+                                >
+                                    <div className="accordion-body">{faq.answer}</div>
                                 </div>
                             </div>
                         ))}
                     </div>
-                </section>
+                </div>
+            </section>
 
-                {/* Final CTA */}
-                <section className="text-center py-5 bg-light rounded mt-3">
-                    <h2 className="fw-bold mb-1">Invest in smarter oncology care.</h2>
-                    <p>Connect with OncoBridge to discuss a strategic partnership.</p>
-                    <a href="#start" className="btn btn-lg btn-danger">Schedule a Partnership Discussion</a>
-                </section>
-            </div>
-
-            {/* <section className="text-center py-4 border-top">
-                        <h3>Invest in smarter oncology care.</h3>
-                        <p>Connect with OncoBridge to discuss a strategic partnership.</p>
-                        <button className="btn btn-primary btn-lg">Schedule a Partnership Discussion</button>
-                    </section> */}
+            {/* Final CTA */}
+            <section className="text-center py-5 bg-light rounded">
+                <h2 className="fw-bold mb-1">Invest in smarter oncology care.</h2>
+                <p>Connect with OncoBridge to discuss a strategic partnership.</p>
+                <a href="#start" className="btn btn-lg btn-danger">Schedule a Partnership Discussion</a>
+            </section>
 
 
-        </section>
+
+
+
+
+        </>
     );
 }
 

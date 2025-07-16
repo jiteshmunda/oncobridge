@@ -25,8 +25,8 @@ const Home = () => {
                Integer efficitur tortor eu egestas pulvinar
               </p>
               <div>
-                <a href="#about" className="btn btn-primary me-3 px-4 py-2">Get Your Second Opinion </a>
-                <a href="#services" className="btn btn-outline-light px-4 py-2">How It Works </a>
+                <a href="#about" className="btn btn-primary me-3 px-4 py-2 mb-4">Get Your Second Opinion </a>
+                <a href="#services" className="btn btn-outline-light px-4 py-2 mb-4">How It Works </a>
               </div>
             </div>
             <div className="col-lg-6 text-center">
