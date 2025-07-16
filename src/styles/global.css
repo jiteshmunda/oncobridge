@@ -236,3 +236,67 @@ text-align: left;
     padding: 0.3rem 0.5rem;
     display: inline-block;
 }
+
+.bg-image {
+  background-image: url('https://thumbs.dreamstime.com/b/happy-smiling-indian-recovered-breast-cancer-patient-showing-thumbs-up-looking-camera-bed-hospital-concept-happy-291921382.jpg'); /* Your image path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+      text-align: left !important;
+       width: 100%;
+}
+
+.bg-image::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+  z-index: 1;
+}
+
+.overlay-content {
+  position: relative;
+  z-index: 2;
+}
+
+.bg-image_hospital {
+  background-image: url('https://as1.ftcdn.net/jpg/02/57/15/02/1000_F_257150278_i5rxLktGfKdrgggdX95El658QnDWsV2Q.jpg'); /* Your image path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+      text-align: left !important;
+       width: 100%;
+}
+
+.bg-image_hospital::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+  z-index: 1;
+}
+
+.bg-image_ins {
+  background-image: url('../assets//insurance.jpg'); /* Your image path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+      text-align: left !important;
+       width: 100%;
+}
+
+.bg-image_ins::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+  z-index: 1;
+}
+
+.overlay-content {
+  position: relative;
+  z-index: 2;
+}

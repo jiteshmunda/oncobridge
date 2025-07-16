@@ -26,33 +26,48 @@ const testimonials = [
 ];
 function Patients() {
   return (
-    <section className="section py-5 text-center">
-      <div className="container-fluid">
-        <h2>Patients OncoBridge</h2>
-        <section className="text-center mb-3 mt-5">
-          <div className='row align-items-center'>
-            <div className='col-md-12 col-lg-6 col-sm-6'>
+    <section className="section text-center">
+      <section className="text-center">
+        <div className='container-fluid px-0'>
+          <div className='row gx-0 align-items-center'>
+            <div className="bg-image d-flex justify-content-center align-items-center text-center text-white vh-100">
+              <div className="overlay-content">
+                <div className='col-md-7'>
+                <h2 className="fw-bold text-white">Your Second Opinion Journey: Clearer Answers, Confident Decisions.</h2>
+                <p className="lead"> OncoBridge empowers you with expert insights from world-renowned oncologists, giving you clarity and control over your cancer treatment path.
+                </p>
+                <div className="d-flex justify-content-left gap-3">
+                  <button className="btn btn-primary">Start Your Second Opinion Request</button>
+                </div>
+                </div>
+              </div>
+            </div>
+            {/* <div className='col-md-12 col-lg-6 col-sm-6'>
               <h4 className="fw-bold">Your Second Opinion Journey: Clearer Answers, Confident Decisions.</h4>
               <p className="lead"> OncoBridge empowers you with expert insights from world-renowned oncologists, giving you clarity and control over your cancer treatment path.
               </p>
               <div className="d-flex justify-content-center gap-3">
                 <button className="btn btn-primary">Start Your Second Opinion Request</button>
               </div>
-            </div>
-            <div className='col-md-12 col-lg-6 col-sm-6'>
+            </div> */}
+            {/* <div className='col-md-12 col-lg-6 col-sm-6'>
               <img src="https://thumbs.dreamstime.com/b/happy-smiling-indian-recovered-breast-cancer-patient-showing-thumbs-up-looking-camera-bed-hospital-concept-happy-291921382.jpg"
                 className="img-fluid rounded shadow"
                 alt="Indian doctors and medical staff collaborating in a modern hospital setting." />
-            </div>
+            </div> */}
           </div>
-        </section>
-           <section className="mb-5 mt-5 pt-3">
+        </div>
+      </section>
+      <div className="container-fluid">
+
+
+        <section className="mb-5 mt-5 pt-3">
           <div class="text-center mb-5">
             <h2 class="section-title fw-bold">Why Get a Second Opinion with OncoBridge?</h2>
             <p class="section-subtitle text-muted">Unlocking Peace of Mind and Better Outcomes</p>
           </div>
           <div className="row bg-white">
-             <div className="col-md-12 col-lg-6 col-sm-12  mt-4  mt-lg-0 p-0">
+            <div className="col-md-12 col-lg-6 col-sm-12  mt-4  mt-lg-0 p-0">
               <div className="text-center">
                 <img className='img-fluid shadow-lg ' src="https://media.gettyimages.com/id/940272286/vector/bunch-of-keys.jpg?s=1024x1024&w=gi&k=20&c=zRAlCmg3nEJjOUvlvFbq-ZROD7gqJAOCSOdhaq1qQ2o=" alt="Symbolic image of a key unlocking clarity and new treatment options." />
               </div>
@@ -60,26 +75,26 @@ function Patients() {
             <div className=" col-md-12 col-lg-6 col-sm-12 mt-4">
               <ul className="list-style-disc text-justify rounded-4 patients_list">
                 <li className="">
-                
+
                   <strong>Confirmation & Validation:</strong> Confirm your diagnosis and treatment plan from an independent expert.</li>
                 <li className="">
-              
+
                   <strong>Expanded Options:</strong>  Discover alternative or emerging treatment strategies you might not have known about.</li>
                 <li className="">
-                
+
                   <strong>Personalized Insights:</strong> Receive tailored recommendations based on the latest research and your unique case</li>
                 <li className="">
-                 
+
                   <strong>Access to Top Specialists:</strong> Connect with leading oncologists globally, regardless of your location.</li>
                 <li className="">
-                 
+
                   <strong>Confidence & Control:</strong> : Make informed decisions about your health with renewed assurance.</li>
                 <li className="">
-               
+
                   <strong>Reduced Anxiety:</strong> Alleviate doubts and concerns about your diagnosis and future..</li>
               </ul>
             </div>
-           
+
           </div>
         </section>
         {/* <section className="text-center mb-5">
@@ -95,7 +110,7 @@ function Patients() {
         </section> */}
       </div>
       <div className="container py-5">
-     
+
 
         <section className="mb-5">
           <div class="text-center mb-5">

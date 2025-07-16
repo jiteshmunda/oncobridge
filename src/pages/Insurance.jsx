@@ -6,11 +6,31 @@ import teamuser from '../assets/teamuser.png';
 
 function Insurance() {
     return (
-        <section className="section py-5 text-center">
-            <div className="container-fluid">
-                <h2>Terms Insurance</h2>
+        <section className="section  text-center">
+             <section className="text-center mb-5">
+        <div className='container-fluid px-0'>
+          <div className='row gx-0 align-items-center'>
+            <div className="bg-image_ins d-flex justify-content-center align-items-center text-center text-white vh-100">
+              <div className="overlay-content">
+                <div className='col-md-7 ps-4'>
+                <h2 className="fw-bold text-white">Optimizing Cancer Care: Strategic Partnerships for Insurance Providers</h2>
+                <p className="lead">  OncoBridge collaborates with insurance companies to ensure policyholders receive the most appropriate,
+                                high-quality cancer care, leading to better outcomes and managed costs.    
+                </p>
+                <div className="d-flex justify-content-left gap-3">
+                    <button className="btn btn-primary btn-lg">Explore Partnership Benefits</button>
+                                <button className="btn btn-primary btn-lg">Request a Consultation</button>
+                </div>
+                </div>
+              </div>
+            </div>
+           
+          </div>
+        </div>
+      </section>
+            
                 {/* Hero Section */}
-                <section className="text-center mb-3 mt-5">
+                {/* <section className="text-center mb-3 mt-5">
                     <div className='row align-items-center'>
                         <div className='col-md-7 col-lg-6 col-sm-6'>
                             <h4 className="fw-bold"> Optimizing Cancer Care: Strategic Partnerships for Insurance Providers.</h4>
@@ -28,10 +48,10 @@ function Insurance() {
                                 alt="Indian doctors and medical staff collaborating in a modern hospital setting." />
                         </div>
                     </div>
-                </section>
+                </section> */}
 
 
-            </div>
+            
             <div className="container-fluid">
 
                 {/* Why Partner Section */}

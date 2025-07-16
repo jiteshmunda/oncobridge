@@ -2,28 +2,27 @@ import React from 'react';
 import doct3 from '../assets/doct3.jpg';
 function Hospitals() {
   return (
-    <section className="section py-5 text-center">
-      <div className="container-fluid">
-        <h2>For Hospitals & Treating Physicians </h2>
-           {/* Hero Section */}
-          <section className="text-center mb-3 mt-5">
-            <div className='row align-items-center'>
-              <div className='col-md-12 col-lg-6 col-sm-6'>
-                <h4 className="fw-bold">Collaborate for Excellence: Empowering Your Practice with OncoBridge.</h4>
-                <p className="lead">OncoBridge partners with hospitals and treating physicians to provide timely, specialized second opinions, enhancing patient care and extending your expert reach.</p>
-                <div className="d-flex justify-content-center gap-3">
+    <section className="section  text-center">
+     <section className="text-center">
+        <div className='container-fluid px-0'>
+          <div className='row gx-0 align-items-center'>
+            <div className="bg-image_hospital d-flex justify-content-center align-items-center text-center text-white vh-100">
+              <div className="overlay-content">
+                <div className='col-md-7'>
+                <h2 className="fw-bold text-white">Collaborate for Excellence: Empowering Your Practice with OncoBridge.</h2>
+                <p className="lead"> OncoBridge partners with hospitals and treating physicians to provide timely, specialized second opinions, enhancing patient care and extending your expert reach.
+                </p>
+                <div className="d-flex justify-content-left gap-3">
                   <button className="btn btn-primary">Partner With Us</button>
-                  <button className="btn btn-outline-secondary">Request a Demo</button>
+                  <button className="btn btn-primary">Request a Demo</button>
+                </div>
                 </div>
               </div>
-              <div className='col-md-12 col-lg-6 col-sm-6'>
-                <img src="https://as1.ftcdn.net/jpg/02/57/15/02/1000_F_257150278_i5rxLktGfKdrgggdX95El658QnDWsV2Q.jpg"
-                 className="img-fluid rounded shadow"
-                  alt="Indian doctors and medical staff collaborating in a modern hospital setting." />
-              </div>
             </div>
-          </section>
+           
+          </div>
         </div>
+      </section>
         <div className="container py-5">
        
 
