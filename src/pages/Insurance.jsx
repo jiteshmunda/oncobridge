@@ -12,9 +12,27 @@ function Insurance() {
                     <div className='row gx-0 align-items-center'>
                         <div className="bg-image_ins d-flex justify-content-center align-items-center text-center text-white vh-100">
                             <div className="overlay-content">
+                                <div className='col-md-7 p-3'>
+                                    <h2 className="fw-bold text-white">
+                                        Optimizing Cancer Care: Strategic Partnerships for Insurance Providers
+                                    </h2>
+                                    <p className="lead">
+                                         OncoBridge collaborates with insurance companies to ensure policyholders receive the most appropriate,
+                                         <br/>
+                                        high-quality cancer care, leading to better outcomes and managed costs.
+                                    </p>
+                                    <div className="d-flex justify-content-left gap-3">
+                                        <button className="btn btn-primary">Start Your Second Opinion Request</button>
+                                    </div>
+                                </div>
+                            </div>
+                            {/* <div className="overlay-content">
                                 <div className='col-lg-7 col-md-12 col-sm-12  ps-lg-4 ps-3 pe-4'>
-                                    <h2 className="fw-bold text-white fs-2 fs-sm-5 fs-md-3">Optimizing Cancer Care: Strategic Partnerships for Insurance Providers</h2>
-                                    <p className="lead">  OncoBridge collaborates with insurance companies to ensure policyholders receive the most appropriate,
+                                    <h2 className="fw-bold text-white fs-2 fs-sm-5 fs-md-3">
+                                    Optimizing Cancer Care: Strategic Partnerships for Insurance Providers
+                                    </h2>
+                                    <p className="lead"> 
+                                     OncoBridge collaborates with insurance companies to ensure policyholders receive the most appropriate,
                                         high-quality cancer care, leading to better outcomes and managed costs.
                                     </p>
                                     <div className="d-flex justify-content-left gap-3">
@@ -22,7 +40,7 @@ function Insurance() {
                                         <button className="btn btn-primary btn-lg btn-mobile-sm">Request a Consultation</button>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
 
                     </div>

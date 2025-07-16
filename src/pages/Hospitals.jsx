@@ -10,6 +10,19 @@ function Hospitals() {
               <div className="overlay-content">
                 <div className='col-md-7 p-3'>
                   <h2 className="fw-bold text-white">Collaborate for Excellence: Empowering Your Practice with OncoBridge.</h2>
+                  <p className="lead"> 
+                    OncoBridge partners with hospitals and treating physicians to provide timely, 
+                    <br/>
+                    specialized second opinions, enhancing patient care and extending your expert reach.
+                  </p>
+                  <div className="d-flex justify-content-left gap-3">
+                    <button className="btn btn-primary">Start Your Second Opinion Request</button>
+                  </div>
+                </div>
+              </div>
+              {/* <div className="overlay-content">
+                <div className='col-md-7 p-3'>
+                  <h2 className="fw-bold text-white">Collaborate for Excellence: Empowering Your Practice with OncoBridge.</h2>
                   <p className="lead"> OncoBridge partners with hospitals and treating physicians to provide timely, specialized second opinions, enhancing patient care and extending your expert reach.
                   </p>
                   <div className="d-flex justify-content-left gap-3">
@@ -17,7 +30,7 @@ function Hospitals() {
                     <button className="btn btn-primary">Request a Demo</button>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
 
           </div>
