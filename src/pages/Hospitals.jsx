@@ -212,7 +212,7 @@ function Hospitals() {
               {/* Left Section */}
               <div className="col-lg-6 mb-4">
                 <h2 className="fw-bold">What is Benefits?</h2>
-                <div className="border-bottom border-2 border-danger w-25 mb-3"></div>
+                <div className="border-bottom border-2 border-primary  w-25 mb-3"></div>
                 <p className="lead">
                   Benefits for Different Stakeholders within Hospitals
                 </p>

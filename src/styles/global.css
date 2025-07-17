@@ -389,3 +389,31 @@ position: absolute;
 {
       width: 40%;
 }
+/* myths  */
+.myths_cards .card-header
+{
+background-color: #0288d1;
+color: #fff;
+padding: 12px;
+}
+.types_cancer_list ul li
+{
+margin-bottom: 5px;
+}
+.diagnosis_text img
+{
+height: 46vh;
+}
+.subtitle_myths 
+{
+  font-size: 20px;
+}
+.diagnosis_img 
+{
+  width: 30%;
+}
+.diagnosis_list li
+{
+    margin-bottom: 17px;
+    line-height: 23px;
+}
