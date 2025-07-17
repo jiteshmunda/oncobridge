@@ -8,6 +8,11 @@ import pat1 from '../assets/pat1.jpg';
 import pat3 from '../assets/pat3.jpg';
 import pat2 from '../assets/pat2.jpg';
 import global from '../assets/globle.jpg';
+import for_paitent from '../assets/for_paitent.jpg';
+import for_hospital from '../assets/for_hospital.jpg';
+import for_insurance from '../assets/for_insurance.jpg';
+import hands_to from '../assets/hands_to.jpg';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -172,7 +177,7 @@ const Home = () => {
             {/* Right: Image with Decorations */}
             <div className="col-md-6 position-relative">
               <div className="image-wrapper">
-                <img src={global} alt="Global Cancer Care"
+                <img src={global} alt="Indian patient thoughtfully considering medical information on a tablet, seeking clarity for complex decisions"
                   className="img-fluid main-img rounded" />
                 {/* <img
             src="https://www.mdanderson.org/content/dam/mdanderson/images/publications/cancerfrontline/WorldCancerDay2017.jpeg.resize.jpg"
@@ -215,8 +220,8 @@ const Home = () => {
           <div className="text-center mb-5">
             <h2 className="section-title">Lorem ipsum dolor</h2>
             <p className="section-subtitle">
-             Lorem ipsum dolor sit amet, consectetur adipiscing elit
-              Nunc vitae pellentesque leo. 
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit
+              Nunc vitae pellentesque leo.
             </p>
           </div>
 
@@ -270,7 +275,7 @@ const Home = () => {
             <div className="col-lg-6 text-center text-lg-start mb-5 mb-lg-0">
               <h2 className="display-5 fw-bold mb-3 text-white">Lorem ipsum dolor sit amet</h2>
               <p className="lead mb-4 text-light-subtle">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae pellentesque leo Nam venenatis eros
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae pellentesque leo Nam venenatis eros
               </p>
 
               <div className="d-flex flex-wrap justify-content-center justify-content-lg-start gap-3">
@@ -457,10 +462,10 @@ const Home = () => {
         <div className="container">
           <div className="text-center mb-5">
             <h1 className="hero-heading">
-             Lorem ipsum dolor   <span> adipiscing elit.</span>
+              Lorem ipsum dolor   <span> adipiscing elit.</span>
             </h1>
             <p className="hero-subtext">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae pellentesque leo. 
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae pellentesque leo.
             </p>
           </div>
 
@@ -514,15 +519,52 @@ const Home = () => {
 
       {/* Section 7 */}
 
-      <section className="timeline-section">
+      <section className="how-helps-section py-5">
         <div className="container">
           <div className="text-center mb-5">
             <h2 className="section-title">How OncoBridge Helps </h2>
             <p className="section-subtitle">
-              OncoBridge: Bridging You to World-Class Oncology Expertise
+              Bridging You to World-Class Oncology Expertise
             </p>
           </div>
-          <div className="timeline">
+          <div className="row g-4">
+            <div className="col-md-4 col-lg-4 col-sm-4 how-helps-cards">
+              <div className="card h-100">
+                <img src={for_paitent} className="card-img-top " alt="Indian oncologist reviewing patient file" />
+                <div className="card-body">
+                  <p className="card-text">
+                    Access to leading global oncologists, personalized insights, peace of mind
+                  </p>
+                  <Link to="/patients" className="read-more-btn">For Patients </Link>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4 col-lg-4 col-sm-4 how-helps-cards">
+              <div className="card h-100">
+                <img src={for_hospital} className="card-img-top " alt="Diverse medical team collaborating in a modern hospital." />
+                <div className="card-body">
+                  <p className="card-text">
+                    Expand your expertise, support your patients with external validation,
+                    collaborate seamlessly.
+                  </p>
+                  <Link to="/hospital" className="read-more-btn">For Hospitals </Link>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4 col-lg-4 col-sm-4 how-helps-cards">
+              <div className="card h-100">
+                <img src={for_insurance} className="card-img-top " alt="Insurance executive analyzing data for strategic healthcare partnerships" />
+                <div className="card-body">
+                  <p className="card-text">
+                    Ensure appropriate care, manage costs effectively, enhance policyholder s
+                    atisfaction.
+                  </p>
+                  <Link to="/insurance" className="read-more-btn">For Insurance Providers </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* <div className="timeline">
             {[
 
               {
@@ -551,7 +593,7 @@ const Home = () => {
                 </div>
               </div>
             ))}
-          </div>
+          </div> */}
         </div>
       </section>
 
@@ -593,7 +635,7 @@ const Home = () => {
                 image: pat2
               }
             ].map((t, idx) => (
-              <div key={idx} className="col-md-6 col-lg-4">
+              <div key={idx} className="col-md-4 col-lg-4">
                 <div className="testimonial-box shadow-sm p-4 h-100 bg-white rounded-4 text-center fade-up">
                   <img
                     src={t.image}
@@ -708,8 +750,25 @@ const Home = () => {
 
 
       {/* Section 8 */}
-
-      <section className="newsletter-beauty text-white">
+      <section className="ready-next">
+        <div className="container-fluid p-0">
+          <div className="row gx-0 align-items-center">
+            <div className="col-md-6 col-lg-6 col-sm-6">
+          <div className="card ready-next-card">
+          <h2 className="newsletter-heading">Ready for Clarity? Take the Next Step.</h2>
+          <p className="newsletter-subtext">
+            Whether you're a patient seeking answers,
+            a hospital enhancing care, or an insurance provider ensuring quality, OncoBridge is here to help.
+          </p>
+          </div>
+          </div>
+           <div className="col-md-6 col-lg-6 col-sm-6">
+            <img src={hands_to} className="img-fluid d-none d-lg-block d-sm-block d-md-block" alt="Hands joining, symbolizing collaboration and support in cancer care." />
+           </div>
+          </div>
+        </div>
+      </section>
+      {/* <section className="newsletter-beauty text-white">
         <div className="container py-5 text-center">
           <h2 className="newsletter-heading">Get Health Insights & Breakthroughs</h2>
           <p className="newsletter-subtext">
@@ -732,7 +791,7 @@ const Home = () => {
             No spam. Unsubscribe anytime.
           </small>
         </div>
-      </section>
+      </section> */}
 
 
 
