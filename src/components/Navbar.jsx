@@ -47,27 +47,13 @@ function Navbar() {
         
 <div class="dropdown">
   <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
-Services
+Second Opinion
   </button>
   <ul class="dropdown-menu " aria-labelledby="dropdownMenuButton">
-    <li>
-      {/* <a class="dropdown-item" href="/patients">Patients</a> */}
-      <Link class="dropdown-item" to="/patients"  onClick={closeMenu}>Patients</Link>
-    </li>
-    <li>
-       <Link class="dropdown-item" to="/hospital"  onClick={closeMenu}>Hospital</Link>
-      {/* <a class="dropdown-item" href="/hospital">Hospital </a> */}
-      </li>
-    <li>
-      {/* <a class="dropdown-item" href="/insurance">Insurance</a> */}
-       <Link class="dropdown-item" to="/insurance"  onClick={closeMenu}>Insurance</Link>
-      </li>
-     {/* <li>
-     
-        <Link class="dropdown-item" to="/blog">Blog</Link>
-     </li> */}
-      {/* <li><a class="dropdown-item" href="/productdesc">Product description</a></li> */}
-       <Link class="dropdown-item" to="/productdesc">Product description</Link>
+    <li><Link class="dropdown-item" to="/patients"  onClick={closeMenu}>Patients</Link></li>
+    <li><Link class="dropdown-item" to="/hospital"  onClick={closeMenu}>Hospital</Link></li>
+    <li><Link class="dropdown-item" to="/insurance"  onClick={closeMenu}>Insurance</Link></li>
+        {/* <li><Link class="dropdown-item" to="/productdesc">Product description</Link></li> */}
   </ul>
 </div>
 
@@ -83,20 +69,10 @@ Resource
       <li><Link  class="dropdown-item" to="/myths" onClick={closeMenu}>Myths</Link></li>
      <li><Link class="dropdown-item" to="/productdesc">Product description</Link></li> 
       <li><Link class="dropdown-item" to="/partners">Partners</Link></li> 
-    
-    {/* <li>
-       <Link class="dropdown-item" to="/insurance"  onClick={closeMenu}>Facts</Link>
-      </li> */}
-     {/* <li>
-     
-        <Link class="dropdown-item" to="/blog">Blog</Link>
-     </li> */}
-      {/* <li><a class="dropdown-item" href="/productdesc">Product description</a></li> */}
-      
   </ul>
 </div>
 
-          <li><Link to="/partners" onClick={closeMenu}><span>Partners</span></Link></li>
+          {/* <li><Link to="/partners" onClick={closeMenu}><span>Partners</span></Link></li> */}
           <li><Link to="/career" onClick={closeMenu}><span>Career</span></Link></li>
            <li><Link to="/faq" onClick={closeMenu}><span>FAQ</span></Link></li>
             {/* <li><Link to="/blog" onClick={closeMenu}><span>Blog</span></Link></li> */}

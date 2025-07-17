@@ -30,7 +30,7 @@ const Home = () => {
                 Integer efficitur tortor eu egestas pulvinar
               </p>
               <div>
-                <a href="#about" className="btn btn-primary me-3 px-4 py-2 mb-4">Get Your Second Opinion </a>
+                <a href="/secondoption" className="btn btn-primary me-3 px-4 py-2 mb-4">Get Your Second Opinion </a>
                 <a href="#services" className="btn btn-outline-light px-4 py-2 mb-4">How It Works </a>
               </div>
             </div>
@@ -599,13 +599,10 @@ const Home = () => {
 
 
 
-      <section className="testimonials-section py-5 bg-light">
+      {/* <section className="testimonials-section py-5 bg-light">
         <div className="container">
           <div className="text-center mb-5">
             <h2 className="section-title fw-bold">Real Stories, Real Impact</h2>
-            {/* <p className="section-subtitle text-muted">
-        Hear from patients and families who’ve experienced compassionate care with OncoBridge.
-      </p> */}
             <p className="section-subtitle text-muted">
               OncoBridge gave us confidence. We felt supported and informed.
             </p>
@@ -652,7 +649,7 @@ const Home = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
 
 
@@ -750,7 +747,7 @@ const Home = () => {
 
 
       {/* Section 8 */}
-      <section className="ready-next">
+      {/* <section className="ready-next">
         <div className="container-fluid p-0">
           <div className="row gx-0 align-items-center">
             <div className="col-md-6 col-lg-6 col-sm-6">
@@ -767,7 +764,7 @@ const Home = () => {
            </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* <section className="newsletter-beauty text-white">
         <div className="container py-5 text-center">
           <h2 className="newsletter-heading">Get Health Insights & Breakthroughs</h2>
@@ -796,7 +793,7 @@ const Home = () => {
 
 
       {/* Section: FAQ */}
-      <section className="faq-section py-5 bg-white">
+      {/* <section className="faq-section py-5 bg-white">
         <div className="container">
           <div className="text-center mb-5">
             <h2 className="section-title">Frequently Asked Questions</h2>
@@ -852,15 +849,7 @@ const Home = () => {
             ))}
           </div>
         </div>
-      </section>
-
-
-
-
-
-
-
-
+      </section> */}
     </>
   );
 };

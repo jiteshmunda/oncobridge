@@ -23,6 +23,7 @@ import Partners from './pages/Partners';
 import Patients from './pages/Patients';
 import NotFound from './pages/NotFound';
 import Myths from './pages/Myths';
+import SecondOption from './pages/SecondOption';
 function App() {
   return (
     <Router>
@@ -37,6 +38,8 @@ function App() {
            <Route path="/patients" element={<Patients />} />
            <Route path="/partners" element={<Partners />} />
           <Route path="/productdesc" element={<ProductDesc />} />
+           <Route path="/secondoption" element={<SecondOption />} />
+
           <Route path="/myths" element={<Myths />} />
           <Route path="/blog" element={<BlogSection />} />
           <Route path="/blogdetail" element={<BlogDetail />} />
