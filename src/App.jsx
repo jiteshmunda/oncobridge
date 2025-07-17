@@ -22,6 +22,7 @@ import Faq from './pages/Faq';
 import Partners from './pages/Partners';
 import Patients from './pages/Patients';
 import NotFound from './pages/NotFound';
+import Myths from './pages/Myths';
 function App() {
   return (
     <Router>
@@ -36,6 +37,7 @@ function App() {
            <Route path="/patients" element={<Patients />} />
            <Route path="/partners" element={<Partners />} />
           <Route path="/productdesc" element={<ProductDesc />} />
+          <Route path="/myths" element={<Myths />} />
           <Route path="/blog" element={<BlogSection />} />
           <Route path="/blogdetail" element={<BlogDetail />} />
           <Route path="/faq" element={<Faq />} />

@@ -52,15 +52,15 @@ Services
   <ul class="dropdown-menu " aria-labelledby="dropdownMenuButton">
     <li>
       {/* <a class="dropdown-item" href="/patients">Patients</a> */}
-      <Link class="dropdown-item" to="/patients">Patients</Link>
+      <Link class="dropdown-item" to="/patients"  onClick={closeMenu}>Patients</Link>
     </li>
     <li>
-       <Link class="dropdown-item" to="/hospital">Hospital</Link>
+       <Link class="dropdown-item" to="/hospital"  onClick={closeMenu}>Hospital</Link>
       {/* <a class="dropdown-item" href="/hospital">Hospital </a> */}
       </li>
     <li>
       {/* <a class="dropdown-item" href="/insurance">Insurance</a> */}
-       <Link class="dropdown-item" to="/insurance">Insurance</Link>
+       <Link class="dropdown-item" to="/insurance"  onClick={closeMenu}>Insurance</Link>
       </li>
      {/* <li>
      
@@ -71,12 +71,35 @@ Services
   </ul>
 </div>
 
-
+<div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+Resource
+  </button>
+  <ul class="dropdown-menu " aria-labelledby="dropdownMenuButton">
+      <li><Link  class="dropdown-item" to="/blog" onClick={closeMenu}>Blog</Link></li>
+    <li><Link  class="dropdown-item" to="/blog" onClick={closeMenu}>Testimonials</Link></li>
+    <li><Link  class="dropdown-item" to="/blog" onClick={closeMenu}>Videos</Link></li>
+    <li><Link  class="dropdown-item" to="/blog" onClick={closeMenu}>Newsletters</Link></li>
+      <li><Link  class="dropdown-item" to="/myths" onClick={closeMenu}>Myths</Link></li>
+     <li><Link class="dropdown-item" to="/productdesc">Product description</Link></li> 
+      <li><Link class="dropdown-item" to="/partners">Partners</Link></li> 
+    
+    {/* <li>
+       <Link class="dropdown-item" to="/insurance"  onClick={closeMenu}>Facts</Link>
+      </li> */}
+     {/* <li>
+     
+        <Link class="dropdown-item" to="/blog">Blog</Link>
+     </li> */}
+      {/* <li><a class="dropdown-item" href="/productdesc">Product description</a></li> */}
+      
+  </ul>
+</div>
 
           <li><Link to="/partners" onClick={closeMenu}><span>Partners</span></Link></li>
           <li><Link to="/career" onClick={closeMenu}><span>Career</span></Link></li>
            <li><Link to="/faq" onClick={closeMenu}><span>FAQ</span></Link></li>
-            <li><Link to="/blog" onClick={closeMenu}><span>Blog</span></Link></li>
+            {/* <li><Link to="/blog" onClick={closeMenu}><span>Blog</span></Link></li> */}
           {/* <li><Link to="/blog" onClick={closeMenu}><span>Blog</span></Link></li> */}
           <li><Link to="/contact" onClick={closeMenu}><span>Contact</span></Link></li>
           {/* <li><Link to="/career" onClick={closeMenu}><span>Career</span></Link></li>

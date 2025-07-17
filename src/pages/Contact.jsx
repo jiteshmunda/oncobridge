@@ -21,62 +21,64 @@ function Contact() {
               <p>
                 <i className="fas fa-map-marker-alt me-2 text-primary"></i>
                 <strong>Address:</strong><br />
-                123 Health Street, Mumbai, India
+                18-2, Ground Floor, 4th Street, Gokulam Colony
+                <br />
+                PN Pudur Coimbatore, Tamil Nadu, India
               </p>
 
               <p>
                 <i className="fas fa-envelope me-2 text-primary"></i>
                 <strong>Email:</strong><br />
-                <a href="mailto:support@oncologycare.in">support@oncologycare.in</a>
+                <a href="mailto:care@oncobridge.in " className='text-primary'>care@oncobridge.in </a>
               </p>
 
               <p>
                 <i className="fas fa-phone-alt me-2 text-primary"></i>
                 <strong>Phone:</strong><br />
-                <a href="tel:+919876543210">+91 98765 43210</a>
+                <a href="tel:+9190256 65212" className='text-primary'>+91 90256 65212 </a>
               </p>
             </div>
           </div>
 
           {/* Contact Form */}
           <div className="col-md-7">
-             <div className=' text-justify rounded-4 contact_us_right'>
-            <form>
-              <div className='row'>
-                <div className='col-lg-6 col-md-6 col-sm-12'>
-                  <div className="mb-3">
-                    <label htmlFor="name" className="form-label">Your Name</label>
-                    <input type="text" className="form-control" id="name" required />
+            <div className=' text-justify rounded-4 contact_us_right'>
+              <form>
+                <div className='row'>
+                  <div className='col-lg-6 col-md-6 col-sm-12'>
+                    <div className="mb-3">
+                      <label htmlFor="name" className="form-label">Your Name</label>
+                      <input type="text" className="form-control" id="name" required />
+                    </div>
                   </div>
-                </div>
 
-                <div className='col-lg-6 col-md-6 col-sm-12'>
-                  <div className="mb-3">
-                    <label htmlFor="email" className="form-label">Email Address</label>
-                    <input type="email" className="form-control" id="email" required />
+                  <div className='col-lg-6 col-md-6 col-sm-12'>
+                    <div className="mb-3">
+                      <label htmlFor="email" className="form-label">Email Address</label>
+                      <input type="email" className="form-control" id="email" required />
+                    </div>
+                  </div>
+                  <div className='col-lg-6 col-md-6 col-sm-12'>
+                    <div className="mb-3">
+                      <label htmlFor="subject" className="form-label">Mobile</label>
+                      <input type="text" className="form-control" id="subject" />
+                    </div>
+                  </div>
+                  <div className='col-lg-6 col-md-6 col-sm-12'>
+                    <div className="mb-3">
+                      <label htmlFor="subject" className="form-label">Subject</label>
+                      <input type="text" className="form-control" id="subject" />
+                    </div>
+                  </div>
+                  <div className='col-lg-12 col-md-12 col-sm-12'>
+                    <div className="mb-3">
+                      <label htmlFor="message" className="form-label">Message</label>
+                      <textarea className="form-control" id="message" rows="4" required></textarea>
+                    </div>
                   </div>
                 </div>
-                <div className='col-lg-6 col-md-6 col-sm-12'>
-                  <div className="mb-3">
-                    <label htmlFor="subject" className="form-label">Mobile</label>
-                    <input type="text" className="form-control" id="subject" />
-                  </div>
-                </div>
-                <div className='col-lg-6 col-md-6 col-sm-12'>
-                  <div className="mb-3">
-                    <label htmlFor="subject" className="form-label">Subject</label>
-                    <input type="text" className="form-control" id="subject" />
-                  </div>
-                </div>
-                <div className='col-lg-12 col-md-12 col-sm-12'>
-                  <div className="mb-3">
-                    <label htmlFor="message" className="form-label">Message</label>
-                    <textarea className="form-control" id="message" rows="4" required></textarea>
-                  </div>
-                </div>
-              </div>
-              <button type="submit" className="btn btn-primary">Send Message</button>
-            </form>
+                <button type="submit" className="btn btn-primary">Send Message</button>
+              </form>
             </div>
           </div>
         </div>

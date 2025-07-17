@@ -310,6 +310,7 @@ text-align: left;
   position: relative;
       text-align: left !important;
        width: 100%;
+       height: 73vh;
 }
 .bg-image-about::before {
   content: "";
@@ -322,20 +323,44 @@ text-align: left;
   position: relative;
   z-index: 2;
 }
+.bg-image-partners 
+{
+    background-image: url('../assets/partners.jpg'); /* Your image path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+      text-align: left !important;
+       width: 100%;
+       height: 73vh;
+}
+.bg-image-partners::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+  z-index: 1;
+}
+
 @media (max-width: 576px) {
   .btn-mobile-sm {
     padding: 0.25rem 0.5rem; /* Small padding */
     font-size: 0.875rem;     /* Smaller font size */
   }
 }
-.about_images .about_img1
+.about_images 
 {
 position: absolute;
 
 }
 .about_img1
  {
-  position: absolute;
+  width: 350px;
+   height: auto;
+ }
+ .about_img2
+ {
+ width: 88%;
  }
   .how-helps-section{
         background-color: #f4f7fc;
@@ -358,4 +383,9 @@ position: absolute;
     margin-top: 12%;
     margin-bottom: 12%;
 }
+}
+/* parthenrs  */
+.partner_logo 
+{
+      width: 40%;
 }

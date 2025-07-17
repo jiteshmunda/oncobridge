@@ -36,9 +36,11 @@ function Footer() {
           {/* Contact Info */}
           <div className="col-md-3 mb-4">
             <h5 className="text-uppercase fw-bold mb-3">Contact</h5>
-            <p><i className="fas fa-home me-2"></i> New York, NY 10012, US</p>
-            <p><i className="fas fa-envelope me-2"></i> info@oncobridge.com</p>
-            <p><i className="fas fa-phone me-2"></i> +1 234 567 890</p>
+            <p><i className="fas fa-home me-2"></i> 18-2, Ground Floor, 4th Street, Gokulam Colony 
+            PN Pudur Coimbatore, Tamil Nadu, India 
+</p>
+            <p><i className="fas fa-envelope me-2"></i> care@oncobridge.in </p>
+            <p><i className="fas fa-phone me-2"></i> +91 90256 65212 </p>
           </div>
 
           {/* Social Icons */}
