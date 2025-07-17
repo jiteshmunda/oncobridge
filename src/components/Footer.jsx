@@ -1,52 +1,104 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
-    <footer className="bg-dark text-light pt-5 pb-4 footer">
+    <footer className="bg-white text-dark pt-5 pb-4 footer">
       <div className="container">
         <div className="row">
           {/* Brand Description */}
-          <div className="col-md-4 mb-4">
-            <h5 className="text-uppercase fw-bold mb-3">OncoBridge</h5>
+          <div className="col-md-3 mb-4">
+            <img
+              src="/src/assets/1-removebg-preview.png"
+              alt="OncoBridge Logo"
+              style={{ maxWidth: "120px" }}
+              className="mb-3"
+            />
             <p>
-              Bridging cancer care and technology. OncoBridge connects patients, providers, and data for a better tomorrow.
+              Bridging cancer care and technology. OncoBridge connects patients,
+              providers, and data for a better tomorrow.
             </p>
           </div>
 
           {/* Quick Links */}
           <div className="col-md-3 mb-4">
             <h5 className="text-uppercase fw-bold mb-3">Quick Links</h5>
-            <div className='d-flex justify-content-end'>
-            <ul className="list-unstyled">
-              <li><a href="/" className="text-light text-decoration-none">Home</a></li>
-              <li><a href="/patients" className="text-light text-decoration-none">About</a></li>
-              <li><a href="/hospital" className="text-light text-decoration-none">Product</a></li>
-              <li><a href="/insurance" className="text-light text-decoration-none">Services</a></li>
-              <li><a href="/contact" className="text-light text-decoration-none">Contact</a></li>
-            </ul>
-            <ul className="list-unstyled mx-auto ">
-             <li><Link to="/career" className='text-white text-decoration-none'><span>Career</span></Link></li>
-          <li><Link to="/terms" className='text-white text-decoration-none'><span>Terms</span></Link></li>
-          <li><Link to="/disclaimers" className='text-white text-decoration-none'><span>Disclaimers</span></Link></li> 
-          </ul>
-          </div>
+            <div className="d-flex justify-content-end">
+              <ul className="list-unstyled">
+                <li>
+                  <a href="/" className="text-dark text-decoration-none">
+                    Home
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/patients"
+                    className="text-dark text-decoration-none"
+                  >
+                    About
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/hospital"
+                    className="text-dark text-decoration-none"
+                  >
+                    Product
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/insurance"
+                    className="text-dark text-decoration-none"
+                  >
+                    Services
+                  </a>
+                </li>
+                <li>
+                  <a href="/contact" className="text-dark text-decoration-none">
+                    Contact
+                  </a>
+                </li>
+              </ul>
+              <ul className="list-unstyled mx-auto ">
+                <li>
+                  <Link to="/career" className="text-dark text-decoration-none">
+                    <span>Career</span>
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/terms" className="text-dark text-decoration-none">
+                    <span>Terms</span>
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="/disclaimers"
+                    className="text-dark text-decoration-none"
+                  >
+                    <span>Disclaimers</span>
+                  </Link>
+                </li>
+              </ul>
+            </div>
           </div>
 
           {/* Contact Info */}
           <div className="col-md-3 mb-4">
             <h5 className="text-uppercase fw-bold mb-3">Contact</h5>
-            <p><i className="fas fa-home me-2"></i> 18-2, Ground Floor, 4th Street, Gokulam Colony 
-            PN Pudur Coimbatore, Tamil Nadu, India 
-</p>
-            <p><i className="fas fa-envelope me-2"></i> care@oncobridge.in </p>
-            <p><i className="fas fa-phone me-2"></i> +91 90256 65212 </p>
-          </div>
+            <p>
+              <i className="fas fa-home me-2"></i> 123 Health Street, Mumbai,
+              India
+            </p>
+            <p>
+              <i className="fas fa-envelope me-2"></i> support@oncologycare.in
+            </p>
+            <p>
+              <i className="fas fa-phone me-2"></i> +91 98765 43210
+            </p>
 
-          {/* Social Icons */}
-          <div className="col-md-2 mb-4">
-            <h5 className="text-uppercase fw-bold mb-3">Follow Us</h5>
-            <div className="d-flex gap-2">
+            {/* Social Icons moved here */}
+            <div className="d-flex gap-2 mt-3">
               <a href="#" className="social-icon" aria-label="Facebook">
                 <i className="fab fa-facebook-f"></i>
               </a>
@@ -62,12 +114,36 @@ function Footer() {
             </div>
           </div>
 
+          {/* Newsletter */}
+          <div className="col-md-3 mb-4">
+            <h5 className="text-uppercase fw-bold mb-3">Newsletter</h5>
+            <p>Stay informed with updates and health tips from OncoBridge.</p>
+            <form onSubmit={(e) => e.preventDefault()}>
+              <div className="position-relative">
+                <input
+                  type="email"
+                  className="form-control rounded-pill pe-5 py-2"
+                  placeholder="Your email"
+                  required
+                />
+                <button
+                  type="submit"
+                  className="btn btn-primary position-absolute end-0 top-0 mt-1 me-1 rounded-pill px-3 d-flex align-items-center justify-content-center"
+                  style={{ height: "80%" }}
+                >
+                  send
+                </button>
+              </div>
+            </form>
+          </div>
         </div>
 
         {/* Copyright */}
         <div className="row border-top pt-3 mt-4">
           <div className="col text-center">
-            <small>&copy; {new Date().getFullYear()} OncoBridge. All rights reserved.</small>
+            <small>
+              &copy; {new Date().getFullYear()} OncoBridge. All rights reserved.
+            </small>
           </div>
         </div>
       </div>

@@ -1,0 +1,404 @@
+.banner-heading {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: white;
+}
+
+.banner-subheading {
+  font-size: 1.25rem;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+
+.disclaimer-banner {
+  background-image: url('/src/assets/copy-space-heart-shape-stethoscope.jpg'); /* Replace with actual image path */
+  background-position: center;
+  height: 500px;
+  position: relative;
+  overflow: hidden;
+}
+
+.disclaimer-banner .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 0;
+}
+
+.disclaimer-banner .container {
+  z-index: 1;
+}
+
+
+
+
+
+
+.disclaimer-section {
+  padding: 60px 0;
+  background: #f9f9f9;
+  overflow: hidden;
+}
+
+.disclaimer-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0;
+  height: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.disclaimer-menu {
+  flex: 1;
+
+  background-color: #01579B;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+
+  padding: 20px;
+  width: 35%;
+  max-width: 400px;
+  overflow-y: auto;
+}
+
+/* Ensure specific elements inside also get white color */
+.disclaimer-menu h5,
+.disclaimer-menu span,
+.disclaimer-menu .arrow {
+  color: #81b4e4 !important;
+}
+
+.disclaimer-item {
+  padding: 20px;
+  cursor: pointer;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background 0.3s ease;
+}
+
+
+
+/* Active state overrides */
+.disclaimer-item.active h5,
+.disclaimer-item.active .arrow {
+  color: #ffffff !important; 
+}
+
+
+.disclaimer-item h5 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.disclaimer-item .arrow {
+  font-size: 20px;
+}
+
+.disclaimer-content {
+  flex: 2;
+  background-color: #ffffff;
+  padding: 40px;
+   border: 1px solid #f1f1f1; 
+}
+
+.disclaimer-content h3 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.disclaimer-text p {
+  margin-bottom: 15px;
+  line-height: 1.6;
+  color: #333;
+}
+
+.disclaimer-text ul {
+  padding-left: 18px;
+}
+
+.disclaimer-text ul li {
+  margin-bottom: 10px;
+  color: #555;
+}
+
+
+
+
+/* Arrow hover animation ONLY */
+.disclaimer-item:hover .arrow {
+  transform: translateX(5px);
+  transition: transform 0.3s ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Content Styling */
+.disclaimer-text p,
+.disclaimer-text li {
+  font-size: 16px;
+  color: #444;
+  line-height: 1.7;
+}
+
+/* Bullet Spacing */
+.disclaimer-text ul {
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.disclaimer-text ul li {
+  margin-bottom: 10px;
+}
+
+/* Links */
+.disclaimer-text a {
+  color: #0288D1;
+  text-decoration: underline;
+}
+
+
+
+
+.disclaimer-text ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.disclaimer-text ul li {
+  position: relative;
+  padding-left: 28px;
+  margin-bottom: 12px;
+  font-size: 16px;
+  color: #444;
+  line-height: 1.7;
+}
+
+.disclaimer-text ul li::before {
+  content: "✔"; 
+  position: absolute;
+  left: 0;
+  top: 2px;
+  color: #0288D1;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+
+
+
+
+
+
+
+.disclaimer-main-heading {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #154360;
+  text-align: center;
+
+}
+
+
+
+
+
+
+.terms-timeline-section {
+  background: linear-gradient(to bottom, #f0f9ff, #e0f2fe);
+  padding: 2rem 2rem;
+  font-family: 'Inter', sans-serif;
+}
+
+.terms-timeline-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #154360;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.terms-timeline {
+  position: relative;
+  margin: 0 auto;
+  max-width: 800px;
+  padding-left: 0;
+}
+
+.terms-timeline::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 32px;
+  width: 4px;
+  height: 100%;
+  background: linear-gradient(to bottom, #3498db, #aed6f1);
+  border-radius: 2px;
+  z-index: 0;
+}
+
+.terms-timeline-item {
+  position: relative;
+  padding-left: 90px;
+  margin-bottom: 4rem;
+  animation: fadeInUp 0.6s ease both;
+}
+
+.terms-timeline-icon {
+  position: absolute;
+  left: 8px;
+  top: 0;
+  width: 48px;
+  height: 48px;
+  background: white;
+  color: #3498db;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1.3rem;
+  box-shadow: 0 0 0 4px #3498db, 0 0 12px rgba(52, 152, 219, 0.3);
+  z-index: 2;
+  transition: transform 0.3s ease;
+}
+
+.terms-timeline-item:hover .terms-timeline-icon {
+  transform: scale(1.15);
+  box-shadow: 0 0 0 5px #1a5276, 0 0 18px rgba(26, 82, 118, 0.4);
+}
+
+.terms-timeline-content {
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 1.25rem;
+  box-shadow: 0 10px 40px rgba(26, 82, 118, 0.1);
+  position: relative;
+  z-index: 1;
+  transition: all 0.3s ease;
+}
+
+.terms-timeline-content:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 14px 48px rgba(26, 82, 118, 0.15);
+}
+
+.terms-timeline-content h4 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #154360;
+  margin-bottom: 0.75rem;
+}
+
+.terms-timeline-content p,
+.terms-timeline-content ul {
+  color: #4f4f4f;
+  font-size: 1rem;
+  margin: 0;
+  line-height: 1.7;
+}
+
+.terms-timeline-content a {
+  color: #1a5276;
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+@keyframes fadeInUp {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 576px) {
+  .terms-timeline {
+    padding-left: 1.5rem;
+  }
+
+  .terms-timeline-icon {
+    width: 42px;
+    height: 42px;
+    font-size: 1.1rem;
+    left: -34px;
+  }
+
+  .terms-timeline-content {
+    padding: 1.5rem;
+  }
+
+  .terms-timeline-content h4 {
+    font-size: 1.15rem;
+  }
+
+  .terms-timeline-content p,
+  .terms-timeline-content ul {
+    font-size: 0.95rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.terms-timeline-content ul {
+  list-style: none;
+  padding-left: 1.5rem;
+  margin: 0;
+}
+
+.terms-timeline-content ul li {
+  position: relative;
+  padding-left: 1.5rem;
+  margin-bottom: 0.75rem;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #333;
+}
+
+.terms-timeline-content ul li::before {
+   content: "✔"; 
+  position: absolute;
+  left: 0;
+  top: 2px;
+  color: #0288D1;
+  font-weight: bold;
+  font-size: 16px;
+}
