@@ -632,3 +632,22 @@ a {
     bottom: 0;
     right: 0;
 }
+/* menu  */
+/* Common link style */
+.menu-link,
+.footer-link {
+
+  text-decoration: none;
+  color: gray;
+}
+
+/* Active styles */
+.menu-link.active {
+  color: #01579B;
+  font-weight: bold;
+}
+
+.footer-link.active {
+  color: #01579B;
+  text-decoration: underline;
+}

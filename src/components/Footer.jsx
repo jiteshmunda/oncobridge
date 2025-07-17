@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 function Footer() {
   return (
@@ -26,58 +26,68 @@ function Footer() {
             <div className="d-flex justify-content-end">
               <ul className="list-unstyled">
                 <li>
+                  <NavLink to="/"  className={({ isActive }) => isActive ? "menu-link active" : "text-dark text-decoration-none"}><span>Home</span></NavLink>
+                </li>
+                {/* <li>
                   <a href="/" className="text-dark text-decoration-none">
                     Home
                   </a>
-                </li>
+                </li> */}
                 <li>
-                  <a
+                  <NavLink to="/about"  className={({ isActive }) => isActive ? "menu-link active" : "text-dark text-decoration-none"}><span>About</span></NavLink>
+                  {/* <a
                     href="/patients"
                     className="text-dark text-decoration-none"
                   >
                     About
-                  </a>
+                  </a> */}
                 </li>
                 <li>
-                  <a
+                  {/* <a
                     href="/hospital"
                     className="text-dark text-decoration-none"
                   >
                     Product
-                  </a>
+                  </a> */}
+                  <NavLink to="/productdesc" className={({ isActive }) => isActive ? "menu-link active" : "text-dark text-decoration-none"}><span>Product</span></NavLink>
+                
                 </li>
                 <li>
-                  <a
+                  {/* <a
                     href="/insurance"
                     className="text-dark text-decoration-none"
                   >
                     Services
-                  </a>
+                  </a> */}
+                    <NavLink to="/secondoption" className={({ isActive }) => isActive ? "menu-link active" : "text-dark text-decoration-none"}><span>Services</span></NavLink>
+                
                 </li>
                 <li>
-                  <a href="/contact" className="text-dark text-decoration-none">
+                  {/* <a href="/contact" className="text-dark text-decoration-none">
                     Contact
-                  </a>
+                  </a> */}
+                    <NavLink to="/contact"  className={({ isActive }) => isActive ? "menu-link active" : "text-dark text-decoration-none"}><span>Contact</span></NavLink>
+                
                 </li>
               </ul>
               <ul className="list-unstyled mx-auto ">
                 <li>
-                  <Link to="/career" className="text-dark text-decoration-none">
+                  <NavLink to="/career" className={({ isActive }) => isActive ? "menu-link active" : "text-dark text-decoration-none"}>
                     <span>Career</span>
-                  </Link>
+                  </NavLink>
                 </li>
                 <li>
-                  <Link to="/terms" className="text-dark text-decoration-none">
+                  <NavLink to="/terms" className={({ isActive }) => isActive ? "menu-link active" : "text-dark text-decoration-none"}>
                     <span>Terms</span>
-                  </Link>
+                  </NavLink>
                 </li>
                 <li>
-                  <Link
+                  <NavLink
                     to="/disclaimers"
-                    className="text-dark text-decoration-none"
+                    className={({ isActive }) => isActive ? "menu-link active" : "text-dark text-decoration-none"}
                   >
                     <span>Disclaimers</span>
-                  </Link>
+                  </NavLink>
                 </li>
               </ul>
             </div>
