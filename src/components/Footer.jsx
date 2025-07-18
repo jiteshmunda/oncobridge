@@ -26,61 +26,32 @@ function Footer() {
             <div className="d-flex justify-content-end">
               <ul className="list-unstyled">
                 <li>
-                  <NavLink to="/"  className={({ isActive }) => isActive ? "menu-link active" : "text-dark text-decoration-none"}><span>Home</span></NavLink>
+                  <NavLink to="/" className={({ isActive }) => isActive ? "menu-link active" : "text-dark text-decoration-none"}><span>Home</span></NavLink>
                 </li>
                 {/* <li>
                   <a href="/" className="text-dark text-decoration-none">
                     Home
                   </a>
                 </li> */}
-                <li>
-                  <NavLink to="/about"  className={({ isActive }) => isActive ? "menu-link active" : "text-dark text-decoration-none"}><span>About</span></NavLink>
-                  {/* <a
-                    href="/patients"
-                    className="text-dark text-decoration-none"
-                  >
-                    About
-                  </a> */}
-                </li>
-                <li>
-                  {/* <a
-                    href="/hospital"
-                    className="text-dark text-decoration-none"
-                  >
-                    Product
-                  </a> */}
-                  <NavLink to="/productdesc" className={({ isActive }) => isActive ? "menu-link active" : "text-dark text-decoration-none"}><span>Product</span></NavLink>
-                
-                </li>
-                <li>
-                  {/* <a
-                    href="/insurance"
-                    className="text-dark text-decoration-none"
-                  >
-                    Services
-                  </a> */}
-                    <NavLink to="/secondoption" className={({ isActive }) => isActive ? "menu-link active" : "text-dark text-decoration-none"}><span>Services</span></NavLink>
-                
-                </li>
-                <li>
-                  {/* <a href="/contact" className="text-dark text-decoration-none">
-                    Contact
-                  </a> */}
-                    <NavLink to="/contact"  className={({ isActive }) => isActive ? "menu-link active" : "text-dark text-decoration-none"}><span>Contact</span></NavLink>
-                
-                </li>
+                <li><NavLink to="/about" className={({ isActive }) => isActive ? "menu-link active" : "text-dark text-decoration-none"}><span>About Us</span></NavLink></li>
+                <li><NavLink to="/patients" className={({ isActive }) => isActive ? "menu-link active" : "text-dark text-decoration-none"}><span>Patients</span></NavLink></li>
+                <li><NavLink to="/hospital" className={({ isActive }) => isActive ? "menu-link active" : "text-dark text-decoration-none"}><span>Hospital</span></NavLink></li>
+                <li><NavLink to="/insurance" className={({ isActive }) => isActive ? "menu-link active" : "text-dark text-decoration-none"}><span>Insurance</span></NavLink></li>
+
+                <li><NavLink to="/blog" className={({ isActive }) => isActive ? "menu-link active" : "text-dark text-decoration-none"}><span>blog</span></NavLink></li>
+<li><NavLink to="/blog" className={({ isActive }) => isActive ? "menu-link active" : "text-dark text-decoration-none"}><span>Testimonials</span></NavLink></li>
+                <li><NavLink to="/blog" className={({ isActive }) => isActive ? "menu-link active" : "text-dark text-decoration-none"}><span>Videos</span></NavLink></li>
+              
               </ul>
               <ul className="list-unstyled mx-auto ">
-                <li>
-                  <NavLink to="/career" className={({ isActive }) => isActive ? "menu-link active" : "text-dark text-decoration-none"}>
-                    <span>Career</span>
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink to="/terms" className={({ isActive }) => isActive ? "menu-link active" : "text-dark text-decoration-none"}>
-                    <span>Terms</span>
-                  </NavLink>
-                </li>
+                  <li><NavLink to="/blog" className={({ isActive }) => isActive ? "menu-link active" : "text-dark text-decoration-none"}><span>Newsletters</span></NavLink></li>
+                <li><NavLink to="/myths" className={({ isActive }) => isActive ? "menu-link active" : "text-dark text-decoration-none"}><span>Myths</span></NavLink></li>
+                <li><NavLink to="/faq" className={({ isActive }) => isActive ? "menu-link active" : "text-dark text-decoration-none"}><span>FAQ</span></NavLink></li>
+
+
+                <li><NavLink to="/career" className={({ isActive }) => isActive ? "menu-link active" : "text-dark text-decoration-none"}><span>Career</span></NavLink></li>
+                <li><NavLink to="/partners" className={({ isActive }) => isActive ? "menu-link active" : "text-dark text-decoration-none"}><span>Partners</span></NavLink></li>
+                <li><NavLink to="/contact" className={({ isActive }) => isActive ? "menu-link active" : "text-dark text-decoration-none"}><span>Contact</span></NavLink></li>
                 <li>
                   <NavLink
                     to="/disclaimers"
@@ -97,28 +68,30 @@ function Footer() {
           <div className="col-md-3 mb-4">
             <h5 className="text-uppercase fw-bold mb-3">Contact</h5>
             <p>
-              <i className="fas fa-home me-2"></i> 123 Health Street, Mumbai,
-              India
+              <i className="fas fa-home me-2"></i>
+              18-2, Ground Floor, 4th Street, Gokulam Colony
+              PN Pudur Coimbatore, Tamil Nadu, India
+
             </p>
             <p>
-              <i className="fas fa-envelope me-2"></i> support@oncologycare.in
+              <i className="fas fa-envelope me-2"></i> care@oncobridge.in
             </p>
             <p>
-              <i className="fas fa-phone me-2"></i> +91 98765 43210
+              <i className="fas fa-phone me-2"></i> +91 90256 65212
             </p>
 
             {/* Social Icons moved here */}
             <div className="d-flex gap-2 mt-3">
-              <a href="#" className="social-icon" aria-label="Facebook">
+              <a href="https://www.facebook.com/share/1WvrTsomYM/" target="_blank" className="social-icon" aria-label="Facebook">
                 <i className="fab fa-facebook-f"></i>
               </a>
-              <a href="#" className="social-icon" aria-label="Twitter">
+              <a href="https://x.com/OncoBridge?t=b0ixO1WXQ-4UlIlO56b4wg&s=09" target="_blank" className="social-icon" aria-label="Twitter">
                 <i className="fab fa-twitter"></i>
               </a>
-              <a href="#" className="social-icon" aria-label="LinkedIn">
+              <a href="https://www.linkedin.com/in/onco-bridge-b3204b375?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"  target="_blank" className="social-icon" aria-label="LinkedIn">
                 <i className="fab fa-linkedin-in"></i>
               </a>
-              <a href="#" className="social-icon" aria-label="Instagram">
+              <a href="https://www.instagram.com/onco_bridge?igsh=MXAyYXh6cjUzZzZmbQ==&utm_source=ig_contact_invite"  target="_blank" className="social-icon" aria-label="Instagram">
                 <i className="fab fa-instagram"></i>
               </a>
             </div>
