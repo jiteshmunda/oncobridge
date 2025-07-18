@@ -441,6 +441,72 @@ a {
 }
 
 /* myths  */
+ .testimonial-section-myths {
+      background-color: #0288D1;
+      color: #fff;
+      padding: 60px 20px 40px;
+      position: relative;
+      text-align: center;
+    }
+
+    .testimonial-section-myths::after {
+      content: "";
+      position: absolute;
+      bottom: -30px;
+      left: 0;
+      right: 0;
+      height: 60px;
+      background: white;
+      clip-path: polygon(50% 0%, 100% 100%, 0 100%);
+    }
+
+   .testimonial-myths {
+      text-align: center;
+      padding: 30px 20px;
+      
+    }
+    .fact_row .col
+    {
+           border-left: 2px dotted #d9d4d4;
+    border-top: 2px dotted #d9d4d4;
+    }
+     .fact_row .col:last-child
+     {
+       border-bottom: 2px dotted #d9d4d4;
+     }
+     .fact_row_lastrow 
+     {
+      border-bottom: 2px dotted #d9d4d4;
+     }
+.testi_myths_text p 
+{
+  margin-bottom: 3px;
+}
+    .testimonial-myths img {
+      width: 80px;
+      height: 80px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 15px;
+    }
+
+    .testimonial-myths p {
+      /* font-size: 15px; */
+         text-align: left;
+    margin-left: 12px;
+    }
+
+    .testimonial-myths .name {
+      font-weight: 600;
+      margin-top: 10px;
+    }
+
+    .testimonial-myths .title {
+      color: #007bff;
+      font-size: 14px;
+      text-decoration: none;
+    }
+
 
 .bg-image-myths {
   background-image: url('../assets/myths_bg_main.jpg');
