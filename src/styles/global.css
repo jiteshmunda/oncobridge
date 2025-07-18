@@ -766,3 +766,8 @@ a {
   /* Dark overlay */
   z-index: 1;
 }
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+   
+    background-color: #0288d1;
+}
