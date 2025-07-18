@@ -18,7 +18,30 @@ const Home = () => {
   return (
     <>
       {/* Banner Section */}
-      <section className="hero-banner d-flex align-items-center text-white">
+       <section className="text-center">
+        <div className='container-fluid px-0'>
+          <div className='row gx-0 align-items-left'>
+            <div className="bg-image-home d-flex justify-content-left align-items-center text-left text-white ">
+              <div className="overlay-content">
+                <div className='col-md-7 p-3 ms-lg-5 ps-lg-4'>
+                 <h1 className="display-4 fw-bold text-white">
+                Lorem ipsum dolor sit amet
+              </h1>
+              <p className="lead mb-4 text-white">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Integer efficitur tortor eu egestas pulvinar
+              </p>
+              <div>
+                <a href="/secondoption" className="btn btn-light me-3 px-4 py-2 mb-4">Get Your Second Opinion </a>
+                <a href="#services" className="btn btn-outline-light px-4 py-2 mb-4">How It Works </a>
+              </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* <section className="hero-banner d-flex align-items-center text-white">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6 text-center text-lg-start">
@@ -39,7 +62,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
 
       {/* Section 1 */}
