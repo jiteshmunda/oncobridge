@@ -13,7 +13,7 @@
 
 
 .disclaimer-banner {
-  background-image: url('/src/assets/copy-space-heart-shape-stethoscope.jpg'); /* Replace with actual image path */
+  background-image: url('/src/assets/disclaimer.jpg'); 
   background-position: center;
   height: 500px;
   position: relative;
