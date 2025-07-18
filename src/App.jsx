@@ -24,6 +24,7 @@ import Patients from './pages/Patients';
 import NotFound from './pages/NotFound';
 import Myths from './pages/Myths';
 import SecondOption from './pages/SecondOption';
+import TestimonialSlider from './pages/TestimonialSlider';
 function App() {
   return (
     <Router>
@@ -39,6 +40,9 @@ function App() {
            <Route path="/partners" element={<Partners />} />
           <Route path="/productdesc" element={<ProductDesc />} />
            <Route path="/secondoption" element={<SecondOption />} />
+
+
+   <Route path="/testimonial" element={<TestimonialSlider />} />
 
           <Route path="/myths" element={<Myths />} />
           <Route path="/blog" element={<BlogSection />} />

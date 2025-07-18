@@ -18,23 +18,23 @@ const Home = () => {
   return (
     <>
       {/* Banner Section */}
-       <section className="text-center">
+      <section className="text-center">
         <div className='container-fluid px-0'>
           <div className='row gx-0 align-items-left'>
             <div className="bg-image-home d-flex justify-content-left align-items-center text-left text-white ">
               <div className="overlay-content">
                 <div className='col-md-7 p-3 ms-lg-5 ps-lg-4'>
-                 <h1 className="display-4 fw-bold text-white">
-                Lorem ipsum dolor sit amet
-              </h1>
-              <p className="lead mb-4 text-white">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Integer efficitur tortor eu egestas pulvinar
-              </p>
-              <div>
-                <a href="/secondoption" className="btn btn-light me-3 px-4 py-2 mb-4">Get Your Second Opinion </a>
-                <a href="#services" className="btn btn-outline-light px-4 py-2 mb-4">How It Works </a>
-              </div>
+                  <h1 className="display-4 fw-bold text-white">
+                    Lorem ipsum dolor sit amet
+                  </h1>
+                  <p className="lead mb-4 text-white">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Integer efficitur tortor eu egestas pulvinar
+                  </p>
+                  <div>
+                    <a href="/secondoption" className="btn btn-light me-3 px-4 py-2 mb-4">Get Your Second Opinion </a>
+                    <a href="#services" className="btn btn-outline-light px-4 py-2 mb-4">How It Works </a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -302,10 +302,12 @@ const Home = () => {
               </p>
 
               <div className="d-flex flex-wrap justify-content-center justify-content-lg-start gap-3">
-                <a href="#" className="store-btn google-play">
+                <a href="#" className="store-btn google-play" onClick={(e) => e.preventDefault()}
+                  style={{ pointerEvents: 'none', color: 'gray', cursor: 'not-allowed' }} >
                   <i className="bi bi-google-play me-2"></i> Google Play
                 </a>
-                <a href="#" className="store-btn app-store">
+                <a href="#" className="store-btn app-store" onClick={(e) => e.preventDefault()}
+                  style={{ pointerEvents: 'none', color: 'gray', cursor: 'not-allowed' }}>
                   <i className="bi bi-apple me-2"></i> App Store
                 </a>
               </div>
@@ -545,7 +547,7 @@ const Home = () => {
       <section className="how-helps-section py-5">
         <div className="container">
           <div className="text-center mb-5">
-            <h2 className="section-title">How OncoBridge Helps </h2>
+            <h2 className="section-title">How Second opinion Helps </h2>
             <p className="section-subtitle">
               Bridging You to World-Class Oncology Expertise
             </p>
@@ -558,7 +560,7 @@ const Home = () => {
                   <p className="card-text">
                     Access to leading global oncologists, personalized insights, peace of mind
                   </p>
-                  <Link to="/patients" className="read-more-btn">For Patients </Link>
+                  <Link to="/secondoption" className="read-more-btn">For Patients </Link>
                 </div>
               </div>
             </div>
@@ -570,7 +572,7 @@ const Home = () => {
                     Expand your expertise, support your patients with external validation,
                     collaborate seamlessly.
                   </p>
-                  <Link to="/hospital" className="read-more-btn">For Hospitals </Link>
+                  <Link to="/secondoption" className="read-more-btn">For Hospitals </Link>
                 </div>
               </div>
             </div>
@@ -582,44 +584,55 @@ const Home = () => {
                     Ensure appropriate care, manage costs effectively, enhance policyholder s
                     atisfaction.
                   </p>
-                  <Link to="/insurance" className="read-more-btn">For Insurance Providers </Link>
+                  <Link to="/secondoption" className="read-more-btn">For Insurance Providers </Link>
                 </div>
               </div>
             </div>
           </div>
-          {/* <div className="timeline">
-            {[
-
-              {
-                title: "For Patients",
-                desc: "Access to leading global oncologists, personalized insights, peace of mind.",
-                icon: "bi-person-check",
-              },
-              {
-                title: "For Hospitals",
-                desc: "Expand your expertise, support your patients with external validation, collaborate seamlessly.",
-                icon: "bi-camera-video",
-              },
-              {
-                title: "For Insurance Providers",
-                desc: ": Ensure appropriate care, manage costs effectively, enhance policyholder satisfaction.",
-                icon: "bi-heart-pulse",
-              },
-            ].map((step, idx) => (
-              <div className="timeline-item" key={idx}>
-                <div className="timeline-icon">
-                  <i className={`bi ${step.icon}`}></i>
-                </div>
-                <div className="timeline-content">
-                  <h4>{step.title}</h4>
-                  <p>{step.desc}</p>
-                </div>
-              </div>
-            ))}
-          </div> */}
         </div>
       </section>
+      <section className="testimonials-section py-5 bg-light">
+        <div className="container">
+          <div className="">
+            <div className="timeline">
+              {[
 
+                {
+                  title: "OncoBridge ExpertView",
+                  desc1: "Second Opinions Platform",
+                  desc2: "Global cancer specialists offering patients timely, personalized second opinions. Sub-essence: Global expertise. Local confidence.",
+                  icon: "bi-person-check",
+                },
+                {
+                  title: "OncoBridge PrecisionDx",
+                  desc1: "Diagnostics ",
+                  desc2: "High-quality cancer diagnostics using molecular/genomic tools and lab excellence. Sub-essence: Precision that powers the right path.",
+                  icon: "bi-camera-video",
+                },
+                {
+                  title: "OncoBridge Connect",
+                  desc1: "B2B Partnerships Platform",
+                  desc2: "Sub-essence: Global quality. Delivered with trust.",
+                  desc3: "Ecosystem-building through partnerships and distribution.",
+                  icon: "bi-heart-pulse",
+                },
+              ].map((step, idx) => (
+                <div className="timeline-item" key={idx}>
+                  <div className="timeline-icon">
+                    <i className={`bi ${step.icon}`}></i>
+                  </div>
+                  <div className="timeline-content">
+                    <h4>{step.title}</h4>
+                    <p>{step.desc1}</p>
+                    <p>{step.desc2}</p>
+                    <p>{step.desc3}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
 
 
       {/* <section className="testimonials-section py-5 bg-light">

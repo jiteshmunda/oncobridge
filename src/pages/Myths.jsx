@@ -59,7 +59,7 @@ function Myths() {
                 </div>
             </section>
             {/* block 2 */}
-            <section className="text-center py-5 bg-light">
+            <section className="text-center  bg-light">
                 <div className='container-fluid '>
                     <div className='row align-items-center'>
                         <div className='col-md-5'>
