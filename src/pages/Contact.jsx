@@ -86,15 +86,10 @@ function Contact() {
         {/* Google Map (Optional) */}
         <div className="my-5">
           <h5 className="mb-3">Our Location</h5>
-          <iframe
-            title="Google Map"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.6911784715924!2d72.87765547508086!3d19.076090752012664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b64e6ddcd8f3%3A0x21a1d36f3b4a7e3a!2sMumbai%2C%20India!5e0!3m2!1sen!2sin!4v1712345678901"
-            width="100%"
-            height="300"
-            style={{ border: 0 }}
-            allowFullScreen=""
-            loading="lazy"
-          ></iframe>
+         <iframe 
+         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3917.3554280838634!2d76.9508426!3d10.936501199999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba85b003744db31%3A0xb7e0703f11c83c84!2sKovai%20Pudur%20pirivu!5e0!3m2!1sen!2sin!4v1752825269860!5m2!1sen!2sin" 
+         width="1090" height="450" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
       </div>
     </section>

@@ -320,7 +320,7 @@ function Hospitals() {
 
 
       {/* Section: FAQ */}
-      <section className="faq-section py-5 bg-white">
+      {/* <section className="faq-section py-5 bg-white">
         <div className="container">
           <div className="text-center mb-5">
             <h2 className="section-title">Frequently Asked Questions</h2>
@@ -376,7 +376,7 @@ function Hospitals() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
 
       {/* Final CTA */}

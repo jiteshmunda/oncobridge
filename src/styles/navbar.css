@@ -188,7 +188,7 @@
     top: 100%;
     left: 0;
     right: 0;
-    background-color: var(--primary);
+    background-color: #fff;
     flex-direction: column;
     align-items: flex-start;
     padding: 1rem;
@@ -200,7 +200,8 @@
   }
 
   .navbar-menu.open {
-    max-height: 300px;
+            max-height: max-content;
+    /* max-height: 300px; */
     opacity: 1;
     pointer-events: auto;
   }
@@ -226,3 +227,19 @@
       width: 142px;
 }
 
+.dropdown-toggle::before 
+{
+      background-color: #fff !important;
+          left: 95% !important;
+    top: 40% !important;
+}
+.dropdown::before
+{
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900; /* 900 for solid, 400 for regular */
+  content: "\f0d7"; /* fa-folder-open */
+    display: inline-block;
+    position: absolute;
+    left: 100%;
+    top: 3px;
+}

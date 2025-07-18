@@ -45,36 +45,39 @@ function Navbar() {
           {/* <li><Link to="/hospital" onClick={closeMenu}><span>Products</span></Link></li> */}
           {/* <li><Link to="/productdesc" onClick={closeMenu}><span>Product Description</span></Link></li> */}
         
-<div class="dropdown">
-  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+<div className="dropdown">
+  <NavLink  className=" " type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
 Second Opinion
-  </button>
-  <ul class="dropdown-menu " aria-labelledby="dropdownMenuButton">
-    <li><NavLink  class="dropdown-item" to="/patients"  onClick={closeMenu}  className={({ isActive }) => isActive ? "menu-link active" : "menu-link"}>Patients</NavLink></li>
-    <li><NavLink  class="dropdown-item" to="/hospital"  onClick={closeMenu}  className={({ isActive }) => isActive ? "menu-link active" : "menu-link"}>Hospital</NavLink></li>
-    <li><NavLink  class="dropdown-item" to="/insurance"  onClick={closeMenu}  className={({ isActive }) => isActive ? "menu-link active" : "menu-link"}>Insurance</NavLink></li>
-        {/* <li><Link class="dropdown-item" to="/productdesc">Product description</Link></li> */}
+  </NavLink >
+  <ul className="dropdown-menu " aria-labelledby="dropdownMenuButton">
+    <li><NavLink  to="/patients"  onClick={closeMenu}  className={({ isActive }) => isActive ? "menu-link active" : "dropdown-item "}>Patients</NavLink></li>
+    <li><NavLink to="/hospital"  onClick={closeMenu}  className={({ isActive }) => isActive ? "menu-link active" : "dropdown-item"}>Hospital</NavLink></li>
+    <li><NavLink  to="/insurance"  onClick={closeMenu}  className={({ isActive }) => isActive ? "menu-link active" : "dropdown-item"}>Insurance</NavLink></li>
+        {/* <li><Link className="dropdown-item" to="/productdesc">Product description</Link></li> */}
   </ul>
 </div>
 
-<div class="dropdown">
-  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+<div className="dropdown">
+  <NavLink  className=" " type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
 Resource
-  </button>
-  <ul class="dropdown-menu " aria-labelledby="dropdownMenuButton">
-      <li><NavLink   class="dropdown-item" to="/blog" onClick={closeMenu}  className={({ isActive }) => isActive ? "menu-link active" : "menu-link"}>Blog</NavLink></li>
-    <li><NavLink   class="dropdown-item" to="/blog" onClick={closeMenu}  className={({ isActive }) => isActive ? "menu-link active" : "menu-link"}>Testimonials</NavLink></li>
-    <li><NavLink   class="dropdown-item" to="/blog" onClick={closeMenu}  className={({ isActive }) => isActive ? "menu-link active" : "menu-link"}>Videos</NavLink></li>
-    <li><NavLink   class="dropdown-item" to="/blog" onClick={closeMenu}  className={({ isActive }) => isActive ? "menu-link active" : "menu-link"}>Newsletters</NavLink></li>
-      <li><NavLink   class="dropdown-item" to="/myths" onClick={closeMenu}  className={({ isActive }) => isActive ? "menu-link active" : "menu-link"}>Myths</NavLink></li>
-     <li><NavLink  class="dropdown-item" to="/productdesc" onClick={closeMenu}  className={({ isActive }) => isActive ? "menu-link active" : "menu-link"}>Product description</NavLink></li> 
-      <li><NavLink  class="dropdown-item" to="/partners" onClick={closeMenu} className={({ isActive }) => isActive ? "menu-link active" : "menu-link"}>Partners</NavLink></li> 
-  </ul>
+  </NavLink >
+  <ul className="dropdown-menu " aria-labelledby="dropdownMenuButton">
+      <li><NavLink    to="/blog" onClick={closeMenu}  className={({ isActive }) => isActive ? "menu-link active" : "dropdown-item"}>Blog</NavLink></li>
+    <li><NavLink  to="/blog" onClick={closeMenu}  className={({ isActive }) => isActive ? "menu-link active" : "dropdown-item"}>Testimonials</NavLink></li>
+    <li><NavLink    to="/blog" onClick={closeMenu}  className={({ isActive }) => isActive ? "menu-link active" : "dropdown-item"}>Videos</NavLink></li>
+    <li><NavLink    to="/blog" onClick={closeMenu}  className={({ isActive }) => isActive ? "menu-link active" : "dropdown-item"}>Newsletters</NavLink></li>
+      <li><NavLink   to="/myths" onClick={closeMenu}  className={({ isActive }) => isActive ? "menu-link active" : "dropdown-item"}>Myths</NavLink></li>
+      <li><NavLink to="/faq" onClick={closeMenu} className={({ isActive }) => isActive ? "menu-link active" : "dropdown-item"}><span>FAQ</span></NavLink></li>
+          
+     {/* <li><NavLink  className="dropdown-item" to="/productdesc" onClick={closeMenu}  className={({ isActive }) => isActive ? "menu-link active" : "menu-link"}>Product description</NavLink></li>  */}
+        </ul>
 </div>
 
           {/* <li><Link to="/partners" onClick={closeMenu}><span>Partners</span></Link></li> */}
           <li><NavLink to="/career" onClick={closeMenu} className={({ isActive }) => isActive ? "menu-link active" : "menu-link"}><span>Career</span></NavLink></li>
-           <li><NavLink to="/faq" onClick={closeMenu} className={({ isActive }) => isActive ? "menu-link active" : "menu-link"}><span>FAQ</span></NavLink></li>
+         <li><NavLink   to="/partners" onClick={closeMenu} className={({ isActive }) => isActive ? "menu-link active" : "menu-link"}>Partners</NavLink></li> 
+
+           {/* <li><NavLink to="/faq" onClick={closeMenu} className={({ isActive }) => isActive ? "menu-link active" : "menu-link"}><span>FAQ</span></NavLink></li> */}
             {/* <li><Link to="/blog" onClick={closeMenu}><span>Blog</span></Link></li> */}
           {/* <li><Link to="/blog" onClick={closeMenu}><span>Blog</span></Link></li> */}
           <li><NavLink to="/contact" onClick={closeMenu} className={({ isActive }) => isActive ? "menu-link active" : "menu-link"}><span>Contact</span></NavLink></li>

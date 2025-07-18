@@ -3,7 +3,11 @@ import pat1 from '../assets/pat1.jpg';
 import pat3 from '../assets/pat3.jpg';
 import pat2 from '../assets/pat2.jpg';
 import doct1 from '../assets/doct1.png';
-import doct2 from '../assets/doct2.png';
+import pat_card2 from '../assets/pat_card2.jpg';
+import pat_card1 from '../assets/pat_card1.jpg';
+import pat_card3 from '../assets/pat_card3.jpg';
+import pat_card4 from '../assets/pat_card4.jpg';
+
 const testimonials = [
   {
     quote: "OncoBridge helped me feel sure about my treatment. The expert guidance was clear, compassionate, and empowering.",
@@ -119,7 +123,7 @@ function Patients() {
           <div className="row g-4">
             <div className="col-md-6">
               <div className="card h-100">
-                <img src="https://thumbs.dreamstime.com/b/indian-family-children-sits-cozy-sofa-laptop-indian-family-children-sits-together-cozy-sofa-laptop-366130877.jpg" className="card-img-top steps_img_height" alt="Patient securely uploading medical documents from home." />
+                <img src={pat_card1} className="card-img-top steps_img_height" alt="Patient securely uploading medical documents from home." />
                 <div className="card-body">
                   <h5 className="card-title">Step 1: Request & Upload</h5>
                   <p className="card-text">Easily submit your medical records (reports, scans, pathology) securely through our platform</p>
@@ -129,7 +133,7 @@ function Patients() {
             </div>
             <div className="col-md-6">
               <div className="card h-100">
-                <img src={doct2}
+                <img src={pat_card2}
                   className="card-img-top steps_img_height" alt="Global oncology experts collaborating virtually." />
                 <div className="card-body">
                   <h5 className="card-title">Step 2: Expert Matching</h5>
@@ -139,7 +143,7 @@ function Patients() {
             </div>
             <div className="col-md-6">
               <div className="card h-100">
-                <img src="https://static.vecteezy.com/system/resources/previews/007/292/871/large_2x/a-close-up-of-the-hand-of-a-female-doctor-or-nurse-is-using-a-pen-writing-information-or-something-with-a-blurred-background-photo.jpg" className="card-img-top steps_img_height" alt="Doctor meticulously reviewing a medical report." />
+                <img src={pat_card3} className="card-img-top steps_img_height" alt="Doctor meticulously reviewing a medical report." />
                 <div className="card-body">
                   <h5 className="card-title">Step 3: In-Depth Review</h5>
                   <p className="card-text">: The expert meticulously reviews your case, providing a comprehensive report and personalized
@@ -150,7 +154,7 @@ function Patients() {
             </div>
             <div className="col-md-6">
               <div className="card h-100">
-                <img src="https://thumbs.dreamstime.com/b/doctor-consulting-indian-woman-patient-online-video-call-laptop-screen-female-doctor-gp-consulting-indian-woman-patient-make-191067995.jpg" className="card-img-top steps_img_height" alt="Indian patient in a virtual consultation with an expert." />
+                <img src={pat_card4} className="card-img-top steps_img_height" alt="Indian patient in a virtual consultation with an expert." />
                 <div className="card-body">
                   <h5 className="card-title">Step 4: Receive & Discuss</h5>
                   <p className="card-text">Receive your detailed second opinion report. Options for follow-up discussions with the expert
@@ -212,64 +216,6 @@ function Patients() {
         </div>
       </section>
 
-      {/* Section: FAQ */}
-      <section className="faq-section py-5 bg-white">
-        <div className="container">
-          <div className="text-center mb-5">
-            <h2 className="section-title">Frequently Asked Questions</h2>
-            <p className="section-subtitle">Got questions? We’ve got answers.</p>
-          </div>
-
-          <div className="accordion" id="faqAccordion">
-            {[
-              {
-                question: "Who are your experts?",
-                answer:
-                  "OncoBridge offers virtual tumor boards, second opinions, care coordination, and access to global oncologists and diagnostic tools.",
-              },
-              {
-                question: "How long does it take?",
-                answer:
-                  "You can book an appointment directly through our platform or mobile app. A coordinator will guide you through the process.",
-              },
-              {
-                question: "What if I don't have all my records?",
-                answer:
-                  "Yes, we serve patients worldwide through virtual consultations, international partnerships, and digital tools.",
-              },
-              {
-                question: "Is this covered by insurance?",
-                answer:
-                  "Yes, we serve patients worldwide through virtual consultations, international partnerships, and digital tools.",
-              },
-            ].map((faq, index) => (
-              <div className="accordion-item" key={index}>
-                <h2 className="accordion-header" id={`heading${index}`}>
-                  <button
-                    className={`accordion-button ${index !== 0 ? "collapsed" : ""}`}
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target={`#collapse${index}`}
-                    aria-expanded={index === 0 ? "true" : "false"}
-                    aria-controls={`collapse${index}`}
-                  >
-                    {faq.question}
-                  </button>
-                </h2>
-                <div
-                  id={`collapse${index}`}
-                  className={`accordion-collapse collapse ${index === 0 ? "show" : ""
-                    }`}
-                  aria-labelledby={`heading${index}`}
-                  data-bs-parent="#faqAccordion"
-                >
-                  <div className="accordion-body">{faq.answer}</div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
       {/* <section className="py-5 bg-white">
             <div className='container'>
           <div class="text-center mb-5">

@@ -11,8 +11,8 @@ function About() {
               <div className="overlay-content">
                 <div className='col-md-12 p-3 ms-lg-5 ps-lg-4'>
                   <h2 className="fw-bold text-white">About Us</h2>
-                  <p className="lead"> Our Vision  Mission
-                  </p>
+                  {/* <p className="lead"> Our Vision  Mission
+                  </p> */}
                 </div>
               </div>
             </div>
