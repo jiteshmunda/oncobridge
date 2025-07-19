@@ -7,12 +7,11 @@ function Partners() {
       <section className="text-center">
         <div className='container-fluid px-0'>
           <div className='row gx-0 align-items-center'>
-            <div className="bg-image-partners d-flex justify-content-center align-items-center text-center text-white vh-100">
+            <div className="bg-image-partners d-flex justify-content-left align-items-center text-center text-white vh-100">
               <div className="overlay-content">
-                <div className='col-md-6 p-3 ps-lg-5 ms-lg-5 ms-sm-5 ms-md-5'>
+                <div className='col-md-7 p-3 ps-lg-5 ms-lg-5 ms-sm-5 ms-md-5'>
                   <h2 className="fw-bold text-white">OHPL: Proud Partner of Iylon Precision Oncology</h2>
-                  <p className="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur gravida, velit
-                    vel consectetur commodo felis sapien pulvinar nunc, in eleifend purus tellus non felis.
+                  <p className="lead">
                   </p>
                   {/* <div className="d-flex justify-content-left gap-3">
                     <button className="btn btn-primary">Start Your Second Opinion Request</button>

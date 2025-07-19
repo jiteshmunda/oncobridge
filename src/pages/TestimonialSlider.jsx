@@ -1,59 +1,105 @@
 import React from 'react';
-
+import pat1 from '../assets/pat1.jpg';
+import pat3 from '../assets/pat3.jpg';
+import pat2 from '../assets/pat2.jpg';
 const testimonials = [
   {
-    name: 'Jane Doe',
-    role: 'Marketing Manager',
-    image: 'https://via.placeholder.com/80',
-    message: 'This service changed the way we approach patient care. Highly professional team!',
+    image:pat1,
+    name: 'Alice',
+    role: 'UX Designer',
+    message: 'This service helped me immensely. Highly recommend!',
   },
   {
-    name: 'John Smith',
-    role: 'Oncology Specialist',
-    image: 'https://via.placeholder.com/80',
-    message: 'The second opinion package provided incredible insights for my patients.',
+    image: pat2,
+    name: 'Bob',
+    role: 'Web Developer',
+    message: 'Smooth experience from start to finish.',
   },
   {
-    name: 'Emily Carter',
-    role: 'Insurance Consultant',
-    image: 'https://via.placeholder.com/80',
-    message: 'Very easy to integrate into our patient support process. Recommended!',
+    image:pat3,
+    name: 'Carol',
+    role: 'Product Manager',
+    message: 'Professional and reliable team.',
+  },
+  {
+    image: pat1,
+    name: 'David',
+    role: 'Engineer',
+    message: 'Everything was handled with care and precision.',
+  },
+  {
+    image: pat2,
+    name: 'Eva',
+    role: 'Consultant',
+    message: 'Truly exceeded my expectations.',
+  },
+  {
+    image: pat3,
+    name: 'Frank',
+    role: 'Marketer',
+    message: 'Great communication and support throughout.',
   },
 ];
 
+// Utility to chunk testimonials into groups of 3
+const chunkArray = (arr, size) => {
+  const result = [];
+  for (let i = 0; i < arr.length; i += size) {
+    result.push(arr.slice(i, i + size));
+  }
+  return result;
+};
+
 const TestimonialSlider = () => {
+  const chunks = chunkArray(testimonials, 3);
+
   return (
     <div className="container py-5">
       <h2 className="text-center mb-4">What Our Clients Say</h2>
+
       <div id="testimonialCarousel" className="carousel slide" data-bs-ride="carousel">
         <div className="carousel-inner">
-          {testimonials.map((item, index) => (
+          {chunks.map((group, groupIndex) => (
             <div
-              className={`carousel-item ${index === 0 ? 'active' : ''}`}
-              key={index}
+              className={`carousel-item ${groupIndex === 0 ? 'active' : ''}`}
+              key={groupIndex}
             >
-              <div className="d-flex justify-content-center">
-                <div className="card p-4 text-center" style={{ maxWidth: '600px' }}>
-                  <img
-                    src={item.image}
-                    className="rounded-circle mx-auto mb-3"
-                    alt={item.name}
-                    style={{ width: '80px', height: '80px', objectFit: 'cover' }}
-                  />
-                  <h5>{item.name}</h5>
-                  <p className="text-muted small">{item.role}</p>
-                  <p className="fst-italic">"{item.message}"</p>
-                </div>
+              <div className="row">
+                {group.map((item, index) => (
+                  <div className="col-md-4 mb-4" key={index}>
+                    <div className="card h-100 p-4 text-center">
+                      <img
+                        src={item.image}
+                        alt={item.name}
+                        className="rounded-circle mx-auto mb-3"
+                        style={{ width: '80px', height: '80px', objectFit: 'cover' }}
+                      />
+                      <h5>{item.name}</h5>
+                      <p className="text-muted small">{item.role}</p>
+                      <p className="fst-italic">"{item.message}"</p>
+                    </div>
+                  </div>
+                ))}
               </div>
             </div>
           ))}
         </div>
 
         {/* Controls */}
-        <button className="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+        <button
+          className="carousel-control-prev"
+          type="button"
+          data-bs-target="#testimonialCarousel"
+          data-bs-slide="prev"
+        >
           <span className="carousel-control-prev-icon"></span>
         </button>
-        <button className="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+        <button
+          className="carousel-control-next"
+          type="button"
+          data-bs-target="#testimonialCarousel"
+          data-bs-slide="next"
+        >
           <span className="carousel-control-next-icon"></span>
         </button>
       </div>

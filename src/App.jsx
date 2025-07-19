@@ -25,6 +25,7 @@ import NotFound from './pages/NotFound';
 import Myths from './pages/Myths';
 import SecondOption from './pages/SecondOption';
 import TestimonialSlider from './pages/TestimonialSlider';
+import NewsLetter from './pages/NewsLetter';
 function App() {
   return (
     <Router>
@@ -41,7 +42,7 @@ function App() {
           <Route path="/productdesc" element={<ProductDesc />} />
            <Route path="/secondoption" element={<SecondOption />} />
 
-
+   <Route path="/newsletter" element={<NewsLetter />} />
    <Route path="/testimonial" element={<TestimonialSlider />} />
 
           <Route path="/myths" element={<Myths />} />
