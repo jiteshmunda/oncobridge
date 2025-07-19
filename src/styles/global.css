@@ -426,6 +426,10 @@ a {
 }
 
 @media (max-width: 320px) {
+  .dropdown-menu {
+height: 155px;
+    overflow: scroll;
+}
   .ready-next-card {
     padding: 2rem;
     margin-left: 0;
@@ -787,4 +791,8 @@ a {
 }
 .carousel-control-next {
     right: -47px;
+}
+.map iframe
+{
+width: 100%;
 }
