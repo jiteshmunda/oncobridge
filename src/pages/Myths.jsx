@@ -57,10 +57,8 @@ return (
                         Iylon Foundation, which provides free treatments to underserved patients.
                     </p>
                 </div>
-                <div className='col-md-5 '>
-                    <Link to="https://app.iylon.com/#/home">
+                <div className='col-md-5 '>                  
                     <img src={myths1} alt="myths1" className='img-fluid main-img extra-rounded' />
-                    </Link>
                 </div>
             </div>
         </div>

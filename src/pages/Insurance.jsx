@@ -3,6 +3,10 @@ import insurance from '../assets/insurance.jpg';
 import digi from '../assets/digi.png';
 import quality from '../assets/quality.png';
 import teamuser from '../assets/teamuser.png';
+import case1 from '../assets/case1.jpg';
+import case2 from '../assets/case2.jpg';
+
+
 
 function Insurance() {
     return (
@@ -229,10 +233,10 @@ function Insurance() {
                     <p className='text-center'>Explore anonymized data showing improvements in cost and patient outcomes.</p>
                     <div className="row">
                         <div className="col-md-6">
-                            <img src="https://placehold.co/600x400" alt="Graph showing reduction in healthcare costs" className="img-fluid mb-3" />
+                            <img src={case1} alt="Graph showing reduction in healthcare costs" className="img-fluid mb-3 height-50" />
                         </div>
                         <div className="col-md-6">
-                            <img src="https://placehold.co/600x400" alt="Icon representing improved patient outcomes" className="img-fluid mb-3" />
+                            <img src={case2} alt="Icon representing improved patient outcomes" className="img-fluid mb-3 height-50" />
                         </div>
                     </div>
                 </div>

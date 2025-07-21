@@ -8,6 +8,9 @@ import pat_card1 from '../assets/pat_card1.jpg';
 import pat_card3 from '../assets/pat_card3.jpg';
 import pat_card4 from '../assets/pat_card4.jpg';
 
+import get_key from '../assets/get_key.jpg';
+
+
 const testimonials = [
   {
     quote: "OncoBridge helped me feel sure about my treatment. The expert guidance was clear, compassionate, and empowering.",
@@ -74,7 +77,7 @@ function Patients() {
           <div className="row bg-white">
             <div className="col-md-12 col-lg-6 col-sm-12  mt-4  mt-lg-0 p-0">
               <div className="text-center">
-                <img className='img-fluid shadow-lg ' src="https://media.gettyimages.com/id/940272286/vector/bunch-of-keys.jpg?s=1024x1024&w=gi&k=20&c=zRAlCmg3nEJjOUvlvFbq-ZROD7gqJAOCSOdhaq1qQ2o=" alt="Symbolic image of a key unlocking clarity and new treatment options." />
+                <img className='img-fluid shadow-lg ' src={get_key} alt="Symbolic image of a key unlocking clarity and new treatment options." />
               </div>
             </div>
             <div className=" col-md-12 col-lg-6 col-sm-12 mt-4">

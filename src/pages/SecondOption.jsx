@@ -17,7 +17,7 @@ function SecondOption() {
         </div>
       </section>
     
-        <section className="section py-5 terms_block">
+        <section className="section py-5 terms_block mt-5 mb-4">
             {/* <div className="container">
                 <h2>Second Opinion</h2>
             </div> */}

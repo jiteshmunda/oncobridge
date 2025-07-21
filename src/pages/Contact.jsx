@@ -29,13 +29,13 @@ function Contact() {
               <p>
                 <i className="fas fa-envelope me-2 text-primary"></i>
                 <strong>Email:</strong><br />
-                <a href="mailto:care@oncobridge.in " className='text-primary'>care@oncobridge.in </a>
+                <a href="mailto:care@oncobridge.in" className='text-primary text-decoration-none'>care@oncobridge.in </a>
               </p>
 
               <p>
                 <i className="fas fa-phone-alt me-2 text-primary"></i>
                 <strong>Phone:</strong><br />
-                <a href="tel:+9190256 65212" className='text-primary'>+91 90256 65212 </a>
+                <a href="tel:+9190256 65212" className='text-primary text-decoration-none'>+91 90256 65212 </a>
               </p>
             </div>
           </div>

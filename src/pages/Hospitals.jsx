@@ -1,5 +1,12 @@
 import React from 'react';
 import doct3 from '../assets/doct3.jpg';
+import hospital_banner from '../assets/hospital_banner.jpg';
+import hospital_center from '../assets/hospital_center.jpg';
+
+import hospital1 from '../assets/hospital1.png';
+import hospital2 from '../assets/hospital2.jpg';
+import hospital3 from '../assets/hospital3.jpg';
+
 function Hospitals() {
   return (
     <>
@@ -71,7 +78,8 @@ function Hospitals() {
               </div>
             </div>
             <div className='col-md-6 col-lg-4 col-sm-12 d-none d-lg-block'>
-              <img className="img-fluid  unlocking_img rounded shadow " src="https://thumbs.dreamstime.com/b/interconnected-gears-d-render-teamwork-collaboration-network-technology-387327864.jpg" alt="Interconnected gears symbolizing seamless collaboration in healthcare" />
+              <img className="img-fluid  unlocking_img rounded shadow " 
+              src={hospital_center} alt="Interconnected gears symbolizing seamless collaboration in healthcare" />
             </div>
             <div className='col-md-6 col-lg-4 col-sm-12'>
               <div className='row text-start'>
@@ -162,7 +170,7 @@ function Hospitals() {
           <div className="row g-4">
             <div className="col-md-6 col-lg-3 col-sm-6">
               <div className="card h-100">
-                <img src="https://www.enghousevideo.com/wp-content/uploads/2024/09/vs-blog.png" className="card-img-top hospital_img_height" alt="Patient securely uploading medical documents from home." />
+                <img src={hospital1} className="card-img-top hospital_img_height" alt="Patient securely uploading medical documents from home." />
                 <div className="card-body">
                   <h5 className="card-title">Referral & Secure Upload</h5>
                   <p className="card-text">
@@ -173,7 +181,7 @@ function Hospitals() {
             </div>
             <div className="col-md-6 col-lg-3 col-sm-6">
               <div className="card h-100">
-                <img src="https://dtrf.org/wp-content/uploads/2023/11/Tumor-Board-1.jpg"
+                <img src={hospital2}
                   className="card-img-top hospital_img_height" alt="Global oncology experts collaborating virtually." />
                 <div className="card-body">
                   <h5 className="card-title">Expert Matching & Review</h5>
@@ -183,7 +191,7 @@ function Hospitals() {
             </div>
             <div className="col-md-6 col-lg-3 col-sm-6">
               <div className="card h-100">
-                <img src="https://static.vecteezy.com/system/resources/previews/055/510/474/large_2x/indian-general-practitioner-studying-hospital-records-and-x-ray-test-results-finding-diagnosis-for-a-patient-medic-reviewing-scans-and-doing-healthcare-reports-professional-expertise-camera-a-photo.jpg" className="card-img-top hospital_img_height" alt="Doctor meticulously reviewing a medical report." />
+                <img src={hospital3} className="card-img-top hospital_img_height" alt="Doctor meticulously reviewing a medical report." />
                 <div className="card-body">
                   <h5 className="card-title">Collaborative Insights</h5>
                   <p className="card-text">Receive detailed reports that can be integrated into your patient's file, facilitating informed decisions.
@@ -193,7 +201,7 @@ function Hospitals() {
             </div>
             <div className="col-md-6 col-lg-3 col-sm-6">
               <div className="card h-100">
-                <img src="https://medcitynews.com/wp-content/uploads/sites/7/2021/04/GettyImages-1257425587.jpg" className="card-img-top hospital_img_height" alt="Indian patient in a virtual consultation with an expert." />
+                <img src={hospital_banner} className="card-img-top hospital_img_height" alt="Indian patient in a virtual consultation with an expert." />
                 <div className="card-body">
                   <h5 className="card-title">Follow-up & Support</h5>
                   <p className="card-text">Access to our support team for any queries or follow-up needs.</p>

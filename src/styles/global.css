@@ -723,7 +723,7 @@ height: 155px;
 }
 
 .bg-image-career  {
-  background-image: url('../assets/career.jpg');
+  background-image: url('../assets/job.jpg');
   /* Your image path */
   background-size: cover;
   background-position: center;
@@ -800,4 +800,9 @@ width: 100%;
 
 {
       font-size: 5rem;
+}
+.height-50
+{
+height: 62vh;
+    width: 98%;
 }
