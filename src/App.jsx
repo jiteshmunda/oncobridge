@@ -1,10 +1,17 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
+import React, { useState, useEffect } from 'react';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  useLocation,
+} from 'react-router-dom';
 
 // Components
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import ScrollToTopButton from './components/ScrollToTopButton';
+import Loader from './components/Loader'; 
 
 // Pages
 import Home from './pages/Home';
@@ -27,41 +34,66 @@ import SecondOption from './pages/SecondOption';
 import TestimonialSlider from './pages/TestimonialSlider';
 import NewsLetter from './pages/NewsLetter';
 import Videos from './pages/Videos';
-function App() {
+
+
+function AppWrapper() {
+  const location = useLocation();
+  const [loading, setLoading] = useState(true);
+
+
+  useEffect(() => {
+    const timer = setTimeout(() => setLoading(false), 500);
+    return () => clearTimeout(timer);
+  }, []);
+
+
+  useEffect(() => {
+    setLoading(true);
+    window.scrollTo(0, 0);
+    const timer = setTimeout(() => setLoading(false), 400);
+    return () => clearTimeout(timer);
+  }, [location.pathname]);
+
   return (
-    <Router>
-      <Navbar />
-      <main>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="*" element={<NotFound />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/hospital" element={<Hospitals />} />
-          <Route path="/insurance" element={<Insurance />} />
-           <Route path="/patients" element={<Patients />} />
-           <Route path="/partners" element={<Partners />} />
-          <Route path="/productdesc" element={<ProductDesc />} />
-           <Route path="/secondoption" element={<SecondOption />} />
-
- 
-   <Route path="/testimonial" element={<TestimonialSlider />} />
-  <Route path="/videos" element={<Videos />} />
-    <Route path="/newsletter" element={<NewsLetter />} />
-
-          <Route path="/myths" element={<Myths />} />
-          <Route path="/blog" element={<BlogSection />} />
-          <Route path="/blogdetail" element={<BlogDetail />} />
-          <Route path="/faq" element={<Faq />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/career" element={<Career />} />
-          <Route path="/terms" element={<Terms />} />
-          <Route path="/disclaimers" element={<Disclaimers />} />
-        </Routes>
-      </main>
-      <Footer />
-      <ScrollToTopButton />
-    </Router>
+    <>
+      {loading && <Loader />}
+      <div style={{ display: loading ? 'none' : 'block' }}>
+        <Navbar />
+        <main>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/career" element={<Career />} />
+            <Route path="/terms" element={<Terms />} />
+            <Route path="/disclaimers" element={<Disclaimers />} />
+            <Route path="/hospital" element={<Hospitals />} />
+            <Route path="/insurance" element={<Insurance />} />
+            <Route path="/patients" element={<Patients />} />
+            <Route path="/partners" element={<Partners />} />
+            <Route path="/productdesc" element={<ProductDesc />} />
+            <Route path="/secondoption" element={<SecondOption />} />
+            <Route path="/testimonial" element={<TestimonialSlider />} />
+            <Route path="/videos" element={<Videos />} />
+            <Route path="/newsletter" element={<NewsLetter />} />
+            <Route path="/myths" element={<Myths />} />
+            <Route path="/blog" element={<BlogSection />} />
+            <Route path="/blogdetail" element={<BlogDetail />} />
+            <Route path="/faq" element={<Faq />} />
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+        </main>
+        <Footer />
+        <ScrollToTopButton />
+      </div>
+    </>
   );
 }
 
-export default App;
+export default function App() {
+  return (
+    <Router>
+      <AppWrapper />
+    </Router>
+  );
+}
