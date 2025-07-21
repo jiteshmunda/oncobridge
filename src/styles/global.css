@@ -630,7 +630,9 @@ a {
 }
 
 .bg-image-second-opt {
-  background-image: url('../assets/tiled-stones.jpg');
+  /* background-image: url('../assets/second_opt_banner.jpg'); */
+   background-image: url('../assets/second_banner2.jpg');
+  
   /* Your image path */
   background-size: cover;
   background-position: center;
