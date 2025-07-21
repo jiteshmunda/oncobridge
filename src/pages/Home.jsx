@@ -296,21 +296,21 @@ const Home = () => {
 
             {/* Left Content */}
             <div className="col-lg-6 text-center text-lg-start mb-5 mb-lg-0">
-              <h2 className="display-5 fw-bold mb-3 text-white">    Comming Soon</h2>
+              <h1 className="display-5 fw-bold mb-3 text-white pb-5 comming_soon">    Comming Soon</h1>
               <p className="lead mb-4 text-light-subtle">
           
               </p>
 
               <div className="d-flex flex-wrap justify-content-center justify-content-lg-start gap-3">
               {/* <p>Comming Soon</p> */}
-                {/* <a href="#" className="store-btn google-play" onClick={(e) => e.preventDefault()}
+                 <a href="#" className="store-btn google-play" onClick={(e) => e.preventDefault()}
                   style={{ pointerEvents: 'none', color: 'gray', cursor: 'not-allowed' }} >
                   <i className="bi bi-google-play me-2"></i> Google Play
                 </a>
                 <a href="#" className="store-btn app-store" onClick={(e) => e.preventDefault()}
                   style={{ pointerEvents: 'none', color: 'gray', cursor: 'not-allowed' }}>
                   <i className="bi bi-apple me-2"></i> App Store
-                </a> */}
+                </a> 
               </div>
             </div>
 
