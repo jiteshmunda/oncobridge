@@ -4,7 +4,7 @@ import pat3 from '../assets/pat3.jpg';
 import pat2 from '../assets/blog_detail.jpg';
 
 
-const NewsLetter = () => {
+const Videos = () => {
   return (
     <>
       <div className="d-flex align-items-center justify-content-center vh-100 bg-light text-center">
@@ -56,4 +56,4 @@ const NewsLetter = () => {
   );
 };
 
-export default NewsLetter;
+export default Videos;

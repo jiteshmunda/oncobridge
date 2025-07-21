@@ -26,6 +26,7 @@ import Myths from './pages/Myths';
 import SecondOption from './pages/SecondOption';
 import TestimonialSlider from './pages/TestimonialSlider';
 import NewsLetter from './pages/NewsLetter';
+import Videos from './pages/Videos';
 function App() {
   return (
     <Router>
@@ -42,8 +43,10 @@ function App() {
           <Route path="/productdesc" element={<ProductDesc />} />
            <Route path="/secondoption" element={<SecondOption />} />
 
-   <Route path="/newsletter" element={<NewsLetter />} />
+ 
    <Route path="/testimonial" element={<TestimonialSlider />} />
+  <Route path="/videos" element={<Videos />} />
+    <Route path="/newsletter" element={<NewsLetter />} />
 
           <Route path="/myths" element={<Myths />} />
           <Route path="/blog" element={<BlogSection />} />
