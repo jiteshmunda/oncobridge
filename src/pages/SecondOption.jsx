@@ -1,5 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import second_op1 from '../assets/second_op1.jpg';
+import second_opt2 from '../assets/second_opt2.jpg';
+import second_opt3 from '../assets/second_opt3.jpg';
 function SecondOption() {
     return (
         <>
@@ -23,9 +26,10 @@ function SecondOption() {
             </div> */}
             <div className="container py-4">
                 <div className="row g-3">
-                    <div className="col-6 col-md-4">
+                    <div className="col-12 col-md-4 col-lg-4 col-sm-4">                       
                         <div className="second-option-card text-center p-4 h-100 p-3 shadow-sm">
-                            <div className="stat-content">
+                             <img src={second_op1} className='w-100'/>
+                            <div className="stat-content mt-3">
                                 <p>
                                     Access to leading global oncologists, personalized insights, peace of mind
                                 </p>
@@ -33,9 +37,10 @@ function SecondOption() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-6 col-md-4">
+                    <div className="col-12 col-md-4 col-lg-4 col-sm-4">
                         <div className="second-option-card text-center p-4 h-100 p-3 shadow-sm">
-                            <div className="stat-content">
+                             <img src={second_opt2} className='w-100'/>
+                            <div className="stat-content mt-3">
                                 <p>
                                    Expand your expertise, support your patients with external validation, collaborate seamlessly.
                                 </p>
@@ -43,9 +48,10 @@ function SecondOption() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-6 col-md-4">
+                    <div className="col-12 col-md-4 col-lg-4 col-sm-4">
                         <div className="second-option-card text-center p-4 h-100 p-3 shadow-sm">
-                            <div className="stat-content">
+                             <img src={second_opt3} className='w-100'/>
+                            <div className="stat-content mt-3">
                                 <p>
                                   Ensure appropriate care, manage costs effectively, enhance policyholder s atisfaction.
                                 </p>
