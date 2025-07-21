@@ -630,17 +630,14 @@ a {
 }
 
 .bg-image-second-opt {
-  /* background-image: url('../assets/second_opt_banner.jpg'); */
-   background-image: url('../assets/second_banner2.jpg');
-  
-  /* Your image path */
+  background-image: url('../assets/21202.jpg');
   background-size: cover;
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
   position: relative;
   text-align: left !important;
   width: 100%;
-  height: 73vh;
+  height: 80vh;
 }
 
 .bg-image-second-opt::before {

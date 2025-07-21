@@ -291,12 +291,13 @@ const Home = () => {
 
 
 
-      {/* Section 5 */}
-      <section className="onco-app-section text-white py-5">
+      {/* Section 5 Mobile App */}
+
+      {/* <section className="onco-app-section text-white py-5">
         <div className="container">
           <div className="row align-items-center justify-content-between">
 
-            {/* Left Content */}
+            
             <div className="col-lg-6 text-center text-lg-start mb-5 mb-lg-0">
               <h1 className="display-5 fw-bold mb-3 text-white pb-5 comming_soon">    Comming Soon</h1>
               <p className="lead mb-4 text-light-subtle">
@@ -304,7 +305,7 @@ const Home = () => {
               </p>
 
               <div className="d-flex flex-wrap justify-content-center justify-content-lg-start gap-3">
-              {/* <p>Comming Soon</p> */}
+              
                  <a href="#" className="store-btn google-play" onClick={(e) => e.preventDefault()}
                   style={{ pointerEvents: 'none', color: 'gray', cursor: 'not-allowed' }} >
                   <i className="bi bi-google-play me-2"></i> Google Play
@@ -316,7 +317,7 @@ const Home = () => {
               </div>
             </div>
 
-            {/* Right Animation */}
+            
             <div className="col-lg-6 text-center">
               <div className="app-animation">
                 <Lottie animationData={mobileAnimation} loop={true} />
@@ -324,7 +325,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
 
 
