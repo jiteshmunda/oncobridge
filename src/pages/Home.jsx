@@ -598,21 +598,21 @@ const Home = () => {
       <section className="testimonials-section py-5 bg-light">
         <div className="container">
           <div className="">
-            <div className="timeline">
+            <div className="">
               {[
 
-                {
-                  title: "OncoBridge ExpertView",
-                  desc1: "Second Opinions Platform",
-                  desc2: "Global cancer specialists offering patients timely, personalized second opinions. Sub-essence: Global expertise. Local confidence.",
-                  icon: "bi-person-check",
-                },
-                {
-                  title: "OncoBridge PrecisionDx",
-                  desc1: "Diagnostics ",
-                  desc2: "High-quality cancer diagnostics using molecular/genomic tools and lab excellence. Sub-essence: Precision that powers the right path.",
-                  icon: "bi-camera-video",
-                },
+                // {
+                //   title: "OncoBridge ExpertView",
+                //   desc1: "Second Opinions Platform",
+                //   desc2: "Global cancer specialists offering patients timely, personalized second opinions. Sub-essence: Global expertise. Local confidence.",
+                //   icon: "bi-person-check",
+                // },
+                // {
+                //   title: "OncoBridge PrecisionDx",
+                //   desc1: "Diagnostics ",
+                //   desc2: "High-quality cancer diagnostics using molecular/genomic tools and lab excellence. Sub-essence: Precision that powers the right path.",
+                //   icon: "bi-camera-video",
+                // },
                 {
                   title: "OncoBridge Connect",
                   desc1: "B2B Partnerships Platform",
@@ -622,9 +622,9 @@ const Home = () => {
                 },
               ].map((step, idx) => (
                 <div className="timeline-item" key={idx}>
-                  <div className="timeline-icon">
+                  {/* <div className="timeline-icon">
                     <i className={`bi ${step.icon}`}></i>
-                  </div>
+                  </div> */}
                   <div className="timeline-content">
                     <h4>{step.title}</h4>
                     <p>{step.desc1}</p>
