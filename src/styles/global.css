@@ -518,7 +518,7 @@ a {
   background-image: url('../assets/myths_bg_main.jpg');
   /* Your image path */
   background-size: cover;
-  background-position: center;
+  background-position: right top;
   background-repeat: no-repeat;
   position: relative;
   text-align: left !important;

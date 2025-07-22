@@ -114,7 +114,7 @@ export default function CareerPage() {
             <div className="bg-image-career d-flex justify-content-left align-items-center text-left text-white ">
               <div className="overlay-content">
                 <div className='col-md-12 p-3 ms-lg-5 ps-lg-4'>
-                  <h2 className="fw-bold text-white">Career</h2>
+                  <h2 className="fw-bold text-white">Careers</h2>
                   {/* <p className="lead"> Our Vision  Mission
                   </p> */}
                 </div>
