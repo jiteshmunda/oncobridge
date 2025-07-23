@@ -1,5 +1,5 @@
 import React from "react";
-
+import { useRef } from "react";
 import "../styles/Home.css";
 import Lottie from "lottie-react";
 import mobileAnimation from "../assets/lottie/mobile-app.json";
@@ -15,6 +15,11 @@ import hands_to from '../assets/hands_to.jpg';
 import { Link } from 'react-router-dom';
 
 const Home = () => {
+   const section4Ref = useRef(null);
+
+  const scrollToSection4 = () => {
+    section4Ref.current?.scrollIntoView({ behavior: "smooth" });
+  };
   return (
     <>
       {/* Banner Section */}
@@ -28,14 +33,17 @@ const Home = () => {
                     Lorem ipsum dolor sit amet
                   </h1>
                   <p className="lead mb-4 text-white">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Integer efficitur tortor eu egestas pulvinar
+                    Bridging cancer care and technology. OncoBridge connects patients,
+              providers, and data for a better tomorrow.
                   </p>
                   <div>
                     <Link to="/secondoption" className="btn btn-light me-3 px-4 py-2 mb-4">Get Your Second Opinion</Link>
                     {/* <a href="/secondoption" className="btn btn-light me-3 px-4 py-2 mb-4">Get Your Second Opinion </a> */}
                     {/* <a href="#services" className="btn btn-outline-light px-4 py-2 mb-4">How It Works </a> */}
-                    <Link to="/"  className="btn btn-outline-light px-4 py-2 mb-4"> How It Works </Link>
+                    <button onClick={scrollToSection4} className="btn btn-outline-light px-4 py-2 mb-4">
+          How It Works
+        </button>
+
                   </div>
                 </div>
               </div>
@@ -240,7 +248,7 @@ const Home = () => {
 
 
       {/* Section 4 */}
-      <section className="why-choose-us py-5">
+      <section  ref={section4Ref} className="why-choose-us py-5">
         <div className="container">
           <div className="text-center mb-5">
             <h2 className="section-title">Lorem ipsum dolor</h2>
@@ -548,7 +556,7 @@ const Home = () => {
 
       {/* Section 7 */}
 
-      <section className="how-helps-section py-5">
+      {/* <section className="how-helps-section py-5">
         <div className="container">
           <div className="text-center mb-5">
             <h2 className="section-title">How Second opinion Helps </h2>
@@ -594,25 +602,12 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </section>
-      <section className="testimonials-section py-5 bg-light">
+      </section> */}
+      {/* <section className="testimonials-section py-5 bg-light">
         <div className="container">
           <div className="">
             <div className="">
               {[
-
-                // {
-                //   title: "OncoBridge ExpertView",
-                //   desc1: "Second Opinions Platform",
-                //   desc2: "Global cancer specialists offering patients timely, personalized second opinions. Sub-essence: Global expertise. Local confidence.",
-                //   icon: "bi-person-check",
-                // },
-                // {
-                //   title: "OncoBridge PrecisionDx",
-                //   desc1: "Diagnostics ",
-                //   desc2: "High-quality cancer diagnostics using molecular/genomic tools and lab excellence. Sub-essence: Precision that powers the right path.",
-                //   icon: "bi-camera-video",
-                // },
                 {
                   title: "OncoBridge Connect",
                   desc1: "B2B Partnerships Platform",
@@ -622,9 +617,6 @@ const Home = () => {
                 },
               ].map((step, idx) => (
                 <div className="timeline-item" key={idx}>
-                  {/* <div className="timeline-icon">
-                    <i className={`bi ${step.icon}`}></i>
-                  </div> */}
                   <div className="timeline-content">
                     <h4>{step.title}</h4>
                     <p>{step.desc1}</p>
@@ -636,7 +628,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
 
       {/* <section className="testimonials-section py-5 bg-light">

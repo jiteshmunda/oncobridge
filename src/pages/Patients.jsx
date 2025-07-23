@@ -184,7 +184,7 @@ function Patients() {
                 <div className="card-body">
                   <h5 className="card-title">Basic Review</h5>
                   <p className="card-text">Expert review of documents and written report.</p>
-                  <a href="#pricing" className="fw-bold me-3"> Pricing</a>
+                  {/* <a href="#pricing" className="fw-bold me-3"> Pricing</a> */}
                   <a href="#pricing" className="fw-bold "> Inquire</a>
                 </div>
               </div>
@@ -197,7 +197,7 @@ function Patients() {
                 <div className="card-body">
                   <h5 className="card-title">Comprehensive + Consultation</h5>
                   <p className="card-text">In-depth review, written report, and a virtual consultation with the expert</p>
-                  <a href="#pricing" className="fw-bold me-3"> Pricing</a>
+                  {/* <a href="#pricing" className="fw-bold me-3"> Pricing</a> */}
                   <a href="#pricing" className="fw-bold "> Inquire</a>
                 </div>
               </div>
@@ -210,7 +210,7 @@ function Patients() {
                 <div className="card-body">
                   <h5 className="card-title">Premium Panel Review</h5>
                   <p className="card-text">Review by a multi-disciplinary panel, detailed report, and virtual consultation.</p>
-                  <a href="#pricing" className="fw-bold me-3"> Pricing</a>
+                  {/* <a href="#pricing" className="fw-bold me-3"> Pricing</a> */}
                   <a href="#pricing" className="fw-bold "> Inquire</a>
                 </div>
               </div>

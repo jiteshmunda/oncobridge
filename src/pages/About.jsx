@@ -5,20 +5,22 @@ function About() {
   return (
     <>
       <section className="text-center">
-        <div className='container-fluid px-0'>
-          <div className='row gx-0 align-items-left'>
-            <div className="bg-image-about d-flex justify-content-left align-items-center text-left text-white ">
-              <div className="overlay-content">
-                <div className='col-md-12 p-3 ms-lg-5 ps-lg-4'>
-                  <h2 className="fw-bold text-white">About Us</h2>
-                  {/* <p className="lead"> Our Vision  Mission
-                  </p> */}
-                </div>
-              </div>
-            </div>
+  <div className="container-fluid px-0">
+    <div className="row gx-0 align-items-left">
+      <div className="bg-image-about d-flex justify-content-left align-items-center text-left text-white">
+        <div className="overlay-content">
+          <div className="col-md-12 p-3 ms-lg-5 ps-lg-4">
+            <h1 className="fw-bold text-white display-3 animate__animated animate__fadeIn">
+              About Us
+            </h1>
+            {/* <p className="lead"> Our Vision  Mission </p> */}
           </div>
         </div>
-      </section>
+      </div>
+    </div>
+  </div>
+</section>
+
       <section className=' py-5 bg-light'>
         <div className='container'>
           <div className='row'>

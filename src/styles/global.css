@@ -198,7 +198,7 @@ a {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-
+  
   color: #fff;
   position: relative;
 }
@@ -263,6 +263,7 @@ a {
   position: relative;
   text-align: left !important;
   width: 100%;
+  height: 79vh !important;
 }
 
 .bg-image::before {
@@ -296,6 +297,7 @@ a {
   position: relative;
   text-align: left !important;
   width: 100%;
+  height: 79vh !important;
 }
 
 .bg-image_hospital::before {
@@ -314,11 +316,12 @@ a {
   background-image: url('../assets/insurance.jpg');
   /* Your image path */
   background-size: cover;
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
   position: relative;
   text-align: left !important;
   width: 100%;
+  height: 79vh !important;
 }
 
 .bg-image_ins::before {
@@ -342,7 +345,7 @@ a {
   position: relative;
   text-align: left !important;
   width: 100%;
-  height: 73vh;
+  height: 79vh;
 }
 
 .bg-image-about::before {
@@ -374,7 +377,7 @@ a {
   position: relative;
   text-align: left !important;
   width: 100%;
-  height: 73vh;
+  height: 79vh !important;
 }
 
 .bg-image-partners::before {
@@ -521,12 +524,12 @@ a {
   background-image: url('../assets/myths_bg_main.jpg');
   /* Your image path */
   background-size: cover;
-  background-position: right top;
+  background-position: top;
   background-repeat: no-repeat;
   position: relative;
   text-align: left !important;
   width: 100%;
-  height: 73vh;
+  height: 79vh !important;
 }
 
 .bg-image-myths::before {
@@ -640,7 +643,7 @@ a {
   position: relative;
   text-align: left !important;
   width: 100%;
-  height: 80vh;
+  height: 79vh;
 }
 
 .bg-image-second-opt::before {
@@ -779,7 +782,7 @@ a {
   position: relative;
   text-align: left !important;
   width: 100%;
-  height: 73vh;
+  height: 79vh;
 }
 
 .bg-image-career::before {
@@ -804,7 +807,7 @@ a {
   position: relative;
   text-align: left !important;
   width: 100%;
-  height: 86vh;
+  height: 79vh;
 }
 
 .bg-image-home::before {
