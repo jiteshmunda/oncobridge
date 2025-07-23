@@ -281,14 +281,19 @@ const Disclaimer = () => {
     <>
       {/* Banner Section */}
       <section className="disclaimer-banner d-flex align-items-center text-white position-relative">
-        <div className="overlay"></div>
-        <div className="container text-center position-relative z-1">
-          <h1 className="banner-heading">Disclaimer & Terms of Use</h1>
-          <p className="banner-subheading">
-            Please read carefully before using our services
-          </p>
-        </div>
-      </section>
+  <div className="overlay"></div>
+  <div className="container text-left position-relative z-1">
+    <div className="col-md-12 p-3 ">
+      <h1 className="fw-bold text-white display-5 animate__animated animate__fadeIn">
+        Disclaimer & Terms of Use
+      </h1>
+      <p className="lead mt-3 animate__animated animate__fadeInUp animate__delay-1s">
+        Please read carefully before using our services
+      </p>
+    </div>
+  </div>
+</section>
+
 
       {/* Disclaimer Section 1 */}
       <section className="disclaimer-section">

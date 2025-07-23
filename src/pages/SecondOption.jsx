@@ -12,7 +12,10 @@ function SecondOption() {
             <div className="bg-image-second-opt d-flex justify-content-left align-items-center text-left text-white ">
               <div className="overlay-content">
                 <div className='col-md-12 p-3 ms-lg-5 ps-lg-4'>
-                  <h2 className="fw-bold text-white"> OncoBridge ExpertView</h2>
+                 <h1 className="fw-bold text-white display-3 animate__animated animate__fadeIn">
+  OncoBridge <br/> ExpertView
+</h1>
+
                 </div>
               </div>
             </div>

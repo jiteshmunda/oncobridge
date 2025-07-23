@@ -107,19 +107,22 @@ export default function CareerPage() {
 
   return (
     <>
-      <section className="text-center">
-        <div className="container-fluid px-0">
-          <div className="row gx-0 align-items-left">
-            <div className="bg-image-career d-flex justify-content-left align-items-center text-left text-white">
-              <div className="overlay-content">
-                <div className="col-md-12 p-3 ms-lg-5 ps-lg-4">
-                  <h2 className="fw-bold text-white">Careers</h2>
-                </div>
-              </div>
-            </div>
+     <section className="text-center">
+  <div className="container-fluid px-0">
+    <div className="row gx-0 align-items-left">
+      <div className="bg-image-career d-flex justify-content-left align-items-center text-left text-white">
+        <div className="overlay-content">
+          <div className="col-md-12 p-3 ms-lg-5 ps-lg-4">
+            <h1 className="fw-bold text-white display-3 animate__animated animate__fadeIn">
+              Careers
+            </h1>
           </div>
         </div>
-      </section>
+      </div>
+    </div>
+  </div>
+</section>
+
 
       <div className="career-page">
         <div className="career-header">

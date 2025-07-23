@@ -1,101 +1,115 @@
-import React from 'react';
-import doct3 from '../assets/doct3.jpg';
-import hospital_banner from '../assets/hospital_banner.jpg';
-import hospital_center from '../assets/hospital_center.jpg';
+import React from "react";
+import doct3 from "../assets/doct3.jpg";
+import hospital_banner from "../assets/hospital_banner.jpg";
+import hospital_center from "../assets/hospital_center.jpg";
 
-import hospital1 from '../assets/hospital1.png';
-import hospital2 from '../assets/hospital2.jpg';
-import hospital3 from '../assets/hospital3.jpg';
+import hospital1 from "../assets/hospital1.png";
+import hospital2 from "../assets/hospital2.jpg";
+import hospital3 from "../assets/hospital3.jpg";
 
 function Hospitals() {
   return (
     <>
-      <section className="text-center">
-        <div className='container-fluid px-0'>
-          <div className='row gx-0 align-items-center'>
-            <div className="bg-image_hospital d-flex justify-content-center align-items-center text-center text-white vh-100">
+      <section className="text-left">
+        <div className="container-fluid px-0">
+          <div className="row gx-0 align-items-center">
+            <div className="bg-image_hospital d-flex justify-content-left align-items-center text-left text-white vh-100">
               <div className="overlay-content">
-                <div className='col-md-7 p-3'>
-                  <h2 className="fw-bold text-white">Collaborate for Excellence: Empowering Your Practice with OncoBridge.</h2>
-                  <p className="lead"> 
-                    OncoBridge partners with hospitals and treating physicians to provide timely, 
-                    <br/>
-                    specialized second opinions, enhancing patient care and extending your expert reach.
+                <div className="col-md-7 p-3 ps-lg-5 ms-lg-5 ms-md-5 ms-sm-5">
+                  <h1 className="fw-bold text-white display-6 animate__animated animate__fadeIn">
+                    Collaborate for Excellence: Empowering Your Practice with
+                    OncoBridge.
+                  </h1>
+                  <p className="lead mt-3 animate__animated animate__fadeIn animate__delay-1s">
+                    OncoBridge partners with hospitals and treating physicians
+                    to provide timely, <br />
+                    specialized second opinions, enhancing patient care and
+                    extending your expert reach.
                   </p>
-                  <div className="d-flex justify-content-left gap-3">
-                    <button className="btn btn-primary">Start Your Second Opinion Request</button>
+                  <div className="d-flex justify-content-start gap-3 mt-3 animate__animated animate__fadeInUp animate__delay-2s">
+                    <button className="btn btn-primary">
+                      Start Your Second Opinion Request
+                    </button>
                   </div>
                 </div>
               </div>
-              {/* <div className="overlay-content">
-                <div className='col-md-7 p-3'>
-                  <h2 className="fw-bold text-white">Collaborate for Excellence: Empowering Your Practice with OncoBridge.</h2>
-                  <p className="lead"> OncoBridge partners with hospitals and treating physicians to provide timely, specialized second opinions, enhancing patient care and extending your expert reach.
-                  </p>
-                  <div className="d-flex justify-content-left gap-3">
-                    <button className="btn btn-primary">Partner With Us</button>
-                    <button className="btn btn-primary">Request a Demo</button>
-                  </div>
-                </div>
-              </div> */}
             </div>
-
           </div>
         </div>
       </section>
 
       {/* Why Partner Section */}
       <section className=" py-5 bg-light">
-        <div className='container'>
-
-
+        <div className="container">
           <div className="text-center mb-5">
-            <h2 className="section-title fw-bold ">Expand Your Capabilities, Elevate Patient Outcomes</h2>
+            <h2 className="section-title fw-bold ">
+              Expand Your Capabilities, Elevate Patient Outcomes
+            </h2>
           </div>
-          <div className='row text-start'>
-            <div className='col-md-6 col-lg-4 col-sm-12'>
-              <div className='row text-start'>
+          <div className="row text-start">
+            <div className="col-md-6 col-lg-4 col-sm-12">
+              <div className="row text-start">
                 <div className="col-md-12 col-sm-12 col-lg-12 mb-3">
                   <div className=" p-3 border rounded shadow-sm bg-white">
                     <h6 className="fw-bold mb-1">Access Global Expertise</h6>
-                    <p className="mb-0 small">Offer your patients access to a network of world-leading oncologists without geographical limitations.</p>
+                    <p className="mb-0 small">
+                      Offer your patients access to a network of world-leading
+                      oncologists without geographical limitations.
+                    </p>
                   </div>
                 </div>
 
                 <div className="col-md-12 col-sm-12 col-lg-12 mb-3">
                   <div className=" p-3 border rounded shadow-sm bg-white">
                     <h6 className="fw-bold mb-1">Validated Treatment Plans</h6>
-                    <p className="mb-0 small">Gain external validation for complex cases, reinforcing your treatment strategies.</p>
+                    <p className="mb-0 small">
+                      Gain external validation for complex cases, reinforcing
+                      your treatment strategies.
+                    </p>
                   </div>
                 </div>
 
                 <div className="col-md-12 col-sm-12 col-lg-12 mb-3">
                   <div className=" p-3 border rounded shadow-sm bg-white">
                     <h6 className="fw-bold mb-1">Reduce Patient Outflow</h6>
-                    <p className="mb-0 small">Retain patients by offering comprehensive second opinion services within your ecosystem.</p>
+                    <p className="mb-0 small">
+                      Retain patients by offering comprehensive second opinion
+                      services within your ecosystem.
+                    </p>
                   </div>
                 </div>
               </div>
             </div>
-            <div className='col-md-6 col-lg-4 col-sm-12 d-none d-lg-block'>
-              <img className="img-fluid  unlocking_img rounded shadow " 
-              src={hospital_center} alt="Interconnected gears symbolizing seamless collaboration in healthcare" />
+            <div className="col-md-6 col-lg-4 col-sm-12 d-none d-lg-block">
+              <img
+                className="img-fluid  unlocking_img rounded shadow "
+                src={hospital_center}
+                alt="Interconnected gears symbolizing seamless collaboration in healthcare"
+              />
             </div>
-            <div className='col-md-6 col-lg-4 col-sm-12'>
-              <div className='row text-start'>
+            <div className="col-md-6 col-lg-4 col-sm-12">
+              <div className="row text-start">
                 <div className="col-md-12 col-sm-12 col-lg-12 mb-3">
                   <div className=" p-3 border rounded shadow-sm bg-white">
                     <div>
                       <h6 className="fw-bold mb-1">Streamlined Process</h6>
-                      <p className="mb-0 small">Our platform simplifies the medical record sharing and review process for your team.</p>
+                      <p className="mb-0 small">
+                        Our platform simplifies the medical record sharing and
+                        review process for your team.
+                      </p>
                     </div>
                   </div>
                 </div>
                 <div className="col-md-12 col-sm-12 col-lg-12 mb-3">
                   <div className="p-3 border rounded shadow-sm bg-white">
                     <div>
-                      <h6 className="fw-bold mb-1">Support for Complex Cases</h6>
-                      <p className="mb-0 small">Get specialized insights for rare cancers or challenging diagnoses.</p>
+                      <h6 className="fw-bold mb-1">
+                        Support for Complex Cases
+                      </h6>
+                      <p className="mb-0 small">
+                        Get specialized insights for rare cancers or challenging
+                        diagnoses.
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -103,14 +117,15 @@ function Hospitals() {
                   <div className=" p-3 border rounded shadow-sm bg-white">
                     <div>
                       <h6 className="fw-bold mb-1">Educational Resource</h6>
-                      <p className="mb-0 small">Leverage expert opinions for internal learning and professional development.</p>
+                      <p className="mb-0 small">
+                        Leverage expert opinions for internal learning and
+                        professional development.
+                      </p>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-
-
           </div>
           {/* <div className="row">
               <div className="col-md-12 col-lg-7 col-sm-12">
@@ -162,49 +177,74 @@ function Hospitals() {
 
       {/* How It Works Section */}
       <section className=" py-5 ">
-        <div className='container'>
+        <div className="container">
           <div className="text-center mb-5">
             <h2 className="section-title fw-bold ">
-              Seamless Integration for Enhanced Patient Care</h2>
+              Seamless Integration for Enhanced Patient Care
+            </h2>
           </div>
           <div className="row g-4">
             <div className="col-md-6 col-lg-3 col-sm-6">
               <div className="card h-100">
-                <img src={hospital1} className="card-img-top hospital_img_height" alt="Patient securely uploading medical documents from home." />
+                <img
+                  src={hospital1}
+                  className="card-img-top hospital_img_height"
+                  alt="Patient securely uploading medical documents from home."
+                />
                 <div className="card-body">
                   <h5 className="card-title">Referral & Secure Upload</h5>
                   <p className="card-text">
-                    Easily refer patients and securely upload their medical data to our HIPAA-compliant platform.
+                    Easily refer patients and securely upload their medical data
+                    to our HIPAA-compliant platform.
                   </p>
                 </div>
               </div>
             </div>
             <div className="col-md-6 col-lg-3 col-sm-6">
               <div className="card h-100">
-                <img src={hospital2}
-                  className="card-img-top hospital_img_height" alt="Global oncology experts collaborating virtually." />
+                <img
+                  src={hospital2}
+                  className="card-img-top hospital_img_height"
+                  alt="Global oncology experts collaborating virtually."
+                />
                 <div className="card-body">
                   <h5 className="card-title">Expert Matching & Review</h5>
-                  <p className="card-text">We match the case with a top specialist who provides a comprehensive second opinion report.</p>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-6 col-lg-3 col-sm-6">
-              <div className="card h-100">
-                <img src={hospital3} className="card-img-top hospital_img_height" alt="Doctor meticulously reviewing a medical report." />
-                <div className="card-body">
-                  <h5 className="card-title">Collaborative Insights</h5>
-                  <p className="card-text">Receive detailed reports that can be integrated into your patient's file, facilitating informed decisions.
+                  <p className="card-text">
+                    We match the case with a top specialist who provides a
+                    comprehensive second opinion report.
                   </p>
                 </div>
               </div>
             </div>
             <div className="col-md-6 col-lg-3 col-sm-6">
               <div className="card h-100">
-                <img src={hospital_banner} className="card-img-top hospital_img_height" alt="Indian patient in a virtual consultation with an expert." />
+                <img
+                  src={hospital3}
+                  className="card-img-top hospital_img_height"
+                  alt="Doctor meticulously reviewing a medical report."
+                />
+                <div className="card-body">
+                  <h5 className="card-title">Collaborative Insights</h5>
+                  <p className="card-text">
+                    Receive detailed reports that can be integrated into your
+                    patient's file, facilitating informed decisions.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-6 col-lg-3 col-sm-6">
+              <div className="card h-100">
+                <img
+                  src={hospital_banner}
+                  className="card-img-top hospital_img_height"
+                  alt="Indian patient in a virtual consultation with an expert."
+                />
                 <div className="card-body">
                   <h5 className="card-title">Follow-up & Support</h5>
-                  <p className="card-text">Access to our support team for any queries or follow-up needs.</p>
+                  <p className="card-text">
+                    Access to our support team for any queries or follow-up
+                    needs.
+                  </p>
                 </div>
               </div>
             </div>
@@ -235,17 +275,19 @@ function Hospitals() {
                         <b> For Oncologists</b>
                       </p>
                       <p>
-                        "Peer validation, access to sub-specialists, new treatment perspectives."
+                        "Peer validation, access to sub-specialists, new
+                        treatment perspectives."
                       </p>
                     </div>
                   </div>
                   <div className="col-md-6">
                     <div className="bg-light-blue text-dark p-4 rounded shadow-sm h-100">
                       <p>
-                        <b>  For Hospital Administrators</b>
+                        <b> For Hospital Administrators</b>
                       </p>
                       <p>
-                        "Enhanced patient satisfaction, potential for new revenue streams, competitive advantage."
+                        "Enhanced patient satisfaction, potential for new
+                        revenue streams, competitive advantage."
                       </p>
                     </div>
                   </div>
@@ -302,22 +344,37 @@ function Hospitals() {
 
       {/* Case Studies */}
       <section className="py-5 ">
-        <div className='container'>
+        <div className="container">
           <div className="text-center mb-4">
-            <h2 className="section-title fw-bold ">
-              Success Stories</h2>
+            <h2 className="section-title fw-bold ">Success Stories</h2>
           </div>
           <div className="row align-items-center ">
             <div className="card mb-3 p-0">
               <div className="row g-0">
                 <div className="col-md-2 p-0">
-                  <img src={doct3} className="img-fluid rounded-start w-100" alt="Dr. Sanjeev Gupta, Head of Oncology, sharing his hospital's success with OncoBridge" />
+                  <img
+                    src={doct3}
+                    className="img-fluid rounded-start w-100"
+                    alt="Dr. Sanjeev Gupta, Head of Oncology, sharing his hospital's success with OncoBridge"
+                  />
                 </div>
                 <div className="col-md-10">
                   <div className="card-body">
-                    <h5 className="card-title text-start">A professional headshot of Dr. Sanjeev Gupta, an Indian physician, conveying authority and trust</h5>
-                    <p className="card-text text-start"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non odio nec odio sollicitudin vulputate. Aenean nec fringilla lorem. </p>
-                    <p className="card-text text-start"><small className="text-muted">Last updated 3 mins ago</small></p>
+                    <h5 className="card-title text-start">
+                      A professional headshot of Dr. Sanjeev Gupta, an Indian
+                      physician, conveying authority and trust
+                    </h5>
+                    <p className="card-text text-start">
+                      {" "}
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Integer non odio nec odio sollicitudin vulputate. Aenean
+                      nec fringilla lorem.{" "}
+                    </p>
+                    <p className="card-text text-start">
+                      <small className="text-muted">
+                        Last updated 3 mins ago
+                      </small>
+                    </p>
                   </div>
                 </div>
               </div>
@@ -325,7 +382,6 @@ function Hospitals() {
           </div>
         </div>
       </section>
-
 
       {/* Section: FAQ */}
       {/* <section className="faq-section py-5 bg-white">
@@ -386,16 +442,17 @@ function Hospitals() {
         </div>
       </section> */}
 
-
       {/* Final CTA */}
       <section className="text-center py-5 bg-light rounded">
-        <div className='container'>
-          <h2 className="fw-bold mb-3">Strengthen your oncology program. Partner with OncoBridge today.</h2>
-          <a href="#start" className="btn btn-lg btn-danger">Schedule a Partnership Discussion</a>
+        <div className="container">
+          <h2 className="fw-bold mb-3">
+            Strengthen your oncology program. Partner with OncoBridge today.
+          </h2>
+          <a href="#start" className="btn btn-lg btn-danger">
+            Schedule a Partnership Discussion
+          </a>
         </div>
       </section>
-
-
     </>
   );
 }

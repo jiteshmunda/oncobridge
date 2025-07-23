@@ -5,23 +5,32 @@ function Partners() {
   return (
     <>
       <section className="text-center">
-        <div className='container-fluid px-0'>
-          <div className='row gx-0 align-items-center'>
-            <div className="bg-image-partners d-flex justify-content-left align-items-center text-center text-white vh-100">
-              <div className="overlay-content">
-                <div className='col-md-8 p-3 ps-lg-5 ms-lg-5 ms-sm-5 ms-md-5'>
-                  <h2 className="fw-bold text-white partner_overlay"> Iylon Precision Oncology</h2>
-                  <p className="lead">
-                  </p>
-                  {/* <div className="d-flex justify-content-left gap-3">
-                    <button className="btn btn-primary">Start Your Second Opinion Request</button>
-                  </div> */}
-                </div>
-              </div>
-            </div>
+  <div className="container-fluid px-0">
+    <div className="row gx-0 align-items-center">
+      <div className="bg-image-partners d-flex justify-content-left align-items-center text-left text-white vh-100">
+        <div className="overlay-content">
+          <div className="col-md-8 p-3 ps-lg-5 ms-lg-5 ms-md-5 ms-sm-5">
+            <h1 className="fw-bold text-white display-4 animate__animated animate__fadeIn">
+              Iylon Precision Oncology
+            </h1>
+            <p className="lead animate__animated animate__fadeIn animate__delay-1s">
+              {/* Optional subtitle or partnership description */}
+            </p>
+            {/* Optional button section */}
+            {/* 
+            <div className="d-flex justify-content-start gap-3 mt-3">
+              <button className="btn btn-primary">
+                Start Your Second Opinion Request
+              </button>
+            </div> 
+            */}
           </div>
         </div>
-      </section>
+      </div>
+    </div>
+  </div>
+</section>
+
       <section className="text-center py-5">
         <div className='container '>
           <div className='row  align-items-center'>

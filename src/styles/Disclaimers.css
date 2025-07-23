@@ -15,9 +15,11 @@
 .disclaimer-banner {
   background-image: url('/src/assets/disclaimer.jpg'); 
   background-position: center;
-  height: 500px;
+  height: 79vh;
   position: relative;
   overflow: hidden;
+  background-size: cover;
+
 }
 
 .disclaimer-banner .overlay {
