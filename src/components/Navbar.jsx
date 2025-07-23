@@ -48,7 +48,7 @@ function Navbar() {
 Products & Services
   </NavLink >
   <ul className="dropdown-menu second_option" aria-labelledby="dropdownMenuButton">
-    <li><NavLink  to="/secondoption"  onClick={closeMenu}  className={({ isActive }) => isActive ? "menu-link active" : "dropdown-item "}>Second Option</NavLink></li>
+    <li><NavLink  to="/secondoption"  onClick={closeMenu}  className={({ isActive }) => isActive ? "menu-link active" : "dropdown-item "}>Second Opinion </NavLink></li>
     {/* <li><NavLink to="/hospital"  onClick={closeMenu}  className={({ isActive }) => isActive ? "menu-link active" : "dropdown-item"}>Hospital</NavLink></li>
     <li><NavLink  to="/insurance"  onClick={closeMenu}  className={({ isActive }) => isActive ? "menu-link active" : "dropdown-item"}>Insurance</NavLink></li> */}
           </ul>
