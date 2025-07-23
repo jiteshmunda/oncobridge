@@ -45,9 +45,9 @@ function Navbar() {
            {/* <li><NavLink  to="/secondoption" onClick={closeMenu}  className={({ isActive }) => isActive ? "menu-link active" : "menu-link"}><span>Products and Services</span></NavLink></li> */}
         <div className="dropdown">
   <NavLink  className=" " type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
-Products and Services
+Products & Services
   </NavLink >
-  <ul className="dropdown-menu " aria-labelledby="dropdownMenuButton">
+  <ul className="dropdown-menu second_option" aria-labelledby="dropdownMenuButton">
     <li><NavLink  to="/secondoption"  onClick={closeMenu}  className={({ isActive }) => isActive ? "menu-link active" : "dropdown-item "}>Second Option</NavLink></li>
     {/* <li><NavLink to="/hospital"  onClick={closeMenu}  className={({ isActive }) => isActive ? "menu-link active" : "dropdown-item"}>Hospital</NavLink></li>
     <li><NavLink  to="/insurance"  onClick={closeMenu}  className={({ isActive }) => isActive ? "menu-link active" : "dropdown-item"}>Insurance</NavLink></li> */}
@@ -69,14 +69,14 @@ Second Opinion
 
 <div className="dropdown">
   <NavLink  className=" " type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
-Resource
+Resources
   </NavLink >
   <ul className="dropdown-menu " aria-labelledby="dropdownMenuButton">
-      <li><NavLink    to="/blog" onClick={closeMenu}  className={({ isActive }) => isActive ? "menu-link active" : "dropdown-item"}>Blog</NavLink></li>
+      {/* <li><NavLink    to="/blog" onClick={closeMenu}  className={({ isActive }) => isActive ? "menu-link active" : "dropdown-item"}>Blog</NavLink></li>
     <li><NavLink  to="/testimonial" onClick={closeMenu}  className={({ isActive }) => isActive ? "menu-link active" : "dropdown-item"}>Testimonials</NavLink></li>
     <li><NavLink    to="/Videos" onClick={closeMenu}  className={({ isActive }) => isActive ? "menu-link active" : "dropdown-item"}>Videos</NavLink></li>
-    <li><NavLink    to="/newsletter" onClick={closeMenu}  className={({ isActive }) => isActive ? "menu-link active" : "dropdown-item"}>Newsletters</NavLink></li>
-      <li><NavLink   to="/myths" onClick={closeMenu}  className={({ isActive }) => isActive ? "menu-link active" : "dropdown-item"}>Myths and Fact</NavLink></li>
+    <li><NavLink    to="/newsletter" onClick={closeMenu}  className={({ isActive }) => isActive ? "menu-link active" : "dropdown-item"}>Newsletters</NavLink></li> */}
+      <li><NavLink   to="/myths" onClick={closeMenu}  className={({ isActive }) => isActive ? "menu-link active" : "dropdown-item"}>Myths & Fact</NavLink></li>
       <li><NavLink to="/faq" onClick={closeMenu} className={({ isActive }) => isActive ? "menu-link active" : "dropdown-item"}><span>FAQ</span></NavLink></li>
           
      {/* <li><NavLink  className="dropdown-item" to="/productdesc" onClick={closeMenu}  className={({ isActive }) => isActive ? "menu-link active" : "menu-link"}>Product description</NavLink></li>  */}
@@ -84,7 +84,7 @@ Resource
 </div>
 
           {/* <li><Link to="/partners" onClick={closeMenu}><span>Partners</span></Link></li> */}
-          <li><NavLink to="/career" onClick={closeMenu} className={({ isActive }) => isActive ? "menu-link active" : "menu-link"}><span>Career</span></NavLink></li>
+          <li><NavLink to="/careers" onClick={closeMenu} className={({ isActive }) => isActive ? "menu-link active" : "menu-link"}><span>Careers</span></NavLink></li>
          <li><NavLink   to="/partners" onClick={closeMenu} className={({ isActive }) => isActive ? "menu-link active" : "menu-link"}>Partners</NavLink></li> 
 
            {/* <li><NavLink to="/faq" onClick={closeMenu} className={({ isActive }) => isActive ? "menu-link active" : "menu-link"}><span>FAQ</span></NavLink></li> */}

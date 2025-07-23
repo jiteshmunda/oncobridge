@@ -193,7 +193,7 @@ a {
 }
 
 .bg-cover {
-  background-image: url('../assets//bg_digit.jpg');
+  background-image: url('../assets//bg_insu_digi.jpg');
   /* Replace with your image path */
   background-size: cover;
   background-position: center;
@@ -285,8 +285,8 @@ a {
 .overlay-content h2,
 .overlay-content p {
   margin-bottom: 4%;
+  
 }
-
 .bg-image_hospital {
   /* background-image: url("../assets/indian_doct.png"); */
   background-image: url("https://media.gettyimages.com/id/1482747690/photo/asia-india-doctor-having-discussion-in-hospital.jpg?s=612x612&w=0&k=20&c=yXB_5IiUWlbgspwfUXKlsv3Cd9kcikrMICHn8OS_OMA=");
@@ -361,7 +361,10 @@ a {
   position: relative;
   z-index: 2;
 }
-
+.partner_overlay 
+{
+  line-height: 50px;
+}
 .bg-image-partners {
   background-image: url('../assets/partners.jpg');
   /* Your image path */
@@ -744,6 +747,11 @@ a {
 
 /* menu  */
 /* Common link style */
+.footer_logo 
+{
+      width: 92%;
+    margin-top: 8%;
+}
 .menu-link,
 .footer-link {
 

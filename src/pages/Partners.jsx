@@ -10,7 +10,7 @@ function Partners() {
             <div className="bg-image-partners d-flex justify-content-left align-items-center text-center text-white vh-100">
               <div className="overlay-content">
                 <div className='col-md-8 p-3 ps-lg-5 ms-lg-5 ms-sm-5 ms-md-5'>
-                  <h2 className="fw-bold text-white"> OHPL with OncoBridge Healthcare </h2>
+                  <h2 className="fw-bold text-white partner_overlay"> Iylon Precision Oncology, USA </h2>
                   <p className="lead">
                   </p>
                   {/* <div className="d-flex justify-content-left gap-3">
@@ -26,16 +26,16 @@ function Partners() {
         <div className='container '>
           <div className='row  align-items-center'>
             <div className='col-md-7 partners_text'>
-              <div class="text-center mb-5"><h2 class="section-title fw-bold">OHPL: Proud Partner of Iylon Precision Oncology</h2>
+              <div class="text-center mb-5"><h2 class="section-title fw-bold">OncoBridge : Proud Partner of Iylon Precision Oncology</h2>
               </div>
               <p className='text-start'>
-                We, at OHPL (OncoBridge Healthcare Private Limited), are thrilled to announce our partnership with Iylon Precision Oncology,
+                We, at OncoBridge Healthcare Private Limited, are thrilled to announce our partnership with Iylon Precision Oncology,
                 a leader in personalized cancer care based in Providence, Rhode Island. Accessible at iylon.com, Iylon is
                 transforming the landscape of cancer treatment through its innovative use of genomic analysis and artificial
                 intelligence to deliver tailored treatment recommendations.
               </p>
               <p className='text-start'>
-                As a partner, OHPL is committed to collaborating with Iylon to advance precision oncology,
+                As a partner, OncoBridge is committed to collaborating with Iylon to advance precision oncology,
                 ensuring that patients across our network benefit from cutting-edge, evidence-based treatment plans.
                 By integrating Iylon’s expertise in molecular oncology, radiology, and AI-driven diagnostics, we aim to
                 enhance patient outcomes and expand access to personalized cancer care. Together, we are dedicated to supporting Iylon’s

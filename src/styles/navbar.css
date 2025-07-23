@@ -15,7 +15,7 @@
 
 
 .navbar-container {
-  max-width: 1200px;
+  /* max-width: 1200px; */
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -51,16 +51,20 @@
 .navbar-menu li {
   position: relative;
 }
-
+.second_option
+{
+    transform: translate(23px, 41px) !important;
+}
 .navbar-menu a {
   font-size: 1rem;
   font-weight: 500;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   color: #000;
   text-decoration: none;
   position: relative;
   overflow: hidden;
-  padding: 0.3rem 0.5rem;
+  padding: .3rem .5rem;
+  /* padding:1rem 0.5rem; */
   display: inline-block;
 }
 
@@ -209,6 +213,9 @@
  .navbar-logo h4
  {
      text-transform: none;
+         color: #000;
+       font-size: 2.8rem;
+    margin-bottom: 6px;
  }
 .navbar-logo
 {
@@ -218,7 +225,7 @@
     background-size: 140px 115px;
     color: white;
     text-align: center;
-        padding: 20px 5px;
+        padding:10px 6px;
     /* padding: 45px 71px; */
 
 }
@@ -240,6 +247,6 @@
   content: "\f0d7"; /* fa-folder-open */
     display: inline-block;
     position: absolute;
-    left: 100%;
-    top: 3px;
+      left: 101%;
+    top: 5px;
 }

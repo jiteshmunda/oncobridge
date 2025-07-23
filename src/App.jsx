@@ -64,7 +64,7 @@ function AppWrapper() {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
-            <Route path="/career" element={<Career />} />
+            <Route path="/careers" element={<Career />} />
             <Route path="/terms" element={<Terms />} />
             <Route path="/disclaimers" element={<Disclaimers />} />
             <Route path="/hospital" element={<Hospitals />} />

@@ -10,14 +10,13 @@ function Footer() {
           <div className="col-md-3 mb-4">
             <img
               src={footerlogo}
-              alt="OncoBridge Logo"
-              style={{ maxWidth: "120px" }}
-              className="mb-3"
+              alt="OncoBridge Logo"             
+              className="mb-3 footer_logo"
             />
-            <p>
+            {/* <p>
               Bridging cancer care and technology. OncoBridge connects patients,
               providers, and data for a better tomorrow.
-            </p>
+            </p> */}
           </div>
 
           {/* Quick Links */}
@@ -38,7 +37,7 @@ function Footer() {
                 <li><NavLink to="/hospital" className={({ isActive }) => isActive ? "menu-link active" : "text-dark text-decoration-none"}><span>Hospital</span></NavLink></li>
                 <li><NavLink to="/insurance" className={({ isActive }) => isActive ? "menu-link active" : "text-dark text-decoration-none"}><span>Insurance</span></NavLink></li>
 
-                <li><NavLink to="/blog" className={({ isActive }) => isActive ? "menu-link active" : "text-dark text-decoration-none"}><span>blog</span></NavLink></li>
+                <li><NavLink to="/blog" className={({ isActive }) => isActive ? "menu-link active" : "text-dark text-decoration-none"}><span>Blog</span></NavLink></li>
 <li><NavLink to="/blog" className={({ isActive }) => isActive ? "menu-link active" : "text-dark text-decoration-none"}><span>Testimonials</span></NavLink></li>
                 <li><NavLink to="/blog" className={({ isActive }) => isActive ? "menu-link active" : "text-dark text-decoration-none"}><span>Videos</span></NavLink></li>
               
@@ -49,7 +48,7 @@ function Footer() {
                 <li><NavLink to="/faq" className={({ isActive }) => isActive ? "menu-link active" : "text-dark text-decoration-none"}><span>FAQ</span></NavLink></li>
 
 
-                <li><NavLink to="/career" className={({ isActive }) => isActive ? "menu-link active" : "text-dark text-decoration-none"}><span>Career</span></NavLink></li>
+                <li><NavLink to="/careers" className={({ isActive }) => isActive ? "menu-link active" : "text-dark text-decoration-none"}><span>Careers</span></NavLink></li>
                 <li><NavLink to="/partners" className={({ isActive }) => isActive ? "menu-link active" : "text-dark text-decoration-none"}><span>Partners</span></NavLink></li>
                 <li><NavLink to="/contact" className={({ isActive }) => isActive ? "menu-link active" : "text-dark text-decoration-none"}><span>Contact</span></NavLink></li>
                 <li>
