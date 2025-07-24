@@ -1423,3 +1423,9 @@
   display: block;
 }
 }
+.count_block 
+{
+  letter-spacing: 2px;
+    font-size: 20px;
+    margin-top: 5%;
+}

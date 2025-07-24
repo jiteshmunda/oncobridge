@@ -530,15 +530,15 @@ const Home = () => {
               <div className="card border-0 shadow-lg rounded-4 p-4 bg-white position-relative">
                 <div className=" mb-3 live_transform">Lives Transformed</div>
                 <p className="">
-                  Today, <strong> Dr. Sharma  </strong>  uses <strong> OncoBridge </strong> to connect her patient
-                  <strong> Rajesh</strong>, a 45-year-old teacher from Kanpur, with a precision therapy protocol
-                  that's more effective for his specific genetic profile.
+                  Today,  Dr. Sharma uses OncoBridge to connect her patient
+                 Rajesh, a 45-year-old teacher from Kanpur, with a precision therapy protocol
+                  that's <strong> more effective for his specific genetic profile.</strong>
                 </p>
                 <p>
                   Rajesh represents thousands of Indian patients whose lives are transformed when cutting-edge care
                   transcends geographical barriers. His story proves that when we bridge knowledge gaps across India's
-                  diverse healthcare landscape, we don't just treat cancer – we <strong>bring hope home</strong> to
-                  every family.
+                  diverse healthcare landscape, we don't just treat cancer – we <strong>bring hope home to
+                  every family.</strong>
                 </p>
                 <div className="story-quote mt-4">
                   <i className="bi bi-chat-quote fs-3 me-2 text-primary"></i>
@@ -622,12 +622,12 @@ const Home = () => {
               <p className="challenge_txt">
                 Meet Dr. Sharma, a dedicated oncologist at Delhi who spends her days fighting an invisible enemy.
                 Despite her access to international research and decades of medical training,
-                she finds herself struggling to connect
-                global breakthroughs with the diverse patient population she serves across India.
+                she finds herself <strong> struggling to connect
+                global breakthroughs </strong>  with the diverse patient population she serves across India.
                 Dr. Sharma represents thousands of Indian healthcare professionals who face unique
-                challenges: bridging international
+                challenges:<strong>  bridging international
                 research with local patient genetics, managing resource constraints,
-                and ensuring equitable access to life-saving treatments across urban
+                and ensuring equitable access </strong> to life-saving treatments across urban
                 metros and rural communities.
               </p>
               {/* <ul className="list-unstyled hero-feature-list">
@@ -666,21 +666,21 @@ const Home = () => {
           <div className="stats-section text-white d-flex align-items-center mt-5 pt-4">
             <div className="container">
               <div className="row text-center">
-                <div className="col-md-4 mb-4 mt-5">
+                <div className="col-md-4 mb-4 mt-5 count_block">
                   <div className="icon-circle mb-2">
                     <i className="fas fa-user-md fa-2x mb-2"></i>
                   </div>
                   <h3 className="my-2 text-white">50</h3>
                   <p className="mb-0 fw-bold">Medical Experts</p>
                 </div>
-                <div className="col-md-4 mb-4 mt-5">
+                <div className="col-md-4 mb-4 mt-5 count_block">
                   <div className="icon-circle mb-2">
                     <i className="fas fa-procedures fa-2x mb-2"></i>
                   </div>
                   <h3 className="my-2 text-white">300</h3>
                   <p className="mb-0 fw-bold">Hospital Rooms</p>
                 </div>
-                <div className="col-md-4 mb-4 mt-5">
+                <div className="col-md-4 mb-4 mt-5 count_block">
                   <div className="icon-circle mb-2">
                     <i className="fas fa-gem fa-2x mb-2"></i>
                   </div>
@@ -704,10 +704,10 @@ const Home = () => {
           {/* Right Content */}
           <div className="col-md-6 d-flex flex-column justify-content-center p-5 text-white hero-bg">
             <h1 className="display-5 fw-bold">Your Story Starts Here</h1>
-            <p className="lead mt-4">
-              Join us in building bridges that transform cancer care across every corner of India.
+            <p className=" mt-4">
+              Join us in building bridges that <strong>transform cancer care across every corner of India.</strong>
               Whether you're a patient, a clinician in a district hospital, or a healthcare institution
-              ready to improve access – your impact story begins with <strong>OncoBridge</strong>.
+              ready to improve access – your impact story begins with OncoBridge.
             </p>
             <Link to="/contact" className="btn btn-light btn-lg mt-4 px-4 rounded-pill shadow col-md-5">
               Get Started
@@ -763,7 +763,7 @@ const Home = () => {
 
 
 
-
+{/* 
  <div className="container py-5 d-flex justify-content-center">
       <div className="col-md-8 col-lg-6 bg-light rounded-4 shadow-lg p-4 px-md-5 text-center animate__animated animate__fadeIn" style={{
         background: "linear-gradient(135deg, #0288D1, #01579B)",
@@ -804,7 +804,7 @@ const Home = () => {
           <li>✓ Complete privacy guaranteed</li>
         </ul>
       </div>
-    </div>
+    </div> */}
 
       {/* <section className="how-helps-section py-5">
         <div className="container">
