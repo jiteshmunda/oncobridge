@@ -251,19 +251,23 @@
     top: 5px;
 }
 @media (max-width: 1024px) {
+  .navbar-logo h4 {
+  
+    font-size: 1.4rem;
+  }
   .dropdown-item  
   {
     padding-left: 6px !important;
   }
   .navbar-menu a {
     font-size: 13.8px;
-    padding: 0;
+    /* padding: 0; */
   }
   .second_option {
     transform: translate(8px, 24px) !important;
 }
   .dropdown::before {
     left: 105%;
-    top: -1px;
+    top: 2px;
   }
 }
