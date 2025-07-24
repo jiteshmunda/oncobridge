@@ -168,7 +168,7 @@ function Insurance() {
             <div class="bg-overlay"></div>
 
             <div class="container content-wrapper col-lg-p-0 p-4">
-              <div className="row g-4">
+              <div className="row g-4  justify-content-center">
                 <div className="col-md-5">
                   <div className="card h-100 shadow-sm">
                     <div className="card-header card_header_for_hospital">

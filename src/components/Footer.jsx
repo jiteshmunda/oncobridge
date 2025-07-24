@@ -7,7 +7,7 @@ function Footer() {
       <div className="container">
         <div className="row">
           {/* Brand Description */}
-          <div className="col-md-3 mb-4">
+          <div className="col-md-4 col-lg-3 col-sm-3 mb-4">
             <img
               src={footerlogo}
               alt="OncoBridge Logo"             
@@ -20,7 +20,7 @@ function Footer() {
           </div>
 
           {/* Quick Links */}
-          <div className="col-md-3 mb-4">
+          <div className="col-md-4 col-lg-3 col-sm-3 mb-4">
             <h5 className="text-uppercase fw-bold mb-3">Quick Links</h5>
             <div className="d-flex justify-content-end">
               <ul className="list-unstyled">
@@ -64,7 +64,7 @@ function Footer() {
           </div>
 
           {/* Contact Info */}
-          <div className="col-md-3 mb-4">
+          <div className="col-md-4 col-lg-3 col-sm-3 mb-4">
             <h5 className="text-uppercase fw-bold mb-3">Contact</h5>
             <p>
               <i className="fas fa-home me-2"></i>
@@ -97,7 +97,8 @@ function Footer() {
           </div>
 
           {/* Newsletter */}
-          <div className="col-md-3 mb-4">
+          <div className="col-md-12 col-lg-3 col-sm-3 mb-4">
+            <div className="col-lg-12 col-sm-12  col-md-6 mx-auto">
             <h5 className="text-uppercase fw-bold mb-3">Newsletter</h5>
             <p>Stay informed with updates and health tips from OncoBridge.</p>
             <form onSubmit={(e) => e.preventDefault()}>
@@ -117,6 +118,7 @@ function Footer() {
                 </button>
               </div>
             </form>
+            </div>
           </div>
         </div>
 

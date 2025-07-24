@@ -38,7 +38,7 @@ function Myths() {
       <section className="text-center py-5">
         <div className="container ">
           <div className="row  align-items-center">
-            <div className="col-md-7">
+            <div className="col-md-12 col-lg-7">
               <div className="text-start  mb-3">
                 <h2 className="section-title fw-bold">
                   A Message to Patients and Families
@@ -66,11 +66,11 @@ function Myths() {
                 patients.
               </p>
             </div>
-            <div className="col-md-5 ">
+            <div className="col-md-12 col-lg-5">
               <img
                 src={myths1}
                 alt="myths1"
-                className="img-fluid main-img extra-rounded"
+                className="img-fluid main-img extra-rounded d-md-none d-lg-block"
               />
             </div>
           </div>
@@ -89,7 +89,7 @@ function Myths() {
             </div>
             <div className="col-md-7">
               <div className="text-start ">
-                <h2 className="section-title fw-bold">
+                <h2 className="section-title fw-bold mt-5">
                   Understanding Cancer: The Basics
                 </h2>
               </div>
@@ -664,7 +664,7 @@ function Myths() {
           </div>
 
           <div className="row g-4">
-            <div className="col-md-4 col-lg-4">
+            <div className="col-md-6 col-sm-12 col-lg-4">
               <div className="feature-card text-center p-4 h-100">
                 <div className="feature-icon mb-3">
                   <i className="bi bi-hospital "></i>
@@ -678,7 +678,7 @@ function Myths() {
                 </ul>
               </div>
             </div>
-            <div className="col-md-4 col-lg-4">
+            <div className="col-md-6 col-sm-12 col-lg-4">
               <div className="feature-card text-center p-4 h-100">
                 <div className="feature-icon mb-3">
                   <i className="bi bi-capsule-pill"></i>
@@ -695,7 +695,7 @@ function Myths() {
                 </ul>
               </div>
             </div>
-            <div className="col-md-4 col-lg-4">
+            <div className="col-md-6 col-sm-12 col-lg-4">
               <div className="feature-card text-center p-4 h-100">
                 <div className="feature-icon mb-3">
                   <i className="bi bi-broadcast"></i>
@@ -714,7 +714,7 @@ function Myths() {
                 </ul>
               </div>
             </div>
-            <div className="col-md-4 col-lg-4">
+            <div className="col-md-6 col-sm-12 col-lg-4">
               <div className="feature-card text-center p-4 h-100">
                 <div className="feature-icon mb-3">
                   <i className="bi bi-shield-check"></i>
@@ -730,7 +730,7 @@ function Myths() {
                 </ul>
               </div>
             </div>
-            <div className="col-md-4 col-lg-4">
+            <div className="col-md-6 col-sm-12 col-lg-4">
               <div className="feature-card text-center p-4 h-100">
                 <div className="feature-icon mb-3">
                   <i className="bi bi-bullseye"></i>
@@ -744,7 +744,7 @@ function Myths() {
                 </ul>
               </div>
             </div>
-            <div className="col-md-4 col-lg-4">
+            <div className="col-md-6 col-sm-12 col-lg-4">
               <div className="feature-card text-center p-4 h-100">
                 <div className="feature-icon mb-3">
                   <i className="bi bi-slash-circle"></i>

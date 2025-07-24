@@ -79,9 +79,8 @@ const Home = () => {
 
 
       {/* Section 1 */}
-      <section className="research-innovation py-5 bg-light">
+      {/* <section className="research-innovation py-5 bg-light">
         <div className="container text-center">
-          {/* <h2 className="section-title">Pioneering Cancer Research</h2> */}
           <h2 className="section-title">Lorem ipsum dolor sit amet.</h2>
           <p className="section-subtitle">
 
@@ -102,7 +101,7 @@ const Home = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
 
       {/* Section 1: Mission Quote */}
@@ -125,7 +124,29 @@ const Home = () => {
         <div className="container">
           <div className="row align-items-center">
 
-            {/* Left: Image with graphics */}
+            {/* Left: Text */}
+            <div className="col-md-6">
+              <h3 className="section-heading"> Lorem ipsum dolor sit amet</h3>
+              <div className="theme-underline mb-3"></div>
+              <p className="text-muted">
+                Doubts about diagnosis, treatment options, or potential side effects are natural.
+                A second opinion from a specialized oncologist can provide invaluable peace of mind,
+                confirm your diagnosis, refine treatment strategies,
+                and open doors to advanced therapies, ultimately improving outcomes.
+              </p>
+              <p className="text-muted">
+                A cancer diagnosis brings immense challenges and critical decisions.
+
+              </p>
+
+              {/* Button */}
+              <button className="btn-theme mb-5 mb-lg-0 mb-md-0 mb-sm-0">
+                <i className="bi bi-arrow-right-circle"></i>
+                Meet Our Experts
+              </button>
+
+            </div>
+            {/* Right: Image with graphics */}
             <div className="col-md-6 position-relative mb-4 mb-md-0">
               <div className="image-wrapper">
                 <img
@@ -141,30 +162,6 @@ const Home = () => {
                 </div>
               </div>
             </div>
-
-            {/* Right: Text */}
-            <div className="col-md-6">
-              {/* <h3 className="section-heading">A Unified Network of Experts</h3> */}
-              <h3 className="section-heading"> Lorem ipsum dolor sit amet</h3>
-              <div className="theme-underline mb-3"></div>
-              <p className="text-muted">
-                Doubts about diagnosis, treatment options, or potential side effects are natural.
-                A second opinion from a specialized oncologist can provide invaluable peace of mind,
-                confirm your diagnosis, refine treatment strategies,
-                and open doors to advanced therapies, ultimately improving outcomes.
-              </p>
-              <p className="text-muted">
-                A cancer diagnosis brings immense challenges and critical decisions.
-
-              </p>
-
-              {/* Button */}
-              <button className="btn-theme">
-                <i className="bi bi-arrow-right-circle"></i>
-                Meet Our Experts
-              </button>
-
-            </div>
           </div>
         </div>
       </section>
@@ -177,10 +174,22 @@ const Home = () => {
         <div className="container">
           <div className="row align-items-center">
 
-            {/* Left: Text Content */}
+            {/* Left: Image with Decorations */}
+            <div className="col-md-6 position-relative">
+              <div className="image-wrapper">
+                <img src={global} alt="Indian patient thoughtfully considering medical information on a tablet, seeking clarity for complex decisions"
+                  className="img-fluid main-img  extra-rounded" />
+                <div className="decor-circle top-right d-flex justify-content-center align-items-center">
+                  <i className="bi bi-globe icon-inside"></i>
+                </div>
+                <div className="decor-circle bottom-left d-flex justify-content-center align-items-center">
+                  <i className="bi bi-people icon-inside"></i>
+                </div>
+              </div>
+            </div>
+            {/* Right: Text Content */}
             <div className="col-md-6 mb-4 mb-md-0">
-              {/* <h3 className="section-heading">Empowering Global Cancer Care</h3> */}
-              <h3 className="section-heading">Trusted by Thousands, Backed by Experts.</h3>
+              <h3 className="section-heading mt-5 mt-lg-0 mt-md-0 mt-sm-0">Trusted by Thousands, Backed by Experts.</h3>
               <div className="theme-underline mb-3"></div>
               <p className="text-muted">
                 We partner with a network of board-certified oncologists from premier institutions globally.
@@ -209,26 +218,6 @@ const Home = () => {
               </button>
 
             </div>
-
-            {/* Right: Image with Decorations */}
-            <div className="col-md-6 position-relative">
-              <div className="image-wrapper">
-                <img src={global} alt="Indian patient thoughtfully considering medical information on a tablet, seeking clarity for complex decisions"
-                  className="img-fluid main-img  extra-rounded" />
-                {/* <img
-            src="https://www.mdanderson.org/content/dam/mdanderson/images/publications/cancerfrontline/WorldCancerDay2017.jpeg.resize.jpg"
-            alt="Global Cancer Care"
-            className="img-fluid main-img rounded"
-          /> */}
-                <div className="decor-circle top-right d-flex justify-content-center align-items-center">
-                  <i className="bi bi-globe icon-inside"></i>
-                </div>
-                <div className="decor-circle bottom-left d-flex justify-content-center align-items-center">
-                  <i className="bi bi-people icon-inside"></i>
-                </div>
-              </div>
-            </div>
-
           </div>
         </div>
       </section>
@@ -251,7 +240,7 @@ const Home = () => {
 
 
       {/* Section 4 */}
-      <section ref={section4Ref} className="why-choose-us py-5">
+      {/* <section ref={section4Ref} className="why-choose-us py-5">
         <div className="container">
           <div className="text-center mb-5">
             <h2 className="section-title">Lorem ipsum dolor</h2>
@@ -297,7 +286,7 @@ const Home = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
 
 
@@ -499,6 +488,7 @@ const Home = () => {
 
 
 
+
       {/* Section 7 */}
       <section className="py-0 bg_grey bg_color">
         <div className="container-fluid px-0">
@@ -530,6 +520,37 @@ const Home = () => {
           </div>
         </div>
       </section>
+
+      
+      {/* live transform  */}
+      <section className="lives-transformed-section py-5">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-10 col-xl-9">
+              <div className="card border-0 shadow-lg rounded-4 p-4 bg-white position-relative">
+                <div className=" mb-3 live_transform">Lives Transformed</div>
+                <p className="lead">
+                  Today, <strong> Dr. Sharma </strong> uses <strong> OncoBridge </strong> to connect her patient
+                  <strong> Rajesh</strong>, a 45-year-old teacher from Kanpur, with a precision therapy protocol
+                  that's more effective for his specific genetic profile.
+                </p>
+                <p>
+                  Rajesh represents thousands of Indian patients whose lives are transformed when cutting-edge care
+                  transcends geographical barriers. His story proves that when we bridge knowledge gaps across India's
+                  diverse healthcare landscape, we don't just treat cancer – we <strong>bring hope home</strong> to
+                  every family.
+                </p>
+                <div className="story-quote mt-4">
+                  <i className="bi bi-chat-quote fs-3 me-2 text-primary"></i>
+                  <span className="quote-text">“Every life we reach is a story worth telling.”</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      
       {/* Section 6 */}
       <section className="cancer-hero-alt py-5" ref={challengeRef} >
         <div className="container">
@@ -672,33 +693,7 @@ const Home = () => {
         </div>
       </section>
 
-      {/* live transform  */}
-      <section className="lives-transformed-section py-5">
-        <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-lg-10 col-xl-9">
-              <div className="card border-0 shadow-lg rounded-4 p-4 bg-white position-relative">
-                <div className=" mb-3 live_transform">Lives Transformed</div>
-                <p className="lead">
-                  Today, <strong>Dr. Sharma</strong> uses <strong>OncoBridge</strong> to connect her patient
-                  <strong> Rajesh</strong>, a 45-year-old teacher from Kanpur, with a precision therapy protocol
-                  that's more effective for his specific genetic profile.
-                </p>
-                <p>
-                  Rajesh represents thousands of Indian patients whose lives are transformed when cutting-edge care
-                  transcends geographical barriers. His story proves that when we bridge knowledge gaps across India's
-                  diverse healthcare landscape, we don't just treat cancer – we <strong>bring hope home</strong> to
-                  every family.
-                </p>
-                <div className="story-quote mt-4">
-                  <i className="bi bi-chat-quote fs-3 me-2 text-primary"></i>
-                  <span className="quote-text">“Every life we reach is a story worth telling.”</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+
       {/* your story  */}
       <div className="container-fluid hero-wrapper story-section text-white">
         <div className="row">
@@ -708,7 +703,7 @@ const Home = () => {
           </div>
           {/* Right Content */}
           <div className="col-md-6 d-flex flex-column justify-content-center p-5 text-white hero-bg">
-             <h1 className="display-5 fw-bold">Your Story Starts Here</h1>
+            <h1 className="display-5 fw-bold">Your Story Starts Here</h1>
             <p className="lead mt-4">
               Join us in building bridges that transform cancer care across every corner of India.
               Whether you're a patient, a clinician in a district hospital, or a healthcare institution
@@ -718,13 +713,13 @@ const Home = () => {
               Get Started
             </Link>
           </div>
-             {/* Play Button in Center */}
-        {/* <div className="play-button-wrapper">
+          {/* Play Button in Center */}
+          {/* <div className="play-button-wrapper">
           <div className="play-button">
             <i className="bi bi-play-fill text-primary fs-4"></i>
           </div>
         </div> */}
-        </div>     
+        </div>
       </div>
       {/* <section className="story-section text-white">
         <div className="container py-5">

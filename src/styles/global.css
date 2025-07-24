@@ -127,6 +127,9 @@ a {
 }
 
 @media (max-width: 768px) {
+  .diagnosis_text img {
+    height: 30vh !important;
+}
   .steps_img_height {
     height: 200px;
   }
@@ -432,8 +435,20 @@ a {
 }
 
 @media (max-width: 320px) {
+  .section-title {
+    font-size: 2.3rem;
+}
+  .height-50 {
+    height: 45vh !important;
+}
+  .w-25 {
+    width: 85% !important;
+}
+  .bg-image_ins {
+    height: 90vh !important;
+}
   .dropdown-menu {
-    height: 155px;
+    height: auto;
     overflow: scroll;
   }
 

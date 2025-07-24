@@ -250,3 +250,20 @@
       left: 101%;
     top: 5px;
 }
+@media (max-width: 1024px) {
+  .dropdown-item  
+  {
+    padding-left: 6px !important;
+  }
+  .navbar-menu a {
+    font-size: 13.8px;
+    padding: 0;
+  }
+  .second_option {
+    transform: translate(8px, 24px) !important;
+}
+  .dropdown::before {
+    left: 105%;
+    top: -1px;
+  }
+}

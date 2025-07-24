@@ -178,7 +178,7 @@ function Patients() {
                 <div className="card-body">
                   <h5 className="card-title">Step 3: In-Depth Review</h5>
                   <p className="card-text">
-                    : The expert meticulously reviews your case, providing a
+                    The expert meticulously reviews your case, providing a
                     comprehensive report and personalized recommendations.
                   </p>
                 </div>
