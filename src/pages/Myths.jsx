@@ -1230,7 +1230,7 @@ function Myths() {
         <section className="bg-image-question position-relative text-white">
           <div className="position-absolute top-0 start-0 w-100 h-100  opacity-50"></div>
 
-          <div className="container-fluid position-relative">
+          <div className="container-fluid position-relative bg_question">
             <div className="row align-items-center">
               <div className="col-md-12 col-lg-7  col-sm-7">
                 <div className="col-lg-12 p-5">
@@ -1302,12 +1302,15 @@ function Myths() {
                 </div>
               </div>
 
-              <div className="col-md-5 position-relative">
-                <img
+              <div className="col-md-5 ">
+               
+
+                {/* <img
                   src={myths_bg}
                   className="img-fluid bg_question_right d-none d-lg-block d-sm-block d-md-none"
                   alt="Example Image"
-                />
+                /> */}
+              
               </div>
             </div>
           </div>
