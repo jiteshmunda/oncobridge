@@ -500,8 +500,8 @@ const Home = () => {
                     <h1 className="hero-heading"> The Bridge to Hope</h1>
                   </div>
                   <p className="text-black text-start bridge_txt_space">
-                    Imagine if Dr. Sharma could access every relevant Indian and international study, treatment outcomes from similar
-                    genetic populations, and success stories from Tier-1 to Tier-3 cities with a single query.
+                    Imagine if Dr. Sharma could access <strong> every relevant Indian and international study, treatment outcomes from similar
+                    genetic populations, and success stories from Tier-1 to Tier-3 cities </strong> with a single query.
                     Imagine if breakthrough therapies could reach patients in Patna or Coimbatore in weeks, not years.
                   </p>
                   <p className="text-black text-start bridge_txt_space">
@@ -509,7 +509,7 @@ const Home = () => {
                     global research institutions and Indian hospitals , patients, and community healthcare networks.
                   </p>
                   <p className="text-black text-start bridge_txt_space">
-                    We don't just bridge urban-rural gaps – we improve access to world-class oncology insights tailored for the Indian healthcare ecosystem.
+                    We don't just bridge urban-rural gaps – we improve <strong>access to world-class oncology insights </strong>  tailored for the Indian healthcare ecosystem.
                     We understand the unique challenges of Indian healthcare – from genetic diversity to resource optimization –
                     creating a network that serves everyone from Mumbai's corporate hospitals to primary health centres in rural Rajasthan.
                   </p>
@@ -529,8 +529,8 @@ const Home = () => {
             <div className="col-lg-10 col-xl-9">
               <div className="card border-0 shadow-lg rounded-4 p-4 bg-white position-relative">
                 <div className=" mb-3 live_transform">Lives Transformed</div>
-                <p className="lead">
-                  Today, <strong> Dr. Sharma </strong> uses <strong> OncoBridge </strong> to connect her patient
+                <p className="">
+                  Today, <strong> Dr. Sharma  </strong>  uses <strong> OncoBridge </strong> to connect her patient
                   <strong> Rajesh</strong>, a 45-year-old teacher from Kanpur, with a precision therapy protocol
                   that's more effective for his specific genetic profile.
                 </p>
@@ -761,6 +761,50 @@ const Home = () => {
         </div>
       </section>
 
+
+
+
+ <div className="container py-5 d-flex justify-content-center">
+      <div className="col-md-8 col-lg-6 bg-light rounded-4 shadow-lg p-4 px-md-5 text-center animate__animated animate__fadeIn" style={{
+        background: "linear-gradient(135deg, #0288D1, #01579B)",
+        color: "white"
+      }}>
+        <h2 className="fw-bold mb-3">Take the First Step Towards Clarity</h2>
+        <p className="mb-4">
+          Join thousands of families who found peace of mind through expert second opinions.
+        </p>
+
+        <form>
+          <input
+            type="text"
+            className="form-control form-control-lg mb-3 rounded-pill"
+            placeholder="Your Name"
+          />
+          <input
+            type="email"
+            className="form-control form-control-lg mb-3 rounded-pill"
+            placeholder="Your Email"
+          />
+          <input
+            type="tel"
+            className="form-control form-control-lg mb-3 rounded-pill"
+            placeholder="Your Phone Number"
+          />
+          <button
+            type="submit"
+            className="btn btn-light text-primary fw-bold w-100 rounded-pill py-2"
+          >
+            Get Your Second Opinion
+          </button>
+        </form>
+
+        <ul className="list-unstyled mt-4 text-white-50 small">
+          <li>✓ Free 15-minute consultation call</li>
+          <li>✓ No commitment required</li>
+          <li>✓ Complete privacy guaranteed</li>
+        </ul>
+      </div>
+    </div>
 
       {/* <section className="how-helps-section py-5">
         <div className="container">

@@ -1,7 +1,7 @@
 import React from "react";
 import doct3 from "../assets/doct3.jpg";
 import hospital_banner from "../assets/hospital_banner.jpg";
-import hospital_center from "../assets/hospital_center.jpg";
+
 
 import hospital1 from "../assets/hospital1.png";
 import hospital2 from "../assets/hospital2.jpg";
@@ -80,12 +80,12 @@ function Hospitals() {
                 </div>
               </div>
             </div>
-            <div className="col-md-6 col-lg-4 col-sm-12 d-none d-lg-block">
-              <img
-                className="img-fluid  unlocking_img rounded shadow "
+            <div className="col-md-6 col-lg-4 col-sm-12 d-none d-lg-block bg_expand">
+              {/* <img
+                className="img-fluid    "
                 src={hospital_center}
                 alt="Interconnected gears symbolizing seamless collaboration in healthcare"
-              />
+              /> */}
             </div>
             <div className="col-md-6 col-lg-4 col-sm-12">
               <div className="row text-start">
@@ -253,8 +253,7 @@ function Hospitals() {
       </section>
 
       {/* Stakeholder Benefits */}
-      <section className=" ">
-        <section className=" rounded shadow-sm bg-white text-dark py-5">
+        <section className=" rounded shadow-sm bg-white text-dark py-5 bg_benifits">
           <div className="container">
             <div className="row">
               {/* Left Section */}
@@ -264,6 +263,7 @@ function Hospitals() {
                 <p className="lead">
                   Benefits for Different Stakeholders within Hospitals
                 </p>
+                {/* <img src="https://doctery-demo.pbminfotech.com/demo3/wp-content/uploads/sites/4/2021/01/bg-07.jpg"/> */}
               </div>
 
               {/* Right Section */}
@@ -305,7 +305,7 @@ function Hospitals() {
               </div>
             </div>
           </div>
-        </section>
+       
         {/* <div className="row g-4">
               <div className="col-md-4">
                 <div className="card h-100 shadow-sm">
