@@ -184,7 +184,7 @@ const disclaimerData = [
 
 const additionalTermsData = [
   {
-    id: "7",
+    id: "1",
     title: "Terms of Use and User Conduct",
     content: (
       <>
@@ -208,7 +208,7 @@ const additionalTermsData = [
     ),
   },
   {
-    id: "8",
+    id: "2",
     title: "Jurisdiction and Governing Law",
     content: (
       <>
@@ -230,7 +230,7 @@ const additionalTermsData = [
     ),
   },
   {
-    id: "9",
+    id: "3",
     title: "Statutory Rights",
     content: (
       <p>
@@ -240,7 +240,7 @@ const additionalTermsData = [
     ),
   },
   {
-    id: "10",
+    id: "4",
     title: "Contact Information",
     content: (
       <p>
@@ -252,7 +252,7 @@ const additionalTermsData = [
     ),
   },
   {
-    id: "11",
+    id: "5",
     title: "Consent Acknowledgement",
     content: (
       <>

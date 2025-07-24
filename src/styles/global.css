@@ -480,7 +480,7 @@ a {
   left: 10%;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 576px) {
   .bg_question
   {
     background: none;
