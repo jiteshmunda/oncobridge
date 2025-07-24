@@ -15,10 +15,13 @@ import hands_to from '../assets/hands_to.jpg';
 import { Link } from 'react-router-dom';
 
 const Home = () => {
-   const section4Ref = useRef(null);
-
+  const section4Ref = useRef(null);
+  const challengeRef = useRef(null);
   const scrollToSection4 = () => {
     section4Ref.current?.scrollIntoView({ behavior: "smooth" });
+  };
+  const scrollToChallenge = () => {
+    challengeRef.current?.scrollIntoView({ behavior: "smooth" });
   };
   return (
     <>
@@ -34,15 +37,15 @@ const Home = () => {
                   </h1>
                   <p className="lead mb-4 text-white">
                     Bridging cancer care and technology. OncoBridge connects patients,
-              providers, and data for a better tomorrow.
+                    providers, and data for a better tomorrow.
                   </p>
                   <div>
                     <Link to="/secondoption" className="btn btn-light me-3 px-4 py-2 mb-4">Get Your Second Opinion</Link>
                     {/* <a href="/secondoption" className="btn btn-light me-3 px-4 py-2 mb-4">Get Your Second Opinion </a> */}
                     {/* <a href="#services" className="btn btn-outline-light px-4 py-2 mb-4">How It Works </a> */}
                     <button onClick={scrollToSection4} className="btn btn-outline-light px-4 py-2 mb-4">
-          How It Works
-        </button>
+                      How It Works
+                    </button>
 
                   </div>
                 </div>
@@ -211,7 +214,7 @@ const Home = () => {
             <div className="col-md-6 position-relative">
               <div className="image-wrapper">
                 <img src={global} alt="Indian patient thoughtfully considering medical information on a tablet, seeking clarity for complex decisions"
-                  className="img-fluid main-img rounded" />
+                  className="img-fluid main-img  extra-rounded" />
                 {/* <img
             src="https://www.mdanderson.org/content/dam/mdanderson/images/publications/cancerfrontline/WorldCancerDay2017.jpeg.resize.jpg"
             alt="Global Cancer Care"
@@ -248,7 +251,7 @@ const Home = () => {
 
 
       {/* Section 4 */}
-      <section  ref={section4Ref} className="why-choose-us py-5">
+      <section ref={section4Ref} className="why-choose-us py-5">
         <div className="container">
           <div className="text-center mb-5">
             <h2 className="section-title">Lorem ipsum dolor</h2>
@@ -494,32 +497,119 @@ const Home = () => {
   </div>
 </section> */}
 
+
+
+      {/* Section 7 */}
+      <section className="py-0 bg_grey bg_color">
+        <div className="container-fluid px-0">
+          <div className="row gx-0 align-items-center">
+            <div className="bg-image-bridge d-flex justify-content-left align-items-center text-start  ">
+              <div className="overlay-content">
+                <div className='col-md-7 p-5'>
+                  <div className="text-center mb-5">
+                    <h1 className="hero-heading"> The Bridge to Hope</h1>
+                  </div>
+                  <p className="text-black text-start bridge_txt_space">
+                    Imagine if Dr. Sharma could access every relevant Indian and international study, treatment outcomes from similar
+                    genetic populations, and success stories from Tier-1 to Tier-3 cities with a single query.
+                    Imagine if breakthrough therapies could reach patients in Patna or Coimbatore in weeks, not years.
+                  </p>
+                  <p className="text-black text-start bridge_txt_space">
+                    OncoBridge intends to transform cancer care across India by creating intelligent connections between experts from premier
+                    global research institutions and Indian hospitals , patients, and community healthcare networks.
+                  </p>
+                  <p className="text-black text-start bridge_txt_space">
+                    We don't just bridge urban-rural gaps – we improve access to world-class oncology insights tailored for the Indian healthcare ecosystem.
+                    We understand the unique challenges of Indian healthcare – from genetic diversity to resource optimization –
+                    creating a network that serves everyone from Mumbai's corporate hospitals to primary health centres in rural Rajasthan.
+                  </p>
+                  <button className="read-more-btn" onClick={scrollToChallenge}>Begin the Journey</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       {/* Section 6 */}
-      <section className="cancer-hero-alt py-5">
+      <section className="cancer-hero-alt py-5" ref={challengeRef} >
         <div className="container">
           <div className="text-center mb-5">
             <h1 className="hero-heading">
-              Lorem ipsum dolor   <span> adipiscing elit.</span>
+              The Challenge We Face
             </h1>
-            <p className="hero-subtext">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae pellentesque leo.
-            </p>
           </div>
-
           <div className="row align-items-center gy-4 gx-5">
             <div className="col-md-6">
               <div className="hero-alt-image-box">
+                <div className="row ">
+                  {/* <div class="container py-5">
+                    <div class="row g-4 justify-content-center">
+                      <div class="col-md-6 col-lg-5 challenge_card">
+                        <div class="card h-100 shadow">
+                          <div class="card-body">
+                            <h5 class="card-title">13.9 L</h5>  
+                            <p class="card-text">New cancer case in India annually</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6 col-lg-5 challenge_card">
+                        <div class="card h-100 shadow">
+                          <div class="card-body">
+                            <h5 class="card-title">75%</h5>
+                            <p class="card-text">Patients diagnosed in advanced stages</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row g-4 justify-content-center mt-4">
+                      <div class="col-md-6 col-lg-5 challenge_card">
+                        <div class="card h-100 shadow">
+                          <div class="card-body">
+                            <h5 class="card-title">8-15</h5>
+                            <p class="card-text">Months to access specialized care</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div> */}
+
+                  {/* <div className="col-md-12">
+                    <div className="card">
+                      <p>13.9 L</p>
+                      <p>caner dfgdh udghjdfhgdfert </p>
+                    </div>
+                    <div className="card">
+                      <p>13.9 L</p>
+                      <p>caner dfgdh udghjdfhgdfert </p>
+                    </div>
+
+                    <div className="card">
+                      <p>13.9 L</p>
+                      <p>caner dfgdh udghjdfhgdfert </p>
+                    </div>                 
+                     </div> */}
+                </div>
                 <img
                   src="https://images.unsplash.com/photo-1607746882042-944635dfe10e?auto=format&fit=crop&w=1200&q=80"
                   alt="Empathy in Cancer Care"
                   className="img-fluid rounded-4 shadow-lg"
                 />
-                <div className="hero-badge">Global Experts, One Mission</div>
               </div>
             </div>
 
             <div className="col-md-6">
-              <ul className="list-unstyled hero-feature-list">
+              <p className="challenge_txt">
+                Meet Dr. Sharma, a dedicated oncologist at Delhi who spends her days fighting an invisible enemy.
+                Despite her access to international research and decades of medical training,
+                she finds herself struggling to connect
+                global breakthroughs with the diverse patient population she serves across India.
+                Dr. Sharma represents thousands of Indian healthcare professionals who face unique
+                challenges: bridging international
+                research with local patient genetics, managing resource constraints,
+                and ensuring equitable access to life-saving treatments across urban
+                metros and rural communities.
+              </p>
+              {/* <ul className="list-unstyled hero-feature-list">
                 {[
                   {
                     icon: "bi bi-lightning-charge",
@@ -547,14 +637,135 @@ const Home = () => {
                     </div>
                   </li>
                 ))}
-              </ul>
-              <a href="#contact" className="btn btn-cta mt-4">Join Our Mission</a>
+              </ul> */}
+              {/* <a href="#contact" className="btn btn-cta mt-4">Join Our Mission</a> */}
+            </div>
+          </div>
+          {/* counts  */}
+          <div className="stats-section text-white d-flex align-items-center mt-5 pt-4">
+            <div className="container">
+              <div className="row text-center">
+                <div className="col-md-4 mb-4 mt-5">
+                  <div className="icon-circle mb-2">
+                    <i className="fas fa-user-md fa-2x mb-2"></i>
+                  </div>
+                  <h3 className="my-2 text-white">50</h3>
+                  <p className="mb-0 fw-bold">Medical Experts</p>
+                </div>
+                <div className="col-md-4 mb-4 mt-5">
+                  <div className="icon-circle mb-2">
+                    <i className="fas fa-procedures fa-2x mb-2"></i>
+                  </div>
+                  <h3 className="my-2 text-white">300</h3>
+                  <p className="mb-0 fw-bold">Hospital Rooms</p>
+                </div>
+                <div className="col-md-4 mb-4 mt-5">
+                  <div className="icon-circle mb-2">
+                    <i className="fas fa-gem fa-2x mb-2"></i>
+                  </div>
+                  <h3 className="my-2 text-white">500</h3>
+                  <p className="mb-0 fw-bold">Awards Won</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Section 7 */}
+      {/* live transform  */}
+      <section className="lives-transformed-section py-5">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-10 col-xl-9">
+              <div className="card border-0 shadow-lg rounded-4 p-4 bg-white position-relative">
+                <div className=" mb-3 live_transform">Lives Transformed</div>
+                <p className="lead">
+                  Today, <strong>Dr. Sharma</strong> uses <strong>OncoBridge</strong> to connect her patient
+                  <strong> Rajesh</strong>, a 45-year-old teacher from Kanpur, with a precision therapy protocol
+                  that's more effective for his specific genetic profile.
+                </p>
+                <p>
+                  Rajesh represents thousands of Indian patients whose lives are transformed when cutting-edge care
+                  transcends geographical barriers. His story proves that when we bridge knowledge gaps across India's
+                  diverse healthcare landscape, we don't just treat cancer – we <strong>bring hope home</strong> to
+                  every family.
+                </p>
+                <div className="story-quote mt-4">
+                  <i className="bi bi-chat-quote fs-3 me-2 text-primary"></i>
+                  <span className="quote-text">“Every life we reach is a story worth telling.”</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* your story  */}
+      <div className="container-fluid hero-wrapper story-section text-white">
+        <div className="row">
+          {/* Left Image */}
+          <div className="col-md-6 p-0">
+            <img src="https://doctery-demo.pbminfotech.com/demo2/wp-content/uploads/sites/3/2020/12/img-08.jpg" alt="Doctor" className="img-fluid h-100 w-100 object-fit-cover" />
+          </div>
+          {/* Right Content */}
+          <div className="col-md-6 d-flex flex-column justify-content-center p-5 text-white hero-bg">
+             <h1 className="display-5 fw-bold">Your Story Starts Here</h1>
+            <p className="lead mt-4">
+              Join us in building bridges that transform cancer care across every corner of India.
+              Whether you're a patient, a clinician in a district hospital, or a healthcare institution
+              ready to improve access – your impact story begins with <strong>OncoBridge</strong>.
+            </p>
+            <Link to="/contact" className="btn btn-light btn-lg mt-4 px-4 rounded-pill shadow col-md-5">
+              Get Started
+            </Link>
+          </div>
+             {/* Play Button in Center */}
+        {/* <div className="play-button-wrapper">
+          <div className="play-button">
+            <i className="bi bi-play-fill text-primary fs-4"></i>
+          </div>
+        </div> */}
+        </div>     
+      </div>
+      {/* <section className="story-section text-white">
+        <div className="container py-5">
+          <div className="row align-items-center">
+            <div className="col-lg-7 mb-4 mb-lg-0">
+              <h1 className="display-5 fw-bold">Your Story Starts Here</h1>
+              <p className="lead mt-4">
+                Join us in building bridges that transform cancer care across every corner of India.
+                Whether you're a patient, a clinician in a district hospital, or a healthcare institution
+                ready to improve access – your impact story begins with <strong>OncoBridge</strong>.
+              </p>
+              <a href="/get-started" className="btn btn-light btn-lg mt-4 px-4 rounded-pill shadow">
+                Get Started
+              </a>
+            </div>
+            <div className="col-lg-5 text-center">
+              <img
+                src="https://doctery-demo.pbminfotech.com/demo2/wp-content/uploads/sites/3/2020/12/img-08.jpg"
+                alt="OncoBridge Impact"
+                className="img-fluid rounded shadow"
+              />
+            </div>
+          </div>
+        </div>
+      </section> */}
+
+
+      <section className="newsletter-beauty text-white">
+        <div className="container py-5 text-center">
+          <h2 className="newsletter-heading">Your Journey to Clarity Starts Here</h2>
+          <p className="newsletter-subtext">
+            Connect your family with world-class US oncologists for personalized second opinions.
+            Because every treatment decision deserves global expertise and local understanding.
+          </p>
+          <div className="mt-5">
+            <Link className="journey_btn" to="/contact">Start Your Journey</Link>
+            <Link className="journey_btn" to="/secondoption"> Learn More</Link>
+          </div>
+        </div>
+      </section>
+
 
       {/* <section className="how-helps-section py-5">
         <div className="container">
