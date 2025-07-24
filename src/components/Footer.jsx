@@ -1,13 +1,13 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import footerlogo from '../assets/1-removebg-preview.png';
+import footerlogo from '../assets/logo_bg.jpeg';
 function Footer() {
   return (
     <footer className="bg-white text-dark pt-5 pb-4 footer">
       <div className="container">
         <div className="row">
           {/* Brand Description */}
-          <div className="col-md-4 col-lg-3 col-sm-3 mb-4">
+          <div className="col-md-4 col-lg-3 col-sm-3 ">
             <img
               src={footerlogo}
               alt="OncoBridge Logo"             

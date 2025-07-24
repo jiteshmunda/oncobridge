@@ -825,8 +825,7 @@ a {
 /* Common link style */
 .footer_logo 
 {
-      width: 92%;
-    margin-top: 8%;
+      width:100%;
 }
 .menu-link,
 .footer-link {
