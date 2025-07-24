@@ -1429,3 +1429,12 @@
     font-size: 20px;
     margin-top: 5%;
 }
+/* clarity  */
+.clarity_bg
+{
+    background-image: url('../assets/bg_clarity.png');
+  /* Your image path */
+  background-size: cover;
+  background-position: center;
+  
+}

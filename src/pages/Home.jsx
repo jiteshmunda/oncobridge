@@ -501,7 +501,7 @@ const Home = () => {
                   </div>
                   <p className="text-black text-start bridge_txt_space">
                     Imagine if Dr. Sharma could access <strong> every relevant Indian and international study, treatment outcomes from similar
-                    genetic populations, and success stories from Tier-1 to Tier-3 cities </strong> with a single query.
+                      genetic populations, and success stories from Tier-1 to Tier-3 cities </strong> with a single query.
                     Imagine if breakthrough therapies could reach patients in Patna or Coimbatore in weeks, not years.
                   </p>
                   <p className="text-black text-start bridge_txt_space">
@@ -521,7 +521,7 @@ const Home = () => {
         </div>
       </section>
 
-      
+
       {/* live transform  */}
       <section className="lives-transformed-section py-5">
         <div className="container">
@@ -531,14 +531,14 @@ const Home = () => {
                 <div className=" mb-3 live_transform">Lives Transformed</div>
                 <p className="">
                   Today,  Dr. Sharma uses OncoBridge to connect her patient
-                 Rajesh, a 45-year-old teacher from Kanpur, with a precision therapy protocol
+                  Rajesh, a 45-year-old teacher from Kanpur, with a precision therapy protocol
                   that's <strong> more effective for his specific genetic profile.</strong>
                 </p>
                 <p>
                   Rajesh represents thousands of Indian patients whose lives are transformed when cutting-edge care
                   transcends geographical barriers. His story proves that when we bridge knowledge gaps across India's
                   diverse healthcare landscape, we don't just treat cancer – we <strong>bring hope home to
-                  every family.</strong>
+                    every family.</strong>
                 </p>
                 <div className="story-quote mt-4">
                   <i className="bi bi-chat-quote fs-3 me-2 text-primary"></i>
@@ -550,7 +550,7 @@ const Home = () => {
         </div>
       </section>
 
-      
+
       {/* Section 6 */}
       <section className="cancer-hero-alt py-5" ref={challengeRef} >
         <div className="container">
@@ -623,11 +623,11 @@ const Home = () => {
                 Meet Dr. Sharma, a dedicated oncologist at Delhi who spends her days fighting an invisible enemy.
                 Despite her access to international research and decades of medical training,
                 she finds herself <strong> struggling to connect
-                global breakthroughs </strong>  with the diverse patient population she serves across India.
+                  global breakthroughs </strong>  with the diverse patient population she serves across India.
                 Dr. Sharma represents thousands of Indian healthcare professionals who face unique
                 challenges:<strong>  bridging international
-                research with local patient genetics, managing resource constraints,
-                and ensuring equitable access </strong> to life-saving treatments across urban
+                  research with local patient genetics, managing resource constraints,
+                  and ensuring equitable access </strong> to life-saving treatments across urban
                 metros and rural communities.
               </p>
               {/* <ul className="list-unstyled hero-feature-list">
@@ -697,11 +697,7 @@ const Home = () => {
       {/* your story  */}
       <div className="container-fluid hero-wrapper story-section text-white">
         <div className="row">
-          {/* Left Image */}
-          <div className="col-md-6 p-0">
-            <img src="https://doctery-demo.pbminfotech.com/demo2/wp-content/uploads/sites/3/2020/12/img-08.jpg" alt="Doctor" className="img-fluid h-100 w-100 object-fit-cover" />
-          </div>
-          {/* Right Content */}
+          {/* Left Content */}
           <div className="col-md-6 d-flex flex-column justify-content-center p-5 text-white hero-bg">
             <h1 className="display-5 fw-bold">Your Story Starts Here</h1>
             <p className=" mt-4">
@@ -712,6 +708,10 @@ const Home = () => {
             <Link to="/contact" className="btn btn-light btn-lg mt-4 px-4 rounded-pill shadow col-md-5">
               Get Started
             </Link>
+          </div>
+          {/* Right Image */}
+          <div className="col-md-6 p-0">
+            <img src="https://doctery-demo.pbminfotech.com/demo2/wp-content/uploads/sites/3/2020/12/img-08.jpg" alt="Doctor" className="img-fluid h-100 w-100 object-fit-cover" />
           </div>
           {/* Play Button in Center */}
           {/* <div className="play-button-wrapper">
@@ -760,10 +760,76 @@ const Home = () => {
           </div>
         </div>
       </section>
-
-
-
-{/* 
+      <section>
+        <div
+          className="container-fluid py-5 clarity_bg" >
+          <div className="container py-4">
+            <div className="row align-items-center">
+              {/* Right Form */}
+              <div className="col-lg-6 ms-auto bg-white bg-opacity-75 p-5 rounded-4 shadow">
+                {/* <div className="d-flex align-items-center mb-3">
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/1486/1486426.png"
+                alt="Heart Icon"
+                width="40"
+                className="me-2"
+              />
+              <span className="text-primary fw-bold">ONLINE APPOINTMENT</span>
+            </div> */}
+                <h3 className="fw-bold text-dark mb-4">
+                  Take the First Step Towards Clarity
+                </h3>
+                <p>
+                  Join thousands of Indian families who found peace of mind through expert second opinions.
+                  Your journey to the best possible care starts with one click.
+                </p>
+                <ul className="list-unstyles">
+                  <li>
+                    Free 15-minute consultation call
+                  </li>
+                  <li>
+                    No commitment required
+                  </li>
+                  <li>
+                    Complete privacy guaranteed
+                  </li>
+                </ul>
+                <form>
+                  <div className="row g-3">
+                    <div className="col-md-6">
+                      <input
+                        type="text"
+                        className="form-control form-control-lg"
+                        placeholder="Your Name*"
+                      />
+                    </div>
+                    <div className="col-md-6">
+                      <input
+                        type="email"
+                        className="form-control form-control-lg"
+                        placeholder="Your E-Mail*"
+                      />
+                    </div>
+                    <div className="col-md-6">
+                      <input
+                        type="text"
+                        className="form-control form-control-lg"
+                        placeholder="Phone Number*"
+                      />
+                    </div>
+                     <div className="col-12 text-center">
+                        <button className="btn btn-primary px-4 py-2">
+                       Get Your Second Opinion
+                      </button>
+                    </div> 
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* journey forms
  <div className="container py-5 d-flex justify-content-center">
       <div className="col-md-8 col-lg-6 bg-light rounded-4 shadow-lg p-4 px-md-5 text-center animate__animated animate__fadeIn" style={{
         background: "linear-gradient(135deg, #0288D1, #01579B)",
