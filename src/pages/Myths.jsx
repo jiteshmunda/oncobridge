@@ -1321,13 +1321,13 @@ function Myths() {
         <div className="text-center mb-5">
           <h2 className="section-title">Prevention and Early Detection</h2>
         </div>
-        <div className="container">
+        <div className="container-fluid">
           <ul
             className="nav nav-tabs justify-content-center myths_navtab_previous"
             id="iconTab"
             role="tablist"
           >
-            <li className="nav-item" role="presentation">
+            <li className="nav-item font_size_20" role="presentation">
               <button
                 className="nav-link active"
                 id="connect-tab"
@@ -1340,7 +1340,7 @@ function Myths() {
                 Prevention and Early Detection
               </button>
             </li>
-            <li className="nav-item" role="presentation">
+            <li className="nav-item font_size_20" role="presentation">
               <button
                 className="nav-link"
                 id="create-tab"
