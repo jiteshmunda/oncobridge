@@ -10,7 +10,7 @@ function Footer() {
           <div className="col-md-4 col-lg-3 col-sm-3 ">
             <img
               src={footerlogo}
-              alt="OncoBridge Logo"             
+              alt="OncoBridge Logo"
               className="mb-3 footer_logo"
             />
             {/* <p>
@@ -37,14 +37,14 @@ function Footer() {
                 <li><NavLink to="/hospital" className={({ isActive }) => isActive ? "menu-link active" : "text-dark text-decoration-none"}><span>Hospital</span></NavLink></li>
                 <li><NavLink to="/insurance" className={({ isActive }) => isActive ? "menu-link active" : "text-dark text-decoration-none"}><span>Insurance</span></NavLink></li>
 
-                <li><NavLink to="/blog" className={({ isActive }) => isActive ? "menu-link active" : "text-dark text-decoration-none"}><span>Blog</span></NavLink></li>
-<li><NavLink to="/blog" className={({ isActive }) => isActive ? "menu-link active" : "text-dark text-decoration-none"}><span>Testimonials</span></NavLink></li>
-                <li><NavLink to="/blog" className={({ isActive }) => isActive ? "menu-link active" : "text-dark text-decoration-none"}><span>Videos</span></NavLink></li>
-              
+                {/* <li><NavLink to="/blog" className={({ isActive }) => isActive ? "menu-link active" : "text-dark text-decoration-none"}><span>Blog</span></NavLink></li>
+                <li><NavLink to="/blog" className={({ isActive }) => isActive ? "menu-link active" : "text-dark text-decoration-none"}><span>Testimonials</span></NavLink></li>
+                <li><NavLink to="/blog" className={({ isActive }) => isActive ? "menu-link active" : "text-dark text-decoration-none"}><span>Videos</span></NavLink></li> */}
+ <li><NavLink to="/myths" className={({ isActive }) => isActive ? "menu-link active" : "text-dark text-decoration-none"}><span>Myths & Facts</span></NavLink></li>
+               
               </ul>
               <ul className="list-unstyled mx-auto ">
-                  <li><NavLink to="/blog" className={({ isActive }) => isActive ? "menu-link active" : "text-dark text-decoration-none"}><span>Newsletters</span></NavLink></li>
-                <li><NavLink to="/myths" className={({ isActive }) => isActive ? "menu-link active" : "text-dark text-decoration-none"}><span>Myths & Facts</span></NavLink></li>
+                {/* <li><NavLink to="/blog" className={({ isActive }) => isActive ? "menu-link active" : "text-dark text-decoration-none"}><span>Newsletters</span></NavLink></li> */}
                 <li><NavLink to="/faq" className={({ isActive }) => isActive ? "menu-link active" : "text-dark text-decoration-none"}><span>FAQ</span></NavLink></li>
 
 
@@ -87,10 +87,10 @@ function Footer() {
               <a href="https://x.com/OncoBridge?t=b0ixO1WXQ-4UlIlO56b4wg&s=09" target="_blank" className="social-icon" aria-label="Twitter">
                 <i className="fab fa-twitter"></i>
               </a>
-              <a href="https://www.linkedin.com/in/onco-bridge-b3204b375?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"  target="_blank" className="social-icon" aria-label="LinkedIn">
+              <a href="https://www.linkedin.com/in/onco-bridge-b3204b375?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" className="social-icon" aria-label="LinkedIn">
                 <i className="fab fa-linkedin-in"></i>
               </a>
-              <a href="https://www.instagram.com/onco_bridge?igsh=MXAyYXh6cjUzZzZmbQ==&utm_source=ig_contact_invite"  target="_blank" className="social-icon" aria-label="Instagram">
+              <a href="https://www.instagram.com/onco_bridge?igsh=MXAyYXh6cjUzZzZmbQ==&utm_source=ig_contact_invite" target="_blank" className="social-icon" aria-label="Instagram">
                 <i className="fab fa-instagram"></i>
               </a>
             </div>
@@ -99,25 +99,25 @@ function Footer() {
           {/* Newsletter */}
           <div className="col-md-12 col-lg-3 col-sm-3 mb-4">
             <div className="col-lg-12 col-sm-12  col-md-6 mx-auto">
-            <h5 className="text-uppercase fw-bold mb-3">Newsletter</h5>
-            <p>Stay informed with updates and health tips from OncoBridge.</p>
-            <form onSubmit={(e) => e.preventDefault()}>
-              <div className="position-relative">
-                <input
-                  type="email"
-                  className="form-control rounded-pill pe-5 py-2"
-                  placeholder="Your email"
-                  required
-                />
-                <button
-                  type="submit"
-                  className="btn btn-primary position-absolute end-0 top-0 mt-1 me-1 rounded-pill px-3 d-flex align-items-center justify-content-center"
-                  style={{ height: "80%" }}
-                >
-                  send
-                </button>
-              </div>
-            </form>
+              <h5 className="text-uppercase fw-bold mb-3">Newsletter</h5>
+              <p>Stay informed with updates and health tips from OncoBridge.</p>
+              <form onSubmit={(e) => e.preventDefault()}>
+                <div className="position-relative">
+                  <input
+                    type="email"
+                    className="form-control rounded-pill pe-5 py-2"
+                    placeholder="Your email"
+                    required
+                  />
+                  <button
+                    type="submit"
+                    className="btn btn-primary position-absolute end-0 top-0 mt-1 me-1 rounded-pill px-3 d-flex align-items-center justify-content-center"
+                    style={{ height: "80%" }}
+                  >
+                    send
+                  </button>
+                </div>
+              </form>
             </div>
           </div>
         </div>
