@@ -76,7 +76,7 @@ Resources
     <li><NavLink  to="/testimonial" onClick={closeMenu}  className={({ isActive }) => isActive ? "menu-link active" : "dropdown-item"}>Testimonials</NavLink></li>
     <li><NavLink    to="/Videos" onClick={closeMenu}  className={({ isActive }) => isActive ? "menu-link active" : "dropdown-item"}>Videos</NavLink></li>
     <li><NavLink    to="/newsletter" onClick={closeMenu}  className={({ isActive }) => isActive ? "menu-link active" : "dropdown-item"}>Newsletters</NavLink></li> */}
-      <li><NavLink   to="/myths" onClick={closeMenu}  className={({ isActive }) => isActive ? "menu-link active" : "dropdown-item"}>Myths & Fact</NavLink></li>
+      <li><NavLink   to="/myths" onClick={closeMenu}  className={({ isActive }) => isActive ? "menu-link active" : "dropdown-item"}>Myths & Facts</NavLink></li>
       <li><NavLink to="/faq" onClick={closeMenu} className={({ isActive }) => isActive ? "menu-link active" : "dropdown-item"}><span>FAQ</span></NavLink></li>
           
      {/* <li><NavLink  className="dropdown-item" to="/productdesc" onClick={closeMenu}  className={({ isActive }) => isActive ? "menu-link active" : "menu-link"}>Product description</NavLink></li>  */}
