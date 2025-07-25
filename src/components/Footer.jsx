@@ -91,7 +91,7 @@ function Footer() {
               <Link to="https://x.com/OncoBridge?t=b0ixO1WXQ-4UlIlO56b4wg&s=09" target="_blank" className="social-icon" aria-label="Twitter">
                 <i className="fab fa-twitter"></i>
               </Link>
-              <Link to="https://www.linkedin.com/in/onco-bridge-b3204b375?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" className="social-icon" aria-label="LinkedIn">
+              <Link to="https://www.linkedin.com/in/oncobridge-b3204b375/" target="_blank" className="social-icon" aria-label="LinkedIn">
                 <i className="fab fa-linkedin-in"></i>
               </Link>
               <Link to="https://www.instagram.com/onco_bridge?igsh=MXAyYXh6cjUzZzZmbQ==&utm_source=ig_contact_invite" target="_blank" className="social-icon" aria-label="Instagram">

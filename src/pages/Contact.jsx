@@ -90,7 +90,7 @@ function Contact() {
                     </div>
                     <div className='col-lg-12 col-md-12 col-sm-12'>
                       <div className="mb-3">
-                        <label className="form-label">You are</label>
+                        <label className="form-label">Who Your </label>
                         <select
                           id="department"
                           name="department"
