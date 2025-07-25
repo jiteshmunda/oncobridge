@@ -780,7 +780,7 @@ const Home = () => {
                   Take the First Step Towards Clarity
                 </h3>
                 <p>
-                  Join thousands of Indian families who found peace of mind through expert second opinions.
+                  Join thousands of families who found peace of mind through expert second opinions.
                   Your journey to the best possible care starts with one click.
                 </p>
                 <ul className="list-unstyles">
