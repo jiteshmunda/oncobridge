@@ -1,7 +1,7 @@
 import React from "react";
 import doct3 from "../assets/doct3.jpg";
 import hospital_banner from "../assets/hospital_banner.jpg";
-
+import { Link } from "react-router-dom";
 
 import hospital1 from "../assets/hospital1.png";
 import hospital2 from "../assets/hospital2.jpg";
@@ -27,9 +27,9 @@ function Hospitals() {
                     extending your expert reach.
                   </p>
                   <div className="d-flex justify-content-start gap-3 mt-3 animate__animated animate__fadeInUp animate__delay-2s">
-                    <button className="btn btn-primary">
+                    <Link to="/contact" target="_blank" className="btn btn-primary">
                       Start Your Second Opinion Request
-                    </button>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -253,59 +253,59 @@ function Hospitals() {
       </section>
 
       {/* Stakeholder Benefits */}
-        <section className=" rounded shadow-sm bg-white text-dark py-5 bg_benifits">
-          <div className="container">
-            <div className="row">
-              {/* Left Section */}
-              <div className="col-lg-6 mb-4">
-                <h2 className="fw-bold">What is Benefits?</h2>
-                <div className="border-bottom border-2 border-primary  w-25 mb-3"></div>
-                <p className="lead">
-                  Benefits for Different Stakeholders within Hospitals
-                </p>
-                {/* <img src="https://doctery-demo.pbminfotech.com/demo3/wp-content/uploads/sites/4/2021/01/bg-07.jpg"/> */}
-              </div>
+      <section className=" rounded shadow-sm bg-white text-dark py-5 bg_benifits">
+        <div className="container">
+          <div className="row">
+            {/* Left Section */}
+            <div className="col-lg-6 mb-4">
+              <h2 className="fw-bold">What is Benefits?</h2>
+              <div className="border-bottom border-2 border-primary  w-25 mb-3"></div>
+              <p className="lead">
+                Benefits for Different Stakeholders within Hospitals
+              </p>
+              {/* <img src="https://doctery-demo.pbminfotech.com/demo3/wp-content/uploads/sites/4/2021/01/bg-07.jpg"/> */}
+            </div>
 
-              {/* Right Section */}
-              <div className="col-lg-6">
-                <div className="row g-3">
-                  <div className="col-md-6">
-                    <div className="bg-light-blue text-dark p-4 rounded shadow-sm h-100">
-                      <p>
-                        <b> For Oncologists</b>
-                      </p>
-                      <p>
-                        "Peer validation, access to sub-specialists, new
-                        treatment perspectives."
-                      </p>
-                    </div>
+            {/* Right Section */}
+            <div className="col-lg-6">
+              <div className="row g-3">
+                <div className="col-md-6">
+                  <div className="bg-light-blue text-dark p-4 rounded shadow-sm h-100">
+                    <p>
+                      <b> For Oncologists</b>
+                    </p>
+                    <p>
+                      "Peer validation, access to sub-specialists, new
+                      treatment perspectives."
+                    </p>
                   </div>
-                  <div className="col-md-6">
-                    <div className="bg-light-blue text-dark p-4 rounded shadow-sm h-100">
-                      <p>
-                        <b> For Hospital Administrators</b>
-                      </p>
-                      <p>
-                        "Enhanced patient satisfaction, potential for new
-                        revenue streams, competitive advantage."
-                      </p>
-                    </div>
+                </div>
+                <div className="col-md-6">
+                  <div className="bg-light-blue text-dark p-4 rounded shadow-sm h-100">
+                    <p>
+                      <b> For Hospital Administrators</b>
+                    </p>
+                    <p>
+                      "Enhanced patient satisfaction, potential for new
+                      revenue streams, competitive advantage."
+                    </p>
                   </div>
-                  <div className="col-md-12">
-                    <div className="bg-light-blue text-dark p-4 rounded shadow-sm h-100">
-                      <p>
-                        <b> For Referring Physicians </b>
-                      </p>
-                      <p>
-                        "Confident referrals, comprehensive patient support."
-                      </p>
-                    </div>
+                </div>
+                <div className="col-md-12">
+                  <div className="bg-light-blue text-dark p-4 rounded shadow-sm h-100">
+                    <p>
+                      <b> For Referring Physicians </b>
+                    </p>
+                    <p>
+                      "Confident referrals, comprehensive patient support."
+                    </p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-       
+        </div>
+
         {/* <div className="row g-4">
               <div className="col-md-4">
                 <div className="card h-100 shadow-sm">
@@ -448,9 +448,7 @@ function Hospitals() {
           <h2 className="fw-bold mb-3">
             Strengthen your oncology program. Partner with OncoBridge today.
           </h2>
-          <a href="#start" className="btn btn-lg btn-danger">
-            Schedule a Partnership Discussion
-          </a>
+          <Link to="/contact" target="_blank" className="btn btn-lg btn-danger">  Schedule a Partnership Discussion</Link>
         </div>
       </section>
     </>

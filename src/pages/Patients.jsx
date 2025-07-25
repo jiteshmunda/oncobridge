@@ -7,7 +7,7 @@ import pat_card2 from "../assets/pat_card2.jpg";
 import pat_card1 from "../assets/pat_card1.jpg";
 import pat_card3 from "../assets/pat_card3.jpg";
 import pat_card4 from "../assets/pat_card4.jpg";
-
+import { Link } from "react-router-dom";
 import get_key from "../assets/get_key.jpg";
 
 const testimonials = [
@@ -51,9 +51,9 @@ function Patients() {
                     over your cancer treatment path.
                   </p>
                   <div className="d-flex justify-content-start gap-3 mt-3 animate__animated animate__fadeInUp animate__delay-2s">
-                    <button className="btn btn-primary">
+                    <Link to="/contact" target="_blank" className="btn btn-primary">
                       Start Your Second Opinion Request
-                    </button>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -367,9 +367,7 @@ function Patients() {
         <h2 className="fw-bold mb-3">
           Don't face cancer alone. Get the clarity you deserve.
         </h2>
-        <a href="#start" className="btn btn-lg btn-danger">
-          Get Started
-        </a>
+        <Link to="/contact" target="_blank" className="btn btn-lg btn-danger"> Get Started</Link>
       </section>
     </>
   );

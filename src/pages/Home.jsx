@@ -40,13 +40,13 @@ const Home = () => {
                     providers, and data for a better tomorrow.
                   </p>
                   <div>
-                    <Link to="/secondoption" className="btn btn-light me-3 px-4 py-2 mb-4">Get Your Second Opinion</Link>
+                    <Link to="/secondoption" target="_blank" className="btn btn-light me-3 px-4 py-2 mb-4">Get Your Second Opinion</Link>
                     {/* <a href="/secondoption" className="btn btn-light me-3 px-4 py-2 mb-4">Get Your Second Opinion </a> */}
                     {/* <a href="#services" className="btn btn-outline-light px-4 py-2 mb-4">How It Works </a> */}
                     {/* <button onClick={scrollToSection4} className="btn btn-outline-light px-4 py-2 mb-4">
                       How It Works
                     </button> */}
-                    <Link to="/contact" className="btn btn-outline-light px-4 py-2 mb-4"> How It Works</Link>
+                    <Link to="/contact" target="_blank" className="btn btn-outline-light px-4 py-2 mb-4"> How It Works</Link>
                   </div>
                 </div>
               </div>
@@ -705,7 +705,7 @@ const Home = () => {
               Whether you're a patient, a clinician in a district hospital, or a healthcare institution
               ready to improve access – your impact story begins with OncoBridge.
             </p>
-            <Link to="/contact" className="btn btn-light btn-lg mt-4 px-4 rounded-pill shadow col-md-5">
+            <Link to="/contact" target="_blank" className="btn btn-light btn-lg mt-4 px-4 rounded-pill shadow col-md-5">
               Get Started
             </Link>
           </div>
@@ -755,8 +755,8 @@ const Home = () => {
             Because every treatment decision deserves global expertise and local understanding.
           </p>
           <div className="mt-5">
-            <Link className="journey_btn" to="/contact">Start Your Journey</Link>
-            <Link className="journey_btn" to="/secondoption"> Learn More</Link>
+            <Link className="journey_btn" target="_blank" to="/contact">Start Your Journey</Link>
+            <Link className="journey_btn" target="_blank" to="/about"> Learn More</Link>
           </div>
         </div>
       </section>

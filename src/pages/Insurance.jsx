@@ -5,7 +5,7 @@ import quality from "../assets/quality.png";
 import teamuser from "../assets/teamuser.png";
 import case1 from "../assets/case1.jpg";
 import case2 from "../assets/case2.jpg";
-
+import { Link } from "react-router-dom";
 function Insurance() {
   return (
     <>
@@ -27,9 +27,9 @@ function Insurance() {
                     managed costs.
                   </p>
                   <div className="d-flex justify-content-start gap-3 mt-3 animate__animated animate__fadeInUp animate__delay-2s">
-                    <button className="btn btn-primary">
+                    <Link to="/contact" target="_blank" className="btn btn-primary">
                       Start Your Second Opinion Request
-                    </button>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -285,9 +285,7 @@ function Insurance() {
       <section className="text-center py-5 bg-light rounded">
         <h2 className="fw-bold mb-1">Invest in smarter oncology care.</h2>
         <p>Connect with OncoBridge to discuss a strategic partnership.</p>
-        <a href="#start" className="btn btn-lg btn-danger">
-          Schedule a Partnership Discussion
-        </a>
+        <Link to="/contact" target="_blank" className="btn btn-lg btn-danger">  Schedule a Partnership Discussion</Link>
       </section>
     </>
   );
