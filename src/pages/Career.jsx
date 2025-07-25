@@ -173,10 +173,13 @@ export default function CareerPage() {
               <div>
                 <h3>{job.title}</h3>
                 <p className="job-code">Job Code: {job.code}</p>
-              </div>
-              <span className="job-popup-link">
+                 <span className="job-popup-link">
                 View Details <FiArrowUpRight />
               </span>
+              </div>
+              {/* <span className="job-popup-link">
+                View Details <FiArrowUpRight />
+              </span> */}
             </div>
           ))}
         </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink,Link } from "react-router-dom";
 import footerlogo from '../assets/logo_bg.jpeg';
 function Footer() {
   return (
@@ -8,11 +8,14 @@ function Footer() {
         <div className="row">
           {/* Brand Description */}
           <div className="col-md-4 col-lg-3 col-sm-3 ">
-            <img
+            <div className="footer_logo">
+
+            </div>
+            {/* <img
               src={footerlogo}
               alt="OncoBridge Logo"
               className="mb-3 footer_logo"
-            />
+            /> */}
             {/* <p>
               Bridging cancer care and technology. OncoBridge connects patients,
               providers, and data for a better tomorrow.
@@ -21,16 +24,16 @@ function Footer() {
 
           {/* Quick Links */}
           <div className="col-md-4 col-lg-3 col-sm-3 mb-4">
-            <h5 className="text-uppercase fw-bold mb-3">Quick Links</h5>
+            <h5 className=" fw-bold mb-3">Quick Links</h5>
             <div className="d-flex justify-content-end">
               <ul className="list-unstyled">
                 <li>
                   <NavLink to="/" className={({ isActive }) => isActive ? "menu-link active" : "text-dark text-decoration-none"}><span>Home</span></NavLink>
                 </li>
                 {/* <li>
-                  <a href="/" className="text-dark text-decoration-none">
+                  <Link to="/" className="text-dark text-decoration-none">
                     Home
-                  </a>
+                  </Link>
                 </li> */}
                 <li><NavLink to="/about" className={({ isActive }) => isActive ? "menu-link active" : "text-dark text-decoration-none"}><span>About Us</span></NavLink></li>
                 <li><NavLink to="/patients" className={({ isActive }) => isActive ? "menu-link active" : "text-dark text-decoration-none"}><span>Patients</span></NavLink></li>
@@ -65,7 +68,7 @@ function Footer() {
 
           {/* Contact Info */}
           <div className="col-md-4 col-lg-3 col-sm-3 mb-4">
-            <h5 className="text-uppercase fw-bold mb-3">Contact</h5>
+            <h5 className=" fw-bold mb-3">Contact</h5>
             <p>
               <i className="fas fa-home me-2"></i>
               18-2, Ground Floor, 4th Street, Gokulam Colony
@@ -73,7 +76,8 @@ function Footer() {
 
             </p>
             <p>
-              <i className="fas fa-envelope me-2"></i> care@oncobridge.in
+              <i className="fas fa-envelope me-2"></i>
+                <Link to="mailto:care@oncobridge.in" className='text-primary text-decoration-none'> care@oncobridge.in </Link>
             </p>
             <p>
               <i className="fas fa-phone me-2"></i> +91 90256 65212
@@ -81,25 +85,25 @@ function Footer() {
 
             {/* Social Icons moved here */}
             <div className="d-flex gap-2 mt-3">
-              <a href="https://www.facebook.com/share/1WvrTsomYM/" target="_blank" className="social-icon" aria-label="Facebook">
+              <Link to="https://www.facebook.com/share/1WvrTsomYM/" target="_blank" className="social-icon" aria-label="Facebook">
                 <i className="fab fa-facebook-f"></i>
-              </a>
-              <a href="https://x.com/OncoBridge?t=b0ixO1WXQ-4UlIlO56b4wg&s=09" target="_blank" className="social-icon" aria-label="Twitter">
+              </Link>
+              <Link to="https://x.com/OncoBridge?t=b0ixO1WXQ-4UlIlO56b4wg&s=09" target="_blank" className="social-icon" aria-label="Twitter">
                 <i className="fab fa-twitter"></i>
-              </a>
-              <a href="https://www.linkedin.com/in/onco-bridge-b3204b375?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" className="social-icon" aria-label="LinkedIn">
+              </Link>
+              <Link to="https://www.linkedin.com/in/onco-bridge-b3204b375?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" className="social-icon" aria-label="LinkedIn">
                 <i className="fab fa-linkedin-in"></i>
-              </a>
-              <a href="https://www.instagram.com/onco_bridge?igsh=MXAyYXh6cjUzZzZmbQ==&utm_source=ig_contact_invite" target="_blank" className="social-icon" aria-label="Instagram">
+              </Link>
+              <Link to="https://www.instagram.com/onco_bridge?igsh=MXAyYXh6cjUzZzZmbQ==&utm_source=ig_contact_invite" target="_blank" className="social-icon" aria-label="Instagram">
                 <i className="fab fa-instagram"></i>
-              </a>
+              </Link>
             </div>
           </div>
 
           {/* Newsletter */}
           <div className="col-md-12 col-lg-3 col-sm-3 mb-4">
             <div className="col-lg-12 col-sm-12  col-md-6 mx-auto">
-              <h5 className="text-uppercase fw-bold mb-3">Newsletter</h5>
+              <h5 className=" fw-bold mb-3">Newsletter</h5>
               <p>Stay informed with updates and health tips from OncoBridge.</p>
               <form onSubmit={(e) => e.preventDefault()}>
                 <div className="position-relative">

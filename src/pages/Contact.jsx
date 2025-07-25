@@ -90,6 +90,20 @@ function Contact() {
                     </div>
                     <div className='col-lg-12 col-md-12 col-sm-12'>
                       <div className="mb-3">
+                        <label className="form-label">You are</label>
+                        <select
+                          id="department"
+                          name="department"
+                          className="form-select"
+                        >
+                          <option value="Patients">Patients </option>
+                          <option value="Hospital">Hospitals   </option>
+                          <option value="Insurance Providers ">Insurance Providers </option>
+                        </select>
+                      </div>
+                    </div>
+                    <div className='col-lg-12 col-md-12 col-sm-12'>
+                      <div className="mb-3">
                         <label htmlFor="message" className="form-label">Message</label>
                         <textarea className="form-control" id="message" rows="4" required></textarea>
                       </div>

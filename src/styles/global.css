@@ -441,7 +441,20 @@ a {
   /* Dark overlay */
   z-index: 1;
 }
+.footer_logo {
+  background-image: url('../assets/logo_bg.jpeg');
+    background-size: cover;
+    background-position: -35px -47px;
+    background-repeat: no-repeat;
+    height: 46vh;
+}
+
 @media (max-width: 576px) {
+  .footer_logo {
+  background-position: top center;
+        background-size: 70%;
+        height: 50vh;
+}
   .btn-mobile-sm {
     padding: 0.25rem 0.5rem;
     /* Small padding */
@@ -823,10 +836,7 @@ a {
 
 /* menu  */
 /* Common link style */
-.footer_logo 
-{
-      width:100%;
-}
+
 .menu-link,
 .footer-link {
 

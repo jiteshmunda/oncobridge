@@ -43,10 +43,10 @@ const Home = () => {
                     <Link to="/secondoption" className="btn btn-light me-3 px-4 py-2 mb-4">Get Your Second Opinion</Link>
                     {/* <a href="/secondoption" className="btn btn-light me-3 px-4 py-2 mb-4">Get Your Second Opinion </a> */}
                     {/* <a href="#services" className="btn btn-outline-light px-4 py-2 mb-4">How It Works </a> */}
-                    <button onClick={scrollToSection4} className="btn btn-outline-light px-4 py-2 mb-4">
+                    {/* <button onClick={scrollToSection4} className="btn btn-outline-light px-4 py-2 mb-4">
                       How It Works
-                    </button>
-
+                    </button> */}
+                    <Link to="/contact" className="btn btn-outline-light px-4 py-2 mb-4"> How It Works</Link>
                   </div>
                 </div>
               </div>
@@ -817,11 +817,11 @@ const Home = () => {
                         placeholder="Phone Number*"
                       />
                     </div>
-                     <div className="col-12 text-center">
-                        <button className="btn btn-primary px-4 py-2">
-                       Get Your Second Opinion
+                    <div className="col-12 text-center">
+                      <button className="btn btn-primary px-4 py-2">
+                        Get Your Second Opinion
                       </button>
-                    </div> 
+                    </div>
                   </div>
                 </form>
               </div>
