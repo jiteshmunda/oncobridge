@@ -670,21 +670,21 @@ const Home = () => {
                   <div className="icon-circle mb-2">
                     <i className="fas fa-user-md fa-2x mb-2"></i>
                   </div>
-                  <h3 className="my-2 text-white">50</h3>
+                  <h3 className="my-2 text-white">13.9 L</h3>
                   <p className="mb-0 fw-bold">Medical Experts</p>
                 </div>
                 <div className="col-md-4 mb-4 mt-5 count_block">
                   <div className="icon-circle mb-2">
                     <i className="fas fa-procedures fa-2x mb-2"></i>
                   </div>
-                  <h3 className="my-2 text-white">300</h3>
+                  <h3 className="my-2 text-white">75%</h3>
                   <p className="mb-0 fw-bold">Hospital Rooms</p>
                 </div>
                 <div className="col-md-4 mb-4 mt-5 count_block">
                   <div className="icon-circle mb-2">
                     <i className="fas fa-gem fa-2x mb-2"></i>
                   </div>
-                  <h3 className="my-2 text-white">500</h3>
+                  <h3 className="my-2 text-white">8-15</h3>
                   <p className="mb-0 fw-bold">Awards Won</p>
                 </div>
               </div>
