@@ -113,7 +113,10 @@ a {
 
   height: 340px;
 }
-
+.hospital_story_text
+{
+      /* font-size: 27px; */
+}
 .card_header_for_hospital {
   background-color: #E6F0FA;
   color: #000;
@@ -658,6 +661,11 @@ a {
 }
 
 /* second opnio  */
+.mb_20
+{   
+  /* margin-bottom: 21px; */
+}
+
 .stat-card {
   height: 100px;
   position: relative;
@@ -676,7 +684,10 @@ a {
   position: relative;
   z-index: 1;
 }
-
+.stat-content p 
+{
+  /* height: 13vh; */
+}
 .second-option-card {
   background-color: #01579B;
   border-radius: 20px;
@@ -879,30 +890,6 @@ a {
   z-index: 1;
 }
 
-.bg-image-home {
-  background-image: url('../assets/banner1.jpg');
-  /* Your image path */
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  position: relative;
-  text-align: left !important;
-  width: 100%;
-  height: 79vh;
-}
-
-.bg-image-home::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  background: rgb(0 0 0 / 6%);
-  /* Dark overlay */
-  z-index: 1;
-}
 
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {

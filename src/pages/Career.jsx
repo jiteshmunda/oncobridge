@@ -126,7 +126,7 @@ export default function CareerPage() {
 
       <div className="career-page">
         <div className="career-header">
-          <div className="tag">We’re hiring!</div>
+          {/* <div className="tag">We’re hiring!</div> */}
           <h1>Career Opportunities at OncoBridge</h1>
           <p>
             Below are the career opportunities currently available at

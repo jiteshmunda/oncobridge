@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import second_op1 from '../assets/second_op1.jpg';
 import second_opt2 from '../assets/second_opt2.jpg';
 import second_opt3 from '../assets/second_opt3.jpg';
+
+
 function SecondOption() {
     return (
         <>
@@ -32,9 +34,9 @@ function SecondOption() {
                     <div className="col-12 col-md-4 col-lg-4 col-sm-4">                       
                         <div className="second-option-card text-center p-4 h-100 p-3 shadow-sm">
                              <img src={second_op1} className='w-100'/>
-                            <div className="stat-content mt-3">
-                                <p>
-                                    Access to leading global oncologists, personalized insights, peace of mind
+                            <div className="stat-content mt-3 ">
+                                <p className=''>
+                                    Access to leading global oncologists, personalized insights, <br/> peace of mind
                                 </p>
                                 <Link to="/patients" className="read-more-btn-white">For Patients </Link>
                             </div>
@@ -43,7 +45,7 @@ function SecondOption() {
                     <div className="col-12 col-md-4 col-lg-4 col-sm-4">
                         <div className="second-option-card text-center p-4 h-100 p-3 shadow-sm">
                              <img src={second_opt2} className='w-100'/>
-                            <div className="stat-content mt-3">
+                            <div className="stat-content mt-3 ">
                                 <p>
                                    Expand your expertise, support your patients with external validation, collaborate seamlessly.
                                 </p>
@@ -54,9 +56,9 @@ function SecondOption() {
                     <div className="col-12 col-md-4 col-lg-4 col-sm-4">
                         <div className="second-option-card text-center p-4 h-100 p-3 shadow-sm">
                              <img src={second_opt3} className='w-100'/>
-                            <div className="stat-content mt-3">
+                            <div className="stat-content mt-3  ">
                                 <p>
-                                  Ensure appropriate care, manage costs effectively, enhance policyholder s atisfaction.
+                                  Ensure appropriate care, manage costs effectively, enhance policyholder satisfaction.
                                 </p>
                                 <Link to="/insurance" className="read-more-btn-white">For Insurance Providers  </Link>
                             </div>

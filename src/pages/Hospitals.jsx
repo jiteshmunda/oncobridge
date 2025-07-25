@@ -4,9 +4,9 @@ import hospital_banner from "../assets/hospital_banner.jpg";
 import { Link } from "react-router-dom";
 
 import hospital1 from "../assets/hospital1.png";
-import hospital2 from "../assets/hospital2.jpg";
+import hospital2 from "../assets/hospital2.png";
 import hospital3 from "../assets/hospital3.jpg";
-
+import hospital4 from "../assets/hospital4.jpg";
 function Hospitals() {
   return (
     <>
@@ -235,7 +235,7 @@ function Hospitals() {
             <div className="col-md-6 col-lg-3 col-sm-6">
               <div className="card h-100">
                 <img
-                  src={hospital_banner}
+                  src={hospital4}
                   className="card-img-top hospital_img_height"
                   alt="Indian patient in a virtual consultation with an expert."
                 />
@@ -348,9 +348,10 @@ function Hospitals() {
           <div className="text-center mb-4">
             <h2 className="section-title fw-bold ">Success Stories</h2>
           </div>
-          <div className="row align-items-center ">
+          <div className="row  justify-content-center">
+            <div className="col-lg-10 col-xl-9">
             <div className="card mb-3 p-0">
-              <div className="row g-0">
+              <div className="row g-0  align-items-center">
                 <div className="col-md-2 p-0">
                   <img
                     src={doct3}
@@ -360,25 +361,26 @@ function Hospitals() {
                 </div>
                 <div className="col-md-10">
                   <div className="card-body">
-                    <h5 className="card-title text-start">
+                    <h5 className="card-title text-center hospital_story_text">
                       A professional headshot of Dr. Sanjeev Gupta, an Indian
                       physician, conveying authority and trust
                     </h5>
-                    <p className="card-text text-start">
+                    {/* <p className="card-text text-start">
                       {" "}
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                       Integer non odio nec odio sollicitudin vulputate. Aenean
                       nec fringilla lorem.{" "}
-                    </p>
-                    <p className="card-text text-start">
+                    </p> */}
+                    {/* <p className="card-text text-start">
                       <small className="text-muted">
                         Last updated 3 mins ago
                       </small>
-                    </p>
+                    </p> */}
                   </div>
                 </div>
               </div>
             </div>
+          </div>
           </div>
         </div>
       </section>

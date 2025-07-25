@@ -9,14 +9,14 @@ import pat_card3 from "../assets/pat_card3.jpg";
 import pat_card4 from "../assets/pat_card4.jpg";
 import { Link } from "react-router-dom";
 import get_key from "../assets/get_key.jpg";
-
+import pat4 from '../assets/pat4.PNG';
 const testimonials = [
   {
     quote:
       "OncoBridge helped me feel sure about my treatment. The expert guidance was clear, compassionate, and empowering.",
     author: "Rohan K.",
     title: "Cancer patient",
-    image: pat1,
+    image: pat4,
   },
   {
     quote:

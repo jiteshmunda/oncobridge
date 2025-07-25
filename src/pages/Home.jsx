@@ -26,28 +26,31 @@ const Home = () => {
   return (
     <>
       {/* Banner Section */}
-      <section className="text-center">
-        <div className='container-fluid px-0'>
+      <section className=" banner_bg_white">
+        <div className='container-fluid px-0 '>
           <div className='row gx-0 align-items-left'>
+            <div className="home_banner_logo">
             <div className="bg-image-home d-flex justify-content-left align-items-center text-left text-white ">
               <div className="overlay-content">
                 <div className='col-md-7 p-3 ms-lg-5 ps-lg-4'>
-                  <h1 className="display-4 fw-bold text-white">
-                    Lorem ipsum dolor sit amet
+                  <h1 className="home_banner_heading">
+                     Bridging cancer care and technology. OncoBridge connects patients,
+                    providers, and data for a better tomorrow.
                   </h1>
-                  <p className="lead mb-4 text-white">
+                  {/* <p className="lead mb-4 text-white">
                     Bridging cancer care and technology. OncoBridge connects patients,
                     providers, and data for a better tomorrow.
-                  </p>
+                  </p> */}
                   <div>
-                    <Link to="/secondoption" target="_blank" className="btn btn-light me-3 px-4 py-2 mb-4">Get Your Second Opinion</Link>
+                    <Link to="/secondoption" target="_blank" className="btn btn-primary me-3 px-4 py-2 mb-4">Get Your Second Opinion</Link>
                     {/* <a href="/secondoption" className="btn btn-light me-3 px-4 py-2 mb-4">Get Your Second Opinion </a> */}
                     {/* <a href="#services" className="btn btn-outline-light px-4 py-2 mb-4">How It Works </a> */}
                     {/* <button onClick={scrollToSection4} className="btn btn-outline-light px-4 py-2 mb-4">
                       How It Works
                     </button> */}
-                    <Link to="/contact" target="_blank" className="btn btn-outline-light px-4 py-2 mb-4"> How It Works</Link>
+                    <Link to="/contact" target="_blank" className="btn btn-outline-primary px-4 py-2 mb-4">Your Journey Start Here</Link>
                   </div>
+                </div>
                 </div>
               </div>
             </div>
@@ -120,11 +123,11 @@ const Home = () => {
 
 
       {/* Section 2 */}
-      <section className="about-oncobridge py-5">
+      {/* <section className="about-oncobridge py-5 ">
         <div className="container">
           <div className="row align-items-center">
 
-            {/* Left: Text */}
+            Left: Text 
             <div className="col-md-6">
               <h3 className="section-heading"> Lorem ipsum dolor sit amet</h3>
               <div className="theme-underline mb-3"></div>
@@ -139,14 +142,14 @@ const Home = () => {
 
               </p>
 
-              {/* Button */}
+            
               <button className="btn-theme mb-5 mb-lg-0 mb-md-0 mb-sm-0">
                 <i className="bi bi-arrow-right-circle"></i>
                 Meet Our Experts
               </button>
 
             </div>
-            {/* Right: Image with graphics */}
+           Right: Image with graphics 
             <div className="col-md-6 position-relative mb-4 mb-md-0">
               <div className="image-wrapper">
                 <img
@@ -164,17 +167,17 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
 
 
 
       {/* Section 3*/}
-      <section className="empowering-care py-5">
+      {/* <section className="empowering-care py-5">
         <div className="container">
           <div className="row align-items-center">
 
-            {/* Left: Image with Decorations */}
+            Left: Image with Decorations 
             <div className="col-md-6 position-relative">
               <div className="image-wrapper">
                 <img src={global} alt="Indian patient thoughtfully considering medical information on a tablet, seeking clarity for complex decisions"
@@ -187,7 +190,7 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            {/* Right: Text Content */}
+          Right: Text Content 
             <div className="col-md-6 mb-4 mb-md-0">
               <h3 className="section-heading mt-5 mt-lg-0 mt-md-0 mt-sm-0">Trusted by Thousands, Backed by Experts.</h3>
               <div className="theme-underline mb-3"></div>
@@ -201,17 +204,7 @@ const Home = () => {
                 seeking clarity for complex decisions.
 
               </p>
-              {/* <p className="text-muted">
-          With access to international expertise and evidence-based practices, we break down barriers
-          to quality cancer care — no matter where you are. OncoBridge serves as your digital gateway 
-          to seamless coordination, faster second opinions, and innovative treatment strategies.
-        </p> */}
-              {/* <p className="text-muted">
-          Our patient-first philosophy drives our commitment to accessibility, technology, and transparency 
-          in oncology. We believe every life deserves the best chance.
-        </p> */}
-
-              {/* Button */}
+             
               <button className="btn-theme-section4">
                 <i className="bi bi-activity me-2"></i>
                 How It Works
@@ -220,24 +213,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+      </section> */}
 
       {/* Section 4 */}
       {/* <section ref={section4Ref} className="why-choose-us py-5">
@@ -487,75 +463,11 @@ const Home = () => {
 </section> */}
 
 
-
-
-      {/* Section 7 */}
-      <section className="py-0 bg_grey bg_color">
-        <div className="container-fluid px-0">
-          <div className="row gx-0 align-items-center">
-            <div className="bg-image-bridge d-flex justify-content-left align-items-center text-start  ">
-              <div className="overlay-content">
-                <div className='col-md-7 p-5'>
-                  <div className="text-center mb-5">
-                    <h1 className="hero-heading"> The Bridge to Hope</h1>
-                  </div>
-                  <p className="text-black text-start bridge_txt_space">
-                    Imagine if Dr. Sharma could access <strong> every relevant Indian and international study, treatment outcomes from similar
-                      genetic populations, and success stories from Tier-1 to Tier-3 cities </strong> with a single query.
-                    Imagine if breakthrough therapies could reach patients in Patna or Coimbatore in weeks, not years.
-                  </p>
-                  <p className="text-black text-start bridge_txt_space">
-                    OncoBridge intends to transform cancer care across India by creating intelligent connections between experts from premier
-                    global research institutions and Indian hospitals , patients, and community healthcare networks.
-                  </p>
-                  <p className="text-black text-start bridge_txt_space">
-                    We don't just bridge urban-rural gaps – we improve <strong>access to world-class oncology insights </strong>  tailored for the Indian healthcare ecosystem.
-                    We understand the unique challenges of Indian healthcare – from genetic diversity to resource optimization –
-                    creating a network that serves everyone from Mumbai's corporate hospitals to primary health centres in rural Rajasthan.
-                  </p>
-                  <button className="read-more-btn" onClick={scrollToChallenge}>Begin the Journey</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-
-      {/* live transform  */}
-      <section className="lives-transformed-section py-5">
-        <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-lg-10 col-xl-9">
-              <div className="card border-0 shadow-lg rounded-4 p-4 bg-white position-relative">
-                <div className=" mb-3 live_transform">Lives Transformed</div>
-                <p className="">
-                  Today,  Dr. Sharma uses OncoBridge to connect her patient
-                  Rajesh, a 45-year-old teacher from Kanpur, with a precision therapy protocol
-                  that's <strong> more effective for his specific genetic profile.</strong>
-                </p>
-                <p>
-                  Rajesh represents thousands of Indian patients whose lives are transformed when cutting-edge care
-                  transcends geographical barriers. His story proves that when we bridge knowledge gaps across India's
-                  diverse healthcare landscape, we don't just treat cancer – we <strong>bring hope home to
-                    every family.</strong>
-                </p>
-                <div className="story-quote mt-4">
-                  <i className="bi bi-chat-quote fs-3 me-2 text-primary"></i>
-                  <span className="quote-text">“Every life we reach is a story worth telling.”</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-
-      {/* Section 6 */}
-      <section className="cancer-hero-alt py-5" ref={challengeRef} >
+  {/* Section 6 */}
+      <section className="cancer-hero-alt py-5 text-white home_bg_blue" ref={challengeRef} >
         <div className="container">
           <div className="text-center mb-5">
-            <h1 className="hero-heading">
+            <h1 className="text_white_heading">
               The Challenge We Face
             </h1>
           </div>
@@ -671,27 +583,91 @@ const Home = () => {
                     <i className="fas fa-user-md fa-2x mb-2"></i>
                   </div>
                   <h3 className="my-2 text-white">13.9 L</h3>
-                  <p className="mb-0 fw-bold">Medical Experts</p>
+                  <p className="mb-0 fw-bold">New cancer cases in <br/> India annually</p>
                 </div>
                 <div className="col-md-4 mb-4 mt-5 count_block">
                   <div className="icon-circle mb-2">
                     <i className="fas fa-procedures fa-2x mb-2"></i>
                   </div>
                   <h3 className="my-2 text-white">75%</h3>
-                  <p className="mb-0 fw-bold">Hospital Rooms</p>
+                  <p className="mb-0 fw-bold">Patients diagnosed in advanced stages</p>
                 </div>
                 <div className="col-md-4 mb-4 mt-5 count_block">
                   <div className="icon-circle mb-2">
                     <i className="fas fa-gem fa-2x mb-2"></i>
                   </div>
                   <h3 className="my-2 text-white">8-15</h3>
-                  <p className="mb-0 fw-bold">Awards Won</p>
+                  <p className="mb-0 fw-bold">Months to access specialized care</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
+
+      {/* Section 7 */}
+      <section className="py-0 bg_grey  home_bg_blue">
+        <div className="container-fluid px-0">
+          <div className="row gx-0 align-items-center">
+            <div className="bg-image-bridge d-flex justify-content-left align-items-center text-start  ">
+              <div className="overlay-content">
+                <div className='col-md-7 p-5'>
+                  <div className="text-center mb-5">
+                    <h1 className="hero-heading"> The Bridge to Hope</h1>
+                  </div>
+                  <p className="text-black text-start bridge_txt_space">
+                    Imagine if Dr. Sharma could access <strong> every relevant Indian and international study, treatment outcomes from similar
+                      genetic populations, and success stories from Tier-1 to Tier-3 cities </strong> with a single query.
+                    Imagine if breakthrough therapies could reach patients in Patna or Coimbatore in weeks, not years.
+                  </p>
+                  <p className="text-black text-start bridge_txt_space">
+                    OncoBridge intends to transform cancer care across India by creating intelligent connections between experts from premier
+                    global research institutions and Indian hospitals , patients, and community healthcare networks.
+                  </p>
+                  <p className="text-black text-start bridge_txt_space">
+                    We don't just bridge urban-rural gaps – we improve <strong>access to world-class oncology insights </strong>  tailored for the Indian healthcare ecosystem.
+                    We understand the unique challenges of Indian healthcare – from genetic diversity to resource optimization –
+                    creating a network that serves everyone from Mumbai's corporate hospitals to primary health centres in rural Rajasthan.
+                  </p>
+                  <button className="read-more-btn" onClick={scrollToChallenge}>Begin the Journey</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      {/* live transform  */}
+      <section className="lives-transformed-section py-5">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-10 col-xl-9">
+              <div className="card border-0 shadow-lg rounded-4 p-4 bg-white position-relative">
+                <div className=" mb-3 live_transform">Lives Transformed</div>
+                <p className="">
+                  Today,  Dr. Sharma uses OncoBridge to connect her patient
+                  Rajesh, a 45-year-old teacher from Kanpur, with a precision therapy protocol
+                  that's <strong> more effective for his specific genetic profile.</strong>
+                </p>
+                <p>
+                  Rajesh represents thousands of Indian patients whose lives are transformed when cutting-edge care
+                  transcends geographical barriers. His story proves that when we bridge knowledge gaps across India's
+                  diverse healthcare landscape, we don't just treat cancer – we <strong>bring hope home to
+                    every family.</strong>
+                </p>
+                <div className="story-quote mt-4">
+                  <i className="bi bi-chat-quote fs-3 me-2 text-primary"></i>
+                  <span className="quote-text">“Every life we reach is a story worth telling.”</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+    
 
 
       {/* your story  */}
@@ -756,7 +732,7 @@ const Home = () => {
           </p>
           <div className="mt-5">
             <Link className="journey_btn" target="_blank" to="/contact">Start Your Journey</Link>
-            <Link className="journey_btn" target="_blank" to="/about"> Learn More</Link>
+            <Link className="journey_btn" target="_blank" to="/secondoption"> Learn More</Link>
           </div>
         </div>
       </section>

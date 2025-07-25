@@ -1019,10 +1019,15 @@
 
 
 
-
+.text_white_heading 
+{
+    font-size: 3rem;
+    font-weight: 800;
+    color: #fff;
+}
 
 .cancer-hero-alt {
-  background: linear-gradient(to bottom, #f0f8ff, #eaf2f8);
+  background-color: #1897af;
   
 }
 
@@ -1236,8 +1241,48 @@
 {
   background-color: #f9fbff;
 }
+.home_bg_blue 
+{
+  background-color: #1897af;
+}
+.home_banner_logo 
+{
+    background-image: url('../assets/logo_bg.jpeg');
+       background-size: 38%;
+    background-position: right center;
+    background-repeat: no-repeat;
+    height: 79vh;
 
+}
+.banner_bg_white
+ {
+  background-color: #fff;
+ }
+.bg-image-home {
+  /* background-image: url('../assets/banner1.jpg'); */
+  /* Your image path */
+  /* background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+      z-index: -9;
+  text-align: left !important;
+  width: 100%; */
+  height: 79vh;
+}
 
+.bg-image-home::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  /* background: rgb(0 0 0 / 6%); */
+  /* Dark overlay */
+  z-index: 1;
+}
 .bg-image-bridge  {
   background-image: url('../assets/challenge.jpg');
   /* Replace with your image path */
@@ -1377,6 +1422,7 @@
   padding: 60px 0;
   position: relative;
   border-radius: 20px;
+  margin-bottom: 15px;
 }
 
 .stats-section::before {
@@ -1404,7 +1450,12 @@
   align-items: center;
   margin: 0 auto;
 }
-
+.home_banner_heading 
+{
+  font-size: 2.5rem;
+  text-align: left;
+      margin-bottom: 3rem;
+}
 /* mobile  */
 @media (max-width: 576px) {
   .second_option.dropdown-menu {

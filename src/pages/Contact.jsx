@@ -90,15 +90,15 @@ function Contact() {
                     </div>
                     <div className='col-lg-12 col-md-12 col-sm-12'>
                       <div className="mb-3">
-                        <label className="form-label">Who Your </label>
+                        <label className="form-label">Who you are </label>
                         <select
                           id="department"
                           name="department"
                           className="form-select"
                         >
-                          <option value="Patients">Patients </option>
-                          <option value="Hospital">Hospitals   </option>
-                          <option value="Insurance Providers ">Insurance Providers </option>
+                          <option value="Patients">Patient </option>
+                          <option value="Hospital">Hospital</option>
+                          <option value="Insurance Providers ">Insurance Provider </option>
                         </select>
                       </div>
                     </div>
