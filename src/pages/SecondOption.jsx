@@ -58,7 +58,7 @@ function SecondOption() {
                              <img src={second_opt3} className='w-100'/>
                             <div className="stat-content mt-3  ">
                                 <p>
-                                  Ensure appropriate care, manage costs effectively, enhance policyholder satisfaction.
+                                  Ensure appropriate care, manage costs effectively, enhance policyholder <br/> satisfaction.
                                 </p>
                                 <Link to="/insurance" className="read-more-btn-white">For Insurance Providers  </Link>
                             </div>
