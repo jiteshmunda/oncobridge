@@ -1504,7 +1504,8 @@ background-image: none;
 /* clarity  */
 .clarity_bg
 {
-    background-image: url('../assets/bg_clarity.png');
+    background-image: url('../assets/bg_clarity.jpg');
+     /* background-image: url('https://img.freepik.com/premium-photo/doctor-comforting-supporting-elderly-patient_636346-1471.jpg');      */
   /* Your image path */
   background-size: cover;
   background-position: center;

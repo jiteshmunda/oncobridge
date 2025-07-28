@@ -319,9 +319,9 @@ a {
 }
 .bg-image_hospital {
   /* background-image: url("../assets/indian_doct.png"); */
-  background-image: url("https://media.gettyimages.com/id/1482747690/photo/asia-india-doctor-having-discussion-in-hospital.jpg?s=612x612&w=0&k=20&c=yXB_5IiUWlbgspwfUXKlsv3Cd9kcikrMICHn8OS_OMA=");
+  background-image: url("https://img.freepik.com/premium-photo/doctors-nurse-with-hand-crossed-together_13339-143072.jpg?w=826");
   background-size: cover;
-  background-position: top right;
+  background-position: right top ;
   background-repeat: no-repeat;
   position: relative;
   text-align: left !important;
@@ -342,7 +342,7 @@ a {
 }
 
 .bg-image_ins {
-  background-image: url('../assets/insurance.jpg');
+  background-image: url('../assets/insurance.png');
   /* Your image path */
   background-size: cover;
   background-position: top;

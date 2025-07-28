@@ -1,5 +1,5 @@
 import React from "react";
-import insurance from "../assets/insurance.jpg";
+// import insurance from "../assets/insurance.jpg";
 import digi from "../assets/digi.png";
 import quality from "../assets/quality.png";
 import teamuser from "../assets/teamuser.png";
