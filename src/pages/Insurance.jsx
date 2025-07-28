@@ -3,8 +3,8 @@ import insurance from "../assets/insurance.jpg";
 import digi from "../assets/digi.png";
 import quality from "../assets/quality.png";
 import teamuser from "../assets/teamuser.png";
-import case1 from "../assets/case1.jpg";
-import case2 from "../assets/case2.jpg";
+import case1_img from "../assets/case1.jpg";
+import case2_img from "../assets/case2.jpg";
 import { Link } from "react-router-dom";
 function Insurance() {
   return (
@@ -265,14 +265,14 @@ function Insurance() {
           <div className="row">
             <div className="col-md-6">
               <img
-                src={case1}
+                src={case1_img}
                 alt="Graph showing reduction in healthcare costs"
                 className="img-fluid mb-3 height-50"
               />
             </div>
             <div className="col-md-6">
               <img
-                src={case2}
+                src={case2_img}
                 alt="Icon representing improved patient outcomes"
                 className="img-fluid mb-3 height-50"
               />
