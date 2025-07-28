@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { NavLink  } from 'react-router-dom';
+import { Link, NavLink  } from 'react-router-dom';
 import '../styles/navbar.css';
 // import logo from '../assets/logo.jpg'; 
 // import logo from '../assets/logo.png';
@@ -29,7 +29,9 @@ function Navbar() {
     <nav className={`custom-navbar ${scrolled ? 'scrolled' : ''}`}>
       <div className="navbar-container">
         <div className="navbar-logo">
-          <h4>OncoBridge</h4>
+        <Link to="/" className='text-decoration-none'>
+         <h4>OncoBridge</h4>
+         </Link>
          {/* <img src={logo} className='logo_nabvar'/>       */}
         </div>
 
