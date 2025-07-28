@@ -9,7 +9,7 @@ import pat_card3_img from "../assets/pat_card3.jpg";
 import pat_card4_img from "../assets/pat_card4.jpg";
 import { Link } from "react-router-dom";
 import get_key from "../assets/get_key.jpg";
-import pat4 from '../assets/pat4.PNG';
+import pat4 from '../assets/pat4.png';
 const testimonials = [
   {
     quote:
