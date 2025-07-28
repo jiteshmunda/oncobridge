@@ -39,7 +39,7 @@ const Home = () => {
                     providers, and data for a better tomorrow.
                   </h1>
                       <Link to="/secondoption" target="_blank" className="btn btn-primary me-3 px-4 py-2 mb-4">Get Your Second Opinion</Link>
-                       <Link to="/patients" className="btn btn-outline-primary px-4 py-2 mb-4">Your Journey Start Here</Link>
+                       <Link to="/patients" className="btn btn-outline-primary px-4 py-2 mb-4">Start Your Journey</Link>
                     </div>
                   </div>
                 </div>
