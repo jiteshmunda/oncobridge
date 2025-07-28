@@ -5,7 +5,10 @@
   /* background: #fff; */
 }
 
-
+.key_respon 
+{
+  margin-bottom: 5px;
+}
 
 
 .career-header {
@@ -66,7 +69,7 @@
 }
 
 .job-card {
-  display: flex;
+  display: block;
   justify-content: space-between;
   border-top: 1px solid #eaeaea;
   padding: 20px 0;
