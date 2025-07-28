@@ -29,10 +29,11 @@ const Home = () => {
       <section className=" banner_bg_white">
         <div className='container-fluid px-0 '>
           <div className='row gx-0 align-items-left'>
-            <div className="home_banner_logo">
+            
             <div className="bg-image-home d-flex justify-content-left align-items-center text-left text-white ">
               <div className="overlay-content">
                 <div className='col-md-7 p-3 ms-lg-5 ps-lg-4'>
+                  <div className="home_banner_logo"></div>
                   <h1 className="home_banner_heading">
                      Bridging cancer care and technology. OncoBridge connects patients,
                     providers, and data for a better tomorrow.
@@ -53,7 +54,7 @@ const Home = () => {
                 </div>
                 </div>
               </div>
-            </div>
+            
           </div>
         </div>
       </section>

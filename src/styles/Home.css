@@ -1251,7 +1251,7 @@
        background-size: 38%;
     background-position: right center;
     background-repeat: no-repeat;
-    height: 79vh;
+    /* height: 79vh; */
 
 }
 .banner_bg_white
@@ -1259,7 +1259,7 @@
   background-color: #fff;
  }
 .bg-image-home {
-  /* background-image: url('../assets/banner1.jpg'); */
+  background-image: url('../assets/banner1.jpg');
   /* Your image path */
   /* background-size: cover;
   background-attachment: fixed;
