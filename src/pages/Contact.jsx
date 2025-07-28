@@ -97,6 +97,7 @@ function Contact() {
                           className="form-select"
                         >
                           <option value="Patients">Patient </option>
+                          <option value="Patients">Family Member </option>
                           <option value="Hospital">Hospital</option>
                           <option value="Insurance Providers ">Insurance Provider </option>
                         </select>
