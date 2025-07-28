@@ -22,7 +22,7 @@ function Insurance() {
                   <p className="lead mt-3 animate__animated animate__fadeIn animate__delay-1s">
                     OncoBridge collaborates with insurance companies to ensure
                     policyholders receive the most appropriate,
-                    <br />
+                    
                     high-quality cancer care, leading to better outcomes and
                     managed costs.
                   </p>
