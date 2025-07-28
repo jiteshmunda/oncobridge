@@ -26,38 +26,38 @@ const Home = () => {
   return (
     <>
       {/* Banner Section */}
-      <section className=" banner_bg_white">
-        <div className='container-fluid px-0 '>
-          <div className='row gx-0 align-items-left'>
-            
-            <div className="bg-image-home d-flex justify-content-left align-items-center text-left text-white ">
-              <div className="overlay-content">
-                <div className='col-md-7 p-3 ms-lg-5 ps-lg-4'>
-                  <div className="home_banner_logo"></div>
-                  <h1 className="home_banner_heading">
+     <section className="bg-image-home home_banner_logo ">     
+
+          <div className="container-fluid ">
+            <div className="row align-items-center">
+              <div className="col-md-12 col-lg-7  col-sm-7 m-md-5 m-lg-5   m-0">
+                <div className="col-lg-12 p-md-5 p-lg-5 p-4">
+                  <div className="row g-3">
+                    <div className="">
+                     <h1 className="home_banner_heading">
                      Bridging cancer care and technology. OncoBridge connects patients,
                     providers, and data for a better tomorrow.
                   </h1>
-                  {/* <p className="lead mb-4 text-white">
-                    Bridging cancer care and technology. OncoBridge connects patients,
-                    providers, and data for a better tomorrow.
-                  </p> */}
-                  <div>
-                    <Link to="/secondoption" target="_blank" className="btn btn-primary me-3 px-4 py-2 mb-4">Get Your Second Opinion</Link>
-                    {/* <a href="/secondoption" className="btn btn-light me-3 px-4 py-2 mb-4">Get Your Second Opinion </a> */}
-                    {/* <a href="#services" className="btn btn-outline-light px-4 py-2 mb-4">How It Works </a> */}
-                    {/* <button onClick={scrollToSection4} className="btn btn-outline-light px-4 py-2 mb-4">
-                      How It Works
-                    </button> */}
-                    <Link to="/contact" target="_blank" className="btn btn-outline-primary px-4 py-2 mb-4">Your Journey Start Here</Link>
+                      <Link to="/secondoption" target="_blank" className="btn btn-primary me-3 px-4 py-2 mb-4">Get Your Second Opinion</Link>
+                       <Link to="/contact" target="_blank" className="btn btn-outline-primary px-4 py-2 mb-4">Your Journey Start Here</Link>
+                    </div>
                   </div>
                 </div>
-                </div>
               </div>
-            
+
+              <div className="col-md-5 ">
+               
+
+                {/* <img
+                  src={myths_bg}
+                  className="img-fluid bg_question_right d-none d-lg-block d-sm-block d-md-none"
+                  alt="Example Image"
+                /> */}
+              
+              </div>
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
       {/* <section className="hero-banner d-flex align-items-center text-white">
         <div className="container">
           <div className="row align-items-center">
@@ -612,7 +612,7 @@ const Home = () => {
           <div className="row gx-0 align-items-center">
             <div className="bg-image-bridge d-flex justify-content-left align-items-center text-start  ">
               <div className="overlay-content">
-                <div className='col-md-7 p-5'>
+                <div className='col-md-12 col-lg-7 p-md-5 p-lg-5 p-2'>
                   <div className="text-center mb-5">
                     <h1 className="hero-heading"> The Bridge to Hope</h1>
                   </div>
@@ -675,14 +675,14 @@ const Home = () => {
       <div className="container-fluid hero-wrapper story-section text-white">
         <div className="row">
           {/* Left Content */}
-          <div className="col-md-6 d-flex flex-column justify-content-center p-5 text-white hero-bg">
+          <div className="col-md-6 d-flex flex-column justify-content-center p-md-4 p-lg-5 p-3 text-white hero-bg">
             <h1 className="display-5 fw-bold">Your Story Starts Here</h1>
             <p className=" mt-4">
               Join us in building bridges that <strong>transform cancer care across every corner of India.</strong>
               Whether you're a patient, a clinician in a district hospital, or a healthcare institution
               ready to improve access – your impact story begins with OncoBridge.
             </p>
-            <Link to="/contact" target="_blank" className="btn btn-light btn-lg mt-4 px-4 rounded-pill shadow col-md-5">
+            <Link to="/contact" target="_blank" className="btn btn-light btn-lg mt-4 px-4 rounded-pill shadow col-md-6 mb-3">
               Get Started
             </Link>
           </div>
@@ -739,11 +739,11 @@ const Home = () => {
       </section>
       <section>
         <div
-          className="container-fluid py-5 clarity_bg" >
+          className="container-fluid py-2 clarity_bg py-md-5 py-lg-5" >
           <div className="container py-4">
             <div className="row align-items-center">
               {/* Right Form */}
-              <div className="col-lg-6 ms-auto bg-white bg-opacity-75 p-5 rounded-4 shadow">
+              <div className="col-lg-6 ms-auto bg-white bg-opacity-75 p-md-5 p-lg-5 p-4 rounded-4 shadow">
                 {/* <div className="d-flex align-items-center mb-3">
               <img
                 src="https://cdn-icons-png.flaticon.com/512/1486/1486426.png"

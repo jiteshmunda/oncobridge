@@ -525,8 +525,66 @@
   background-color: #e6e6e6;
   color: #002f6d;
 }
+.bg-image-home {
+  /* background-image: url('../assets/banner1.jpg'); */
+      background-color: #FFF;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+  /* Your image path */
+  /* background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+      z-index: -9;
+  text-align: left !important;
+  width: 100%; */
+      height: 79vh;
+    display: flex;
+    align-items: center;
+}
+
+.bg-image-home::before {
+  /* content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  /* background: rgb(0 0 0 / 6%); */
+  /* Dark overlay */
+
+}
+.home_banner_logo 
+{
+    background-image: url('../assets/logo_bg.jpeg');
+       background-size: 38%;
+    background-position: right center;
+    background-repeat: no-repeat;
+    /* height: 79vh; */
+
+}
+.home_banner_heading 
+{
+  font-size: 2.5rem;
+  text-align: left;
+      margin-bottom: 3rem;
+}
 
 @media (max-width: 768px) {
+  .home_banner_heading {
+    font-size: 1.5rem;
+  }
+  .bg-image-home
+  {
+        height: auto;
+  }
+  .home_banner_logo 
+{
+background-image: none;
+}
   .app-animation {
     margin-top: 2rem;
     max-width: 300px;
@@ -1245,44 +1303,12 @@
 {
   background-color: #1897af;
 }
-.home_banner_logo 
-{
-    background-image: url('../assets/logo_bg.jpeg');
-       background-size: 38%;
-    background-position: right center;
-    background-repeat: no-repeat;
-    /* height: 79vh; */
 
-}
 .banner_bg_white
  {
   background-color: #fff;
  }
-.bg-image-home {
-  background-image: url('../assets/banner1.jpg');
-  /* Your image path */
-  /* background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  position: relative;
-      z-index: -9;
-  text-align: left !important;
-  width: 100%; */
-  height: 79vh;
-}
 
-.bg-image-home::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  /* background: rgb(0 0 0 / 6%); */
-  /* Dark overlay */
-  z-index: 1;
-}
 .bg-image-bridge  {
   background-image: url('../assets/challenge.jpg');
   /* Replace with your image path */
@@ -1450,12 +1476,7 @@
   align-items: center;
   margin: 0 auto;
 }
-.home_banner_heading 
-{
-  font-size: 2.5rem;
-  text-align: left;
-      margin-bottom: 3rem;
-}
+
 /* mobile  */
 @media (max-width: 576px) {
   .second_option.dropdown-menu {

@@ -453,10 +453,17 @@ a {
 }
 
 @media (max-width: 576px) {
+  .live_transform {
+    font-size: 2rem;
+  }
+  .newsletter-beauty
+  {
+        padding: 0rem 0rem;
+  }
   .footer_logo {
   background-position: top center;
         background-size: 70%;
-        height: 50vh;
+        height: 38vh;
 }
   .btn-mobile-sm {
     padding: 0.25rem 0.5rem;
