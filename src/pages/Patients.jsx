@@ -125,7 +125,7 @@ function Patients() {
         </section> */}
         </div>
       </section>
-      <section className="py-5 ">
+      <section className="py-5 four_steps" id="four_steps">
         <div className="container">
           <div class="text-center mb-5">
             <h2 className="section-title fw-bold ">

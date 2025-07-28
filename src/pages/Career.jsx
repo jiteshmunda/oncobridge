@@ -38,6 +38,8 @@ const jobListings = [
   {
     title: "Business Development Executive",
     code: "BDE001",
+    location:"Mumbai, Delhi, Hyderabad (India)",
+    employmenttype: "Full-Time",
     category: "Business Development",
     description:
       "Drive growth by building partnerships and expanding OncoBridge’s reach in the oncology sector.",
@@ -62,6 +64,8 @@ const jobListings = [
   {
     title: "Medical Advisor - Oncologist",
     code: "MAO001",
+    location:" Coimbatore (Hybrid – Remote + On-site if required) ",
+    employmenttype:"Part-Time / Consulting / Case-Based",
     category: "Medical Advisory",
     description:
       "Shape our oncology initiatives by providing medical expertise and supporting patient-focused programs.",
@@ -173,6 +177,8 @@ export default function CareerPage() {
               <div>
                 <h3>{job.title}</h3>
                 <p className="job-code">Job Code: {job.code}</p>
+                 <p className="job-code">Location: {job.location}</p>
+                  <p className="job-code">Employment Type: {job.employmenttype}</p>
                  <span className="job-popup-link">
                 View Details <FiArrowUpRight />
               </span>
