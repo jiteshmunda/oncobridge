@@ -624,9 +624,10 @@ const Home = () => {
                   <p className="text-black text-start bridge_txt_space">
                     OncoBridge intends to transform cancer care across India by creating intelligent connections between experts from premier
                     global research institutions and Indian hospitals , patients, and community healthcare networks.
+                            We don't just bridge urban-rural gaps – we improve <strong>access to world-class oncology insights </strong>  tailored for the Indian healthcare ecosystem.
                   </p>
                   <p className="text-black text-start bridge_txt_space">
-                    We don't just bridge urban-rural gaps – we improve <strong>access to world-class oncology insights </strong>  tailored for the Indian healthcare ecosystem.
+            
                     We understand the unique challenges of Indian healthcare – from genetic diversity to resource optimization –
                     creating a network that serves everyone from Mumbai's corporate hospitals to primary health centres in rural Rajasthan.
                   </p>
