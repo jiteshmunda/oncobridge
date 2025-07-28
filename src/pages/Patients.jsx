@@ -3,10 +3,10 @@ import pat1 from "../assets/pat1.jpg";
 import pat3 from "../assets/pat3.jpg";
 import pat2 from "../assets/pat2.jpg";
 import doct1 from "../assets/doct1.png";
-import pat_card2 from "../assets/pat_card2.jpg";
-import pat_card1 from "../assets/pat_card1.jpg";
-import pat_card3 from "../assets/pat_card3.jpg";
-import pat_card4 from "../assets/pat_card4.jpg";
+import pat_card2_img from "../assets/pat_card2.jpg";
+import pat_card1_img from "../assets/pat_card1.jpg";
+import pat_card3_img from "../assets/pat_card3.jpg";
+import pat_card4_img from "../assets/pat_card4.jpg";
 import { Link } from "react-router-dom";
 import get_key from "../assets/get_key.jpg";
 import pat4 from '../assets/pat4.PNG';
@@ -136,7 +136,7 @@ function Patients() {
             <div className="col-md-6">
               <div className="card h-100">
                 <img
-                  src={pat_card1}
+                  src={pat_card1_img}
                   className="card-img-top steps_img_height"
                   alt="Patient securely uploading medical documents from home."
                 />
@@ -155,7 +155,7 @@ function Patients() {
             <div className="col-md-6">
               <div className="card h-100">
                 <img
-                  src={pat_card2}
+                  src={pat_card2_img}
                   className="card-img-top steps_img_height"
                   alt="Global oncology experts collaborating virtually."
                 />
@@ -171,7 +171,7 @@ function Patients() {
             <div className="col-md-6">
               <div className="card h-100">
                 <img
-                  src={pat_card3}
+                  src={pat_card3_img}
                   className="card-img-top steps_img_height"
                   alt="Doctor meticulously reviewing a medical report."
                 />
@@ -187,7 +187,7 @@ function Patients() {
             <div className="col-md-6">
               <div className="card h-100">
                 <img
-                  src={pat_card4}
+                  src={pat_card4_img}
                   className="card-img-top steps_img_height"
                   alt="Indian patient in a virtual consultation with an expert."
                 />
