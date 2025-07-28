@@ -1,6 +1,6 @@
 .hero-banner {
   min-height: 60vh; /* Changed from 85vh to 60vh */
-  background: linear-gradient(to right, #003973, #E5E5BE), url('/path-to-your-banner.jpg') center/cover no-repeat;
+  /* background: linear-gradient(to right, #003973, #E5E5BE), url('/path-to-your-banner.jpg') center/cover no-repeat; */
   position: relative;
   padding: 2rem 0; /* Optionally reduce padding too */
 }
