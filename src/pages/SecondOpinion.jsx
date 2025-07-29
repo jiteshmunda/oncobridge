@@ -5,7 +5,7 @@ import second_opt2 from '../assets/second_opt2.jpg';
 import second_opt3 from '../assets/second_opt3.jpg';
 
 
-function SecondOption() {
+function SecondOpinion() {
     return (
         <>
         <section className="text-center">
@@ -71,4 +71,4 @@ function SecondOption() {
     );
 }
 
-export default SecondOption;
+export default SecondOpinion;

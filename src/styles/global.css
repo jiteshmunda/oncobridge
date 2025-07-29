@@ -64,7 +64,8 @@ a {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  background-color: #01579B;
+  /* background-color: #01579B; */
+  background-color: #194d63;
   color: #fff;
   border: 1px solid #fff;
   width: 32px;
@@ -84,7 +85,11 @@ a {
 .text-justify {
   text-align: justify;
 }
-
+.about_us h5 
+{
+  color:  #5a92a3;
+      font-weight: 600;
+}
 .about_services .icon-box {
   width: 50px;
   height: 50px;
@@ -158,7 +163,15 @@ a {
   line-height: 1.8;
   margin-bottom: 15px;
 }
-
+.contact_us_left i 
+{
+   color: #194d63;
+}
+.contact_block h1,
+.contact_block h5
+{
+  color: #194d63;
+}
 .contact_us_left {
   background-color: #fff;
   padding: 7% 7%;
@@ -544,12 +557,24 @@ a {
 }
 
 /* myths  */
+.cancer_types li .nav-link.active 
+{
+      background-color: #194d63;
+}
+.cancer_types li .nav-link
+{
+color: #194d63;
+}
+.understand_cancer .subheading 
+{
+color: #194d63;
+}
 .font_size_20 
 {
   font-size: 20px;
 }
 .testimonial-section-myths {
-  background-color: #0288D1;
+  background-color: #194d63;
   color: #fff;
   padding: 60px 20px 40px;
   position: relative;
@@ -559,7 +584,7 @@ a {
 .testimonial-section-myths::after {
   content: "";
   position: absolute;
-  bottom: -30px;
+  bottom: -7px;
   left: 0;
   right: 0;
   height: 60px;
@@ -639,9 +664,17 @@ a {
   /* Dark overlay */
   z-index: 1;
 }
-
+.feature-icon 
+{
+      color: #194d63;
+      background-color: #E6F0FA;
+}
+.feature-card h5 
+{
+  color:#194d63;
+}
 .myths_cards .card-header {
-  background-color: #0288d1;
+  background-color: #194d63;
   color: #fff;
   padding: 12px;
 }
@@ -696,7 +729,7 @@ a {
   /* height: 13vh; */
 }
 .second-option-card {
-  background-color: #01579B;
+  background-color: #194d63;
   border-radius: 20px;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
   transition: box-shadow 0.3s ease;
@@ -763,7 +796,7 @@ a {
 }
  .myths_stpe .step-section {
       background-color: #f8f9fa;
-      border-left: 8px solid #0288d1;
+      border-left: 8px solid #194d63;
       padding: 20px;
       border-radius: 0.5rem;
       margin-bottom: 20px;
@@ -774,7 +807,7 @@ a {
       position: absolute;
       top: -15px;
       left: -15px;
-      background-color: #0288d1;
+      background-color: #194d63;
       color: #fff;
       border-radius: 50%;
       width: 40px;
@@ -789,6 +822,40 @@ a {
       border-radius: 0.5rem;
       padding: 15px;
       box-shadow: 0 0 8px rgba(0,0,0,0.05);
+    }
+     .myths_stpe ul li  
+     {
+      margin-bottom: 10px;
+     }
+    .myths_stpe ul li i
+    {
+color: #194d63;
+    }
+    .final_thought h6 
+    {
+      color: #194d63;
+          font-weight: 600;
+    }
+    .tab-pane-myths h6 
+    {
+      color: #5a92a3;
+    }
+    .text_link 
+    {
+      color:#5a92a3;
+    }
+    .myths_stpe h5 
+    {
+      color: #194d63;
+        margin-bottom: 4%;
+    }
+    .resources_txt, .resources_txt:hover
+    {
+       color: #194d63;
+    }
+    .myths_navtab_previous i
+    {
+  color: #194d63;
     }
 .myths_navtab .nav-link {
   border-bottom: 1px solid #0281c6;
@@ -864,7 +931,8 @@ a {
 
 /* Active styles */
 .menu-link.active {
-  color: #01579B;
+  /* color: #01579B; */
+  color: #5a92a3;
   font-weight: bold;
 }
 
@@ -872,7 +940,10 @@ a {
   color: #01579B;
   text-decoration: underline;
 }
-
+.footer_heading 
+{
+  color: #194d63;
+}
 .bg-image-career {
   background-image: url('../assets/job.jpg');
   /* Your image path */

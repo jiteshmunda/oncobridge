@@ -20,7 +20,7 @@ function Contact() {
         </div>
       </section>
 
-      <section className="section  ">
+      <section className="section contact_block ">
         <div className="container my-5">
           {/* Page Header */}
           <div className="text-center mb-5">

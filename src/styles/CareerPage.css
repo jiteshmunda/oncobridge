@@ -31,6 +31,7 @@
   font-size: 36px;
   margin: 0 0 16px;
   font-weight: 600;
+  color: #194d63;
 }
 
 .career-header p {
@@ -54,12 +55,16 @@
 
 .filter-btn:hover {
   background: #f3f3f3;
+   color: #194d63;
 }
-
+.filter-btn
+{
+  color: #194d63;
+}
 .filter-btn.active {
-  background: #0288D1;
+  background: #194d63;
   color: white;
-  border-color: #0288D1;
+  border-color: #194d63;
 }
 
 .job-list {
@@ -88,9 +93,14 @@
 {
       text-decoration: underline;
 }
+.popup-scroll h2 , .popup-scroll h4
+{
+    color: #194d63;
+}
 .job-card h3 {
   margin: 0 0 8px;
   font-size: 22px;
+  color: #194d63;
 }
 
 .job-card p {
@@ -464,7 +474,7 @@
   align-items: center;
   justify-content: center;
   gap: 8px;
-  background-color: #0288D1;
+  background-color: #194d63;
   color: white;
   padding: 12px 20px;
   border-radius: 999px;
@@ -478,7 +488,7 @@
 }
 
 .apply-link:hover {
-  background-color: #0277BD;
+  background-color: #194d63;
   box-shadow: 0 6px 16px rgba(2, 136, 209, 0.4);
   transform: translateY(-1px);
 }
@@ -521,7 +531,7 @@
 }
 
 .submit-btn {
-  background-color: #0288D1;
+  background-color: #194d63;
   color: white;
   padding: 10px 18px;
   border: none;
@@ -532,5 +542,5 @@
 }
 
 .submit-btn:hover {
-  background-color: #0277BD;
+  background-color: #194d63;
 }

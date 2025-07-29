@@ -135,14 +135,15 @@
 }
 
 /* Read More Button */
+
 .read-more-btn {
   position: relative;
   display: inline-block;
   padding: 10px 26px;
   font-size: 0.95rem;
   font-weight: 500;
-  color: #0d6efd;
-  border: 1.5px solid #0d6efd;
+  color: #194d63;
+  border: 1.5px solid #194d63;
   border-radius: 50px;
   background: transparent;
   text-decoration: none;
@@ -159,7 +160,7 @@
   width: 100%;
   height: 100%;
   background: 
-    linear-gradient(to bottom, #0d6efd 0%, #0d6efd 100%), /* solid fill */
+    linear-gradient(to bottom, #5a92a3 0%, #5a92a3 100%), /* solid fill */
     url("data:image/svg+xml,%3Csvg viewBox='0 0 120 28' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='%23ffffff' d='M0,0 C30,28 90,0 120,28 L120,0 L0,0 Z'/%3E%3C/svg%3E") repeat-x;
   background-size: 100% 100%, 200% 100%;
   background-repeat: no-repeat, repeat-x;
@@ -320,7 +321,7 @@
 {
       font-size: 3rem;
     font-weight: 800;
-    color: #154360;
+    color: #194d63;
 }
 
 
@@ -566,13 +567,32 @@
     /* height: 79vh; */
 
 }
+
+.btn-primary 
+{
+  background-color: #1897af;
+}
+.btn-primary:hover 
+{
+  background-color: #194d63;
+}
+.home_banner_subheading
+{
+  font-size: 2.2rem;
+  text-align: left;
+      margin-bottom: 1rem;
+       /* color: #4A90A4; */
+       color: #1897af;
+}
 .home_banner_heading 
 {
   font-size: 2.5rem;
   text-align: left;
-      margin-bottom: 3rem;
+      margin-bottom: 1rem;
+      /* color: #5a92a3; */
+      font-weight: 800;
+       color: #1897af;
 }
-
 @media (max-width: 768px) {
   .home_banner_heading {
     font-size: 1.5rem;
@@ -625,12 +645,12 @@ background-image: none;
 .testimonial-avatar {
   border-radius: 9999px;
   object-fit: cover;
-  border: 3px solid #1A5276;
+  border: 3px solid #194d63;
 }
 
 .section-title {
   font-size: 2.5rem;
-  color: #1A5276;
+  color: #194d63;
 }
 
 .fade-up {
@@ -1092,7 +1112,7 @@ background-image: none;
 .hero-heading {
   font-size: 3rem;
   font-weight: 800;
-  color: #154360;
+  color: #194d63;
 }
 
 .hero-heading span {
@@ -1359,9 +1379,12 @@ background-image: none;
 .lives-transformed-section .card:hover {
   box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.1);
 }
-
+.story-quote i
+{
+color: #5a92a3;
+}
 .story-quote {
-  border-left: 4px solid #0d6efd;
+  border-left: 4px solid #5a92a3;
   padding-left: 1rem;
   font-style: italic;
   color: #333;
@@ -1465,8 +1488,12 @@ background-image: none;
   position: relative;
   z-index: 2;
 }
+.fa-gem:before {
+    content: "\f3a5";
+    vertical-align: sub;
+}
 .icon-circle {
-  background-color: #0288D1;
+  background-color: #94bece;
   color: white;
   border-radius: 50%;
   width: 80px;

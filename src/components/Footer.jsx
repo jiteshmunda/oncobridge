@@ -24,7 +24,7 @@ function Footer() {
 
           {/* Quick Links */}
           <div className="col-md-4 col-lg-3 col-sm-3 mb-4">
-            <h5 className=" fw-bold mb-3">Quick Links</h5>
+            <h5 className=" fw-bold mb-3 footer_heading">Quick Links</h5>
             <div className="d-flex justify-content-end">
               <ul className="list-unstyled">
                 <li>
@@ -68,45 +68,26 @@ function Footer() {
 
           {/* Contact Info */}
           <div className="col-md-4 col-lg-3 col-sm-3 mb-4">
-            <h5 className=" fw-bold mb-3">Contact</h5>
+            <h5 className=" fw-bold mb-3 footer_heading">Contact</h5>
             <p>
-              <i className="fas fa-home me-2"></i>
+              <i className="fas fa-map-marker-alt me-2"></i>
               18-2, Ground Floor, 4th Street, Gokulam Colony
               PN Pudur Coimbatore, Tamil Nadu, India
 
             </p>
             <p>
               <i className="fas fa-envelope me-2"></i>
-                <Link to="mailto:care@oncobridge.in" className='text-primary text-decoration-none'> care@oncobridge.in </Link>
+                <Link to="mailto:care@oncobridge.in" className='text-primary text-decoration-none'>care@oncobridge.in </Link>
             </p>
             <p>
-              <i className="fas fa-phone me-2"></i> +91 90256 65212
-            </p>
-
-            {/* Social Icons moved here */}
-            <div className="d-flex gap-2 mt-3">
-              <Link to="https://www.facebook.com/share/1WvrTsomYM/" target="_blank" className="social-icon" aria-label="Facebook">
-                <i className="fab fa-facebook-f"></i>
-              </Link>
-              <Link to="https://x.com/OncoBridge?t=b0ixO1WXQ-4UlIlO56b4wg&s=09" target="_blank" className="social-icon" aria-label="Twitter">
-                <i className="fab fa-twitter"></i>
-              </Link>
-              <Link to="https://www.linkedin.com/in/oncobridge-b3204b375/" target="_blank" className="social-icon" aria-label="LinkedIn">
-                <i className="fab fa-linkedin-in"></i>
-              </Link>
-              <Link to="https://www.instagram.com/oncobridge17" target="_blank" className="social-icon" aria-label="Instagram">
-                <i className="fab fa-instagram"></i>
-              </Link>
-              {/* <Link to="https://www.instagram.com/onco_bridge?igsh=MXAyYXh6cjUzZzZmbQ==&utm_source=ig_contact_invite" target="_blank" className="social-icon" aria-label="Instagram">
-                <i className="fab fa-instagram"></i>
-              </Link> */}
-            </div>
+              <i className="fas fa-phone me-2"></i>+91 90256 65212
+            </p>           
           </div>
 
           {/* Newsletter */}
           <div className="col-md-12 col-lg-3 col-sm-3 mb-4">
             <div className="col-lg-12 col-sm-12  col-md-6 mx-auto">
-              <h5 className=" fw-bold mb-3">Newsletter</h5>
+              <h5 className=" fw-bold mb-3 footer_heading">Newsletter</h5>
               <p>Stay informed with updates and health tips from OncoBridge.</p>
               <form onSubmit={(e) => e.preventDefault()}>
                 <div className="position-relative">
@@ -125,6 +106,24 @@ function Footer() {
                   </button>
                 </div>
               </form>
+               {/* Social Icons moved here */}
+            <div className="d-flex gap-2 mt-3">
+              <Link to="https://www.facebook.com/share/1WvrTsomYM/" target="_blank" className="social-icon" aria-label="Facebook">
+                <i className="fab fa-facebook-f"></i>
+              </Link>
+              <Link to="https://x.com/OncoBridge?t=b0ixO1WXQ-4UlIlO56b4wg&s=09" target="_blank" className="social-icon" aria-label="Twitter">
+                <i className="fab fa-twitter"></i>
+              </Link>
+              <Link to="https://www.linkedin.com/in/oncobridge-b3204b375/" target="_blank" className="social-icon" aria-label="LinkedIn">
+                <i className="fab fa-linkedin-in"></i>
+              </Link>
+              <Link to="https://www.instagram.com/oncobridge17" target="_blank" className="social-icon" aria-label="Instagram">
+                <i className="fab fa-instagram"></i>
+              </Link>
+              {/* <Link to="https://www.instagram.com/onco_bridge?igsh=MXAyYXh6cjUzZzZmbQ==&utm_source=ig_contact_invite" target="_blank" className="social-icon" aria-label="Instagram">
+                <i className="fab fa-instagram"></i>
+              </Link> */}
+            </div>
             </div>
           </div>
         </div>

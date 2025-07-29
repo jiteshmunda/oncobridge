@@ -26,38 +26,41 @@ const Home = () => {
   return (
     <>
       {/* Banner Section */}
-     <section className="bg-image-home home_banner_logo ">     
+      <section className="bg-image-home home_banner_logo ">
 
-          <div className="container-fluid ">
-            <div className="row align-items-center">
-              <div className="col-md-12 col-lg-7  col-sm-7 m-md-5 m-lg-5   m-0">
-                <div className="col-lg-12 p-md-5 p-lg-5 p-4">
-                  <div className="row g-3">
-                    <div className="">
-                     <h1 className="home_banner_heading">
-                     Bridging cancer care and technology. OncoBridge connects patients,
-                    providers, and data for a better tomorrow.
-                  </h1>
-                      <Link to="/secondoption" target="_blank" className="btn btn-primary me-3 px-4 py-2 mb-4">Get Your Second Opinion</Link>
-                       <Link to="/patients" className="btn btn-outline-primary px-4 py-2 mb-4">Start Your Journey</Link>
-                    </div>
+        <div className="container-fluid ">
+          <div className="row align-items-center">
+            <div className="col-md-12 col-lg-7  col-sm-7 m-md-5 m-lg-5   m-0">
+              <div className="col-lg-12 p-md-5 p-lg-5 p-4">
+                <div className="row g-3">
+                  <div className="">
+                    <h1 className="home_banner_heading ">
+                      Bridging cancer care and technology.
+                    </h1>
+                    <h5 className="home_banner_subheading">
+                      We connect patients, providers <br/>
+                      and data for a better tomorrow
+                    </h5>
+                    {/* <Link to="/secondoption" target="_blank" className="btn btn-primary me-3 px-4 py-2 mb-4">Get Your Second Opinion</Link> */}
+                    <Link to="/patients" className="btn btn-primary px-4 py-2 mb-4">Start Your Journey</Link>
                   </div>
                 </div>
               </div>
+            </div>
 
-              <div className="col-md-5 ">
-               
+            <div className="col-md-5 ">
 
-                {/* <img
+
+              {/* <img
                   src={myths_bg}
                   className="img-fluid bg_question_right d-none d-lg-block d-sm-block d-md-none"
                   alt="Example Image"
                 /> */}
-              
-              </div>
+
             </div>
           </div>
-        </section>
+        </div>
+      </section>
       {/* <section className="hero-banner d-flex align-items-center text-white">
         <div className="container">
           <div className="row align-items-center">
@@ -464,7 +467,7 @@ const Home = () => {
 </section> */}
 
 
-  {/* Section 6 */}
+      {/* Section 6 */}
       <section className="cancer-hero-alt py-5 text-white home_bg_blue" ref={challengeRef} >
         <div className="container">
           <div className="text-center mb-5">
@@ -584,7 +587,7 @@ const Home = () => {
                     <i className="fas fa-user-md fa-2x mb-2"></i>
                   </div>
                   <h3 className="my-2 text-white">13.9 L</h3>
-                  <p className="mb-0 fw-bold">New cancer cases in <br/> India annually</p>
+                  <p className="mb-0 fw-bold">New cancer cases in <br /> India annually</p>
                 </div>
                 <div className="col-md-4 mb-4 mt-5 count_block">
                   <div className="icon-circle mb-2">
@@ -624,10 +627,10 @@ const Home = () => {
                   <p className="text-black text-start bridge_txt_space">
                     OncoBridge intends to transform cancer care across India by creating intelligent connections between experts from premier
                     global research institutions and Indian hospitals , patients, and community healthcare networks.
-                            We don't just bridge urban-rural gaps – we improve <strong>access to world-class oncology insights </strong>  tailored for the Indian healthcare ecosystem.
+                    We don't just bridge urban-rural gaps – we improve <strong>access to world-class oncology insights </strong>  tailored for the Indian healthcare ecosystem.
                   </p>
                   <p className="text-black text-start bridge_txt_space">
-            
+
                     We understand the unique challenges of Indian healthcare – from genetic diversity to resource optimization –
                     creating a network that serves everyone from Mumbai's corporate hospitals to primary health centres in rural Rajasthan.
                   </p>
@@ -659,7 +662,7 @@ const Home = () => {
                     every family.</strong>
                 </p>
                 <div className="story-quote mt-4">
-                  <i className="bi bi-chat-quote fs-3 me-2 text-primary"></i>
+                  <i className="bi bi-chat-quote fs-3 me-2"></i>
                   <span className="quote-text">“Every life we reach is a story worth telling.”</span>
                 </div>
               </div>
@@ -669,13 +672,13 @@ const Home = () => {
       </section>
 
 
-    
+
 
 
       {/* your story  */}
-      <div className="container-fluid hero-wrapper story-section text-white">
+      {/* <div className="container-fluid hero-wrapper story-section text-white">
         <div className="row">
-          {/* Left Content */}
+           Left Content 
           <div className="col-md-6 d-flex flex-column justify-content-center p-md-4 p-lg-5 p-3 text-white hero-bg">
             <h1 className="display-5 fw-bold">Your Story Starts Here</h1>
             <p className=" mt-4">
@@ -687,18 +690,9 @@ const Home = () => {
               Get Started
             </Link>
           </div>
-          {/* Right Image */}
-          <div className="col-md-6 p-0">
-            <img src="https://doctery-demo.pbminfotech.com/demo2/wp-content/uploads/sites/3/2020/12/img-08.jpg" alt="Doctor" className="img-fluid h-100 w-100 object-fit-cover" />
-          </div>
-          {/* Play Button in Center */}
-          {/* <div className="play-button-wrapper">
-          <div className="play-button">
-            <i className="bi bi-play-fill text-primary fs-4"></i>
-          </div>
-        </div> */}
+        
         </div>
-      </div>
+      </div> */}
       {/* <section className="story-section text-white">
         <div className="container py-5">
           <div className="row align-items-center">
@@ -725,7 +719,7 @@ const Home = () => {
       </section> */}
 
 
-      <section className="newsletter-beauty text-white">
+      {/* <section className="newsletter-beauty text-white">
         <div className="container py-5 text-center">
           <h2 className="newsletter-heading">Your Journey to Clarity Starts Here</h2>
           <p className="newsletter-subtext">
@@ -737,23 +731,15 @@ const Home = () => {
             <Link className="journey_btn" target="_blank" to="/secondoption"> Learn More</Link>
           </div>
         </div>
-      </section>
-      <section>
+      </section> */}
+      {/* <section>
         <div
           className="container-fluid py-2 clarity_bg py-md-5 py-lg-5" >
           <div className="container py-4">
             <div className="row align-items-center">
-              {/* Right Form */}
+               Right Form 
               <div className="col-lg-6 ms-auto bg-white bg-opacity-75 p-md-5 p-lg-5 p-4 rounded-4 shadow">
-                {/* <div className="d-flex align-items-center mb-3">
-              <img
-                src="https://cdn-icons-png.flaticon.com/512/1486/1486426.png"
-                alt="Heart Icon"
-                width="40"
-                className="me-2"
-              />
-              <span className="text-primary fw-bold">ONLINE APPOINTMENT</span>
-            </div> */}
+                
                 <h3 className="fw-bold text-dark mb-4">
                   Take the First Step Towards Clarity
                 </h3>
@@ -806,7 +792,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* journey forms
  <div className="container py-5 d-flex justify-content-center">
       <div className="col-md-8 col-lg-6 bg-light rounded-4 shadow-lg p-4 px-md-5 text-center animate__animated animate__fadeIn" style={{
