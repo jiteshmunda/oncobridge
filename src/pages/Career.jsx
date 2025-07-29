@@ -145,7 +145,7 @@ export default function CareerPage() {
           </p>
         </div>
 
-        <div className="filters-row">
+        {/* <div className="filters-row">
           <div className="filters">
             {filters.map((label) => (
               <button
@@ -166,7 +166,7 @@ export default function CareerPage() {
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
           />
-        </div>
+        </div> */}
 
         {/* <div className="job-list">
           {filteredJobs.map((job, index) => (
@@ -191,8 +191,86 @@ export default function CareerPage() {
             </div>
           ))}
         </div> */}
-
-        <div className="job-list">
+        <div className="filters-row">
+        <ul
+          className="nav  justify-content-center"
+          id="pills-tab"
+          role="tablist"
+        >
+          <li className="nav-item " role="presentation">
+            <button
+              className="nav-link active filter-btn "
+              id="pills-patients-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#pills-carr-one"
+              type="button"
+              role="tab"
+              aria-controls="pills-carr-one"
+              aria-selected="true"
+            >
+           View All
+            </button>
+          </li>
+          <li className="nav-item ms-2" role="presentation">
+            <button
+              className="nav-link filter-btn"
+              id="pills-doctors-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#pills-carr-two"
+              type="button"
+              role="tab"
+              aria-controls="pills-carr-two"
+              aria-selected="false"
+            >
+              Patient Support
+            </button>
+          </li>
+          <li className="nav-item ms-2" role="presentation">
+            <button
+              className="nav-link filter-btn"
+              id="pills-contact-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#pills-carr-three"
+              type="button"
+              role="tab"
+              aria-controls="pills-carr-three"
+              aria-selected="false"
+            >
+              Business Development 
+            </button>
+          </li>
+          <li className="nav-item ms-2" role="presentation">
+            <button
+              className="nav-link filter-btn"
+              id="pills-contact-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#pills-carr-four"
+              type="button"
+              role="tab"
+              aria-controls="pills-carr-four"
+              aria-selected="false"
+            >
+              Medical Advisor 
+            </button>
+          </li>
+        </ul>
+          <input
+            type="text"
+            className="search-input"
+            placeholder="Search job title..."
+            value={searchTerm}
+            onChange={(e) => setSearchTerm(e.target.value)}
+          />
+</div>
+        <div className="tab-content " id="pills-tabContent">
+          <div
+            className="tab-pane fade show active  "
+            id="pills-carr-one"
+            role="tabpanel"
+            aria-labelledby="pills-patients-tab"
+          >
+            {/* view all */}
+            <div className="job-list">
           <div className="job-card clickable" onClick={() => openModal("PN001")}>
             <h3>Patient Navigator</h3>
             <p className="job-code">Job Code: PN001</p>
@@ -216,7 +294,82 @@ export default function CareerPage() {
             <p className="job-code">Employment Type: Part-Time / Consulting / Case-Based </p>
             <span className="job-popup-link">View Details <FiArrowUpRight /></span>
           </div>
+        </div> 
+          </div>
+          <div
+            className="tab-pane fade show"
+            id="pills-carr-two"
+            role="tabpanel"
+            aria-labelledby="pills-patients-tab"
+          >
+            <div className="job-list">
+              <div className="job-card clickable" onClick={() => openModal("PN001")}>
+                <h3>Patient Navigator</h3>
+                <p className="job-code">Job Code: PN001</p>
+                <p className="job-code">Location: </p>
+                <p className="job-code">Employment Type: </p>
+                <span className="job-popup-link">View Details <FiArrowUpRight /></span>
+              </div>
+            </div>
+          </div>
+          <div
+            className="tab-pane fade show"
+            id="pills-carr-three"
+            role="tabpanel"
+            aria-labelledby="pills-patients-tab"
+          >
+            <div className="job-list">
+              <div className="job-card clickable" onClick={() => openModal("BDE001")}>
+                <h3>Business Development Executive</h3>
+                <p className="job-code">Job Code: BDE001</p>
+                <p className="job-code">Location: Mumbai, Delhi, Hyderabad (India)</p>
+                <p className="job-code">Employment Type: Full-Time </p>
+                <span className="job-popup-link">View Details <FiArrowUpRight /></span>
+              </div>
+            </div>
+          </div>
+          <div
+            className="tab-pane fade show"
+            id="pills-carr-four"
+            role="tabpanel"
+            aria-labelledby="pills-patients-tab"
+          >
+            <div className="job-list">
+              <div className="job-card clickable" onClick={() => openModal("MAO001")}>
+                <h3>Medical Advisor - Oncologist</h3>
+                <p className="job-code">Job Code: MAO001</p>
+                <p className="job-code">Location: Coimbatore (Hybrid – Remote + On-site if required)</p>
+                <p className="job-code">Employment Type: Part-Time / Consulting / Case-Based </p>
+                <span className="job-popup-link">View Details <FiArrowUpRight /></span>
+              </div>
+            </div>
+          </div>
         </div>
+        {/* <div className="job-list">
+          <div className="job-card clickable" onClick={() => openModal("PN001")}>
+            <h3>Patient Navigator</h3>
+            <p className="job-code">Job Code: PN001</p>
+            <p className="job-code">Location: </p>
+            <p className="job-code">Employment Type: </p>
+            <span className="job-popup-link">View Details <FiArrowUpRight /></span>
+          </div>
+
+          <div className="job-card clickable" onClick={() => openModal("BDE001")}>
+            <h3>Business Development Executive</h3>
+            <p className="job-code">Job Code: BDE001</p>
+            <p className="job-code">Location: Mumbai, Delhi, Hyderabad (India)</p>
+            <p className="job-code">Employment Type: Full-Time </p>
+            <span className="job-popup-link">View Details <FiArrowUpRight /></span>
+          </div>
+
+          <div className="job-card clickable" onClick={() => openModal("MAO001")}>
+            <h3>Medical Advisor - Oncologist</h3>
+            <p className="job-code">Job Code: MAO001</p>
+            <p className="job-code">Location: Coimbatore (Hybrid – Remote + On-site if required)</p>
+            <p className="job-code">Employment Type: Part-Time / Consulting / Case-Based </p>
+            <span className="job-popup-link">View Details <FiArrowUpRight /></span>
+          </div>
+        </div> */}
         {selectedJob && (
           <div className="job-popup" onClick={() => setSelectedJob(null)}>
             <div
@@ -384,24 +537,24 @@ export default function CareerPage() {
                         </ul>
                       </li>
                     </ul>
-<h4>Preferred Locations</h4>
-<ul>
-  <li>Candidates should be based in or willing to relocate to Mumbai, Delhi, or Hyderabad.</li>
-  <li>Each post will focus on one of these cities, with potential for cross-city collaboration.</li>
-</ul>
-<h4>Compensation and Benefits</h4>
-<ul>
-  <li>Competitive salary with performance-based incentives.</li>
-  <li>Health insurance, travel allowances, and professional development opportunities.</li>
-  <li>Supportive work environment with opportunities for career growth.</li>
-</ul>
-<h4>Why Join Us?</h4>
-<ul>
-  <li>Be a part of a growing tech-enabled oncology platform delivering world-class second opinions.</li>
-  <li>Work closely with top-tier cancer specialists from India, the US, and the UK.</li>
-  <li>Enhance your clinical documentation and multidisciplinary case assessment skills.</li>
-  <li>Flexible, impactful, and intellectually enriching role for junior oncologists.</li>
-</ul>
+                    <h4>Preferred Locations</h4>
+                    <ul>
+                      <li>Candidates should be based in or willing to relocate to Mumbai, Delhi, or Hyderabad.</li>
+                      <li>Each post will focus on one of these cities, with potential for cross-city collaboration.</li>
+                    </ul>
+                    <h4>Compensation and Benefits</h4>
+                    <ul>
+                      <li>Competitive salary with performance-based incentives.</li>
+                      <li>Health insurance, travel allowances, and professional development opportunities.</li>
+                      <li>Supportive work environment with opportunities for career growth.</li>
+                    </ul>
+                    <h4>Why Join Us?</h4>
+                    <ul>
+                      <li>Be a part of a growing tech-enabled oncology platform delivering world-class second opinions.</li>
+                      <li>Work closely with top-tier cancer specialists from India, the US, and the UK.</li>
+                      <li>Enhance your clinical documentation and multidisciplinary case assessment skills.</li>
+                      <li>Flexible, impactful, and intellectually enriching role for junior oncologists.</li>
+                    </ul>
 
 
                   </>
@@ -414,44 +567,44 @@ export default function CareerPage() {
                     <h2>Medical Advisor – Oncologist</h2>
                     <p>Support second opinion services by preparing case summaries and referral documents...</p>
                     <h4>About the Role</h4>
-                   <p>
-                    We are seeking a detail-oriented and compassionate Junior Oncologist to support our second opinion services.
-                     The primary responsibility is to prepare concise, structured case summaries and referral documents that enable effective 
-                     and informed expert consultations (national or international). This role is ideal for early-career oncologists looking to
+                    <p>
+                      We are seeking a detail-oriented and compassionate Junior Oncologist to support our second opinion services.
+                      The primary responsibility is to prepare concise, structured case summaries and referral documents that enable effective
+                      and informed expert consultations (national or international). This role is ideal for early-career oncologists looking to
                       expand into collaborative, technology-enabled oncology care.
-                   </p>
+                    </p>
                     <h4>Key Responsibilities</h4>
-                   <ul>
-  <li>Review patient records, including pathology, imaging, biomarker reports, and clinical notes.</li>
-  <li>Summarize key clinical data into a structured, specialist-ready format.</li>
-  <li>Prepare comprehensive yet concise referral documents tailored for second opinion consultations.</li>
-  <li>Liaise with internal teams and senior oncologists to ensure completeness and clarity of each file.</li>
-  <li>Maintain high standards of medical accuracy, confidentiality, and patient empathy.</li>
-  <li>Participate in periodic training and updates on evolving standards of care.</li>
-  <li>Optionally, communicate with patients or treating physicians to fill clinical gaps (as needed).</li>
-</ul>
-  <h4>Qualifications</h4>
-<ul>
-  <li>MBBS + MD/DNB (Radiation / Medical / Surgical Oncology) OR MBBS with relevant cancer care experience (2+ years).</li>
-  <li>Fresh graduates from reputed institutions with oncology rotations may also apply.</li>
-  <li>Strong documentation and analytical skills.</li>
-  <li>Proficient in medical terminology, case writing, and EMR systems.</li>
-  <li>Comfortable working independently and under deadlines.</li>
-  <li>Based in or willing to relocate to Coimbatore (preferred for team sync-ups).</li>
-</ul>
-<h5>Compensation Plan: To be Discussed In Person as per OHPL  Policy & Guidelines </h5>
-<h6>Work Hours</h6>
-<ul>
-  <li>Flexible work hours; average 1–2 hours per case.</li>
-  <li>Response turnaround: 24–48 hours from case assignment.</li>
-</ul>
-<h4>Why Join Us?</h4>
-<ul>
-  <li>Be a part of a growing tech-enabled oncology platform delivering world-class second opinions.</li>
-  <li>Work closely with top-tier cancer specialists from India, the US, and the UK.</li>
-  <li>Enhance your clinical documentation and multidisciplinary case assessment skills.</li>
-  <li>Flexible, impactful, and intellectually enriching role for junior oncologists.</li>
-</ul>
+                    <ul>
+                      <li>Review patient records, including pathology, imaging, biomarker reports, and clinical notes.</li>
+                      <li>Summarize key clinical data into a structured, specialist-ready format.</li>
+                      <li>Prepare comprehensive yet concise referral documents tailored for second opinion consultations.</li>
+                      <li>Liaise with internal teams and senior oncologists to ensure completeness and clarity of each file.</li>
+                      <li>Maintain high standards of medical accuracy, confidentiality, and patient empathy.</li>
+                      <li>Participate in periodic training and updates on evolving standards of care.</li>
+                      <li>Optionally, communicate with patients or treating physicians to fill clinical gaps (as needed).</li>
+                    </ul>
+                    <h4>Qualifications</h4>
+                    <ul>
+                      <li>MBBS + MD/DNB (Radiation / Medical / Surgical Oncology) OR MBBS with relevant cancer care experience (2+ years).</li>
+                      <li>Fresh graduates from reputed institutions with oncology rotations may also apply.</li>
+                      <li>Strong documentation and analytical skills.</li>
+                      <li>Proficient in medical terminology, case writing, and EMR systems.</li>
+                      <li>Comfortable working independently and under deadlines.</li>
+                      <li>Based in or willing to relocate to Coimbatore (preferred for team sync-ups).</li>
+                    </ul>
+                    <h5>Compensation Plan: To be Discussed In Person as per OHPL  Policy & Guidelines </h5>
+                    <h6>Work Hours</h6>
+                    <ul>
+                      <li>Flexible work hours; average 1–2 hours per case.</li>
+                      <li>Response turnaround: 24–48 hours from case assignment.</li>
+                    </ul>
+                    <h4>Why Join Us?</h4>
+                    <ul>
+                      <li>Be a part of a growing tech-enabled oncology platform delivering world-class second opinions.</li>
+                      <li>Work closely with top-tier cancer specialists from India, the US, and the UK.</li>
+                      <li>Enhance your clinical documentation and multidisciplinary case assessment skills.</li>
+                      <li>Flexible, impactful, and intellectually enriching role for junior oncologists.</li>
+                    </ul>
 
 
                   </>
