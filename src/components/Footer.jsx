@@ -94,9 +94,12 @@ function Footer() {
               <Link to="https://www.linkedin.com/in/oncobridge-b3204b375/" target="_blank" className="social-icon" aria-label="LinkedIn">
                 <i className="fab fa-linkedin-in"></i>
               </Link>
-              <Link to="https://www.instagram.com/onco_bridge?igsh=MXAyYXh6cjUzZzZmbQ==&utm_source=ig_contact_invite" target="_blank" className="social-icon" aria-label="Instagram">
+              <Link to="https://www.instagram.com/oncobridge17" target="_blank" className="social-icon" aria-label="Instagram">
                 <i className="fab fa-instagram"></i>
               </Link>
+              {/* <Link to="https://www.instagram.com/onco_bridge?igsh=MXAyYXh6cjUzZzZmbQ==&utm_source=ig_contact_invite" target="_blank" className="social-icon" aria-label="Instagram">
+                <i className="fab fa-instagram"></i>
+              </Link> */}
             </div>
           </div>
 
