@@ -29,7 +29,7 @@ const Home = () => {
       <section className="bg-image-home  ">
 
         <div className="container-fluid ">
-          <div className="row align-items-center  pt-4 pb-5 ps-3 pe-4">
+          <div className="row align-items-center  pt-5 pb-5 ps-3 pe-4">
             <div className="col-md-6 col-lg-6  col-sm-7 ">
             
                 
