@@ -542,9 +542,7 @@
       z-index: -9;
   text-align: left !important;
   width: 100%; */
-      height: 79vh;
-    display: flex;
-    align-items: center;
+   
 }
 
 .bg-image-home::before {
@@ -596,6 +594,9 @@
        color: #5a92a3;
 }
 @media (max-width: 768px) {
+  .home_banner_subheading {
+    font-size: 1rem;
+  }
   .home_banner_heading {
     font-size: 1.5rem;
   }

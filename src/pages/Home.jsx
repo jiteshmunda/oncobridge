@@ -11,7 +11,7 @@ import global from '../assets/globle.jpg';
 import for_paitent from '../assets/for_paitent.jpg';
 import for_hospital from '../assets/for_hospital.jpg';
 import for_insurance from '../assets/for_insurance.jpg';
-import hands_to from '../assets/hands_to.jpg';
+import home_banner from '../assets/home_banner.jpg';
 import { Link } from 'react-router-dom';
 
 const Home = () => {
@@ -28,12 +28,11 @@ const Home = () => {
       {/* Banner Section */}
       <section className="bg-image-home  ">
 
-        <div className="container-fluid home_banner_logo">
-          <div className="row align-items-center">
-            <div className="col-md-12 col-lg-7  col-sm-7 m-md-5 m-lg-5   m-0">
-              <div className="col-lg-12 p-md-5 p-lg-5 p-4">
-                <div className="row g-3">
-                  <div className="">
+        <div className="container-fluid ">
+          <div className="row align-items-center  pt-4 pb-5 ps-3 pe-4">
+            <div className="col-md-6 col-lg-6  col-sm-7 ">
+            
+                
                     <h1 className="home_banner_heading ">
                       Bridging cancer care and technology.
                     </h1>
@@ -43,14 +42,18 @@ const Home = () => {
                     </h5>
                     {/* <Link to="/secondoption" target="_blank" className="btn btn-primary me-3 px-4 py-2 mb-4">Get Your Second Opinion</Link> */}
                     <Link to="/patients" className="btn btn-primary px-4 py-2 mb-4">Start Your Journey</Link>
-                  </div>
-                </div>
-              </div>
+               
+               
+           
             </div>
 
-            <div className="col-md-5 ">
+            <div className="col-md-6 col-lg-6  col-sm-5">
 
-
+<img
+                  src={home_banner}
+                  className="img-fluid "
+                  alt="Example Image"
+                /> 
               {/* <img
                   src={myths_bg}
                   className="img-fluid bg_question_right d-none d-lg-block d-sm-block d-md-none"
