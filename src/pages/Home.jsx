@@ -650,7 +650,27 @@ const Home = () => {
             <div className="col-lg-10 col-xl-9">
               <div className="card border-0 shadow-lg rounded-4 p-4 bg-white position-relative">
                 <div className=" mb-3 live_transform">Lives Transformed</div>
-                <p className="">
+                <div className="live_trans_text">
+                <p>
+                  Where oncologists across the country — from urban hospitals to rural clinics — can instantly access the latest global research, 
+                  treatment outcomes from similar genetic populations, 
+                  and real-world success stories from Tier-1 to Tier-3 cities, all in one place.
+                </p>
+                <p>
+                  Where breakthrough therapies reach patients in Patna or Coimbatore within weeks, not years.
+                </p>
+                <p>
+                  OncoBridge is making this future a reality.
+                </p>
+                <p>
+                  We are transforming cancer care in India by creating intelligent connections between leading global oncology experts and the 
+                  Indian healthcare ecosystem — hospitals, clinicians, patients, and community networks.
+                </p>
+                <p>
+                  This isn’t just about bridging urban-rural divides. It’s about enabling access to tailored, world-class oncology insights that work for India’s unique healthcare landscape.
+                </p>
+                </div>
+                {/* <p className="">
                   Today,  Dr. Sharma uses OncoBridge to connect her patient
                   Rajesh, a 45-year-old teacher from Kanpur, with a precision therapy protocol
                   that's <strong> more effective for his specific genetic profile.</strong>
@@ -660,10 +680,10 @@ const Home = () => {
                   transcends geographical barriers. His story proves that when we bridge knowledge gaps across India's
                   diverse healthcare landscape, we don't just treat cancer – we <strong>bring hope home to
                     every family.</strong>
-                </p>
+                </p> */}
                 <div className="story-quote mt-4">
                   <i className="bi bi-chat-quote fs-3 me-2"></i>
-                  <span className="quote-text">“Every life we reach is a story worth telling.”</span>
+                  <span className="quote-text">“Imagine a future where cancer care in India is truly connected.”</span>
                 </div>
               </div>
             </div>

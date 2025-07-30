@@ -69,7 +69,7 @@ function Footer() {
           {/* Contact Info */}
           <div className="col-md-4 col-lg-3 col-sm-3 mb-4">
             <h5 className=" fw-bold mb-3 footer_heading">Contact</h5>
-            <p>
+            <p className="d-flex">
               <i className="fas fa-map-marker-alt me-2"></i>
               18-2, Ground Floor, 4th Street, Gokulam Colony
               PN Pudur Coimbatore, Tamil Nadu, India
@@ -87,9 +87,8 @@ function Footer() {
           {/* Newsletter */}
           <div className="col-md-12 col-lg-3 col-sm-3 mb-4">
             <div className="col-lg-12 col-sm-12  col-md-6 mx-auto">
-              <h5 className=" fw-bold mb-3 footer_heading">Newsletter</h5>
-              <p>Stay informed with updates and health tips from OncoBridge.</p>
-              <form onSubmit={(e) => e.preventDefault()}>
+              <h5 className=" fw-bold mb-3 footer_heading">Follow Us</h5>
+              {/* <form onSubmit={(e) => e.preventDefault()}>
                 <div className="position-relative">
                   <input
                     type="email"
@@ -105,7 +104,7 @@ function Footer() {
                     send
                   </button>
                 </div>
-              </form>
+              </form> */}
                {/* Social Icons moved here */}
             <div className="d-flex gap-2 mt-3">
               <Link to="https://www.facebook.com/share/1WvrTsomYM/" target="_blank" className="social-icon" aria-label="Facebook">

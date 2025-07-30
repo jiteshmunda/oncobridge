@@ -25,7 +25,6 @@
   width: 100%;
 }
 
-
 .navbar-logo {
   font-size: 2rem;
   font-weight: 700;
@@ -45,7 +44,8 @@
   display: flex;
   gap: 2rem;
   margin: 0;
-  padding: 0;
+    padding: 30px 3px;
+
 }
 
 .navbar-menu li {
@@ -218,16 +218,29 @@
        font-size: 2.4rem;
     margin-bottom: 6px;
  }
-.navbar-logo
+ .scrolled .navbar-logo::before
+ {
+  width: 138px;
+    height: 121px;
+ }
+.navbar-logo::before
 {
-   /* background: url('../assets/logo.png')  ; */
-   background-repeat: no-repeat;
-     background-position: 0px -13px;
-    background-size: 140px 115px;
-    color: white;
-    text-align: center;
-        padding:10px 6px;
-    /* padding: 45px 71px; */
+  content: "";
+   display: inline-block;
+     width: 235px;
+    height: 239px;
+  background: url('../assets/1-removebg-preview.png');
+    background-size: 102%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -28px;
+        left: 0;
+
+    /* background: url('../assets/logo.png')  ;
+  background-size: cover;
+    background-position: -35px -47px;
+    background-repeat: no-repeat;
+    height: 35vh; */
 
 }
 .logo_nabvar 

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Link, NavLink  } from 'react-router-dom';
 import '../styles/navbar.css';
 // import logo from '../assets/logo.jpg'; 
-// import logo from '../assets/logo.png';
+ import logo from '../assets/logo_bg.jpeg';
 
 function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -28,9 +28,11 @@ function Navbar() {
   return (
     <nav className={`custom-navbar ${scrolled ? 'scrolled' : ''}`}>
       <div className="navbar-container">
-        <div className="navbar-logo">
+        <div className="navbar-logo ">
         <Link to="/" className='text-decoration-none'>
-         <h4>OncoBridge</h4>
+        <div className='logo_navbar'></div>
+       {/* <img src={logo} className='logo_nabvar'/>     */}
+         {/* <h4>OncoBridge</h4> */}
          </Link>
          {/* <img src={logo} className='logo_nabvar'/>       */}
         </div>

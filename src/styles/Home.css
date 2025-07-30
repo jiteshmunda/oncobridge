@@ -1355,6 +1355,10 @@ background-image: none;
 {
       line-height: 28px;
 }
+.live_trans_text p
+{
+
+}
 .lives-transformed-section {
   background-color: #f8fafc;
 }
@@ -1392,6 +1396,7 @@ color: #5a92a3;
 
 .quote-text {
   font-weight: 500;
+  vertical-align: super;
 }
 
 

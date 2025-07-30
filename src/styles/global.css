@@ -701,6 +701,10 @@ color: #194d63;
 }
 
 /* second opnio  */
+.font_bold 
+{
+font-weight: bold;
+}
 .mb_20
 {   
   /* margin-bottom: 21px; */
