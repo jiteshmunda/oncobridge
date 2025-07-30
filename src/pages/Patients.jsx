@@ -230,7 +230,7 @@ function Patients() {
                     Expert review of documents and written report.
                   </p>
                   {/* <a href="#pricing" className="fw-bold me-3"> Pricing</a> */}
-                  <a href="#pricing" className="fw-bold ">
+                  <a href="#pricing" className="fw-bold brand_text_color">
                     {" "}
                     Inquire
                   </a>
@@ -249,7 +249,7 @@ function Patients() {
                     with the expert
                   </p>
                   {/* <a href="#pricing" className="fw-bold me-3"> Pricing</a> */}
-                  <a href="#pricing" className="fw-bold ">
+                  <a href="#pricing" className="fw-bold brand_text_color">
                     {" "}
                     Inquire
                   </a>
@@ -268,7 +268,7 @@ function Patients() {
                     virtual consultation.
                   </p>
                   {/* <a href="#pricing" className="fw-bold me-3"> Pricing</a> */}
-                  <a href="#pricing" className="fw-bold ">
+                  <a href="#pricing" className="fw-bold brand_text_color">
                     {" "}
                     Inquire
                   </a>
@@ -329,9 +329,9 @@ function Patients() {
                   >
                     "{item.quote}"
                   </p>
-                  <p className="text-secondary mt-3 fw-semibold">
-                    — {item.author},{" "}
-                    <span className="fw-normal">{item.title}</span>
+                  <p className="text-secondary mt-3 fw-semibold brand_text_color">
+                  <span className="brand_text_color">— {item.author},{" "}</span>  
+                    <span className="fw-normal brand_text_color">{item.title}</span>
                   </p>
                   <img
                     src={item.image}

@@ -59,7 +59,7 @@
 .disclaimer-menu {
   flex: 1;
 
-  background-color: #01579B;
+  background-color: #194d63;
   color: #fff;
   display: flex;
   flex-direction: column;
@@ -74,7 +74,7 @@
 .disclaimer-menu h5,
 .disclaimer-menu span,
 .disclaimer-menu .arrow {
-  color: #81b4e4 !important;
+  color: #cddae0 !important;
 }
 
 .disclaimer-item {
@@ -115,6 +115,7 @@
 .disclaimer-content h3 {
   font-size: 22px;
   margin-bottom: 20px;
+  color: #194d63;
 }
 
 .disclaimer-text p {
@@ -174,7 +175,7 @@
 
 /* Links */
 .disclaimer-text a {
-  color: #0288D1;
+  color: #194d63;
   text-decoration: underline;
 }
 
@@ -200,7 +201,7 @@
   position: absolute;
   left: 0;
   top: 2px;
-  color: #0288D1;
+  color: #194d63;
   font-weight: bold;
   font-size: 16px;
 }
@@ -253,7 +254,7 @@
   left: 32px;
   width: 4px;
   height: 100%;
-  background: linear-gradient(to bottom, #3498db, #aed6f1);
+  background: linear-gradient(to bottom, #194d63, #5a92a3);
   border-radius: 2px;
   z-index: 0;
 }
@@ -272,14 +273,14 @@
   width: 48px;
   height: 48px;
   background: white;
-  color: #3498db;
+  color: #194d63;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   font-weight: bold;
   font-size: 1.3rem;
-  box-shadow: 0 0 0 4px #3498db, 0 0 12px rgba(52, 152, 219, 0.3);
+  box-shadow: 0 0 0 4px #194d63, 0 0 12px rgba(52, 152, 219, 0.3);
   z-index: 2;
   transition: transform 0.3s ease;
 }
@@ -400,7 +401,7 @@
   position: absolute;
   left: 0;
   top: 2px;
-  color: #0288D1;
+  color: #194d63;
   font-weight: bold;
   font-size: 16px;
 }
