@@ -37,7 +37,7 @@ function Contact() {
               <div className=' text-justify rounded-4 contact_us_left'>
                 <h5 className="mb-3">Get in Touch</h5>
                 <p>
-                  <i className="fas fa-map-marker-alt me-2 text-primary"></i>
+                  <i className="fas fa-map-marker-alt me-2 "></i>
                   <strong>Address:</strong><br />
                   18-2, Ground Floor, 4th Street, Gokulam Colony
                   <br />
@@ -45,13 +45,13 @@ function Contact() {
                 </p>
 
                 <p>
-                  <i className="fas fa-envelope me-2 text-primary"></i>
+                  <i className="fas fa-envelope me-2 "></i>
                   <strong>Email:</strong><br />
                   <a href="mailto:care@oncobridge.in" className='text-primary text-decoration-none'>care@oncobridge.in </a>
                 </p>
 
                 <p>
-                  <i className="fas fa-phone-alt me-2 text-primary"></i>
+                  <i className="fas fa-phone me-2 "></i>
                   <strong>Phone:</strong><br />
                   <a href="tel:+9190256 65212" className='text-primary text-decoration-none'>+91 90256 65212 </a>
                 </p>

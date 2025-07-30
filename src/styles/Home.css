@@ -570,7 +570,8 @@
 
 .btn-primary 
 {
-  background-color: #1897af;
+  background-color: #5a92a3;
+      border: transparent;
 }
 .btn-primary:hover 
 {
@@ -582,7 +583,7 @@
   text-align: left;
       margin-bottom: 2rem;
        /* color: #4A90A4; */
-       color: #1897af;
+       color: #5a92a3;
 }
 .home_banner_heading 
 {
@@ -591,7 +592,7 @@
       margin-bottom: 1rem;
       /* color: #5a92a3; */
       font-weight: 800;
-       color: #1897af;
+       color: #5a92a3;
 }
 @media (max-width: 768px) {
   .home_banner_heading {
@@ -1321,7 +1322,7 @@ background-image: none;
 }
 .home_bg_blue 
 {
-  background-color: #1897af;
+  background-color: #5a92a3;
 }
 
 .banner_bg_white

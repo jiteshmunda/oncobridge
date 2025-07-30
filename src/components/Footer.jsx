@@ -67,7 +67,7 @@ function Footer() {
           </div>
 
           {/* Contact Info */}
-          <div className="col-md-4 col-lg-3 col-sm-3 mb-4">
+          <div className="col-md-4 col-lg-3 col-sm-3 mb-4 location_block">
             <h5 className=" fw-bold mb-3 footer_heading">Contact</h5>
             <p className="d-flex">
               <i className="fas fa-map-marker-alt me-2"></i>

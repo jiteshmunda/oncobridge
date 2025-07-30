@@ -282,7 +282,7 @@ function Insurance() {
       </section>
 
       {/* Final CTA */}
-      <section className="text-center py-5 bg-light rounded">
+      <section className="text-center py-5 bg-light rounded get_start_block">
         <h2 className="fw-bold mb-1">Invest in smarter oncology care.</h2>
         <p>Connect with OncoBridge to discuss a strategic partnership.</p>
         <Link to="/contact" target="_blank" className="btn btn-lg btn-danger">  Schedule a Partnership Discussion</Link>

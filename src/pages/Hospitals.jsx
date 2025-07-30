@@ -46,7 +46,7 @@ function Hospitals() {
               Expand Your Capabilities, Elevate Patient Outcomes
             </h2>
           </div>
-          <div className="row text-start">
+          <div className="row text-start expand_block">
             <div className="col-md-6 col-lg-4 col-sm-12">
               <div className="row text-start">
                 <div className="col-md-12 col-sm-12 col-lg-12 mb-3">
@@ -258,7 +258,7 @@ function Hospitals() {
           <div className="row">
             {/* Left Section */}
             <div className="col-lg-6 mb-4">
-              <h2 className="fw-bold">What is Benefits?</h2>
+              <h2 className="fw-bold section-title">What is Benefits?</h2>
               <div className="border-bottom border-2 border-primary  w-25 mb-3"></div>
               <p className="lead">
                 Benefits for Different Stakeholders within Hospitals
@@ -445,7 +445,7 @@ function Hospitals() {
       </section> */}
 
       {/* Final CTA */}
-      <section className="text-center py-5 bg-light rounded">
+      <section className="text-center py-5 bg-light rounded get_start_block">
         <div className="container">
           <h2 className="fw-bold mb-3">
             Strengthen your oncology program. Partner with OncoBridge today.

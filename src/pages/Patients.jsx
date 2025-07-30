@@ -146,7 +146,7 @@ function Patients() {
                     Easily submit your medical records (reports, scans,
                     pathology) securely through our platform
                   </p>
-                  <a href="#upload" className="btn btn-outline-primary">
+                  <a href="#upload" className="btn btn-primary">
                     Upload Your Documents
                   </a>
                 </div>
@@ -363,7 +363,7 @@ function Patients() {
           </div>
         </div>
       </section>
-      <section className="text-center py-5 bg-light rounded mt-3">
+      <section className="text-center py-5 bg-light rounded mt-3 get_start_block">
         <h2 className="fw-bold mb-3">
           Don't face cancer alone. Get the clarity you deserve.
         </h2>

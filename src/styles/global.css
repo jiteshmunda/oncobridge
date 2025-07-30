@@ -118,6 +118,23 @@ a {
 
   height: 340px;
 }
+.expand_block h6
+{
+color: #5a92a3;
+}
+.border-primary 
+{
+  border-color: #194d63 !important;
+}
+.get_start_block .btn-danger 
+{
+  background-color: #194d63;
+  border: transparent;
+}
+.get_start_block h2
+{
+      color: #194d63;
+}
 .hospital_story_text
 {
       /* font-size: 27px; */
@@ -163,6 +180,10 @@ a {
   line-height: 1.8;
   margin-bottom: 15px;
 }
+.location_block i
+{
+ color: #194d63;
+}
 .contact_us_left i 
 {
    color: #194d63;
@@ -190,7 +211,10 @@ a {
 .hamburger span {
   background-color: #a79d9d;
 }
-
+.faq_block #faqAccordion .accordion-item ul p a .text-primary
+{
+  color: #1A5276 !important;
+}
 .faq_list li {
   margin-bottom: 12px;
 }
@@ -971,7 +995,10 @@ color: #194d63;
   /* Dark overlay */
   z-index: 1;
 }
-
+.brand_text_color 
+{
+  color: #194d63;
+}
 
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {

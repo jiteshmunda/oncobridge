@@ -592,8 +592,8 @@ export default function CareerPage() {
                       <li>Comfortable working independently and under deadlines.</li>
                       <li>Based in or willing to relocate to Coimbatore (preferred for team sync-ups).</li>
                     </ul>
-                    <h5>Compensation Plan: To be Discussed In Person as per OHPL  Policy & Guidelines </h5>
-                    <h6>Work Hours</h6>
+                    <h5 className="brand_text_color">Compensation Plan: To be Discussed In Person as per OHPL  Policy & Guidelines </h5>
+                    <h6 className="brand_text_color">Work Hours</h6>
                     <ul>
                       <li>Flexible work hours; average 1–2 hours per case.</li>
                       <li>Response turnaround: 24–48 hours from case assignment.</li>
