@@ -562,9 +562,10 @@
 {
     background-image: url('../assets/home_banner.jpg');
        background-size: 44%;
-    background-position: 724px 54px;
+    background-position: right center;
     background-repeat: no-repeat;
-    /* height: 79vh; */
+ 
+    margin-right: 12px;
 
 }
 
@@ -672,6 +673,10 @@ background-image: none;
 
 /* Responsive avatar size */
 @media (max-width: 576px) {
+  .home_banner_subheading
+  {
+        font-size: 2rem;
+  }
   .testimonial-avatar {
     width: 60px;
     height: 60px;

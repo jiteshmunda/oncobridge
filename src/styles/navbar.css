@@ -95,7 +95,32 @@
 .navbar-menu a:hover {
   color: #000;
 }
+.navbar-logo::before
+{
+  content: "";
+   display: inline-block;
+     /* width: 235px; */
+    width: 159px;
+    height: 132px;
 
+  background: url('../assets/1-removebg-preview.png');
+    background-size: 102%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -5px;
+        left: 2px;
+            background-color: #fff;
+
+
+
+}
+@media (max-width: 991px) {
+.navbar-logo::before
+{
+  background-image: none;
+  background-color: transparent;
+}
+}
 @media (max-width: 991px) {
   .navbar-container {
     flex-direction: column;
@@ -230,29 +255,7 @@
 width: 128px;
     height: 108px;
  }
-.navbar-logo::before
-{
-  content: "";
-   display: inline-block;
-     /* width: 235px; */
-    width: 159px;
-    height: 132px;
 
-  background: url('../assets/1-removebg-preview.png');
-    background-size: 102%;
-    background-repeat: no-repeat;
-    position: absolute;
-    top: -5px;
-        left: 2px;
-            background-color: #fff;
-
-    /* background: url('../assets/logo.png')  ;
-  background-size: cover;
-    background-position: -35px -47px;
-    background-repeat: no-repeat;
-    height: 35vh; */
-
-}
 .logo_nabvar 
 {
       width: 142px;

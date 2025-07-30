@@ -32,7 +32,7 @@ function Navbar() {
         <Link to="/" className='text-decoration-none'>
         <div className='logo_navbar'></div>
        {/* <img src={logo} className='logo_nabvar'/>     */}
-         {/* <h4>OncoBridge</h4> */}
+         <h4 className=' d-lg-none'>OncoBridge</h4>
          </Link>
          {/* <img src={logo} className='logo_nabvar'/>       */}
         </div>
