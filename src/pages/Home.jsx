@@ -26,9 +26,9 @@ const Home = () => {
   return (
     <>
       {/* Banner Section */}
-      <section className="bg-image-home home_banner_logo ">
+      <section className="bg-image-home  ">
 
-        <div className="container-fluid ">
+        <div className="container-fluid home_banner_logo">
           <div className="row align-items-center">
             <div className="col-md-12 col-lg-7  col-sm-7 m-md-5 m-lg-5   m-0">
               <div className="col-lg-12 p-md-5 p-lg-5 p-4">
