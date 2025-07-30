@@ -560,9 +560,9 @@
 }
 .home_banner_logo 
 {
-    background-image: url('../assets/logo_bg.jpeg');
-       background-size: 38%;
-    background-position: right center;
+    background-image: url('../assets/home_banner.jpg');
+       background-size: 44%;
+    background-position: 724px 54px;
     background-repeat: no-repeat;
     /* height: 79vh; */
 
@@ -580,7 +580,7 @@
 {
   font-size: 2.2rem;
   text-align: left;
-      margin-bottom: 1rem;
+      margin-bottom: 2rem;
        /* color: #4A90A4; */
        color: #1897af;
 }
