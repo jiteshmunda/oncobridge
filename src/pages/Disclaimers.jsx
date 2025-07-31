@@ -297,10 +297,10 @@ const Disclaimer = () => {
 
       {/* Disclaimer Section 1 */}
       <section className="disclaimer-section">
-        <h2 className="disclaimer-main-heading">
+        <h2 className="disclaimer-main-heading mb-5">
           Website Disclaimer & Terms of Use
         </h2>
-        <p className="text-muted mb-5 text-center">Last Updated: 17-07-2025</p>
+        {/* <p className="text-muted mb-5 text-center">Last Updated: 17-07-2025</p> */}
 
         <div className="container d-flex disclaimer-wrapper">
           {/* Sidebar Menu */}
