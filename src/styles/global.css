@@ -488,7 +488,25 @@ color: #5a92a3;
     background-repeat: no-repeat;
     height: 28vh;
 }
+@media (min-width: 320px) {
+ .footer_logo {
+ display: none;
+ }
+}
+@media (min-width: 768px) {
+ .footer_logo {
+ display: block;
+ }
+}
+@media (max-width: 768px) {
+  .footer_logo_mobile 
+  {
+    width: 45%;
+    margin: auto;
+    display: block;
+  }
 
+}
 @media (max-width: 576px) {
   .live_transform {
     font-size: 2rem;
@@ -497,11 +515,7 @@ color: #5a92a3;
   {
         padding: 0rem 0rem;
   }
-  .footer_logo {
-  background-position: top center;
-        background-size: 70%;
-        height: 35vh;
-}
+ 
   .btn-mobile-sm {
     padding: 0.25rem 0.5rem;
     /* Small padding */

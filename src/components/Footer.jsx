@@ -10,6 +10,7 @@ function Footer() {
           <div className="col-md-4 col-lg-3 col-sm-12 ">
             <div className="footer_logo">          
             </div>
+            <img src={footerlogo} className="d-lg-none d-md-none d-sm-block img-fluid footer_logo_mobile" />
                 {/* social media  */}
               <div className="d-none d-md-block d-lg-none">
                 <h5 className=" fw-bold mb-3 footer_heading">Follow Us</h5>
