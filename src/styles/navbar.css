@@ -298,3 +298,9 @@ width: 128px;
     top: 2px;
   }
 }
+
+.dropdown-item.active, .dropdown-item:active
+{
+  background-color: #fff;
+color: #194d63;
+}
