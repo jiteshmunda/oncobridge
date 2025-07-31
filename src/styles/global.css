@@ -486,7 +486,7 @@ color: #5a92a3;
     background-size: cover;
     background-position: -35px -47px;
     background-repeat: no-repeat;
-    height: 35vh;
+    height: 28vh;
 }
 
 @media (max-width: 576px) {
@@ -766,7 +766,7 @@ font-weight: bold;
 }
 
 .second-option-card img {
-  height: 28vh;
+  height: 24vh;
   border-radius: 20px;
 }
 
@@ -1037,5 +1037,5 @@ color: #194d63;
 
 .height-50 {
   height: 62vh;
-  width: 98%;
+  width: 100%;
 }

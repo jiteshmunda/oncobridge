@@ -193,7 +193,7 @@ export default function CareerPage() {
         </div> */}
         <div className="filters-row">
         <ul
-          className="nav  justify-content-center"
+          className="nav  justify-content-left"
           id="pills-tab"
           role="tablist"
         >

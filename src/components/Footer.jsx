@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink,Link } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import footerlogo from '../assets/logo_bg.jpeg';
 function Footer() {
   return (
@@ -7,23 +7,32 @@ function Footer() {
       <div className="container">
         <div className="row">
           {/* Brand Description */}
-          <div className="col-md-4 col-lg-3 col-sm-3 ">
-            <div className="footer_logo">
-
+          <div className="col-md-4 col-lg-3 col-sm-12 ">
+            <div className="footer_logo">          
             </div>
-            {/* <img
-              src={footerlogo}
-              alt="OncoBridge Logo"
-              className="mb-3 footer_logo"
-            /> */}
-            {/* <p>
-              Bridging cancer care and technology. OncoBridge connects patients,
-              providers, and data for a better tomorrow.
-            </p> */}
+                {/* social media  */}
+              <div className="d-none d-md-block d-lg-none">
+                <h5 className=" fw-bold mb-3 footer_heading">Follow Us</h5>
+                {/* Social Icons moved here */}
+                <div className="d-flex gap-2 mt-3">
+                  <Link to="https://www.facebook.com/share/1WvrTsomYM/" target="_blank" className="social-icon" aria-label="Facebook">
+                    <i className="fab fa-facebook-f"></i>
+                  </Link>
+                  <Link to="https://x.com/OncoBridge?t=b0ixO1WXQ-4UlIlO56b4wg&s=09" target="_blank" className="social-icon" aria-label="Twitter">
+                    <i className="fab fa-twitter"></i>
+                  </Link>
+                  <Link to="https://www.linkedin.com/in/oncobridge-b3204b375/" target="_blank" className="social-icon" aria-label="LinkedIn">
+                    <i className="fab fa-linkedin-in"></i>
+                  </Link>
+                  <Link to="https://www.instagram.com/oncobridge17" target="_blank" className="social-icon" aria-label="Instagram">
+                    <i className="fab fa-instagram"></i>
+                  </Link>
+                </div>
+              </div>
           </div>
 
           {/* Quick Links */}
-          <div className="col-md-4 col-lg-3 col-sm-3 mb-4">
+          <div className="col-md-4 col-lg-3 col-sm-12 ">
             <h5 className=" fw-bold mb-3 footer_heading">Quick Links</h5>
             <div className="d-flex justify-content-end">
               <ul className="list-unstyled">
@@ -43,8 +52,8 @@ function Footer() {
                 {/* <li><NavLink to="/blog" className={({ isActive }) => isActive ? "menu-link active" : "text-dark text-decoration-none"}><span>Blog</span></NavLink></li>
                 <li><NavLink to="/blog" className={({ isActive }) => isActive ? "menu-link active" : "text-dark text-decoration-none"}><span>Testimonials</span></NavLink></li>
                 <li><NavLink to="/blog" className={({ isActive }) => isActive ? "menu-link active" : "text-dark text-decoration-none"}><span>Videos</span></NavLink></li> */}
- <li><NavLink to="/myths" className={({ isActive }) => isActive ? "menu-link active" : "text-dark text-decoration-none"}><span>Myths & Facts</span></NavLink></li>
-               
+                <li><NavLink to="/myths" className={({ isActive }) => isActive ? "menu-link active" : "text-dark text-decoration-none"}><span>Myths & Facts</span></NavLink></li>
+
               </ul>
               <ul className="list-unstyled mx-auto ">
                 {/* <li><NavLink to="/blog" className={({ isActive }) => isActive ? "menu-link active" : "text-dark text-decoration-none"}><span>Newsletters</span></NavLink></li> */}
@@ -67,7 +76,7 @@ function Footer() {
           </div>
 
           {/* Contact Info */}
-          <div className="col-md-4 col-lg-3 col-sm-3 mb-4 location_block">
+          <div className="col-md-4 col-lg-3 col-sm-12 location_block">
             <h5 className=" fw-bold mb-3 footer_heading">Contact</h5>
             <p className="d-flex">
               <i className="fas fa-map-marker-alt me-2"></i>
@@ -77,15 +86,15 @@ function Footer() {
             </p>
             <p>
               <i className="fas fa-envelope me-2"></i>
-                <Link to="mailto:care@oncobridge.in" className='text-primary text-decoration-none'>care@oncobridge.in </Link>
+              <Link to="mailto:care@oncobridge.in" className='text-primary text-decoration-none'>care@oncobridge.in </Link>
             </p>
             <p>
               <i className="fas fa-phone me-2"></i>+91 90256 65212
-            </p>           
+            </p>
           </div>
 
           {/* Newsletter */}
-          <div className="col-md-12 col-lg-3 col-sm-3 mb-4">
+          <div className="col-md-12 col-lg-3 col-sm-12  d-lg-block d-sm-block d-md-none">
             <div className="col-lg-12 col-sm-12  col-md-6 mx-auto">
               <h5 className=" fw-bold mb-3 footer_heading">Follow Us</h5>
               {/* <form onSubmit={(e) => e.preventDefault()}>
@@ -105,24 +114,24 @@ function Footer() {
                   </button>
                 </div>
               </form> */}
-               {/* Social Icons moved here */}
-            <div className="d-flex gap-2 mt-3">
-              <Link to="https://www.facebook.com/share/1WvrTsomYM/" target="_blank" className="social-icon" aria-label="Facebook">
-                <i className="fab fa-facebook-f"></i>
-              </Link>
-              <Link to="https://x.com/OncoBridge?t=b0ixO1WXQ-4UlIlO56b4wg&s=09" target="_blank" className="social-icon" aria-label="Twitter">
-                <i className="fab fa-twitter"></i>
-              </Link>
-              <Link to="https://www.linkedin.com/in/oncobridge-b3204b375/" target="_blank" className="social-icon" aria-label="LinkedIn">
-                <i className="fab fa-linkedin-in"></i>
-              </Link>
-              <Link to="https://www.instagram.com/oncobridge17" target="_blank" className="social-icon" aria-label="Instagram">
-                <i className="fab fa-instagram"></i>
-              </Link>
-              {/* <Link to="https://www.instagram.com/onco_bridge?igsh=MXAyYXh6cjUzZzZmbQ==&utm_source=ig_contact_invite" target="_blank" className="social-icon" aria-label="Instagram">
+              {/* Social Icons moved here */}
+              <div className="d-flex gap-2 mt-3">
+                <Link to="https://www.facebook.com/share/1WvrTsomYM/" target="_blank" className="social-icon" aria-label="Facebook">
+                  <i className="fab fa-facebook-f"></i>
+                </Link>
+                <Link to="https://x.com/OncoBridge?t=b0ixO1WXQ-4UlIlO56b4wg&s=09" target="_blank" className="social-icon" aria-label="Twitter">
+                  <i className="fab fa-twitter"></i>
+                </Link>
+                <Link to="https://www.linkedin.com/in/oncobridge-b3204b375/" target="_blank" className="social-icon" aria-label="LinkedIn">
+                  <i className="fab fa-linkedin-in"></i>
+                </Link>
+                <Link to="https://www.instagram.com/oncobridge17" target="_blank" className="social-icon" aria-label="Instagram">
+                  <i className="fab fa-instagram"></i>
+                </Link>
+                {/* <Link to="https://www.instagram.com/onco_bridge?igsh=MXAyYXh6cjUzZzZmbQ==&utm_source=ig_contact_invite" target="_blank" className="social-icon" aria-label="Instagram">
                 <i className="fab fa-instagram"></i>
               </Link> */}
-            </div>
+              </div>
             </div>
           </div>
         </div>
