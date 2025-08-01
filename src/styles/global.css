@@ -187,6 +187,7 @@ color: #5a92a3;
 .contact_us_left i 
 {
    color: #194d63;
+       line-height: 25px;
 }
 .contact_block h1,
 .contact_block h5
@@ -595,6 +596,10 @@ color: #5a92a3;
 }
 
 /* myths  */
+.line_ht 
+{
+  line-height: 23px;
+}
 .cancer_types li .nav-link:hover {
     background: #f3f3f3;
    

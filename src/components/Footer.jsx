@@ -8,28 +8,28 @@ function Footer() {
         <div className="row">
           {/* Brand Description */}
           <div className="col-md-4 col-lg-3 col-sm-12 ">
-            <div className="footer_logo">          
+            <div className="footer_logo">
             </div>
             <img src={footerlogo} className="d-lg-none d-md-none d-sm-block img-fluid footer_logo_mobile" />
-                {/* social media  */}
-              <div className="d-none d-md-block d-lg-none">
-                <h5 className=" fw-bold mb-3 footer_heading">Follow Us</h5>
-                {/* Social Icons moved here */}
-                <div className="d-flex gap-2 mt-3">
-                  <Link to="https://www.facebook.com/share/1WvrTsomYM/" target="_blank" className="social-icon" aria-label="Facebook">
-                    <i className="fab fa-facebook-f"></i>
-                  </Link>
-                  <Link to="https://x.com/OncoBridge?t=b0ixO1WXQ-4UlIlO56b4wg&s=09" target="_blank" className="social-icon" aria-label="Twitter">
-                    <i className="fab fa-twitter"></i>
-                  </Link>
-                  <Link to="https://www.linkedin.com/in/oncobridge-b3204b375/" target="_blank" className="social-icon" aria-label="LinkedIn">
-                    <i className="fab fa-linkedin-in"></i>
-                  </Link>
-                  <Link to="https://www.instagram.com/oncobridge17" target="_blank" className="social-icon" aria-label="Instagram">
-                    <i className="fab fa-instagram"></i>
-                  </Link>
-                </div>
+            {/* social media  */}
+            <div className="d-none d-md-block d-lg-none">
+              <h5 className=" fw-bold mb-3 footer_heading">Follow Us</h5>
+              {/* Social Icons moved here */}
+              <div className="d-flex gap-2 mt-3">
+                <Link to="https://www.facebook.com/share/1WvrTsomYM/" target="_blank" className="social-icon" aria-label="Facebook">
+                  <i className="fab fa-facebook-f"></i>
+                </Link>
+                <Link to="https://x.com/OncoBridge?t=b0ixO1WXQ-4UlIlO56b4wg&s=09" target="_blank" className="social-icon" aria-label="Twitter">
+                  <i className="fab fa-twitter"></i>
+                </Link>
+                <Link to="https://www.linkedin.com/in/oncobridge-b3204b375/" target="_blank" className="social-icon" aria-label="LinkedIn">
+                  <i className="fab fa-linkedin-in"></i>
+                </Link>
+                <Link to="https://www.instagram.com/oncobridge17" target="_blank" className="social-icon" aria-label="Instagram">
+                  <i className="fab fa-instagram"></i>
+                </Link>
               </div>
+            </div>
           </div>
 
           {/* Quick Links */}
@@ -79,12 +79,17 @@ function Footer() {
           {/* Contact Info */}
           <div className="col-md-4 col-lg-3 col-sm-12 location_block">
             <h5 className=" fw-bold mb-3 footer_heading">Contact</h5>
-            <p className="d-flex">
+            <div className='d-flex'>
               <i className="fas fa-map-marker-alt me-2"></i>
-              18-2, Ground Floor, 4th Street, Gokulam Colony
-              PN Pudur Coimbatore, Tamil Nadu, India
-
-            </p>
+              <p>
+                18-2, Ground Floor,
+                <span className="d-block">4th Street,</span>
+                <span className="d-block">Gokulam Colony,</span>
+                <span className="d-block">PN Pudur Coimbatore - 641041,</span>
+                <span className="d-block">Tamil Nadu,</span>
+                <span className="d-block">India</span>
+              </p>
+            </div>
             <p>
               <i className="fas fa-envelope me-2"></i>
               <Link to="mailto:care@oncobridge.in" className='text-primary text-decoration-none'>care@oncobridge.in </Link>

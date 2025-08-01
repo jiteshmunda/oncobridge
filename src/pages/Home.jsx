@@ -41,7 +41,7 @@ const Home = () => {
                       and data for a better tomorrow
                     </h5>
                     {/* <Link to="/secondoption" target="_blank" className="btn btn-primary me-3 px-4 py-2 mb-4">Get Your Second Opinion</Link> */}
-                    <Link to="/patients" className="read-more-btn px-4 py-2 mb-4">Start Your Journey</Link>
+                    <Link to="/secondoption" className="read-more-btn px-4 py-2 mb-4">Begin Your Journey</Link>
                
                
            
@@ -637,7 +637,7 @@ const Home = () => {
                     We understand the unique challenges of Indian healthcare – from genetic diversity to resource optimization –
                     creating a network that serves everyone from Mumbai's corporate hospitals to primary health centres in rural Rajasthan.
                   </p>
-                  <button className="read-more-btn" onClick={scrollToChallenge}>Begin the Journey</button>
+                  <Link className="read-more-btn" to="/contact">Reach Out</Link>
                 </div>
               </div>
             </div>

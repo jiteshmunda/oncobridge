@@ -1,6 +1,10 @@
 import React from 'react';
-
+import { useState } from 'react';
 function Contact() {
+  const [department, setDepartment] = useState('');
+  const handleDepartmentChange = (e) => {
+    setDepartment(e.target.value);
+  };
   return (
     <>
       <section className="text-center">
@@ -25,9 +29,9 @@ function Contact() {
           {/* Page Header */}
           <div className="text-center mb-5">
             <h1 className="fw-bold">Contact Us</h1>
-            <p className="text-muted">
+            {/* <p className="text-muted">
               We’re here to help. Reach out to us anytime — we’d love to hear from you.
-            </p>
+            </p> */}
           </div>
 
           {/* Contact Info + Form */}
@@ -35,26 +39,33 @@ function Contact() {
             {/* Contact Details */}
             <div className="col-md-5 mb-4">
               <div className=' text-justify rounded-4 contact_us_left'>
-                <h5 className="mb-3">Get in Touch</h5>
-                <p>
+                {/* <h5 className="mb-3">Get in Touch</h5> */}
+                <div className='d-flex'>
                   <i className="fas fa-map-marker-alt me-2 "></i>
-                  <strong>Address:</strong><br />
-                  18-2, Ground Floor, 4th Street, Gokulam Colony
-                  <br />
-                  PN Pudur Coimbatore, Tamil Nadu, India
-                </p>
-
-                <p>
+                  <p>
+                    <strong>Address:</strong><br />
+                    <span className='d-block'>18-2, Ground Floor,</span>
+                    <span className='d-block'>4th Street,</span>
+                    <span className='d-block'>Gokulam Colony,</span>
+                    <span className='d-block'>PN Pudur Coimbatore - 641041, </span>
+                    <span className='d-block'>Tamil Nadu , </span>
+                    <span className='d-block'>India</span>
+                  </p>
+                </div>
+                <div className='d-flex'>
                   <i className="fas fa-envelope me-2 "></i>
-                  <strong>Email:</strong><br />
-                  <a href="mailto:care@oncobridge.in" className='text-primary text-decoration-none'>care@oncobridge.in </a>
-                </p>
-
-                <p>
+                  <p>
+                    <strong>Email:</strong><br />
+                    <a href="mailto:care@oncobridge.in" className='text-primary text-decoration-none'>care@oncobridge.in </a>
+                  </p>
+                </div>
+                <div className='d-flex'>
                   <i className="fas fa-phone me-2 "></i>
-                  <strong>Phone:</strong><br />
-                  <a href="tel:+9190256 65212" className='text-primary text-decoration-none'>+91 90256 65212 </a>
-                </p>
+                  <p>
+                    <strong>Phone:</strong><br />
+                    <a href="tel:+9190256 65212" className='text-primary text-decoration-none'>+91 90256 65212 </a>
+                  </p>
+                </div>
               </div>
             </div>
 
@@ -83,26 +94,61 @@ function Contact() {
                       </div>
                     </div>
                     <div className='col-lg-6 col-md-6 col-sm-12'>
-                      <div className="mb-3">
+                      {/* <div className="mb-3">
                         <label htmlFor="subject" className="form-label">Subject</label>
                         <input type="text" className="form-control" id="subject" />
-                      </div>
-                    </div>
-                    <div className='col-lg-12 col-md-12 col-sm-12'>
+                      </div> */}
                       <div className="mb-3">
                         <label className="form-label">Who you are </label>
                         <select
                           id="department"
                           name="department"
                           className="form-select"
+                          value={department}
+                          onChange={handleDepartmentChange}
                         >
                           <option value="Patients">Patient </option>
                           <option value="Patients">Family Member </option>
                           <option value="Hospital">Hospital</option>
-                          <option value="Insurance Providers ">Insurance Provider </option>
+                          <option value="Insurance">Insurance Provider </option>
                         </select>
+                       
                       </div>
                     </div>
+                     <div className=''>
+                      <div className="row mb-3">
+                         {/* Conditional fields for Hospital and Insurance */}
+                        {department === 'Hospital' && (
+                          <>
+                            <div className="col-lg-6 col-md-6 col-sm-6 ">
+                              <label htmlFor="hospitalName" className="form-label">Name of Hospital</label>
+                              <input type="text" id="hospitalName" className="form-control" placeholder="Enter hospital name" />
+                            </div>
+
+                            <div className="col-lg-6 col-md-6 col-sm-6 ">
+                              <label htmlFor="hospitalCity" className="form-label">City</label>
+                              <input type="text" id="hospitalCity" className="form-control" placeholder="Enter city" />
+                            </div>
+                          </>
+                        )}
+
+                        {department === 'Insurance' && (
+                        
+                           <div className="row mb-3">
+                            <div className="col-lg-6 col-md-6 col-sm-6 ">
+                              <label htmlFor="insuranceName" className="form-label">Name of Insurance</label>
+                              <input type="text" id="insuranceName" className="form-control" placeholder="Enter insurance name" />
+                            </div>
+
+                            <div className="col-lg-6 col-md-6 col-sm-6 ">
+                              <label htmlFor="insuranceCity" className="form-label">City</label>
+                              <input type="text" id="insuranceCity" className="form-control" placeholder="Enter city" />
+                            </div>
+                            </div>
+                        
+                        )}
+                      </div>
+                    </div> 
                     <div className='col-lg-12 col-md-12 col-sm-12'>
                       <div className="mb-3">
                         <label htmlFor="message" className="form-label">Message</label>
