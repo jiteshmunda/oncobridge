@@ -156,7 +156,7 @@ function Contact() {
                       </div>
                     </div>
                   </div>
-                  <button type="submit" className="btn btn-primary">Send Message</button>
+                  <button type="submit" className="read-more-btn ">Send Message</button>
                 </form>
               </div>
             </div>
