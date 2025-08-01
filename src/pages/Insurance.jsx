@@ -27,7 +27,7 @@ function Insurance() {
                     managed costs.
                   </p>
                   <div className="d-flex justify-content-start gap-3 mt-3 animate__animated animate__fadeInUp animate__delay-2s">
-                    <Link to="/contact" target="_blank" className="btn btn-primary">
+                    <Link to="/contact" target="_blank" className="read-more-btn-white">
                       Start Your Second Opinion Request
                     </Link>
                   </div>
@@ -285,7 +285,7 @@ function Insurance() {
       <section className="text-center py-5 bg-light rounded get_start_block">
         <h2 className="fw-bold mb-1">Invest in smarter oncology care.</h2>
         <p>Connect with OncoBridge to discuss a strategic partnership.</p>
-        <Link to="/contact" target="_blank" className="btn btn-lg btn-danger">  Schedule a Partnership Discussion</Link>
+        <Link to="/contact" target="_blank" className="read-more-btn-white-cardbtn">  Schedule a Partnership Discussion</Link>
       </section>
     </>
   );

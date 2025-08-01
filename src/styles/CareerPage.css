@@ -89,6 +89,12 @@
   padding: 20px 0;
   cursor: pointer;
   margin-right: 62vh;
+    
+}
+@media (min-width: 768px) {
+  .job-card {
+      width: 26%;
+  }
 }
 .job-popup-link 
 {

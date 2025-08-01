@@ -51,7 +51,7 @@ function Patients() {
                     over your cancer treatment path.
                   </p>
                   <div className="d-flex justify-content-start gap-3 mt-3 animate__animated animate__fadeInUp animate__delay-2s">
-                    <Link to="/contact" target="_blank" className="btn btn-primary">
+                    <Link to="/contact" target="_blank" className="read-more-btn-white">
                       Start Your Second Opinion Request
                     </Link>
                   </div>
@@ -146,7 +146,7 @@ function Patients() {
                     Easily submit your medical records (reports, scans,
                     pathology) securely through our platform
                   </p>
-                  <a href="#upload" className="btn btn-primary">
+                  <a href="#upload" className="read-more-btn-white-cardbtn">
                     Upload Your Documents
                   </a>
                 </div>
@@ -200,7 +200,7 @@ function Patients() {
                   </p>
                   <a
                     href="#sample-report"
-                    className="btn btn-outline-secondary"
+                    className="read-more-btn-white-cardbtn "
                   >
                     View Sample Report
                   </a>
@@ -367,7 +367,7 @@ function Patients() {
         <h2 className="fw-bold mb-3">
           Don't face cancer alone. Get the clarity you deserve.
         </h2>
-        <Link to="/contact" target="_blank" className="btn btn-lg btn-danger"> Get Started</Link>
+        <Link to="/contact" target="_blank" className="read-more-btn"> Get Started</Link>
       </section>
     </>
   );
