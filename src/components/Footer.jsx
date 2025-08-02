@@ -82,12 +82,12 @@ function Footer() {
             <div className='d-flex'>
               <i className="fas fa-map-marker-alt me-2"></i>
               <p>
-                18-2, Ground Floor,
-                <span className="d-block">4th Street,</span>
-                <span className="d-block">Gokulam Colony,</span>
-                <span className="d-block">PN Pudur Coimbatore - 641041,</span>
-                <span className="d-block">Tamil Nadu,</span>
-                <span className="d-block">India</span>
+                18-2, Ground Floor, 4th Street
+                {/* <span className="d-block">4th Street</span> */}
+                <span className="d-block">Gokulam Colony, PN Pudur Coimbatore - 641041,</span>
+                {/* <span className="d-block">PN Pudur Coimbatore - 641041,</span> */}
+                <span className="d-block">Tamil Nadu, India</span>
+                {/* <span className="d-block">India</span> */}
               </p>
             </div>
             <p>

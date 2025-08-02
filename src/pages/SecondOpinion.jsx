@@ -15,7 +15,7 @@ function SecondOpinion() {
                             <div className="overlay-content">
                                 <div className='col-md-12 p-3 ms-lg-5 ps-lg-4'>
                                     <h1 className=" text-white display-3 animate__animated animate__fadeIn">
-                                        <span className='font_bold'>Expert</span>View
+                                        <span className='font_bold'>Expert View</span>
                                     </h1>
 
                                 </div>

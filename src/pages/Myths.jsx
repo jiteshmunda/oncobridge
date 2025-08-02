@@ -225,17 +225,17 @@ function Myths() {
                                   <span>Most common cancer in women worldwide, but men can also develop breast cancer</span>
                                 </div>
 
-                                <div className='d-flex align-items-left mb-3'>
+                                <div className='d-flex align-items-start text-start mb-3'>
                                   <i className="fas fa-check me-2 line_ht "></i>
                                   <span>Early detection through mammograms significantly improves outcomes</span>
                                 </div>
 
-                                <div className='d-flex align-items-start mb-3'>
+                                <div className='d-flex align-items-start text-start mb-3'>
                                   <i className="fas fa-check me-2 line_ht"></i>
                                   <span>Five-year survival rate is over 90% when caught early</span>
                                 </div>
 
-                                <div className='d-flex align-items-start'>
+                                <div className='d-flex align-items-start text-start mb-3'>
                                   <i className="fas fa-check me-2 line_ht"></i>
                                   <span>Treatment options include surgery, chemotherapy, radiation, hormone therapy, and targeted drugs</span>
                                 </div>
@@ -258,17 +258,17 @@ function Myths() {
                                   <span>Myth: Only women with a family history get breast cancer</span>
                                 </div>
 
-                                <div className='d-flex align-items-left mb-3'>
+                                <div className='d-flex align-items-start text-start mb-3'>
                                   <i className="fas fa-check me-2 line_ht"></i>
                                   <span>Fact: About 85% of breast cancers occur in women with no family history</span>
                                 </div>
 
-                                <div className='d-flex align-items-start mb-3'>
+                                <div className='d-flex align-items-start text-start mb-3'>
                                   <i className="fas fa-check me-2 line_ht"></i>
                                   <span>Myth: "Finding a lump means you have cancer"</span>
                                 </div>
 
-                                <div className='d-flex align-items-start'>
+                                <div className='d-flex align-items-start text-start mb-3'>
                                   <i className="fas fa-check me-2 line_ht"></i>
                                   <span>Fact: 80% of breast lumps are benign (non-cancerous)</span>
                                 </div>

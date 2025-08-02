@@ -7,6 +7,7 @@ import '../styles/navbar.css';
 function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
+  
 
   useEffect(() => {
     const handleScroll = () => {
@@ -101,6 +102,7 @@ Resources
         </ul>
       </div>
     </nav>
+    
   );
 }
 

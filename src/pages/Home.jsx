@@ -41,7 +41,7 @@ const Home = () => {
                       and data for a better tomorrow
                     </h5>
                     {/* <Link to="/secondoption" target="_blank" className="btn btn-primary me-3 px-4 py-2 mb-4">Get Your Second Opinion</Link> */}
-                    <Link to="/secondoption" className="read-more-btn px-4 py-2 mb-4">Begin Your Journey</Link>
+                    <Link to="/secondopinion" className="read-more-btn px-4 py-2 mb-4">Begin Your Journey</Link>
                
                
            
