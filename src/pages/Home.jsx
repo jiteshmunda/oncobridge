@@ -477,6 +477,36 @@ const Home = () => {
             <h1 className="text_white_heading">
               The Challenge We Face
             </h1>
+
+ {/* counts  */}
+          <div className="stats-section text-white d-flex align-items-center mt-5 pt-4">
+            <div className="container">
+              <div className="row text-center">
+                <div className="col-md-4 mb-4 mt-5 count_block">
+                  <div className="icon-circle mb-2">
+                    <i className="fas fa-user-md fa-2x mb-2"></i>
+                  </div>
+                  <h3 className="my-2 text-white">13.9 L</h3>
+                  <p className="mb-0 fw-bold">New cancer cases in <br /> India annually</p>
+                </div>
+                <div className="col-md-4 mb-4 mt-5 count_block">
+                  <div className="icon-circle mb-2">
+                    <i className="fas fa-procedures fa-2x mb-2"></i>
+                  </div>
+                  <h3 className="my-2 text-white">75%</h3>
+                  <p className="mb-0 fw-bold">Patients diagnosed in advanced stages</p>
+                </div>
+                <div className="col-md-4 mb-4 mt-5 count_block">
+                  <div className="icon-circle mb-2">
+                    <i className="fas fa-gem fa-2x mb-2"></i>
+                  </div>
+                  <h3 className="my-2 text-white">8-15</h3>
+                  <p className="mb-0 fw-bold">Months to access specialized care</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
           </div>
           <div className="row align-items-center gy-4 gx-5">
             <div className="col-md-6">
@@ -581,34 +611,7 @@ const Home = () => {
               {/* <a href="#contact" className="btn btn-cta mt-4">Join Our Mission</a> */}
             </div>
           </div>
-          {/* counts  */}
-          <div className="stats-section text-white d-flex align-items-center mt-5 pt-4">
-            <div className="container">
-              <div className="row text-center">
-                <div className="col-md-4 mb-4 mt-5 count_block">
-                  <div className="icon-circle mb-2">
-                    <i className="fas fa-user-md fa-2x mb-2"></i>
-                  </div>
-                  <h3 className="my-2 text-white">13.9 L</h3>
-                  <p className="mb-0 fw-bold">New cancer cases in <br /> India annually</p>
-                </div>
-                <div className="col-md-4 mb-4 mt-5 count_block">
-                  <div className="icon-circle mb-2">
-                    <i className="fas fa-procedures fa-2x mb-2"></i>
-                  </div>
-                  <h3 className="my-2 text-white">75%</h3>
-                  <p className="mb-0 fw-bold">Patients diagnosed in advanced stages</p>
-                </div>
-                <div className="col-md-4 mb-4 mt-5 count_block">
-                  <div className="icon-circle mb-2">
-                    <i className="fas fa-gem fa-2x mb-2"></i>
-                  </div>
-                  <h3 className="my-2 text-white">8-15</h3>
-                  <p className="mb-0 fw-bold">Months to access specialized care</p>
-                </div>
-              </div>
-            </div>
-          </div>
+          
         </div>
       </section>
 
