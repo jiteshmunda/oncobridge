@@ -483,12 +483,13 @@ color: #5a92a3;
   z-index: 1;
 }
 .footer_logo {
-  background-image: url('../assets/logo_bg.jpeg');
-    background-size: cover;
-    background-position: -35px -47px;
-    background-repeat: no-repeat;
-    height: 28vh;
+  background-image: url('../assets/logo_bgg.jpeg');
+  background-size: contain; /* Prevents stretching */
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 29vh;
 }
+
 @media (min-width: 320px) {
  .footer_logo {
  display: none;

@@ -14,6 +14,8 @@ function Contact() {
     message: "",
   });
 
+  const [status, setStatus] = useState({ type: "", message: "" });
+
   const handleDepartmentChange = (e) => {
     setDepartment(e.target.value);
   };
@@ -23,44 +25,57 @@ function Contact() {
   };
 
   const sendEmail = (e) => {
-  e.preventDefault();
+    e.preventDefault();
 
-  const templateParams = {
-  name: formData.name,
-  email: formData.email,
-  mobile: formData.mobile || "",
-  department: department || "",
-  hospitalName: formData.hospitalName || "",
-  hospitalCity: formData.hospitalCity || "",
-  insuranceName: formData.insuranceName || "",
-  insuranceCity: formData.insuranceCity || "",
-  message: formData.message,
-  to_email: "sethuraman.murugaiyan@outlook.com",
-};
+    const templateParams = {
+      name: formData.name,
+      email: formData.email,
+      mobile: formData.mobile || "",
+      department: department || "",
+      hospitalName: formData.hospitalName || "",
+      hospitalCity: formData.hospitalCity || "",
+      insuranceName: formData.insuranceName || "",
+      insuranceCity: formData.insuranceCity || "",
+      message: formData.message
+    };
 
+    emailjs
+      .send(
+        "service_okdsi85",
+        "template_6ges8af",
+        templateParams,
+        "l0cD42p3tCb7Pv8LS"
+      )
+      .then(
+        (response) => {
+          console.log("SUCCESS!", response.status, response.text);
+          setStatus({ type: "success", message: "Your message has been sent successfully! 🎉" });
 
-  console.log("Sending Email with params:", templateParams);
+          // Clear form
+          setFormData({
+            name: "",
+            email: "",
+            mobile: "",
+            hospitalName: "",
+            hospitalCity: "",
+            insuranceName: "",
+            insuranceCity: "",
+            message: "",
+          });
+          setDepartment("");
 
-  emailjs
-    .send(
-      "service_okdsi85",
-      "template_6ges8af",
-      templateParams,
-      "l0cD42p3tCb7Pv8LS"
-    )
-    .then(
-      (response) => {
-        console.log("SUCCESS!", response.status, response.text);
-        alert("Message sent successfully!");
-      },
-      (err) => {
-        console.error("FAILED...", err);
-        alert("Failed to send message. Check console for details.");
-      }
-    );
-};
+          // Hide alert after 5 seconds
+          setTimeout(() => setStatus({ type: "", message: "" }), 5000);
+        },
+        (err) => {
+          console.error("FAILED...", err);
+          setStatus({ type: "error", message: "Failed to send message. Please try again later." });
 
-
+          // Hide alert after 5 seconds
+          setTimeout(() => setStatus({ type: "", message: "" }), 5000);
+        }
+      );
+  };
 
   return (
     <>
@@ -86,10 +101,22 @@ function Contact() {
             <h1 className="fw-bold">Contact Us</h1>
           </div>
 
+          {/* Status Alert */}
+          {status.message && (
+            <div
+              className={`alert ${
+                status.type === "success" ? "alert-success" : "alert-danger"
+              } alert-dismissible fade show text-center`}
+              role="alert"
+            >
+              {status.message}
+            </div>
+          )}
+
           <div className="row">
             {/* Contact Details */}
             <div className="col-md-5 mb-4">
-              <div className="text-justify rounded-4 contact_us_left">
+              <div className="text-justify rounded-4 contact_us_left p-3">
                 <div className="d-flex flex-column align-items-md-start align-items-center text-md-start text-center mb-3">
                   <i className="fas fa-map-marker-alt mb-1"></i>
                   <strong>Address:</strong>
@@ -125,152 +152,145 @@ function Contact() {
 
             {/* Contact Form */}
             <div className="col-md-7">
-              <div className="text-justify rounded-4 contact_us_right">
+              <div className="text-justify rounded-4 contact_us_right p-3">
                 <form onSubmit={sendEmail}>
                   <div className="row">
-                    <div className="col-lg-6 col-md-6 col-sm-12">
-                      <div className="mb-3">
-                        <label htmlFor="name" className="form-label">
-                          Your Name
-                        </label>
-                        <input
-                          type="text"
-                          className="form-control"
-                          id="name"
-                          required
-                          onChange={handleChange}
-                        />
-                      </div>
+                    <div className="col-lg-6 mb-3">
+                      <label htmlFor="name" className="form-label">
+                        Your Name
+                      </label>
+                      <input
+                        type="text"
+                        className="form-control"
+                        id="name"
+                        value={formData.name}
+                        required
+                        onChange={handleChange}
+                      />
                     </div>
 
-                    <div className="col-lg-6 col-md-6 col-sm-12">
-                      <div className="mb-3">
-                        <label htmlFor="email" className="form-label">
-                          Email Address
-                        </label>
-                        <input
-                          type="email"
-                          className="form-control"
-                          id="email"
-                          required
-                          onChange={handleChange}
-                        />
-                      </div>
+                    <div className="col-lg-6 mb-3">
+                      <label htmlFor="email" className="form-label">
+                        Email Address
+                      </label>
+                      <input
+                        type="email"
+                        className="form-control"
+                        id="email"
+                        value={formData.email}
+                        required
+                        onChange={handleChange}
+                      />
                     </div>
 
-                    <div className="col-lg-6 col-md-6 col-sm-12">
-                      <div className="mb-3">
-                        <label htmlFor="mobile" className="form-label">
-                          Mobile
-                        </label>
-                        <input
-                          type="text"
-                          className="form-control"
-                          id="mobile"
-                          onChange={handleChange}
-                        />
-                      </div>
+                    <div className="col-lg-6 mb-3">
+                      <label htmlFor="mobile" className="form-label">
+                        Mobile
+                      </label>
+                      <input
+                        type="text"
+                        className="form-control"
+                        id="mobile"
+                        value={formData.mobile}
+                        onChange={handleChange}
+                      />
                     </div>
 
-                    <div className="col-lg-6 col-md-6 col-sm-12">
-                      <div className="mb-3">
-                        <label className="form-label">Who you are</label>
-                        <select
-                          id="department"
-                          name="department"
-                          className="form-select"
-                          value={department}
-                          onChange={handleDepartmentChange}
-                        >
-                          <option value="">Select</option>
-                          <option value="Patients">Patient</option>
-                          <option value="Family Member">Family Member</option>
-                          <option value="Hospital">Hospital</option>
-                          <option value="Insurance">Insurance Provider</option>
-                        </select>
-                      </div>
+                    <div className="col-lg-6 mb-3">
+                      <label className="form-label">Who you are</label>
+                      <select
+                        id="department"
+                        className="form-select"
+                        value={department}
+                        onChange={handleDepartmentChange}
+                      >
+                        <option value="">Select</option>
+                        <option value="Patients">Patient</option>
+                        <option value="Family Member">Family Member</option>
+                        <option value="Hospital">Hospital</option>
+                        <option value="Insurance">Insurance Provider</option>
+                      </select>
                     </div>
 
-                    <div className="">
-                      <div className="row mb-3">
-                        {department === "Hospital" && (
-                          <>
-                            <div className="col-lg-6 col-md-6 col-sm-6">
-                              <label htmlFor="hospitalName" className="form-label">
-                                Name of Hospital
-                              </label>
-                              <input
-                                type="text"
-                                id="hospitalName"
-                                className="form-control"
-                                placeholder="Enter hospital name"
-                                onChange={handleChange}
-                              />
-                            </div>
+                    {department === "Hospital" && (
+                      <>
+                        <div className="col-lg-6 mb-3">
+                          <label htmlFor="hospitalName" className="form-label">
+                            Name of Hospital
+                          </label>
+                          <input
+                            type="text"
+                            id="hospitalName"
+                            className="form-control"
+                            placeholder="Enter hospital name"
+                            value={formData.hospitalName}
+                            onChange={handleChange}
+                          />
+                        </div>
 
-                            <div className="col-lg-6 col-md-6 col-sm-6">
-                              <label htmlFor="hospitalCity" className="form-label">
-                                City
-                              </label>
-                              <input
-                                type="text"
-                                id="hospitalCity"
-                                className="form-control"
-                                placeholder="Enter city"
-                                onChange={handleChange}
-                              />
-                            </div>
-                          </>
-                        )}
+                        <div className="col-lg-6 mb-3">
+                          <label htmlFor="hospitalCity" className="form-label">
+                            City
+                          </label>
+                          <input
+                            type="text"
+                            id="hospitalCity"
+                            className="form-control"
+                            placeholder="Enter city"
+                            value={formData.hospitalCity}
+                            onChange={handleChange}
+                          />
+                        </div>
+                      </>
+                    )}
 
-                        {department === "Insurance" && (
-                          <>
-                            <div className="col-lg-6 col-md-6 col-sm-6">
-                              <label htmlFor="insuranceName" className="form-label">
-                                Name of Insurance
-                              </label>
-                              <input
-                                type="text"
-                                id="insuranceName"
-                                className="form-control"
-                                placeholder="Enter insurance name"
-                                onChange={handleChange}
-                              />
-                            </div>
+                    {department === "Insurance" && (
+                      <>
+                        <div className="col-lg-6 mb-3">
+                          <label htmlFor="insuranceName" className="form-label">
+                            Name of Insurance
+                          </label>
+                          <input
+                            type="text"
+                            id="insuranceName"
+                            className="form-control"
+                            placeholder="Enter insurance name"
+                            value={formData.insuranceName}
+                            onChange={handleChange}
+                          />
+                        </div>
 
-                            <div className="col-lg-6 col-md-6 col-sm-6">
-                              <label htmlFor="insuranceCity" className="form-label">
-                                City
-                              </label>
-                              <input
-                                type="text"
-                                id="insuranceCity"
-                                className="form-control"
-                                placeholder="Enter city"
-                                onChange={handleChange}
-                              />
-                            </div>
-                          </>
-                        )}
-                      </div>
-                    </div>
+                        <div className="col-lg-6 mb-3">
+                          <label htmlFor="insuranceCity" className="form-label">
+                            City
+                          </label>
+                          <input
+                            type="text"
+                            id="insuranceCity"
+                            className="form-control"
+                            placeholder="Enter city"
+                            value={formData.insuranceCity}
+                            onChange={handleChange}
+                          />
+                        </div>
+                      </>
+                    )}
 
-                    <div className="col-lg-12 col-md-12 col-sm-12">
-                      <div className="mb-3">
-                        <label htmlFor="message" className="form-label">
-                          Message
-                        </label>
-                        <textarea
-                          className="form-control"
-                          id="message"
-                          rows="4"
-                          required
-                          onChange={handleChange}
-                        ></textarea>
-                      </div>
+                    <div className="col-12 mb-3">
+                      <label htmlFor="message" className="form-label">
+                        Message
+                      </label>
+                      <textarea
+                        className="form-control"
+                        id="message"
+                        rows="4"
+                        required
+                        value={formData.message}
+                        onChange={handleChange}
+                      ></textarea>
                     </div>
                   </div>
-                  <button type="submit" className="read-more-btn">
+                  <button type="submit" className="btn btn-primary w-100">
                     Send Message
                   </button>
                 </form>
