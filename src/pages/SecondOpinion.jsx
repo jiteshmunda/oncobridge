@@ -70,7 +70,7 @@ function SecondOpinion() {
                 >
                   Hospitals
                 </h5>
-                <Link to="/hospitals">
+                <Link to="/hospital">
                   <img
                     src={second_opt2}
                     className="w-100 rounded-3 hover-zoom"
