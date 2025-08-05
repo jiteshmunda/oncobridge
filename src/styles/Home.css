@@ -1550,3 +1550,63 @@ color: #5a92a3;
   background-position: center;
   
 }
+
+
+
+
+
+
+
+.hero-section {
+  background: #ffffff;
+  color: #ffffff;
+  border-radius: 16px;
+  padding: 60px 18px;
+}
+
+.hero-image-box {
+  display: flex;
+  justify-content: center;
+}
+
+.hero-image {
+  max-width: 97%;     
+  height: auto;
+  border-radius: 20px;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+
+.challenge-text h4 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.challenge-text p {
+  font-size: 1.05rem;
+  margin-bottom: 14px;
+  line-height: 1.7;
+  color: #ffffff;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .hero-section {
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  .hero-image {
+    max-width: 70%;
+    margin-bottom: 20px;
+  }
+}
+
+
+
+
+
+
+

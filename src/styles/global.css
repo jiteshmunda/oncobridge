@@ -1136,3 +1136,19 @@ color: #194d63;
   height: 62vh;
   width: 100%;
 }
+
+
+
+
+
+
+
+
+.hover-zoom {
+  transition: box-shadow 0.4s ease, filter 0.4s ease;
+}
+
+.hover-zoom:hover {
+  filter: brightness(1.08);
+  box-shadow: 0 0 25px rgba(90, 146, 163, 0.35);
+}

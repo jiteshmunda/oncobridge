@@ -4,15 +4,15 @@ import "../styles/Home.css";
 import Lottie from "lottie-react";
 import mobileAnimation from "../assets/lottie/mobile-app.json";
 import mobileAnimations from "../assets/lottie/banner-animation.json";
-import pat1 from '../assets/pat1.jpg';
-import pat3 from '../assets/pat3.jpg';
-import pat2 from '../assets/pat2.jpg';
-import global from '../assets/globle.jpg';
-import for_paitent from '../assets/for_paitent.jpg';
-import for_hospital from '../assets/for_hospital.jpg';
-import for_insurance from '../assets/for_insurance.jpg';
-import home_banner from '../assets/home_banner.jpg';
-import { Link } from 'react-router-dom';
+import pat1 from "../assets/pat1.jpg";
+import pat3 from "../assets/pat3.jpg";
+import pat2 from "../assets/pat2.jpg";
+import global from "../assets/globle.jpg";
+import for_paitent from "../assets/for_paitent.jpg";
+import for_hospital from "../assets/for_hospital.jpg";
+import for_insurance from "../assets/for_insurance.jpg";
+import home_banner from "../assets/home_banner.jpg";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   const section4Ref = useRef(null);
@@ -27,39 +27,36 @@ const Home = () => {
     <>
       {/* Banner Section */}
       <section className="bg-image-home  ">
-
         <div className="container-fluid ">
           <div className="row align-items-center  pt-5 pb-5 ps-3 pe-4">
             <div className="col-md-6 col-lg-6  col-sm-7 ">
-            
-                
-                    <h1 className="home_banner_heading ">
-                      Bridging cancer care and technology.
-                    </h1>
-                    <h5 className="home_banner_subheading">
-                      We connect patients, providers <br/>
-                      and data for a better tomorrow
-                    </h5>
-                    {/* <Link to="/secondoption" target="_blank" className="btn btn-primary me-3 px-4 py-2 mb-4">Get Your Second Opinion</Link> */}
-                    <Link to="/secondopinion" className="read-more-btn px-4 py-2 mb-4">Begin Your Journey</Link>
-               
-               
-           
+              <h1 className="home_banner_heading ">
+                Bridging cancer care and technology.
+              </h1>
+              <h5 className="home_banner_subheading">
+                We connect patients, providers <br />
+                and data for a better tomorrow
+              </h5>
+              {/* <Link to="/secondoption" target="_blank" className="btn btn-primary me-3 px-4 py-2 mb-4">Get Your Second Opinion</Link> */}
+              <Link
+                to="/secondopinion"
+                className="read-more-btn px-4 py-2 mb-4"
+              >
+                Begin Your Journey
+              </Link>
             </div>
 
             <div className="col-md-6 col-lg-6  col-sm-5">
-
-<img
-                  src={home_banner}
-                  className="img-fluid "
-                  alt="Example Image"
-                /> 
+              <img
+                src={home_banner}
+                className="img-fluid "
+                alt="Example Image"
+              />
               {/* <img
                   src={myths_bg}
                   className="img-fluid bg_question_right d-none d-lg-block d-sm-block d-md-none"
                   alt="Example Image"
                 /> */}
-
             </div>
           </div>
         </div>
@@ -87,7 +84,6 @@ const Home = () => {
         </div>
       </section> */}
 
-
       {/* Section 1 */}
       {/* <section className="research-innovation py-5 bg-light">
         <div className="container text-center">
@@ -113,7 +109,6 @@ const Home = () => {
         </div>
       </section> */}
 
-
       {/* Section 1: Mission Quote */}
       {/* <section className="mission-quote-section py-5 bg-light">
         <div className="container">
@@ -126,8 +121,6 @@ const Home = () => {
           </div>
         </div>
       </section> */}
-
-
 
       {/* Section 2 */}
       {/* <section className="about-oncobridge py-5 ">
@@ -175,9 +168,6 @@ const Home = () => {
           </div>
         </div>
       </section> */}
-
-
-
 
       {/* Section 3*/}
       {/* <section className="empowering-care py-5">
@@ -271,9 +261,6 @@ const Home = () => {
         </div>
       </section> */}
 
-
-
-
       {/* Section 5 Mobile App */}
 
       {/* <section className="onco-app-section text-white py-5">
@@ -310,8 +297,6 @@ const Home = () => {
         </div>
       </section> */}
 
-
-
       {/* <section className="research-innovation py-5 bg-light">
   <div className="container text-center">
     <h2 className="section-title">Pioneering Cancer Research</h2>
@@ -334,7 +319,6 @@ const Home = () => {
     </div>
   </div>
 </section> */}
-
 
       {/* <section className="vision-section text-white d-flex align-items-center">
   <div className="container">
@@ -359,7 +343,6 @@ const Home = () => {
     </div>
   </div>
 </section> */}
-
 
       {/* <section className="vision-section-upgraded text-white d-flex align-items-center">
   <div className="container">
@@ -390,7 +373,6 @@ const Home = () => {
     </div>
   </div>
 </section> */}
-
 
       {/* <section className="vision-hero">
   <div className="container">
@@ -430,8 +412,6 @@ const Home = () => {
   </div>
 </section> */}
 
-
-
       {/* <section className="vision-elevated text-white">
   <div className="vision-glass container">
     <div className="row align-items-center gx-5 gy-5">
@@ -469,44 +449,49 @@ const Home = () => {
   </div>
 </section> */}
 
-
       {/* Section 6 */}
-      <section className="cancer-hero-alt py-5 text-white home_bg_blue" ref={challengeRef} >
+      <section
+        className="cancer-hero-alt py-5 text-white home_bg_blue"
+        ref={challengeRef}
+      >
         <div className="container">
           <div className="text-center mb-5">
-            <h1 className="text_white_heading">
-              The Challenge We Face
-            </h1>
+            <h1 className="text_white_heading">The Challenge We Face</h1>
 
- {/* counts  */}
-          <div className="stats-section text-white d-flex align-items-center mt-5 pt-4">
-            <div className="container">
-              <div className="row text-center">
-                <div className="col-md-4 mb-4 mt-5 count_block">
-                  <div className="icon-circle mb-2">
-                    <i className="fas fa-user-md fa-2x mb-2"></i>
+            {/* counts  */}
+            <div className="stats-section text-white d-flex align-items-center mt-5 pt-4">
+              <div className="container">
+                <div className="row text-center">
+                  <div className="col-md-4 mb-4 mt-5 count_block">
+                    <div className="icon-circle mb-2">
+                      <i className="fas fa-user-md fa-2x mb-2"></i>
+                    </div>
+                    <h3 className="my-2 text-white">13.9 L</h3>
+                    <p className="mb-0 fw-bold">
+                      New cancer cases in <br /> India annually
+                    </p>
                   </div>
-                  <h3 className="my-2 text-white">13.9 L</h3>
-                  <p className="mb-0 fw-bold">New cancer cases in <br /> India annually</p>
-                </div>
-                <div className="col-md-4 mb-4 mt-5 count_block">
-                  <div className="icon-circle mb-2">
-                    <i className="fas fa-procedures fa-2x mb-2"></i>
+                  <div className="col-md-4 mb-4 mt-5 count_block">
+                    <div className="icon-circle mb-2">
+                      <i className="fas fa-procedures fa-2x mb-2"></i>
+                    </div>
+                    <h3 className="my-2 text-white">75%</h3>
+                    <p className="mb-0 fw-bold">
+                      Patients diagnosed in advanced stages
+                    </p>
                   </div>
-                  <h3 className="my-2 text-white">75%</h3>
-                  <p className="mb-0 fw-bold">Patients diagnosed in advanced stages</p>
-                </div>
-                <div className="col-md-4 mb-4 mt-5 count_block">
-                  <div className="icon-circle mb-2">
-                    <i className="fas fa-gem fa-2x mb-2"></i>
+                  <div className="col-md-4 mb-4 mt-5 count_block">
+                    <div className="icon-circle mb-2">
+                      <i className="fas fa-gem fa-2x mb-2"></i>
+                    </div>
+                    <h3 className="my-2 text-white">8-15</h3>
+                    <p className="mb-0 fw-bold">
+                      Months to access specialized care
+                    </p>
                   </div>
-                  <h3 className="my-2 text-white">8-15</h3>
-                  <p className="mb-0 fw-bold">Months to access specialized care</p>
                 </div>
               </div>
             </div>
-          </div>
-
           </div>
           <div className="row align-items-center gy-4 gx-5">
             <div className="col-md-6">
@@ -560,58 +545,53 @@ const Home = () => {
                      </div> */}
                 </div>
                 <img
-                  src="https://images.unsplash.com/photo-1607746882042-944635dfe10e?auto=format&fit=crop&w=1200&q=80"
+                  src="src/assets/ss.jpg"
                   alt="Empathy in Cancer Care"
-                  className="img-fluid rounded-4 shadow-lg"
+                  className="img-fluid rounded-4  hero-image"
                 />
               </div>
             </div>
 
             <div className="col-md-6">
-              <p className="challenge_txt">
-                Meet Dr. Sharma, a dedicated oncologist at Delhi who spends her days fighting an invisible enemy.
-                Despite her access to international research and decades of medical training,
-                she finds herself <strong> struggling to connect
-                  global breakthroughs </strong>  with the diverse patient population she serves across India.
-                Dr. Sharma represents thousands of Indian healthcare professionals who face unique
-                challenges:<strong>  bridging international
-                  research with local patient genetics, managing resource constraints,
-                  and ensuring equitable access </strong> to life-saving treatments across urban
-                metros and rural communities.
-              </p>
-              {/* <ul className="list-unstyled hero-feature-list">
-                {[
-                  {
-                    icon: "bi bi-lightning-charge",
-                    title: "Lorem ipsum dolor",
-                    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae pellentesque leo. ",
-                  },
-                  {
-                    icon: "bi bi-graph-up-arrow",
-                    title: "Lorem ipsum dolor",
-                    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae pellentesque leo.",
-                  },
-                  {
-                    icon: "bi bi-person-heart",
-                    title: "Lorem ipsum dolor",
-                    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae pellentesque leo.",
-                  },
-                ].map((item, i) => (
-                  <li key={i} className="d-flex mb-4">
-                    <div className="me-3 icon-box text-primary">
-                      <i className={`${item.icon} fs-3`}></i>
-                    </div>
-                    <div>
-                      <h5 className="mb-1">{item.title}</h5>
-                      <p className="mb-0 text-muted">{item.desc}</p>
-                    </div>
-                  </li>
-                ))}
-              </ul> */}
-              {/* <a href="#contact" className="btn btn-cta mt-4">Join Our Mission</a> */}
+              <div className="challenge-text">
+                <h4>
+                  Imagine a future where cancer care in India is{" "}
+                  <strong>truly connected</strong>.
+                </h4>
+
+                <p>
+                  Where oncologists across the country — from urban hospitals to
+                  rural clinics — can instantly access the latest global
+                  research, treatment outcomes from similar genetic populations,
+                  and real-world success stories from Tier-1 to Tier-3 cities,
+                  all in one place.
+                </p>
+
+                <p>
+                  Where breakthrough therapies reach patients in{" "}
+                  <strong>Patna</strong> or
+                  <strong> Coimbatore</strong> within weeks, not years.
+                </p>
+
+                <p>
+                  <strong>OncoBridge</strong> is making this future a reality.
+                </p>
+
+                <p>
+                  We are transforming cancer care in India by creating
+                  intelligent connections between leading global oncology
+                  experts and the Indian healthcare ecosystem — hospitals,
+                  clinicians, patients, and community networks.
+                </p>
+
+                <p>
+                  This isn’t just about bridging urban-rural divides. It’s about
+                  enabling access to tailored, world-class oncology insights
+                  that work for India’s unique healthcare landscape.
+                </p>
+              </div>
             </div>
           </div>
-          
         </div>
       </section>
 
@@ -621,33 +601,44 @@ const Home = () => {
           <div className="row gx-0 align-items-center">
             <div className="bg-image-bridge d-flex justify-content-left align-items-center text-start  ">
               <div className="overlay-content">
-                <div className='col-md-12 col-lg-7 p-md-5 p-lg-5 p-2'>
+                <div className="col-md-12 col-lg-7 p-md-5 p-lg-5 p-2">
                   <div className="text-center mb-5">
                     <h1 className="hero-heading"> The Bridge to Hope</h1>
                   </div>
                   <p className="text-black text-start bridge_txt_space">
-                    Imagine if Dr. Sharma could access <strong> every relevant Indian and international study, treatment outcomes from similar
-                      genetic populations, and success stories from Tier-1 to Tier-3 cities </strong> with a single query.
-                    Imagine if breakthrough therapies could reach patients in Patna or Coimbatore in weeks, not years.
+                    Imagine if Dr. Sharma could access{" "}
+                    <strong>
+                       every relevant Indian and international study, treatment
+                      outcomes from similar genetic populations, and success
+                      stories from Tier-1 to Tier-3 cities 
+                    </strong>{" "}
+                    with a single query. Imagine if breakthrough therapies could
+                    reach patients in Patna or Coimbatore in weeks, not years.
                   </p>
                   <p className="text-black text-start bridge_txt_space">
-                    OncoBridge intends to transform cancer care across India by creating intelligent connections between experts from premier
-                    global research institutions and Indian hospitals , patients, and community healthcare networks.
-                    We don't just bridge urban-rural gaps – we improve <strong>access to world-class oncology insights </strong>  tailored for the Indian healthcare ecosystem.
+                    OncoBridge intends to transform cancer care across India by
+                    creating intelligent connections between experts from
+                    premier global research institutions and Indian hospitals ,
+                    patients, and community healthcare networks. We don't just
+                    bridge urban-rural gaps – we improve{" "}
+                    <strong>access to world-class oncology insights </strong>{" "}
+                     tailored for the Indian healthcare ecosystem.
                   </p>
                   <p className="text-black text-start bridge_txt_space">
-
-                    We understand the unique challenges of Indian healthcare – from genetic diversity to resource optimization –
-                    creating a network that serves everyone from Mumbai's corporate hospitals to primary health centres in rural Rajasthan.
+                    We understand the unique challenges of Indian healthcare –
+                    from genetic diversity to resource optimization – creating a
+                    network that serves everyone from Mumbai's corporate
+                    hospitals to primary health centres in rural Rajasthan.
                   </p>
-                  <Link className="read-more-btn" to="/contact">Reach Out</Link>
+                  <Link className="read-more-btn" to="/contact">
+                    Reach Out
+                  </Link>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
-
 
       {/* live transform  */}
       <section className="lives-transformed-section py-5">
@@ -657,24 +648,29 @@ const Home = () => {
               <div className="card border-0 shadow-lg rounded-4 p-4 bg-white position-relative">
                 <div className=" mb-3 live_transform">Lives Transformed</div>
                 <div className="live_trans_text">
-                <p>
-                  Where oncologists across the country — from urban hospitals to rural clinics — can instantly access the latest global research, 
-                  treatment outcomes from similar genetic populations, 
-                  and real-world success stories from Tier-1 to Tier-3 cities, all in one place.
-                </p>
-                <p>
-                  Where breakthrough therapies reach patients in Patna or Coimbatore within weeks, not years.
-                </p>
-                <p>
-                  OncoBridge is making this future a reality.
-                </p>
-                <p>
-                  We are transforming cancer care in India by creating intelligent connections between leading global oncology experts and the 
-                  Indian healthcare ecosystem — hospitals, clinicians, patients, and community networks.
-                </p>
-                <p>
-                  This isn’t just about bridging urban-rural divides. It’s about enabling access to tailored, world-class oncology insights that work for India’s unique healthcare landscape.
-                </p>
+                  <p>
+                    Where oncologists across the country — from urban hospitals
+                    to rural clinics — can instantly access the latest global
+                    research, treatment outcomes from similar genetic
+                    populations, and real-world success stories from Tier-1 to
+                    Tier-3 cities, all in one place.
+                  </p>
+                  <p>
+                    Where breakthrough therapies reach patients in Patna or
+                    Coimbatore within weeks, not years.
+                  </p>
+                  <p>OncoBridge is making this future a reality.</p>
+                  <p>
+                    We are transforming cancer care in India by creating
+                    intelligent connections between leading global oncology
+                    experts and the Indian healthcare ecosystem — hospitals,
+                    clinicians, patients, and community networks.
+                  </p>
+                  <p>
+                    This isn’t just about bridging urban-rural divides. It’s
+                    about enabling access to tailored, world-class oncology
+                    insights that work for India’s unique healthcare landscape.
+                  </p>
                 </div>
                 {/* <p className="">
                   Today,  Dr. Sharma uses OncoBridge to connect her patient
@@ -689,17 +685,16 @@ const Home = () => {
                 </p> */}
                 <div className="story-quote mt-4">
                   <i className="bi bi-chat-quote fs-3 me-2"></i>
-                  <span className="quote-text">“Imagine a future where cancer care in India is truly connected.”</span>
+                  <span className="quote-text">
+                    “Imagine a future where cancer care in India is truly
+                    connected.”
+                  </span>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
-
-
-
-
 
       {/* your story  */}
       {/* <div className="container-fluid hero-wrapper story-section text-white">
@@ -743,7 +738,6 @@ const Home = () => {
           </div>
         </div>
       </section> */}
-
 
       {/* <section className="newsletter-beauty text-white">
         <div className="container py-5 text-center">
@@ -936,7 +930,6 @@ const Home = () => {
         </div>
       </section> */}
 
-
       {/* <section className="testimonials-section py-5 bg-light">
         <div className="container">
           <div className="text-center mb-5">
@@ -988,9 +981,6 @@ const Home = () => {
           </div>
         </div>
       </section> */}
-
-
-
 
       {/* Section 6: Testimonials */}
       {/* <section className="testimonials-section py-5 bg-light">
@@ -1046,8 +1036,6 @@ const Home = () => {
   </div>
 </section> */}
 
-
-
       {/* <section className="how-it-works py-5 bg-light">
   <div className="container text-center">
     <h2 className="section-title mb-4">How OncoBridge Works</h2>
@@ -1072,8 +1060,6 @@ const Home = () => {
   </div>
 </section> */}
 
-
-
       {/* <section className="cta-banner text-white text-center py-5" style={{ backgroundColor: '#0a2540' }}>
   <div className="container">
     <h2>Ready to take the next step in your cancer care?</h2>
@@ -1081,8 +1067,6 @@ const Home = () => {
     <a href="/register" className="btn btn-warning px-4 py-2 mt-3">Get Started</a>
   </div>
 </section> */}
-
-
 
       {/* Section 8 */}
       {/* <section className="ready-next">
@@ -1127,8 +1111,6 @@ const Home = () => {
           </small>
         </div>
       </section> */}
-
-
 
       {/* Section: FAQ */}
       {/* <section className="faq-section py-5 bg-white">
