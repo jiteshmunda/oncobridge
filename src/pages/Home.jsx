@@ -13,6 +13,7 @@ import for_hospital from "../assets/for_hospital.jpg";
 import for_insurance from "../assets/for_insurance.jpg";
 import home_banner from "../assets/home_banner.jpg";
 import { Link } from "react-router-dom";
+import doctorImage from '../assets/doctor.jpg';
 
 const Home = () => {
   const section4Ref = useRef(null);
@@ -545,10 +546,10 @@ const Home = () => {
                      </div> */}
                 </div>
                 <img
-                  src="src/assets/doctor.jpg"
-                  alt="Empathy in Cancer Care"
-                  className="img-fluid rounded-4  hero-image"
-                />
+  src={doctorImage}
+  alt="Empathy in Cancer Care"
+  className="img-fluid rounded-4 hero-image"
+/>
               </div>
             </div>
 
