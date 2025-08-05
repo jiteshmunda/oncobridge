@@ -545,7 +545,7 @@ const Home = () => {
                      </div> */}
                 </div>
                 <img
-                  src="src/assets/ss.jpg"
+                  src="src/assets/doctor.jpg"
                   alt="Empathy in Cancer Care"
                   className="img-fluid rounded-4  hero-image"
                 />
