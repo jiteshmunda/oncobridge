@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
+import contactImage from "../assets/Contacts2 (2).jpg";
 
 function Contact() {
   const [department, setDepartment] = useState("");
@@ -110,7 +111,7 @@ function Contact() {
       <div className="col-md-6 col-lg-6 col-sm-12 text-center position-relative pe-lg-5 pe-md-4 pe-sm-3">
         <div className="image-overlay-container">
           <img
-            src="../src/assets/Contacts2 (2).jpg"
+            src={contactImage}
             className="img-fluid"
             style={{ borderRadius: "12px", maxHeight: "420px" }}
           />
