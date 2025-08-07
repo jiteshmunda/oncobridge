@@ -36,8 +36,8 @@ function Footer() {
             <div className='d-flex mb-2'>
               <i className="fas fa-map-marker-alt me-2 mt-1"></i>
               <p className="mb-0">
-                18-2, Ground Floor, 4th Street<br />
-                Gokulam Colony, PN Pudur<br />
+                18-2, Ground Floor, <br />4th Street
+                Gokulam Colony,<br /> PN Pudur
                 Coimbatore - 641041,<br />
                 Tamil Nadu, India
               </p>

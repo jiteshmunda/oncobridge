@@ -150,9 +150,9 @@ function Contact() {
                 <div className="d-flex flex-column align-items-md-start align-items-center text-md-start text-center mb-3">
                   <i className="fas fa-map-marker-alt mb-1"></i>
                   <strong>Address:</strong>
-                  <span>18-2, Ground Floor, 4th Street</span>
-                  <span>Gokulam Colony, PN Pudur</span>
-                  <span>Coimbatore - 641041</span>
+                  <span>18-2, Ground Floor, </span>
+                  <span>4th Street Gokulam Colony,</span> 
+                  <span>PN Pudur Coimbatore - 641041</span>
                   <span>Tamil Nadu, India</span>
                 </div>
 
