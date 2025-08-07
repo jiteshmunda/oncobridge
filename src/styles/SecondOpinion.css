@@ -1,0 +1,105 @@
+.background {
+  background-color: #1896ad;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  padding: 30px;
+  gap: 20px;
+  flex-wrap: nowrap;
+  margin-top: 30px;
+}
+
+.second-option-card {
+  background-color: transparent;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  flex: 1;
+}
+
+.second-option-card h5 {
+  font-weight: 600;
+  margin-bottom: 22px;
+  color: #fff;
+}
+
+.second-option-card img {
+  height: 140px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.second-option-card p {
+  margin-top: 15px;
+  line-height: 1.5;
+}
+
+/* Vertical divider */
+.vertical-divider {
+  width: 5px;
+  background-color: rgba(255, 255, 255, 0.8);
+  align-self: stretch;
+  margin: 30px 20px;
+  border-radius: 10px;
+}
+
+/* Let's Connect Button */
+.lets-connect-btn {
+  background-color: #1da1b8;
+  color: #fff;
+  padding: 10px 40px;
+  border-radius: 17px;
+  text-decoration: none;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.lets-connect-btn:hover {
+  background-color: #16879a;
+}
+
+/* ---------- Responsive Design ---------- */
+@media (max-width: 992px) {
+  .background {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .vertical-divider {
+    display: none; /* hide lines on small screens */
+  }
+
+  .second-option-card {
+    margin-bottom: 20px;
+  }
+}
+
+.vertical-divider {
+  flex: 0 0 3px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  align-self: stretch;
+  margin: 10px 0;
+}
+
+/* Learn More Button */
+.learn-more-btn {
+  display: inline-block;
+  margin-top: 6px;
+  padding: 6px 0;
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 12px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  width: 110px;
+  text-align: center;
+}
+
+.learn-more-btn:hover {
+  background: rgba(255, 255, 255, 0.3);
+}

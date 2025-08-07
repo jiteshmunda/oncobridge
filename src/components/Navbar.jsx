@@ -27,83 +27,63 @@ function Navbar() {
   };
 
   return (
-    <nav className={`custom-navbar ${scrolled ? 'scrolled' : ''}`}>
-      <div className="navbar-container">
-        <div className="navbar-logo ">
-        <Link to="/" className='text-decoration-none'>
-        <div className='logo_navbar'></div>
-       {/* <img src={logo} className='logo_nabvar'/>     */}
-         <h4 className=' d-lg-none'>OncoBridge</h4>
-         </Link>
-         {/* <img src={logo} className='logo_nabvar'/>       */}
-        </div>
+  <nav className={`custom-navbar ${scrolled ? 'scrolled' : ''}`}>
+    <div className="navbar-container">
 
-        <div className={`hamburger ${menuOpen ? 'active' : ''}`} onClick={toggleMenu}>
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-
-        <ul className={`navbar-menu ${menuOpen ? 'open' : ''}`}>
-          <li><NavLink  to="/" onClick={closeMenu}  className={({ isActive }) => isActive ? "menu-link active" : "menu-link"}><span>Home</span></NavLink></li>
-          <li><NavLink  to="/about" onClick={closeMenu}  className={({ isActive }) => isActive ? "menu-link active" : "menu-link"}><span>About Us</span></NavLink></li>
-     <li><NavLink  to="/secondopinion" onClick={closeMenu}  className={({ isActive }) => isActive ? "menu-link active" : "menu-link"}><span>Second Opinion</span></NavLink></li>
-      
-           {/* <li><NavLink  to="/secondoption" onClick={closeMenu}  className={({ isActive }) => isActive ? "menu-link active" : "menu-link"}><span>Products and Services</span></NavLink></li> */}
-        {/* <div className="dropdown">
-  <NavLink  className=" " type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
-Products & Services
-  </NavLink >
-  <ul className="dropdown-menu second_option" aria-labelledby="dropdownMenuButton">
-    <li><NavLink  to="/secondoption"  onClick={closeMenu}  className={({ isActive }) => isActive ? "menu-link active" : "dropdown-item "}>Second Opinion </NavLink></li>
-              </ul>
-</div> */}
-          {/* <li><Link to="/hospital" onClick={closeMenu}><span>Products</span></Link></li> */}
-          {/* <li><Link to="/productdesc" onClick={closeMenu}><span>Product Description</span></Link></li> */}
-        
-{/* <div className="dropdown">
-  <NavLink  className=" " type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
-Second Opinion
-  </NavLink >
-  <ul className="dropdown-menu " aria-labelledby="dropdownMenuButton">
-    <li><NavLink  to="/patients"  onClick={closeMenu}  className={({ isActive }) => isActive ? "menu-link active" : "dropdown-item "}>Patients</NavLink></li>
-    <li><NavLink to="/hospital"  onClick={closeMenu}  className={({ isActive }) => isActive ? "menu-link active" : "dropdown-item"}>Hospital</NavLink></li>
-    <li><NavLink  to="/insurance"  onClick={closeMenu}  className={({ isActive }) => isActive ? "menu-link active" : "dropdown-item"}>Insurance</NavLink></li>
-          </ul>
-</div> */}
-
-<div className="dropdown">
-  <NavLink  className=" " type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
-Resources
-  </NavLink >
-  <ul className="dropdown-menu " aria-labelledby="dropdownMenuButton">
-      {/* <li><NavLink    to="/blog" onClick={closeMenu}  className={({ isActive }) => isActive ? "menu-link active" : "dropdown-item"}>Blog</NavLink></li>
-    <li><NavLink  to="/testimonial" onClick={closeMenu}  className={({ isActive }) => isActive ? "menu-link active" : "dropdown-item"}>Testimonials</NavLink></li>
-    <li><NavLink    to="/Videos" onClick={closeMenu}  className={({ isActive }) => isActive ? "menu-link active" : "dropdown-item"}>Videos</NavLink></li>
-    <li><NavLink    to="/newsletter" onClick={closeMenu}  className={({ isActive }) => isActive ? "menu-link active" : "dropdown-item"}>Newsletters</NavLink></li> */}
-      <li><NavLink   to="/myths" onClick={closeMenu}  className={({ isActive }) => isActive ? "menu-link active" : "dropdown-item"}>Myths & Facts</NavLink></li>
-      <li><NavLink to="/faq" onClick={closeMenu} className={({ isActive }) => isActive ? "menu-link active" : "dropdown-item"}><span>FAQ</span></NavLink></li>
-          
-     {/* <li><NavLink  className="dropdown-item" to="/productdesc" onClick={closeMenu}  className={({ isActive }) => isActive ? "menu-link active" : "menu-link"}>Product description</NavLink></li>  */}
-        </ul>
-</div>
-
-          {/* <li><Link to="/partners" onClick={closeMenu}><span>Partners</span></Link></li> */}
-          <li><NavLink to="/careers" onClick={closeMenu} className={({ isActive }) => isActive ? "menu-link active" : "menu-link"}><span>Careers</span></NavLink></li>
-         <li><NavLink   to="/partners" onClick={closeMenu} className={({ isActive }) => isActive ? "menu-link active" : "menu-link"}>Partners</NavLink></li> 
-
-           {/* <li><NavLink to="/faq" onClick={closeMenu} className={({ isActive }) => isActive ? "menu-link active" : "menu-link"}><span>FAQ</span></NavLink></li> */}
-            {/* <li><Link to="/blog" onClick={closeMenu}><span>Blog</span></Link></li> */}
-          {/* <li><Link to="/blog" onClick={closeMenu}><span>Blog</span></Link></li> */}
-          <li><NavLink to="/contact" onClick={closeMenu} className={({ isActive }) => isActive ? "menu-link active" : "menu-link"}><span>Contact</span></NavLink></li>
-          {/* <li><Link to="/career" onClick={closeMenu}><span>Career</span></Link></li>
-          <li><Link to="/terms" onClick={closeMenu}><span>Terms</span></Link></li>
-          <li><Link to="/disclaimers" onClick={closeMenu}><span>Disclaimers</span></Link></li> */}
-        </ul>
+      {/* Left Full-Height Logo */}
+      <div className="navbar-logo full-height-logo">
+        <Link to="/" className="text-decoration-none">
+          <div className="logo_navbar"></div>
+          <h4 className="d-lg-none">OncoBridge</h4>
+        </Link>
       </div>
-    </nav>
-    
-  );
+
+      {/* Right 3-Strip Section */}
+      <div className="navbar-right-section">
+
+        {/* Top White Strip */}
+        <div className="navbar-top-strip"></div>
+
+        {/* Middle Blue Strip with Menu */}
+        <div className="navbar-middle-strip">
+          {/* Hamburger */}
+          <div className={`hamburger ${menuOpen ? 'active' : ''}`} onClick={toggleMenu}>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+
+          {/* Menu Items */}
+          <ul className={`navbar-menu ${menuOpen ? 'open' : ''}`}>
+            <li><NavLink to="/" onClick={closeMenu} className={({ isActive }) => isActive ? "menu-link active" : "menu-link"}>Home</NavLink></li>
+            <li><NavLink to="/about" onClick={closeMenu} className={({ isActive }) => isActive ? "menu-link active" : "menu-link"}>About Us</NavLink></li>
+            <li><NavLink to="/secondopinion" onClick={closeMenu} className={({ isActive }) => isActive ? "menu-link active" : "menu-link"}>Second Opinion</NavLink></li>
+
+            <div className="dropdown">
+              <NavLink className="" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                Resources
+              </NavLink>
+              <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <li><NavLink to="/myths" onClick={closeMenu} className={({ isActive }) => isActive ? "menu-link active" : "dropdown-item"}>Myths & Facts</NavLink></li>
+                <li><NavLink to="/faq" onClick={closeMenu} className={({ isActive }) => isActive ? "menu-link active" : "dropdown-item"}>FAQ</NavLink></li>
+              </ul>
+            </div>
+
+            <li><NavLink to="/careers" onClick={closeMenu} className={({ isActive }) => isActive ? "menu-link active" : "menu-link"}>Careers</NavLink></li>
+            <li><NavLink to="/partners" onClick={closeMenu} className={({ isActive }) => isActive ? "menu-link active" : "menu-link"}>Partners</NavLink></li>
+            <li><NavLink to="/contact" onClick={closeMenu} className={({ isActive }) => isActive ? "menu-link active" : "menu-link"}>Contact</NavLink></li>
+          </ul>
+        </div>
+
+        {/* Bottom White Strip */}
+        <div className="navbar-bottom-strip"></div>
+
+      </div>
+    </div>
+  </nav>
+);
+
 }
 
 export default Navbar;
+

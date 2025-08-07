@@ -1,71 +1,85 @@
-import React from 'react';
-import iylon from '../assets/iylon.png';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
+import iylonLogo from "../assets/iylon logo.jpeg"; // your new logo
+import teamImage from "../assets/partners image.jpg"; // replace with your right-side image
+import "../styles/partners.css";
+
 function Partners() {
   return (
     <>
-      <section className="text-center">
-  <div className="container-fluid px-0">
-    <div className="row gx-0 align-items-center">
-      <div className="bg-image-partners d-flex justify-content-left align-items-center text-left text-white vh-100">
-        <div className="overlay-content">
-          <div className="col-md-8 p-3 ps-lg-5 ms-lg-5 ms-md-5 ms-sm-5">
-            <h1 className="fw-bold text-white display-4 animate__animated animate__fadeIn">
-              Iylon Precision Oncology
-            </h1>
-            <p className="lead animate__animated animate__fadeIn animate__delay-1s">
-              {/* Optional subtitle or partnership description */}
-            </p>
-            {/* Optional button section */}
-            {/* 
-            <div className="d-flex justify-content-start gap-3 mt-3">
-              <button className="btn btn-primary">
-                Start Your Second Opinion Request
-              </button>
-            </div> 
-            */}
+      {/* Section 1 */}
+      <section className="partners-hero container-fluid">
+        <div className="row gx-0 w-100">
+          {/* Left */}
+          <div className="col-md-6 partners-left">
+            <h2 className="fw-bold text-primary mb-4 partners-heading">
+              Proudly partnering with
+            </h2>
+            <img
+              src={iylonLogo}
+              alt="Iylon Logo"
+              className="iylon-logo img-fluid"
+            />
+          </div>
+
+          {/* Right */}
+          <div className="col-md-6 partners-right">
+            <img
+              src={teamImage}
+              alt="Doctors discussing oncology"
+              className="img-fluid partners-right-img"
+            />
           </div>
         </div>
-      </div>
-    </div>
-  </div>
-</section>
+      </section>
 
-      <section className="text-center py-5">
-        <div className='container '>
-          <div className='row  align-items-center'>
-            <div className='col-md-7 partners_text'>
-              <div class="text-center mb-5"><h2 class="section-title fw-bold">OncoBridge : Proud Partner of Iylon Precision Oncology</h2>
-              </div>
-              <p className='text-start'>
-                We, at OncoBridge Healthcare Private Limited, are thrilled to announce our partnership with Iylon Precision Oncology,
-                a leader in personalized cancer care based in Providence, Rhode Island. Accessible at iylon.com, Iylon is
-                transforming the landscape of cancer treatment through its innovative use of genomic analysis and artificial
-                intelligence to deliver tailored treatment recommendations.
-              </p>
-              <p className='text-start'>
-                As a partner, OncoBridge is committed to collaborating with Iylon to advance precision oncology,
-                ensuring that patients across our network benefit from cutting-edge, evidence-based treatment plans.
-                By integrating Iylon’s expertise in molecular oncology, radiology, and AI-driven diagnostics, we aim to
-                enhance patient outcomes and expand access to personalized cancer care. Together, we are dedicated to supporting Iylon’s
-                mission to reduce cancer mortality and make precision oncology accessible globally, including through initiatives like the
-                Iylon Foundation, which provides free treatments to underserved patients.
-              </p>
-              <p className='text-start'>
-                For more information about our partnership or to explore how we can work together to improve cancer care,
-                please contact us at in   <a href='mailto:care@oncobridge.in' target='_blank' className='text-primary'>  care@oncobridge</a> or
-                visit
-                <a href='iylon.com' target='_blank' className='text-primary'>  iylon.com</a>
-
-
-
-              </p>
-            </div>
-            <div className='col-md-5 '>
-              <Link to="https://app.iylon.com/#/home">
-                <img src={iylon} alt="iylon" className='partner_logo' />
-              </Link>
-            </div>
+      {/* Section 2 */}
+      <section className="partners-details py-4">
+        <div className="container">
+          <div className="text-start">
+            <h2 className="section-title fw-bold mb-4">
+              Advancing Precision Oncology with Iylon
+            </h2>
+            <ul className="partners-list text-start">
+              <li>
+                Iylon Precision Oncology is a leader in personalized cancer care
+                based in Providence, Rhode Island, USA.
+              </li>
+              <li>
+                Iylon employs genomic analysis and AI to deliver customized
+                cancer treatment recommendations.
+              </li>
+              <li>
+                Together, we expand access to advanced, evidence-based oncology
+                care.
+              </li>
+              <li>
+                Integrating Iylon’s molecular oncology and AI diagnostics to
+                improve patient outcomes.
+              </li>
+              <li>
+                Committed to reducing cancer mortality and providing free care
+                to underserved communities.
+              </li>
+            </ul>
+            <p className="text-start mt-4">
+              For more information visit{" "}
+              <a
+                href="https://iylon.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary fw-bold"
+              >
+                iylon.com
+              </a>{" "}
+              or email us at{" "}
+              <a
+                href="mailto:care@oncobridge.com"
+                className="text-primary fw-bold"
+              >
+                care@oncobridge.com
+              </a>
+            </p>
           </div>
         </div>
       </section>

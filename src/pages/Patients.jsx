@@ -82,7 +82,7 @@ function Patients() {
               </div>
             </div>
             <div className=" col-md-12 col-lg-6 col-sm-12 mt-4">
-              <ul className="list-style-disc text-justify rounded-4 patients_list">
+              <ul className="list-style-disc  rounded-4 patients_list">
                 <li className="">
                   <strong>Confirmation & Validation:</strong> Confirm your
                   diagnosis and treatment plan from an independent expert.

@@ -35,7 +35,7 @@ function Myths() {
       </section>
 
       {/* block 1 */}
-      <section className="text-center py-5">
+      <section className="text-center py-4 px-2">
         <div className="container ">
           <div className="row  align-items-center">
             <div className="col-md-12 col-lg-7">
@@ -78,7 +78,7 @@ function Myths() {
       </section>
       {/* block 2 */}
       <section className="text-center  bg-light understand_cancer">
-        <div className="container-fluid ">
+        <div className="container-fluid px-3">
           <div className="row align-items-center">
             <div className="col-md-5">
               <img
@@ -220,27 +220,39 @@ function Myths() {
                           <div className="card-body">
                             <div className="types_cancer_list">
                               <div>
-                                <div className='d-flex align-items-start text-start mb-3'>
+                                <div className="d-flex align-items-start text-start mb-3">
                                   <i className="fas fa-check me-2 line_ht"></i>
-                                  <span>Most common cancer in women worldwide, but men can also develop breast cancer</span>
+                                  <span>
+                                    Most common cancer in women worldwide, but
+                                    men can also develop breast cancer
+                                  </span>
                                 </div>
 
-                                <div className='d-flex align-items-start text-start mb-3'>
+                                <div className="d-flex align-items-start text-start mb-3">
                                   <i className="fas fa-check me-2 line_ht "></i>
-                                  <span>Early detection through mammograms significantly improves outcomes</span>
+                                  <span>
+                                    Early detection through mammograms
+                                    significantly improves outcomes
+                                  </span>
                                 </div>
 
-                                <div className='d-flex align-items-start text-start mb-3'>
+                                <div className="d-flex align-items-start text-start mb-3">
                                   <i className="fas fa-check me-2 line_ht"></i>
-                                  <span>Five-year survival rate is over 90% when caught early</span>
+                                  <span>
+                                    Five-year survival rate is over 90% when
+                                    caught early
+                                  </span>
                                 </div>
 
-                                <div className='d-flex align-items-start text-start mb-3'>
+                                <div className="d-flex align-items-start text-start mb-3">
                                   <i className="fas fa-check me-2 line_ht"></i>
-                                  <span>Treatment options include surgery, chemotherapy, radiation, hormone therapy, and targeted drugs</span>
+                                  <span>
+                                    Treatment options include surgery,
+                                    chemotherapy, radiation, hormone therapy,
+                                    and targeted drugs
+                                  </span>
                                 </div>
                               </div>
-
                             </div>
                           </div>
                         </div>
@@ -253,24 +265,35 @@ function Myths() {
                           <div className="card-body">
                             <div className="types_cancer_list">
                               <div>
-                                <div className='d-flex align-items-start text-start mb-3'>
+                                <div className="d-flex align-items-start text-start mb-3">
                                   <i className="fas fa-check me-2 line_ht"></i>
-                                  <span>Myth: Only women with a family history get breast cancer</span>
+                                  <span>
+                                    Myth: Only women with a family history get
+                                    breast cancer
+                                  </span>
                                 </div>
 
-                                <div className='d-flex align-items-start text-start mb-3'>
+                                <div className="d-flex align-items-start text-start mb-3">
                                   <i className="fas fa-check me-2 line_ht"></i>
-                                  <span>Fact: About 85% of breast cancers occur in women with no family history</span>
+                                  <span>
+                                    Fact: About 85% of breast cancers occur in
+                                    women with no family history
+                                  </span>
                                 </div>
 
-                                <div className='d-flex align-items-start text-start mb-3'>
+                                <div className="d-flex align-items-start text-start mb-3">
                                   <i className="fas fa-check me-2 line_ht"></i>
-                                  <span>Myth: "Finding a lump means you have cancer"</span>
+                                  <span>
+                                    Myth: "Finding a lump means you have cancer"
+                                  </span>
                                 </div>
 
-                                <div className='d-flex align-items-start text-start mb-3'>
+                                <div className="d-flex align-items-start text-start mb-3">
                                   <i className="fas fa-check me-2 line_ht"></i>
-                                  <span>Fact: 80% of breast lumps are benign (non-cancerous)</span>
+                                  <span>
+                                    Fact: 80% of breast lumps are benign
+                                    (non-cancerous)
+                                  </span>
                                 </div>
                               </div>
 
@@ -321,24 +344,36 @@ function Myths() {
                           <div className="card-body">
                             <div className="types_cancer_list">
                               <div>
-                                <div className='d-flex align-items-start text-start mb-3'>
+                                <div className="d-flex align-items-start text-start mb-3">
                                   <i className="fas fa-check me-2 line_ht"></i>
-                                  <span>Leading cause of cancer death worldwide</span>
+                                  <span>
+                                    Leading cause of cancer death worldwide
+                                  </span>
                                 </div>
 
-                                <div className='d-flex align-items-left mb-3'>
+                                <div className="d-flex align-items-left mb-3">
                                   <i className="fas fa-check me-2 line_ht"></i>
-                                  <span>Smoking is the primary risk factor, but non-smokers can also develop lung cancer</span>
+                                  <span>
+                                    Smoking is the primary risk factor, but
+                                    non-smokers can also develop lung cancer
+                                  </span>
                                 </div>
 
-                                <div className='d-flex align-items-start mb-3'>
+                                <div className="d-flex align-items-start mb-3">
                                   <i className="fas fa-check me-2 line_ht"></i>
-                                  <span>Symptoms may include persistent cough, chest pain, shortness of breath, and coughing up blood</span>
+                                  <span>
+                                    Symptoms may include persistent cough, chest
+                                    pain, shortness of breath, and coughing up
+                                    blood
+                                  </span>
                                 </div>
 
-                                <div className='d-flex align-items-start'>
+                                <div className="d-flex align-items-start">
                                   <i className="fas fa-check me-2 line_ht"></i>
-                                  <span>Treatment depends on type (small cell vs. non-small cell) and stage</span>
+                                  <span>
+                                    Treatment depends on type (small cell vs.
+                                    non-small cell) and stage
+                                  </span>
                                 </div>
                               </div>
 
@@ -375,24 +410,35 @@ function Myths() {
                           <div className="card-body">
                             <div className="types_cancer_list">
                               <div>
-                                <div className='d-flex align-items-start text-start mb-3'>
+                                <div className="d-flex align-items-start text-start mb-3">
                                   <i className="fas fa-check me-2 line_ht"></i>
-                                  <span>Myth: "Only smokers get lung cancer"</span>
+                                  <span>
+                                    Myth: "Only smokers get lung cancer"
+                                  </span>
                                 </div>
 
-                                <div className='d-flex align-items-left mb-3'>
+                                <div className="d-flex align-items-left mb-3">
                                   <i className="fas fa-check me-2 line_ht"></i>
-                                  <span>Fact: 10-15% of lung cancers occur in people who have never smoked</span>
+                                  <span>
+                                    Fact: 10-15% of lung cancers occur in people
+                                    who have never smoked
+                                  </span>
                                 </div>
 
-                                <div className='d-flex align-items-start mb-3'>
+                                <div className="d-flex align-items-start mb-3">
                                   <i className="fas fa-check me-2 line_ht"></i>
-                                  <span>Myth: "Switching to light cigarettes reduces risk"</span>
+                                  <span>
+                                    Myth: "Switching to light cigarettes reduces
+                                    risk"
+                                  </span>
                                 </div>
 
-                                <div className='d-flex align-items-start'>
+                                <div className="d-flex align-items-start">
                                   <i className="fas fa-check me-2 line_ht"></i>
-                                  <span>Fact: There is no safe level of smoking; all tobacco products increase cancer risk</span>
+                                  <span>
+                                    Fact: There is no safe level of smoking; all
+                                    tobacco products increase cancer risk
+                                  </span>
                                 </div>
                               </div>
 
@@ -444,24 +490,35 @@ function Myths() {
                           <div className="card-body">
                             <div className="types_cancer_list">
                               <div>
-                                <div className='d-flex align-items-start text-start mb-3'>
+                                <div className="d-flex align-items-start text-start mb-3">
                                   <i className="fas fa-check me-2 line_ht"></i>
-                                  <span>Third most common cancer worldwide</span>
+                                  <span>
+                                    Third most common cancer worldwide
+                                  </span>
                                 </div>
 
-                                <div className='d-flex align-items-left mb-3'>
+                                <div className="d-flex align-items-left mb-3">
                                   <i className="fas fa-check me-2 line_ht"></i>
-                                  <span>Screening can prevent cancer by detecting and removing precancerous polyps</span>
+                                  <span>
+                                    Screening can prevent cancer by detecting
+                                    and removing precancerous polyps
+                                  </span>
                                 </div>
 
-                                <div className='d-flex align-items-start mb-3'>
+                                <div className="d-flex align-items-start mb-3">
                                   <i className="fas fa-check me-2 line_ht"></i>
-                                  <span>Symptoms may include changes in bowel habits, blood in stool, and abdominal pain</span>
+                                  <span>
+                                    Symptoms may include changes in bowel
+                                    habits, blood in stool, and abdominal pain
+                                  </span>
                                 </div>
 
-                                <div className='d-flex align-items-start'>
+                                <div className="d-flex align-items-start">
                                   <i className="fas fa-check me-2 line_ht"></i>
-                                  <span>Treatment often involves surgery, and may include chemotherapy and radiation</span>
+                                  <span>
+                                    Treatment often involves surgery, and may
+                                    include chemotherapy and radiation
+                                  </span>
                                 </div>
                               </div>
 
@@ -498,24 +555,35 @@ function Myths() {
                           <div className="card-body">
                             <div className="types_cancer_list">
                               <div>
-                                <div className='d-flex align-items-start text-start mb-3'>
+                                <div className="d-flex align-items-start text-start mb-3">
                                   <i className="fas fa-check me-2 line_ht"></i>
-                                  <span>Myth: Colorectal cancer only affects older adults</span>
+                                  <span>
+                                    Myth: Colorectal cancer only affects older
+                                    adults
+                                  </span>
                                 </div>
 
-                                <div className='d-flex align-items-left mb-3'>
+                                <div className="d-flex align-items-left mb-3">
                                   <i className="fas fa-check me-2 line_ht"></i>
-                                  <span>Fact: While more common after age 50, rates are rising in younger adults</span>
+                                  <span>
+                                    Fact: While more common after age 50, rates
+                                    are rising in younger adults
+                                  </span>
                                 </div>
 
-                                <div className='d-flex align-items-start mb-3'>
+                                <div className="d-flex align-items-start mb-3">
                                   <i className="fas fa-check me-2 line_ht"></i>
-                                  <span>Myth: Colonoscopies are always painful</span>
+                                  <span>
+                                    Myth: Colonoscopies are always painful
+                                  </span>
                                 </div>
 
-                                <div className='d-flex align-items-start'>
+                                <div className="d-flex align-items-start">
                                   <i className="fas fa-check me-2 line_ht"></i>
-                                  <span>Fact: Most people tolerate the procedure well with sedation</span>
+                                  <span>
+                                    Fact: Most people tolerate the procedure
+                                    well with sedation
+                                  </span>
                                 </div>
                               </div>
 
@@ -567,24 +635,32 @@ function Myths() {
                           <div className="card-body">
                             <div className="types_cancer_list">
                               <div>
-                                <div className='d-flex align-items-start text-start mb-3'>
+                                <div className="d-flex align-items-start text-start mb-3">
                                   <i className="fas fa-check me-2 line_ht"></i>
                                   <span>Second most common cancer in men</span>
                                 </div>
 
-                                <div className='d-flex align-items-left mb-3'>
+                                <div className="d-flex align-items-left mb-3">
                                   <i className="fas fa-check me-2 line_ht"></i>
-                                  <span>Often grows slowly and may not cause symptoms initially</span>
+                                  <span>
+                                    Often grows slowly and may not cause
+                                    symptoms initially
+                                  </span>
                                 </div>
 
-                                <div className='d-flex align-items-start mb-3'>
+                                <div className="d-flex align-items-start mb-3">
                                   <i className="fas fa-check me-2 line_ht"></i>
-                                  <span>PSA testing can help with early detection</span>
+                                  <span>
+                                    PSA testing can help with early detection
+                                  </span>
                                 </div>
 
-                                <div className='d-flex align-items-start'>
+                                <div className="d-flex align-items-start">
                                   <i className="fas fa-check me-2 line_ht"></i>
-                                  <span>Treatment options range from active surveillance to surgery and radiation</span>
+                                  <span>
+                                    Treatment options range from active
+                                    surveillance to surgery and radiation
+                                  </span>
                                 </div>
                               </div>
 
@@ -620,24 +696,35 @@ function Myths() {
                           <div className="card-body">
                             <div className="types_cancer_list">
                               <div>
-                                <div className='d-flex align-items-start text-start mb-3'>
+                                <div className="d-flex align-items-start text-start mb-3">
                                   <i className="fas fa-check me-2 line_ht"></i>
-                                  <span>Myth: Prostate cancer is always aggressive</span>
+                                  <span>
+                                    Myth: Prostate cancer is always aggressive
+                                  </span>
                                 </div>
 
-                                <div className='d-flex align-items-left mb-3'>
+                                <div className="d-flex align-items-left mb-3">
                                   <i className="fas fa-check me-2 line_ht"></i>
-                                  <span>Fact: Many prostate cancers grow slowly and may not require immediate treatment</span>
+                                  <span>
+                                    Fact: Many prostate cancers grow slowly and
+                                    may not require immediate treatment
+                                  </span>
                                 </div>
 
-                                <div className='d-flex align-items-start mb-3'>
+                                <div className="d-flex align-items-start mb-3">
                                   <i className="fas fa-check me-2 line_ht"></i>
-                                  <span>Myth: Prostate cancer treatment always causes impotence</span>
+                                  <span>
+                                    Myth: Prostate cancer treatment always
+                                    causes impotence
+                                  </span>
                                 </div>
 
-                                <div className='d-flex align-items-start'>
+                                <div className="d-flex align-items-start">
                                   <i className="fas fa-check me-2 line_ht"></i>
-                                  <span>Fact: Modern treatments often preserve sexual function</span>
+                                  <span>
+                                    Fact: Modern treatments often preserve
+                                    sexual function
+                                  </span>
                                 </div>
                               </div>
 
@@ -696,19 +783,23 @@ function Myths() {
                 <div className="card-body text-start">
                   <h5 className="card-title mb-3">Imaging Tests</h5>
                   <div>
-                    <div className='d-flex align-items-start mb-2'>
+                    <div className="d-flex align-items-start mb-2">
                       <i className="fas fa-check me-2 line_ht"></i>
-                      <span>X-rays, CT scans, MRIs, and PET scans help locate tumors</span>
+                      <span>
+                        X-rays, CT scans, MRIs, and PET scans help locate tumors
+                      </span>
                     </div>
 
-                    <div className='d-flex align-items-start mb-2'>
+                    <div className="d-flex align-items-start mb-2">
                       <i className="fas fa-check me-2 line_ht"></i>
                       <span>Ultrasounds can examine organs and tissues</span>
                     </div>
 
-                    <div className='d-flex align-items-start'>
+                    <div className="d-flex align-items-start">
                       <i className="fas fa-check me-2 line_ht"></i>
-                      <span>These tests are generally painless and non-invasive</span>
+                      <span>
+                        These tests are generally painless and non-invasive
+                      </span>
                     </div>
                   </div>
                 </div>
@@ -719,22 +810,20 @@ function Myths() {
                 <img src={myths4} className="card-img-top" alt="Lab testing" />
                 <div className="card-body text-start">
                   <h5 className="card-title mb-3">Laboratory Tests</h5>
-                  <div className='d-flex align-items-start mb-2'>
+                  <div className="d-flex align-items-start mb-2">
                     <i className="fas fa-check me-2 line_ht"></i>
-                    <span>Blood tests can detect
-                      cancer markers</span>
+                    <span>Blood tests can detect cancer markers</span>
                   </div>
-                  <div className='d-flex align-items-start mb-2'>
+                  <div className="d-flex align-items-start mb-2">
                     <i className="fas fa-check me-2 line_ht"></i>
-                    <span>Urine tests may reveal
-                      cancer cells</span>
+                    <span>Urine tests may reveal cancer cells</span>
                   </div>
-                  <div className='d-flex align-items-start mb-2'>
+                  <div className="d-flex align-items-start mb-2">
                     <i className="fas fa-check me-2 line_ht"></i>
-                    <span>Genetic testing can
-                      identify hereditary cancer risks</span>
+                    <span>
+                      Genetic testing can identify hereditary cancer risks
+                    </span>
                   </div>
-
                 </div>
               </div>
             </div>
@@ -747,20 +836,21 @@ function Myths() {
                 />
                 <div className="card-body text-start">
                   <h5 className="card-title mb-3">Biopsy</h5>
-                  <div className='d-flex align-items-start mb-2'>
+                  <div className="d-flex align-items-start mb-2">
                     <i className="fas fa-check me-2 line_ht"></i>
-                    <span>The only definitive way
-                      to diagnose cancer</span>
+                    <span>The only definitive way to diagnose cancer</span>
                   </div>
-                  <div className='d-flex align-items-start mb-2'>
+                  <div className="d-flex align-items-start mb-2">
                     <i className="fas fa-check me-2 line_ht"></i>
-                    <span>A small tissue sample
-                      is examined under a microscope</span>
+                    <span>
+                      A small tissue sample is examined under a microscope
+                    </span>
                   </div>
-                  <div className='d-flex align-items-start mb-2'>
+                  <div className="d-flex align-items-start mb-2">
                     <i className="fas fa-check me-2 line_ht"></i>
-                    <span>Types include needle,
-                      surgical, and liquid biopsy</span>
+                    <span>
+                      Types include needle, surgical, and liquid biopsy
+                    </span>
                   </div>
                 </div>
               </div>
@@ -798,20 +888,20 @@ function Myths() {
               <div>
                 <ul className="list-unstyled text-start mb-0 diagnosis_list">
                   <li>
-                    <i className="fas fa-check me-2 "></i>The type
-                    and location of your cancer
+                    <i className="fas fa-check me-2 "></i>The type and location
+                    of your cancer
                   </li>
                   <li>
-                    <i className="fas fa-check me-2 "></i>The stage
-                    (how far the cancer has spread)
+                    <i className="fas fa-check me-2 "></i>The stage (how far the
+                    cancer has spread)
                   </li>
                   <li>
-                    <i className="fas fa-check me-2 "></i>The grade
-                    (how abnormal the cancer cells look)
+                    <i className="fas fa-check me-2 "></i>The grade (how
+                    abnormal the cancer cells look)
                   </li>
                   <li>
-                    <i className="fas fa-check me-2 "></i>Your
-                    prognosis and treatment options
+                    <i className="fas fa-check me-2 "></i>Your prognosis and
+                    treatment options
                   </li>
                 </ul>
               </div>
@@ -823,7 +913,7 @@ function Myths() {
       <section className=" py-5 bg-white">
         <div className="container">
           <div className="text-center mb-5">
-            <h2 className="section-title">
+            <h2 className="section-title treatment-title">
               Cancer Treatment: Options and Approaches
             </h2>
           </div>
@@ -1108,14 +1198,14 @@ function Myths() {
       </section>
 
       {/* block 8 */}
-      <section className="py-5 bg-white">
+      <section className="py-5 bg-white px-2">
         <div className="text-center mb-5">
           <h2 className="section-title">
             Living with Cancer: Support and Resources
           </h2>
         </div>
 
-        <div className="container my-5 myths_stpe">
+        <div className="container my-5 myths_stpe px-4">
           <div className="step-section">
             <div className="step-number">01</div>
             <div className="step-card">
@@ -1123,32 +1213,32 @@ function Myths() {
                 <div className="col-md-12 col-lg-6 col-sm-6">
                   <h5 className="fw-bold"> Building Your Support Team</h5>
                   <div>
-                    <div className='d-flex align-items-start text-start mb-3'>
+                    <div className="d-flex align-items-start text-start mb-3">
                       <i className="fas fa-check me-2 line_ht"></i>
                       <span>Oncologists and specialized nurses</span>
                     </div>
 
-                    <div className='d-flex align-items-left mb-3'>
+                    <div className="d-flex align-items-left mb-3">
                       <i className="fas fa-check me-2 line_ht"></i>
                       <span>Social workers and patient navigators</span>
                     </div>
 
-                    <div className='d-flex align-items-start mb-3'>
+                    <div className="d-flex align-items-start mb-3">
                       <i className="fas fa-check me-2 line_ht"></i>
                       <span>Mental health counselors</span>
                     </div>
 
-                    <div className='d-flex align-items-start mb-3'>
+                    <div className="d-flex align-items-start mb-3">
                       <i className="fas fa-check me-2 line_ht"></i>
                       <span>Dietitians and physical therapists</span>
                     </div>
 
-                    <div className='d-flex align-items-start mb-3'>
+                    <div className="d-flex align-items-start mb-3">
                       <i className="fas fa-check me-2 line_ht"></i>
                       <span>Family and friends</span>
                     </div>
 
-                    <div className='d-flex align-items-start'>
+                    <div className="d-flex align-items-start">
                       <i className="fas fa-check me-2 line_ht"></i>
                       <span>Support groups (in-person and online)</span>
                     </div>
@@ -1199,29 +1289,35 @@ function Myths() {
                 <div className="col-md-12 col-lg-6 col-sm-6">
                   <h5 className="fw-bold"> Managing Side Effects</h5>
                   <div>
-                    <div className='d-flex align-items-start text-start mb-3'>
+                    <div className="d-flex align-items-start text-start mb-3">
                       <i className="fas fa-check me-2 line_ht"></i>
-                      <span>Most side effects are temporary and manageable</span>
+                      <span>
+                        Most side effects are temporary and manageable
+                      </span>
                     </div>
 
-                    <div className='d-flex align-items-left mb-3'>
+                    <div className="d-flex align-items-left mb-3">
                       <i className="fas fa-check me-2 line_ht"></i>
-                      <span>Anti-nausea medications can help with chemotherapy</span>
+                      <span>
+                        Anti-nausea medications can help with chemotherapy
+                      </span>
                     </div>
 
-                    <div className='d-flex align-items-start mb-3'>
+                    <div className="d-flex align-items-start mb-3">
                       <i className="fas fa-check me-2 line_ht"></i>
                       <span>Fatigue is common but can be addressed</span>
                     </div>
 
-                    <div className='d-flex align-items-start mb-3'>
+                    <div className="d-flex align-items-start mb-3">
                       <i className="fas fa-check me-2 line_ht"></i>
                       <span>Nutritional support is important</span>
                     </div>
 
-                    <div className='d-flex align-items-start'>
+                    <div className="d-flex align-items-start">
                       <i className="fas fa-check me-2 line_ht"></i>
-                      <span>Exercise, when appropriate, can improve energy and mood</span>
+                      <span>
+                        Exercise, when appropriate, can improve energy and mood
+                      </span>
                     </div>
                   </div>
 
@@ -1266,29 +1362,33 @@ function Myths() {
                 <div className="col-md-12 col-lg-6 col-sm-6">
                   <h5 className="fw-bold"> Emotional Support</h5>
                   <div>
-                    <div className='d-flex align-items-start text-start mb-3'>
+                    <div className="d-flex align-items-start text-start mb-3">
                       <i className="fas fa-check me-2 line_ht"></i>
                       <span>It's normal to feel scared, angry, or sad</span>
                     </div>
 
-                    <div className='d-flex align-items-left mb-3'>
+                    <div className="d-flex align-items-left mb-3">
                       <i className="fas fa-check me-2 line_ht"></i>
                       <span>Professional counseling can be very helpful</span>
                     </div>
 
-                    <div className='d-flex align-items-start mb-3'>
+                    <div className="d-flex align-items-start mb-3">
                       <i className="fas fa-check me-2 line_ht"></i>
-                      <span>Support groups connect you with others who understand</span>
+                      <span>
+                        Support groups connect you with others who understand
+                      </span>
                     </div>
 
-                    <div className='d-flex align-items-start mb-3'>
+                    <div className="d-flex align-items-start mb-3">
                       <i className="fas fa-check me-2 line_ht"></i>
                       <span>Mind-body practices like meditation may help</span>
                     </div>
 
-                    <div className='d-flex align-items-start'>
+                    <div className="d-flex align-items-start">
                       <i className="fas fa-check me-2 line_ht"></i>
-                      <span>Maintaining connections with loved ones is important</span>
+                      <span>
+                        Maintaining connections with loved ones is important
+                      </span>
                     </div>
                   </div>
 
@@ -1333,27 +1433,27 @@ function Myths() {
                 <div className="col-md-12 col-lg-6 col-sm-6">
                   <h5 className="fw-bold"> Financial Considerations</h5>
                   <div>
-                    <div className='d-flex align-items-start text-start mb-3'>
+                    <div className="d-flex align-items-start text-start mb-3">
                       <i className="fas fa-check me-2 line_ht"></i>
                       <span>Cancer treatment can be expensive</span>
                     </div>
 
-                    <div className='d-flex align-items-left mb-3'>
+                    <div className="d-flex align-items-left mb-3">
                       <i className="fas fa-check me-2 line_ht"></i>
                       <span>Insurance coverage varies</span>
                     </div>
 
-                    <div className='d-flex align-items-start mb-3'>
+                    <div className="d-flex align-items-start mb-3">
                       <i className="fas fa-check me-2 line_ht"></i>
                       <span>Financial counselors can help navigate costs</span>
                     </div>
 
-                    <div className='d-flex align-items-start mb-3'>
+                    <div className="d-flex align-items-start mb-3">
                       <i className="fas fa-check me-2 line_ht"></i>
                       <span>Many organizations offer financial assistance</span>
                     </div>
 
-                    <div className='d-flex align-items-start'>
+                    <div className="d-flex align-items-start">
                       <i className="fas fa-check me-2 line_ht"></i>
                       <span>Social workers can connect you with resources</span>
                     </div>
@@ -1581,14 +1681,11 @@ function Myths() {
               </div>
 
               <div className="col-md-5 ">
-
-
                 {/* <img
                   src={myths_bg}
                   className="img-fluid bg_question_right d-none d-lg-block d-sm-block d-md-none"
                   alt="Example Image"
                 /> */}
-
               </div>
             </div>
           </div>
@@ -1644,42 +1741,42 @@ function Myths() {
                     <h6> Reducing Your Risk </h6>
                   </div>
                   <div>
-                    <div className='d-flex align-items-start text-start mb-3'>
+                    <div className="d-flex align-items-start text-start mb-3">
                       <i className="fas fa-check me-2 line_ht"></i>
                       <span>Don't smoke or use tobacco products</span>
                     </div>
 
-                    <div className='d-flex align-items-left mb-3'>
+                    <div className="d-flex align-items-left mb-3">
                       <i className="fas fa-check me-2 line_ht"></i>
                       <span>Limit alcohol consumption</span>
                     </div>
 
-                    <div className='d-flex align-items-start mb-3'>
+                    <div className="d-flex align-items-start mb-3">
                       <i className="fas fa-check me-2 line_ht"></i>
                       <span>Maintain a healthy weight</span>
                     </div>
 
-                    <div className='d-flex align-items-start mb-3'>
+                    <div className="d-flex align-items-start mb-3">
                       <i className="fas fa-check me-2 line_ht"></i>
                       <span>Exercise regularly</span>
                     </div>
 
-                    <div className='d-flex align-items-start mb-3'>
+                    <div className="d-flex align-items-start mb-3">
                       <i className="fas fa-check me-2 line_ht"></i>
                       <span>Eat a diet rich in fruits and vegetables</span>
                     </div>
 
-                    <div className='d-flex align-items-start mb-3'>
+                    <div className="d-flex align-items-start mb-3">
                       <i className="fas fa-check me-2 line_ht"></i>
                       <span>Protect your skin from sun exposure</span>
                     </div>
 
-                    <div className='d-flex align-items-start mb-3'>
+                    <div className="d-flex align-items-start mb-3">
                       <i className="fas fa-check me-2 line_ht"></i>
                       <span>Get vaccinated (HPV, Hepatitis B)</span>
                     </div>
 
-                    <div className='d-flex align-items-start'>
+                    <div className="d-flex align-items-start">
                       <i className="fas fa-check me-2 line_ht"></i>
                       <span>Practice safe sex</span>
                     </div>
@@ -1725,29 +1822,34 @@ function Myths() {
                     <h6>Importance of Screening </h6>
                   </div>
                   <div>
-                    <div className='d-flex align-items-start text-start mb-3'>
+                    <div className="d-flex align-items-start text-start mb-3">
                       <i className="fas fa-check me-2 line_ht"></i>
                       <span>Mammograms for breast cancer</span>
                     </div>
 
-                    <div className='d-flex align-items-left mb-3'>
+                    <div className="d-flex align-items-left mb-3">
                       <i className="fas fa-check me-2 line_ht"></i>
                       <span>Colonoscopies for colorectal cancer</span>
                     </div>
 
-                    <div className='d-flex align-items-start mb-3'>
+                    <div className="d-flex align-items-start mb-3">
                       <i className="fas fa-check me-2 line_ht"></i>
                       <span>Pap smears for cervical cancer</span>
                     </div>
 
-                    <div className='d-flex align-items-start mb-3'>
+                    <div className="d-flex align-items-start mb-3">
                       <i className="fas fa-check me-2 line_ht"></i>
-                      <span>Low-dose CT scans for lung cancer (high-risk individuals)</span>
+                      <span>
+                        Low-dose CT scans for lung cancer (high-risk
+                        individuals)
+                      </span>
                     </div>
 
-                    <div className='d-flex align-items-start'>
+                    <div className="d-flex align-items-start">
                       <i className="fas fa-check me-2 line_ht"></i>
-                      <span>PSA tests for prostate cancer (discuss with your doctor)</span>
+                      <span>
+                        PSA tests for prostate cancer (discuss with your doctor)
+                      </span>
                     </div>
                   </div>
 
@@ -1779,27 +1881,27 @@ function Myths() {
                     <h6>Know Your Body </h6>
                   </div>
                   <div>
-                    <div className='d-flex align-items-start text-start mb-3'>
+                    <div className="d-flex align-items-start text-start mb-3">
                       <i className="fas fa-check me-2 line_ht"></i>
                       <span>Perform self-examinations</span>
                     </div>
 
-                    <div className='d-flex align-items-left mb-3'>
+                    <div className="d-flex align-items-left mb-3">
                       <i className="fas fa-check me-2 line_ht"></i>
                       <span>Be aware of changes in your body</span>
                     </div>
 
-                    <div className='d-flex align-items-start mb-3'>
+                    <div className="d-flex align-items-start mb-3">
                       <i className="fas fa-check me-2 line_ht"></i>
                       <span>Don't ignore persistent symptoms</span>
                     </div>
 
-                    <div className='d-flex align-items-start mb-3'>
+                    <div className="d-flex align-items-start mb-3">
                       <i className="fas fa-check me-2 line_ht"></i>
                       <span>See your doctor regularly</span>
                     </div>
 
-                    <div className='d-flex align-items-start'>
+                    <div className="d-flex align-items-start">
                       <i className="fas fa-check me-2 line_ht"></i>
                       <span>Know your family history</span>
                     </div>
@@ -1841,42 +1943,44 @@ function Myths() {
                     <h6> National Organizations in India</h6>
                   </div>
                   <div>
-                    <div className='d-flex align-items-start text-start mb-3'>
+                    <div className="d-flex align-items-start text-start mb-3">
                       <i className="fas fa-check me-2 line_ht"></i>
                       <span>Indian Cancer Society</span>
                     </div>
 
-                    <div className='d-flex align-items-left mb-3'>
+                    <div className="d-flex align-items-left mb-3">
                       <i className="fas fa-check me-2 line_ht"></i>
                       <span>Cancer Patients Aid Association (CPAA)</span>
                     </div>
 
-                    <div className='d-flex align-items-start mb-3'>
+                    <div className="d-flex align-items-start mb-3">
                       <i className="fas fa-check me-2 line_ht"></i>
                       <span>Tata Memorial Centre</span>
                     </div>
 
-                    <div className='d-flex align-items-start mb-3'>
+                    <div className="d-flex align-items-start mb-3">
                       <i className="fas fa-check me-2 line_ht"></i>
-                      <span>All India Institute of Medical Sciences (AIIMS)</span>
+                      <span>
+                        All India Institute of Medical Sciences (AIIMS)
+                      </span>
                     </div>
 
-                    <div className='d-flex align-items-start mb-3'>
+                    <div className="d-flex align-items-start mb-3">
                       <i className="fas fa-check me-2 line_ht"></i>
                       <span>Kidwai Memorial Institute of Oncology</span>
                     </div>
 
-                    <div className='d-flex align-items-start mb-3'>
+                    <div className="d-flex align-items-start mb-3">
                       <i className="fas fa-check me-2 line_ht"></i>
                       <span>Apollo Cancer Institutes</span>
                     </div>
 
-                    <div className='d-flex align-items-start mb-3'>
+                    <div className="d-flex align-items-start mb-3">
                       <i className="fas fa-check me-2 line_ht"></i>
                       <span>Fortis Cancer Institute</span>
                     </div>
 
-                    <div className='d-flex align-items-start'>
+                    <div className="d-flex align-items-start">
                       <i className="fas fa-check me-2 line_ht"></i>
                       <span>Max Cancer Care</span>
                     </div>
@@ -1922,7 +2026,7 @@ function Myths() {
                     <h6>Online Resources</h6>
                   </div>
                   <div>
-                    <div className='d-flex align-items-start text-start mb-3'>
+                    <div className="d-flex align-items-start text-start mb-3">
                       <i className="fas fa-check me-2 line_ht"></i>
                       <a
                         href="https://www.cancer.gov"
@@ -1935,7 +2039,7 @@ function Myths() {
                       </a>
                     </div>
 
-                    <div className='d-flex align-items-left mb-3'>
+                    <div className="d-flex align-items-left mb-3">
                       <i className="fas fa-check me-2 line_ht"></i>
                       <a
                         href="https://www.indiancancersociety.org"
@@ -1947,7 +2051,7 @@ function Myths() {
                       </a>
                     </div>
 
-                    <div className='d-flex align-items-start mb-3'>
+                    <div className="d-flex align-items-start mb-3">
                       <i className="fas fa-check me-2 line_ht"></i>
                       <a
                         href="https://www.cpaaonline.org"
@@ -1959,7 +2063,7 @@ function Myths() {
                       </a>
                     </div>
 
-                    <div className='d-flex align-items-start mb-3'>
+                    <div className="d-flex align-items-start mb-3">
                       <i className="fas fa-check me-2 line_ht"></i>
                       <a
                         href="https://www.tmc.gov.in"
@@ -1971,7 +2075,7 @@ function Myths() {
                       </a>
                     </div>
 
-                    <div className='d-flex align-items-start'>
+                    <div className="d-flex align-items-start">
                       <i className="fas fa-check me-2 line_ht"></i>
                       <a
                         href="https://www.cancerindia.org.in"
@@ -2048,46 +2152,53 @@ function Myths() {
                     <h6>Financial Assistance in India </h6>
                   </div>
                   <div>
-  <div className='d-flex align-items-start text-start mb-3'>
-    <i className="fas fa-check me-2 line_ht"></i>
-    <span>Cancer Patients Aid Association (CPAA) Financial Support</span>
-  </div>
+                    <div className="d-flex align-items-start text-start mb-3">
+                      <i className="fas fa-check me-2 line_ht"></i>
+                      <span>
+                        Cancer Patients Aid Association (CPAA) Financial Support
+                      </span>
+                    </div>
 
-  <div className='d-flex align-items-left mb-3'>
-    <i className="fas fa-check me-2 line_ht"></i>
-    <span>Tata Memorial Centre Patient Welfare schemes</span>
-  </div>
+                    <div className="d-flex align-items-left mb-3">
+                      <i className="fas fa-check me-2 line_ht"></i>
+                      <span>Tata Memorial Centre Patient Welfare schemes</span>
+                    </div>
 
-  <div className='d-flex align-items-start mb-3'>
-    <i className="fas fa-check me-2 line_ht"></i>
-    <span>PM-JAY (Ayushman Bharat) scheme</span>
-  </div>
+                    <div className="d-flex align-items-start mb-3">
+                      <i className="fas fa-check me-2 line_ht"></i>
+                      <span>PM-JAY (Ayushman Bharat) scheme</span>
+                    </div>
 
-  <div className='d-flex align-items-start mb-3'>
-    <i className="fas fa-check me-2 line_ht"></i>
-    <span>State government health insurance schemes</span>
-  </div>
+                    <div className="d-flex align-items-start mb-3">
+                      <i className="fas fa-check me-2 line_ht"></i>
+                      <span>State government health insurance schemes</span>
+                    </div>
 
-  <div className='d-flex align-items-start mb-3'>
-    <i className="fas fa-check me-2 line_ht"></i>
-    <span>Corporate CSR programs (Tata Trusts, Reliance Foundation)</span>
-  </div>
+                    <div className="d-flex align-items-start mb-3">
+                      <i className="fas fa-check me-2 line_ht"></i>
+                      <span>
+                        Corporate CSR programs (Tata Trusts, Reliance
+                        Foundation)
+                      </span>
+                    </div>
 
-  <div className='d-flex align-items-start mb-3'>
-    <i className="fas fa-check me-2 line_ht"></i>
-    <span>Pharmaceutical company patient assistance programs</span>
-  </div>
+                    <div className="d-flex align-items-start mb-3">
+                      <i className="fas fa-check me-2 line_ht"></i>
+                      <span>
+                        Pharmaceutical company patient assistance programs
+                      </span>
+                    </div>
 
-  <div className='d-flex align-items-start mb-3'>
-    <i className="fas fa-check me-2 line_ht"></i>
-    <span>Indian Cancer Society support programs</span>
-  </div>
+                    <div className="d-flex align-items-start mb-3">
+                      <i className="fas fa-check me-2 line_ht"></i>
+                      <span>Indian Cancer Society support programs</span>
+                    </div>
 
-  <div className='d-flex align-items-start'>
-    <i className="fas fa-check me-2 line_ht"></i>
-    <span>Local charitable trusts and NGOs</span>
-  </div>
-</div>
+                    <div className="d-flex align-items-start">
+                      <i className="fas fa-check me-2 line_ht"></i>
+                      <span>Local charitable trusts and NGOs</span>
+                    </div>
+                  </div>
 
                   {/* <ul className="ps-4 text-start list-unstyled">
                     <li>
@@ -2129,26 +2240,32 @@ function Myths() {
                     <h6>Government Healthcare Schemes</h6>
                   </div>
                   <div>
-  <div className='d-flex align-items-start text-start mb-3'>
-    <i className="fas fa-check me-2 line_ht"></i>
-    <span>Ayushman Bharat Pradhan Mantri Jan Arogya Yojana (PM-JAY)</span>
-  </div>
+                    <div className="d-flex align-items-start text-start mb-3">
+                      <i className="fas fa-check me-2 line_ht"></i>
+                      <span>
+                        Ayushman Bharat Pradhan Mantri Jan Arogya Yojana
+                        (PM-JAY)
+                      </span>
+                    </div>
 
-  <div className='d-flex align-items-left mb-3'>
-    <i className="fas fa-check me-2 line_ht"></i>
-    <span>Rashtriya Swasthya Bima Yojana (RSBY)</span>
-  </div>
+                    <div className="d-flex align-items-left mb-3">
+                      <i className="fas fa-check me-2 line_ht"></i>
+                      <span>Rashtriya Swasthya Bima Yojana (RSBY)</span>
+                    </div>
 
-  <div className='d-flex align-items-start mb-3'>
-    <i className="fas fa-check me-2 line_ht"></i>
-    <span>State-specific health insurance schemes</span>
-  </div>
+                    <div className="d-flex align-items-start mb-3">
+                      <i className="fas fa-check me-2 line_ht"></i>
+                      <span>State-specific health insurance schemes</span>
+                    </div>
 
-  <div className='d-flex align-items-start'>
-    <i className="fas fa-check me-2 line_ht"></i>
-    <span>Employee State Insurance (ESI) for organized sector workers</span>
-  </div>
-</div>
+                    <div className="d-flex align-items-start">
+                      <i className="fas fa-check me-2 line_ht"></i>
+                      <span>
+                        Employee State Insurance (ESI) for organized sector
+                        workers
+                      </span>
+                    </div>
+                  </div>
 
                   {/* <ul className="ps-4 text-start list-unstyled">
                     <li>
@@ -2176,7 +2293,7 @@ function Myths() {
       </section>
 
       {/* block 10 */}
-      <section className="py-5 bg-light final_thought">
+      <section className="py-5 bg-light final_thought px-2">
         <div className="text-center mb-5">
           <h2 className="section-title">Final Thoughts</h2>
         </div>

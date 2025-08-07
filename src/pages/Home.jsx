@@ -13,7 +13,7 @@ import for_hospital from "../assets/for_hospital.jpg";
 import for_insurance from "../assets/for_insurance.jpg";
 import home_banner from "../assets/home_banner.jpg";
 import { Link } from "react-router-dom";
-import doctorImage from '../assets/doctor.jpg';
+import doctorImage from "../assets/doctor.jpg";
 
 const Home = () => {
   const section4Ref = useRef(null);
@@ -27,41 +27,41 @@ const Home = () => {
   return (
     <>
       {/* Banner Section */}
-      <section className="bg-image-home  ">
-        <div className="container-fluid ">
-          <div className="row align-items-center  pt-5 pb-5 ps-3 pe-4">
-            <div className="col-md-6 col-lg-6  col-sm-7 ">
-              <h1 className="home_banner_heading ">
-                Bridging cancer care and technology.
-              </h1>
-              <h5 className="home_banner_subheading">
-                We connect patients, providers <br />
-                and data for a better tomorrow
-              </h5>
-              {/* <Link to="/secondoption" target="_blank" className="btn btn-primary me-3 px-4 py-2 mb-4">Get Your Second Opinion</Link> */}
-              <Link
-                to="/secondopinion"
-                className="read-more-btn px-4 py-2 mb-4"
-              >
-                Begin Your Journey
-              </Link>
-            </div>
+      <section className="bg-image-home">
+  <div className="container-fluid">
+    <div className="row align-items-center pt-5 pb-5 px-lg-5 px-md-4 px-3">
+      
 
-            <div className="col-md-6 col-lg-6  col-sm-5">
-              <img
-                src={home_banner}
-                className="img-fluid "
-                alt="Example Image"
-              />
-              {/* <img
-                  src={myths_bg}
-                  className="img-fluid bg_question_right d-none d-lg-block d-sm-block d-md-none"
-                  alt="Example Image"
-                /> */}
-            </div>
-          </div>
-        </div>
-      </section>
+      <div className="col-md-6 col-lg-6 col-sm-12 text-center text-md-end pe-lg-5 pe-md-4 pe-sm-3 order-1 order-md-2 mb-4 mb-md-0">
+        <img
+          src={home_banner}
+          className="img-fluid home-banner-img"
+          alt="Doctor holding patient hand"
+          style={{ borderRadius: "12px" }}
+        />
+      </div>
+
+      
+      <div className="col-md-6 col-lg-6 col-sm-12 text-start ps-lg-5 ps-md-4 ps-sm-3 order-2 order-md-1">
+        <h1 className="home_banner_heading">
+          <span className="fw-bold display-5 mb-5 " style={{ color: "var(--primary) !important" }}>Expert</span>
+          <span className="fw-normal " style={{ color: "var(--primary) !important" }}>View</span>
+        </h1>
+        <h5 className="home_banner_subheading mb-4" style={{ color: "var(--primary) !important" }}>
+          Elevating Cancer Care through <br /> Second Opinion
+        </h5>
+
+        <Link to="/secondopinion" className="btn startjourney px-4 py-2 mt-4 ">
+          Start your journey
+        </Link>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
       {/* <section className="hero-banner d-flex align-items-center text-white">
         <div className="container">
           <div className="row align-items-center">
@@ -498,58 +498,12 @@ const Home = () => {
             <div className="col-md-6">
               <div className="hero-alt-image-box">
                 <div className="row ">
-                  {/* <div class="container py-5">
-                    <div class="row g-4 justify-content-center">
-                      <div class="col-md-6 col-lg-5 challenge_card">
-                        <div class="card h-100 shadow">
-                          <div class="card-body">
-                            <h5 class="card-title">13.9 L</h5>  
-                            <p class="card-text">New cancer case in India annually</p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-md-6 col-lg-5 challenge_card">
-                        <div class="card h-100 shadow">
-                          <div class="card-body">
-                            <h5 class="card-title">75%</h5>
-                            <p class="card-text">Patients diagnosed in advanced stages</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="row g-4 justify-content-center mt-4">
-                      <div class="col-md-6 col-lg-5 challenge_card">
-                        <div class="card h-100 shadow">
-                          <div class="card-body">
-                            <h5 class="card-title">8-15</h5>
-                            <p class="card-text">Months to access specialized care</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div> */}
-
-                  {/* <div className="col-md-12">
-                    <div className="card">
-                      <p>13.9 L</p>
-                      <p>caner dfgdh udghjdfhgdfert </p>
-                    </div>
-                    <div className="card">
-                      <p>13.9 L</p>
-                      <p>caner dfgdh udghjdfhgdfert </p>
-                    </div>
-
-                    <div className="card">
-                      <p>13.9 L</p>
-                      <p>caner dfgdh udghjdfhgdfert </p>
-                    </div>                 
-                     </div> */}
                 </div>
                 <img
-  src={doctorImage}
-  alt="Empathy in Cancer Care"
-  className="img-fluid rounded-4 hero-image"
-/>
+                  src={doctorImage}
+                  alt="Empathy in Cancer Care"
+                  className="img-fluid rounded-4 doctorimage"
+                />
               </div>
             </div>
 
@@ -631,7 +585,7 @@ const Home = () => {
                     network that serves everyone from Mumbai's corporate
                     hospitals to primary health centres in rural Rajasthan.
                   </p>
-                  <Link className="read-more-btn" to="/contact">
+                  <Link className="read-more-btn reachout-btn" to="/contact">
                     Reach Out
                   </Link>
                 </div>

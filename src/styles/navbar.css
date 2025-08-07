@@ -1,3 +1,12 @@
+
+
+
+
+
+
+
+
+
 .custom-navbar {
   background-color: #c0e2f5;;
   padding: 0.1rem 0;
@@ -13,10 +22,7 @@
 
 
 
-.custom-navbar.scrolled {
-  padding: 0.4rem 0;
-  background-color: #fff;
-}
+
 
 /* Default navbar */
 .navbar-container {
@@ -30,10 +36,6 @@
   transition: padding 0.3s ease;
 }
 
-/* When scrolled - shrink navbar height */
-.scrolled .navbar-container {
-  padding: 0px 2rem; 
-}
 
 
 
@@ -66,11 +68,7 @@
   transition: all 0.3s ease; 
 }
 
-.scrolled .navbar-logo::before {
-  width: 120px;      
-  height: 95px;     
-  top: 0;          
-}
+
 
 
 @media (max-width: 991px) {
@@ -300,3 +298,254 @@
   color: #194d63;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ===========================
+   Custom Navbar - Clean Version
+=========================== */
+
+.custom-navbar {
+  background-color: #c0e2f5;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+/* Navbar main container */
+.navbar-container {
+  display: flex;
+  justify-content: flex-start; /* Logo left, content right */
+  align-items: stretch;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+/* ===========================
+   Logo Section
+=========================== */
+.navbar-logo {
+  font-size: 2rem;
+  font-weight: 700;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.navbar-logo:hover {
+  color: var(--secondary);
+  cursor: pointer;
+}
+
+/* Logo image */
+.navbar-logo::before {
+  content: "";
+  display: inline-block;
+  width: 200px;      
+  height: 151px;     
+  background: url('../assets/2.png');
+  background-size: 102%;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: -5px;
+  left: 0px;
+  background-color: #fff;
+  transition: all 0.3s ease; 
+}
+
+@media (max-width: 991px) {
+  .navbar-logo::before {
+    background-image: none;
+    background-color: transparent;
+  }
+}
+
+/* ===========================
+   Right Section (Strips + Menu)
+=========================== */
+.navbar-right-section {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Top white strip */
+.navbar-top-strip {
+  height: 40px;
+  background-color: #fff;
+  width: 100%;
+}
+
+/* Middle blue strip for menu */
+.navbar-middle-strip {
+  background-color: #c0e2f5;
+  display: flex;
+  height: 65px;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 2rem;
+  width: 100%;
+  box-sizing: border-box;
+  border-bottom: 10px solid #0077c2; /* ✅ Blue strip line under menu */
+}
+
+/* Bottom white strip */
+.navbar-bottom-strip {
+  height: 40px;
+  background-color: #fff;
+  width: 100%;
+}
+
+/* ===========================
+   Menu Styles
+=========================== */
+.navbar-menu {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  margin: 0;
+  padding: 30px 3px;
+}
+
+.navbar-menu li {
+  position: relative;
+}
+
+.navbar-menu a {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #000;
+  text-decoration: none;
+  position: relative;
+  overflow: hidden;
+  padding: 0.3rem 0.5rem;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.navbar-menu a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 3px;
+  background-color: var(--primary);
+  transition: 0.3s ease;
+}
+
+.navbar-menu a:hover::after {
+  width: 100%;
+}
+
+.navbar-menu a:hover {
+  color: #000;
+}
+
+/* ===========================
+   Mobile Adjustments
+=========================== */
+@media (max-width: 768px) {
+  .navbar-container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  .navbar-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease;
+  }
+
+  .navbar-menu.open {
+    max-height: max-content;
+    opacity: 1;
+    pointer-events: auto;
+    gap: 13px;
+  }
+
+  .navbar-middle-strip {
+    justify-content: space-between;
+    padding: 0 1rem;
+  }
+}
+
+
+
+
+@media (max-width: 768px) {
+
+  .navbar-top-strip{
+    display: none;
+  }
+  .navbar-bottom-strip{
+    display: none;
+  }
+  .navbar-middle-strip{
+    border-bottom: none;
+  }
+  .hamburger {
+    margin-left: 160px;
+  }
+  
+}

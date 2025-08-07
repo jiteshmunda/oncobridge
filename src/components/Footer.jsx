@@ -3,7 +3,7 @@ import { NavLink, Link } from "react-router-dom";
 import footerlogo from '../assets/logo_bg.jpeg';
 function Footer() {
   return (
-    <footer className="bg-white text-dark pt-5 pb-4 footer">
+    <footer className="bg-white text-dark pt-5 pb-4 footer px-2">
       <div className="container">
         <div className="row">
           {/* Brand Description */}
@@ -126,7 +126,7 @@ function Footer() {
                   <i className="fab fa-facebook-f"></i>
                 </Link>
                 <Link to="https://x.com/OncoBridge?t=b0ixO1WXQ-4UlIlO56b4wg&s=09" target="_blank" className="social-icon" aria-label="Twitter">
-                  <i className="fab fa-twitter"></i>
+                  <i className="fab fa-x"></i>
                 </Link>
                 <Link to="https://www.linkedin.com/in/oncobridge-b3204b375/" target="_blank" className="social-icon" aria-label="LinkedIn">
                   <i className="fab fa-linkedin-in"></i>

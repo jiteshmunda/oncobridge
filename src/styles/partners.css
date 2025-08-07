@@ -1,0 +1,216 @@
+.partners-hero {
+  background: #fff;
+}
+
+.iylon-logo {
+  max-width: 280px;
+}
+
+.partners-right-img {
+  max-width: 90%;
+}
+
+.partners-details {
+  background-color: #f8f9fa;
+}
+
+.partners-list {
+  max-width: 800px;
+  margin: 0 auto;
+  padding-left: 20px;
+}
+
+.partners-list li {
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+.partners-hero {
+  background: #fff;
+  padding: 100px 0; /* More top and bottom spacing */
+}
+
+.partners-hero .row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.partners-left {
+  text-align: left;
+  padding-left: 110px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.partners-right {
+  text-align: right;
+  padding-right: 110px;
+}
+
+.partners-heading {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #0288d1;
+  margin-bottom: 2rem;
+}
+
+/* Make Iylon logo bigger */
+.iylon-logo {
+  max-width: 430px;
+  width: 100%;
+  display: block;
+  margin-top: 10px;
+}
+
+.partners-right-img {
+  max-width: 480px;
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+/* Section 2 styling */
+.partners-details {
+  background-color: #f8f9fa;
+  padding: 80px 120px;
+  text-align: left;
+}
+
+/* Heading */
+.partners-details .section-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.partners-list {
+  list-style-type: disc;
+  padding-left: 0;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  max-width: 100%;
+}
+
+.partners-list li {
+  margin-bottom: 12px;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Paragraph and links */
+.partners-details p {
+  max-width: 900px;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #444;
+}
+
+.partners-details a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.partners-details a:hover {
+  text-decoration: underline;
+}
+
+/* Paragraph and links in Section 2 */
+.partners-details p {
+  max-width: 900px;
+  font-size: 1.2rem;
+  line-height: 1.7;
+  color: #444;
+}
+
+.partners-details a {
+  color: #007bff;
+  font-weight: 600;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.partners-details a:hover {
+  text-decoration: underline;
+}
+
+/* ========== RESPONSIVE BREAKPOINTS ========== */
+
+/* Tablets and below */
+@media (max-width: 992px) {
+  .partners-hero {
+    padding: 60px 0;
+  }
+
+  .partners-left,
+  .partners-right {
+    padding: 40px 40px;
+    text-align: center;
+  }
+
+  .partners-right {
+    margin-top: 30px;
+  }
+
+  .partners-heading {
+    font-size: 1.8rem;
+    text-align: left;
+  }
+
+  .partners-details {
+    padding: 60px 40px;
+  }
+
+  .partners-details .section-title {
+    font-size: 1.6rem;
+  }
+
+  .partners-list li {
+    font-size: 1rem;
+  }
+}
+
+/* Mobile phones */
+@media (max-width: 576px) {
+  .partners-hero {
+    padding: 40px 0;
+  }
+
+  .partners-left,
+  .partners-right {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .partners-heading {
+    font-size: 1.5rem;
+    text-align: left;
+  }
+
+  .iylon-logo {
+    max-width: 280px;
+  }
+
+  .partners-right-img {
+    max-width: 320px;
+  }
+
+  .partners-details {
+    padding: 40px 20px;
+  }
+
+  .partners-details .section-title {
+    font-size: 1.4rem;
+  }
+
+  .partners-list li {
+    font-size: 0.95rem;
+  }
+
+  .partners-details p,
+  .partners-details a {
+    font-size: 1rem;
+  }
+}

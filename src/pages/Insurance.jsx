@@ -42,7 +42,7 @@ function Insurance() {
       <section className="py-5 bg-light">
         <div className="container">
           <div class="text-center mb-5">
-            <h2 class="section-title fw-bold">
+            <h2 class="section-title fw-bold responsive-heading">
               Driving Value Through Informed Oncology Decisions
             </h2>
           </div>

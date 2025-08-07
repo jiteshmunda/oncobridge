@@ -11,15 +11,13 @@
   color: #ffffff;
 }
 
-
 .disclaimer-banner {
-  background-image: url('/src/assets/disclaimer.jpg'); 
+  background-image: url("/src/assets/disclaimer.jpg");
   background-position: center;
   height: 79vh;
   position: relative;
   overflow: hidden;
   background-size: cover;
-
 }
 
 .disclaimer-banner .overlay {
@@ -35,11 +33,6 @@
 .disclaimer-banner .container {
   z-index: 1;
 }
-
-
-
-
-
 
 .disclaimer-section {
   padding: 60px 0;
@@ -70,7 +63,6 @@
   overflow-y: auto;
 }
 
-/* Ensure specific elements inside also get white color */
 .disclaimer-menu h5,
 .disclaimer-menu span,
 .disclaimer-menu .arrow {
@@ -87,14 +79,11 @@
   transition: background 0.3s ease;
 }
 
-
-
 /* Active state overrides */
 .disclaimer-item.active h5,
 .disclaimer-item.active .arrow {
-  color: #ffffff !important; 
+  color: #ffffff !important;
 }
-
 
 .disclaimer-item h5 {
   margin: 0;
@@ -109,7 +98,7 @@
   flex: 2;
   background-color: #ffffff;
   padding: 40px;
-   border: 1px solid #f1f1f1; 
+  border: 1px solid #f1f1f1;
 }
 
 .disclaimer-content h3 {
@@ -133,27 +122,11 @@
   color: #555;
 }
 
-
-
-
 /* Arrow hover animation ONLY */
 .disclaimer-item:hover .arrow {
   transform: translateX(5px);
   transition: transform 0.3s ease;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Content Styling */
 .disclaimer-text p,
@@ -179,9 +152,6 @@
   text-decoration: underline;
 }
 
-
-
-
 .disclaimer-text ul {
   list-style: none;
   padding-left: 0;
@@ -197,7 +167,7 @@
 }
 
 .disclaimer-text ul li::before {
-  content: "✔"; 
+  content: "✔";
   position: absolute;
   left: 0;
   top: 2px;
@@ -206,30 +176,17 @@
   font-size: 16px;
 }
 
-
-
-
-
-
-
-
 .disclaimer-main-heading {
   font-size: 2.5rem;
   font-weight: 700;
   color: #154360;
   text-align: center;
-
 }
-
-
-
-
-
 
 .terms-timeline-section {
   background: linear-gradient(to bottom, #f0f9ff, #e0f2fe);
   padding: 2rem 2rem;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .terms-timeline-title {
@@ -364,23 +321,6 @@
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .terms-timeline-content ul {
   list-style: none;
   padding-left: 1.5rem;
@@ -397,7 +337,7 @@
 }
 
 .terms-timeline-content ul li::before {
-   content: "✔"; 
+  content: "✔";
   position: absolute;
   left: 0;
   top: 2px;
@@ -411,10 +351,9 @@
     position: relative;
     padding-left: 0;
   }
-.disclaimer-menu {
-    
+  .disclaimer-menu {
     width: auto;
     max-width: 400px;
-    overflow-y:clip;
-}
+    overflow-y: clip;
+  }
 }

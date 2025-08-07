@@ -1,21 +1,17 @@
-
 .career-page {
   padding: 60px 80px;
   /* background: #fff; */
 }
 
-.key_respon 
-{
+.key_respon {
   margin-bottom: 5px;
 }
-
 
 .career-header {
   text-align: left;
   margin-bottom: 40px;
   max-width: 600px;
 }
-
 
 .career-header .tag {
   display: inline-block;
@@ -41,7 +37,6 @@
   line-height: 1.6;
 }
 
-
 .filter-btn {
   padding: 8px 18px;
   border: 1px solid #dcdcdc;
@@ -50,15 +45,14 @@
   font-size: 14px;
   cursor: pointer;
   transition: background 0.2s ease;
-      margin-bottom: 13px;
+  margin-bottom: 13px;
 }
 
 .filter-btn:hover {
   background: #f3f3f3;
-   color: #194d63;
+  color: #194d63;
 }
-.filter-btn
-{
+.filter-btn {
   color: #194d63;
 }
 .filter-btn.active {
@@ -79,8 +73,6 @@
   border-top: 1px solid #eaeaea;
   padding: 20px 0;
   flex-wrap: wrap;
-  
-
 
   flex-direction: row;
   gap: 8px;
@@ -88,20 +80,18 @@
   padding: 20px 0;
   cursor: pointer;
   margin-right: 62vh;
-    
 }
 @media (min-width: 768px) {
   .job-card {
-      width: 26%;
+    width: 26%;
   }
 }
-.job-popup-link 
-{
-      text-decoration: underline;
+.job-popup-link {
+  text-decoration: underline;
 }
-.popup-scroll h2 , .popup-scroll h4
-{
-    color: #194d63;
+.popup-scroll h2,
+.popup-scroll h4 {
+  color: #194d63;
 }
 .job-card h3 {
   margin: 0 0 8px;
@@ -122,8 +112,8 @@
   color: #555;
 }
 
-.career-page a{
-    color: #01579B;;
+.career-page a {
+  color: #01579b;
 }
 
 .job-tags span {
@@ -148,12 +138,6 @@
   text-decoration: underline;
 }
 
-
-
-
-
-
-
 .close-btn {
   position: absolute;
   top: 25px;
@@ -170,9 +154,6 @@
   color: #000;
 }
 
-
-
-
 .job-popup {
   position: fixed;
   top: 0;
@@ -185,7 +166,7 @@
   justify-content: center;
   align-items: center;
   animation: fadeIn 0.3s ease;
-  overflow: hidden; /* prevent outer scroll */
+  overflow: hidden;
 }
 
 .popup-content {
@@ -219,7 +200,7 @@
 .popup-content > .popup-scroll {
   overflow-y: auto;
   padding-right: 16px;
-  margin-right: -16px; /* hides raw scrollbar */
+  margin-right: -16px;
   flex-grow: 1;
 }
 
@@ -236,10 +217,6 @@
   background-color: transparent;
 }
 
-
-
-
-
 .filters-row {
   display: flex;
   justify-content: space-between;
@@ -248,7 +225,7 @@
   margin-top: 34px;
   gap: 16px;
   margin-bottom: 28px;
-   margin-right: 45vh;
+  margin-right: 45vh;
 }
 
 .filters {
@@ -267,7 +244,7 @@
 
   width: 240px;
   flex-shrink: 0;
-      margin-bottom: 12px;
+  margin-bottom: 12px;
 }
 
 .search-input:focus {
@@ -275,19 +252,9 @@
   border-color: #1a1a1a;
 }
 
-
-
-
-.footer-text{
-    margin-top: 30px;
+.footer-text {
+  margin-top: 30px;
 }
-
-
-
-
-
-
-
 
 /* Mobile view */
 @media (max-width: 576px) {
@@ -298,7 +265,6 @@
   .career-header h1 {
     font-size: 24px;
   }
-
 
   .filters-row {
     flex-direction: column;
@@ -390,10 +356,9 @@
     font-size: 30px;
   }
 
-.filters-row ul li 
-{
-margin-bottom: 12px;
-}
+  .filters-row ul li {
+    margin-bottom: 12px;
+  }
   .filters-row {
     flex-direction: column;
     align-items: stretch;
@@ -442,13 +407,10 @@ margin-bottom: 12px;
   }
 }
 
-
-
-
 /* ↓↓↓ Tablet view ↓↓↓ */
 @media (max-width: 992px) {
   .bg-image-career {
-    min-height: 200px; /* reduced height for tablets */
+    min-height: 200px;
   }
 
   .overlay-content {
@@ -463,7 +425,7 @@ margin-bottom: 12px;
 /* ↓↓↓ Mobile view ↓↓↓ */
 @media (max-width: 576px) {
   .bg-image-career {
-    min-height: 140px; /* smaller height for mobile */
+    min-height: 140px;
   }
 
   .overlay-content {
@@ -474,10 +436,6 @@ margin-bottom: 12px;
     font-size: 22px;
   }
 }
-
-
-
-
 
 .apply-link {
   display: inline-flex;
@@ -506,7 +464,6 @@ margin-bottom: 12px;
 .apply-link svg {
   stroke-width: 2;
 }
-
 
 .application-form {
   margin-top: 24px;
@@ -553,4 +510,46 @@ margin-bottom: 12px;
 
 .submit-btn:hover {
   background-color: #194d63;
+}
+
+/* Tablet and below */
+@media (max-width: 992px) {
+  .filters-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+
+  .filters-row .nav {
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .filters-row .search-input {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+  .filters-row .nav {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 8px;
+  }
+
+  .filters-row .nav::-webkit-scrollbar {
+    display: none;
+  }
+
+  .filters-row .nav-item {
+    flex: 0 0 auto;
+  }
+
+  .filters-row .search-input {
+    width: 100%;
+    font-size: 0.95rem;
+  }
 }

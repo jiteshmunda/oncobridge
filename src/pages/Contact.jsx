@@ -79,7 +79,7 @@ function Contact() {
 
   return (
     <>
-      <section className="text-center">
+      {/* <section className="text-center">
         <div className="container-fluid px-0">
           <div className="row gx-0 align-items-left">
             <div className="bg-image-contact d-flex justify-content-left align-items-center text-left text-white">
@@ -93,13 +93,44 @@ function Contact() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
-      <section className="section contact_block">
-        <div className="container my-5">
-          <div className="text-center mb-5">
+     <section className="contact-section py-5 banner-contact">
+  <div className="container-fluid">
+    <div className="row align-items-center px-lg-5 px-md-4 px-3">
+
+      {/* Left Side Content */}
+      <div className="col-md-6 col-lg-6 col-sm-12 text-start mb-4 mb-md-0 ps-lg-5 ps-md-4 ps-sm-3">
+        <h1 className=" fw-bold display-5 getintouch animate__animated animate__fadeIn about-title">
+          Get in Touch
+        </h1>
+      </div>
+
+      {/* Right Side Image with White Overlay */}
+      <div className="col-md-6 col-lg-6 col-sm-12 text-center position-relative pe-lg-5 pe-md-4 pe-sm-3">
+        <div className="image-overlay-container">
+          <img
+            src="../src/assets/Contact2.jpg"
+            className="img-fluid"
+            alt="Contact illustration"
+            style={{ borderRadius: "12px", maxHeight: "420px" }}
+          />
+          <div className="white-overlay"></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+
+      <section className="section contact_block ">
+        <div className="container my-5 ">
+          {/* <div className="text-center mb-5">
             <h1 className="fw-bold">Contact Us</h1>
-          </div>
+          </div> */}
 
           {/* Status Alert */}
           {status.message && (
@@ -113,10 +144,10 @@ function Contact() {
             </div>
           )}
 
-          <div className="row">
+          <div className="row ">
             {/* Contact Details */}
-            <div className="col-md-5 mb-4">
-              <div className="text-justify rounded-4 contact_us_left p-3">
+            <div className="col-md-5 mb-4 ">
+              <div className="text-justify rounded-4 contact_us_left p-3 mb-0 p-md-3">
                 <div className="d-flex flex-column align-items-md-start align-items-center text-md-start text-center mb-3">
                   <i className="fas fa-map-marker-alt mb-1"></i>
                   <strong>Address:</strong>
