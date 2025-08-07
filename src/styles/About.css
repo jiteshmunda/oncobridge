@@ -27,11 +27,10 @@
 /* Right Image Sticky */
 .about-image-wrapper {
   position: sticky;
-  top: 160px;
+  top: 220px;
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  padding-top: 40px;
 }
 
 .about-sticky-image {
@@ -122,4 +121,35 @@
   .about-section p {
     font-size: 0.95rem;
   }
+  
 }
+
+@media (max-width: 991px) {
+  .extra-space-bottom {
+    margin: 0 !important;
+  }
+}
+
+
+
+
+
+@media (max-width: 991px) {
+  h1.extra-space-bottom {
+    margin-bottom: 10px !important;
+    margin-top: 2rem !important; 
+  }
+}
+
+
+
+
+
+
+
+
+.extra-space-bottom {
+  margin-bottom: 15rem !important;
+  margin-top: 4rem;
+}
+

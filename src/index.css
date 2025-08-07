@@ -7,6 +7,8 @@ html {
   scroll-behavior: smooth;
 }
 
+
+
 /* Offset scroll for fixed navbar */
 [id] {
   scroll-margin-top: 124px; /* adjust to your navbar height */

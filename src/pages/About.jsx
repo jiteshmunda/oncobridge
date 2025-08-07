@@ -38,18 +38,11 @@ function About() {
           {/* Left Content Scroll */}
           <div className="col-lg-6 col-md-6 about-content" ref={leftContentRef}>
             <div className="m-lg-5">
-              <h1 className="fw-bold display-5 mb-3 animate__animated animate__fadeIn about-title">
+              <h1 className="fw-bold display-5 mb-3 animate__animated animate__fadeIn about-title extra-space-bottom">
                 Erasing Cancer,
                 <br /> Embracing Life
               </h1>
 
-              {/* <h5>Vision Statement</h5>
-              <p>
-                To democratize access to world-class cancer diagnostics and
-                expert medical opinions, empowering every patient in India and
-                beyond to make confident, informed decisions in their cancer
-                journey.
-              </p> */}
               <p>
                 We empower cancer patients in India and beyond by providing
                 trusted access to world-class diagnostics and expert medical
@@ -59,25 +52,7 @@ function About() {
                 patient make confident, informed decisions, improve treatment
                 outcomes, and bring peace of mind to them and their families.
               </p>
-              {/* <h5>Mission Statement</h5>
-              <p>
-                At OncoBridge, we are building a trusted bridge between patients
-                and the world’s leading cancer experts. We deliver precision
-                diagnostics and global second opinions through a seamless,
-                tech-enabled platform — combining cutting-edge tools,
-                compassionate care, and medical excellence to improve outcomes
-                and bring peace of mind to patients and their families.
-              </p>
-              <p>
-                Our platform ensures timely access to the right diagnosis,
-                reduces uncertainty for patients, and empowers doctors to
-                collaborate globally, driving better cancer care.
-              </p>
-              <p>
-                By combining innovation, expertise, and empathy, OncoBridge
-                strives to transform the cancer journey into a path of hope and
-                confidence.
-              </p> */}
+              
             </div>
           </div>
 
