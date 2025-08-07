@@ -109,20 +109,6 @@ export default function CareerPage() {
             <li className="nav-item ms-2" role="presentation">
               <button
                 className="nav-link filter-btn"
-                id="pills-doctors-tab"
-                data-bs-toggle="pill"
-                data-bs-target="#pills-carr-two"
-                type="button"
-                role="tab"
-                aria-controls="pills-carr-two"
-                aria-selected="false"
-              >
-                Patient Support
-              </button>
-            </li>
-            <li className="nav-item ms-2" role="presentation">
-              <button
-                className="nav-link filter-btn"
                 id="pills-contact-tab"
                 data-bs-toggle="pill"
                 data-bs-target="#pills-carr-three"
@@ -199,27 +185,7 @@ export default function CareerPage() {
               </div>
             </div>
           </div>
-          <div
-            className="tab-pane fade show"
-            id="pills-carr-two"
-            role="tabpanel"
-            aria-labelledby="pills-patients-tab"
-          >
-            <div className="job-list">
-              <div
-                className="job-card clickable"
-                onClick={() => openModal("PN001")}
-              >
-                <h3>Patient Navigator</h3>
-                <p className="job-code">Job Code: PN001</p>
-                <p className="job-code">Location: </p>
-                <p className="job-code">Employment Type: </p>
-                <span className="job-popup-link">
-                  View Details <FiArrowUpRight />
-                </span>
-              </div>
-            </div>
-          </div>
+
           <div
             className="tab-pane fade show"
             id="pills-carr-three"

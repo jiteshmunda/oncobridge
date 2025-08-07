@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import second_op1 from "../assets/second_op1.jpg";
+import second_op1 from "../assets/doctor-patient.jpg";
 import second_opt2 from "../assets/second_opt2.jpg";
 import second_opt3 from "../assets/second_opt3.jpg";
 import "../styles/SecondOpinion.css";

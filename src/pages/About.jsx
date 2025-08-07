@@ -18,14 +18,12 @@ function About() {
       const atTop = scrollTop === 0;
       const atBottom = scrollTop + clientHeight >= scrollHeight;
 
-     
       if ((!atTop && e.deltaY < 0) || (!atBottom && e.deltaY > 0)) {
         e.preventDefault();
         leftContent.scrollTop += e.deltaY;
       }
     };
 
-    
     rightWrapper.addEventListener("wheel", handleWheel, { passive: false });
 
     return () => {
@@ -45,14 +43,23 @@ function About() {
                 <br /> Embracing Life
               </h1>
 
-              <h5>Vision Statement</h5>
+              {/* <h5>Vision Statement</h5>
               <p>
                 To democratize access to world-class cancer diagnostics and
                 expert medical opinions, empowering every patient in India and
                 beyond to make confident, informed decisions in their cancer
                 journey.
+              </p> */}
+              <p>
+                We empower cancer patients in India and beyond by providing
+                trusted access to world-class diagnostics and expert medical
+                opinions. Through our seamless, tech-driven platform, we connect
+                patients with leading cancer specialists, delivering precision
+                insights and compassionate support. Our goal is to help every
+                patient make confident, informed decisions, improve treatment
+                outcomes, and bring peace of mind to them and their families.
               </p>
-              <h5>Mission Statement</h5>
+              {/* <h5>Mission Statement</h5>
               <p>
                 At OncoBridge, we are building a trusted bridge between patients
                 and the world’s leading cancer experts. We deliver precision
@@ -70,7 +77,7 @@ function About() {
                 By combining innovation, expertise, and empathy, OncoBridge
                 strives to transform the cancer journey into a path of hope and
                 confidence.
-              </p>
+              </p> */}
             </div>
           </div>
 

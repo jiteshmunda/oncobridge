@@ -110,9 +110,8 @@ function Contact() {
       <div className="col-md-6 col-lg-6 col-sm-12 text-center position-relative pe-lg-5 pe-md-4 pe-sm-3">
         <div className="image-overlay-container">
           <img
-            src="../src/assets/Contact2.jpg"
+            src="../src/assets/Contacts2.jpg"
             className="img-fluid"
-            alt="Contact illustration"
             style={{ borderRadius: "12px", maxHeight: "420px" }}
           />
           <div className="white-overlay"></div>
