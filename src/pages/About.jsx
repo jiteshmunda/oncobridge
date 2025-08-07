@@ -43,7 +43,7 @@ function About() {
                 <br /> Embracing Life
               </h1>
 
-              <p>
+              <p className="para-font-size">
                 We empower cancer patients in India and beyond by providing
                 trusted access to world-class diagnostics and expert medical
                 opinions. Through our seamless, tech-driven platform, we connect
