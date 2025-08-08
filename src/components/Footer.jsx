@@ -36,9 +36,9 @@ function Footer() {
             <div className='d-flex mb-2'>
               <i className="fas fa-map-marker-alt me-2 mt-1"></i>
               <p className="mb-0">
-                18-2, Ground Floor, <br />4th Street
-                Gokulam Colony,<br /> PN Pudur
-                Coimbatore - 641041,<br />
+                18-2, 4th Street, <br />
+                Gokulam Colony, PN Pudur,<br />
+                Coimbatore - 641041<br />
                 Tamil Nadu, India
               </p>
             </div>
@@ -54,7 +54,7 @@ function Footer() {
           {/* Social Media Icons */}
           <div className="col-md-12 col-lg-2 col-sm-12 mb-4">
             <h5 className="fw-bold mb-3 footer_heading">Follow Us</h5>
-            <div className="d-flex gap-3 mt-3">
+            <div className="d-flex gap-2 mt-3">
               <Link to="https://www.facebook.com/share/1WvrTsomYM/" target="_blank" className="social-icon" aria-label="Facebook">
                 <i className="fab fa-facebook-f"></i>
               </Link>

@@ -2,16 +2,13 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-/* Smooth scrolling for all anchor links */
 html {
   scroll-behavior: smooth;
 }
 
 
-
-/* Offset scroll for fixed navbar */
 [id] {
-  scroll-margin-top: 124px; /* adjust to your navbar height */
+  scroll-margin-top: 124px; 
 }
 
 

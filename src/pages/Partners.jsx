@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import iylonLogo from "../assets/iylon logo.jpeg"; // your new logo
-import teamImage from "../assets/partners image.jpg"; // replace with your right-side image
+import iylonLogo from "../assets/iylon logo.jpeg";
+import teamImage from "../assets/partners image.jpg";
 import "../styles/partners.css";
 
 function Partners() {
@@ -12,7 +12,7 @@ function Partners() {
         <div className="row gx-0 w-100">
           {/* Left */}
           <div className="col-md-6 partners-left">
-            <h2 className="fw-bold text-primary mb-4 partners-heading">
+            <h2 className="fw-bold mb-4 partners-heading">
               Proudly partnering with
             </h2>
             <img
@@ -37,7 +37,7 @@ function Partners() {
       <section className="partners-details py-4">
         <div className="container">
           <div className="text-start">
-            <h2 className="section-title fw-bold mb-4">
+            <h2 className="section-title fw-bold mb-4 ">
               Advancing Precision Oncology with Iylon
             </h2>
             <ul className="partners-list text-start">
@@ -68,14 +68,16 @@ function Partners() {
                 href="https://iylon.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-primary fw-bold"
+                className=" fw-bold"
+                style={{ color: "#1a97ad" }}
               >
                 iylon.com
               </a>{" "}
               or email us at{" "}
               <a
                 href="mailto:care@oncobridge.com"
-                className="text-primary fw-bold"
+                className=" fw-bold"
+                style={{ color: "#1a97ad" }}
               >
                 care@oncobridge.com
               </a>

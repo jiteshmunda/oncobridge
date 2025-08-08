@@ -11,14 +11,7 @@
   color: #ffffff;
 }
 
-.disclaimer-banner {
-  background-image: url("/src/assets/disclaimer.jpg");
-  background-position: center;
-  height: 79vh;
-  position: relative;
-  overflow: hidden;
-  background-size: cover;
-}
+
 
 .disclaimer-banner .overlay {
   position: absolute;
@@ -122,7 +115,7 @@
   color: #555;
 }
 
-/* Arrow hover animation ONLY */
+/* Arrow hover animation */
 .disclaimer-item:hover .arrow {
   transform: translateX(5px);
   transition: transform 0.3s ease;
@@ -356,4 +349,62 @@
     max-width: 400px;
     overflow-y: clip;
   }
+}
+
+
+
+
+
+.disclaimer-banner {
+  background-image: url("/src/assets/disclaimer.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 79vh;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+
+.disclaimer-banner .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 0;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .disclaimer-banner {
+    height: 220px;
+    background-position: top;
+  }
+
+  .disclaimer-banner .container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .disclaimer-banner h1 {
+    font-size: 1.8rem;
+    line-height: 1.4;
+  }
+
+  .disclaimer-banner p {
+    font-size: 1.2rem;
+    margin-bottom: 0;
+  }
+
+  .terms-timeline::before {
+  
+  left: 12px;
+  
+}
+
+
 }

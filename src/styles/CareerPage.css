@@ -83,7 +83,7 @@
 }
 @media (min-width: 768px) {
   .job-card {
-    width: 26%;
+    width: 40%;
   }
 }
 .job-popup-link {
@@ -553,3 +553,6 @@
     font-size: 0.95rem;
   }
 }
+
+
+

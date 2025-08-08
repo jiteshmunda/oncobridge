@@ -28,39 +28,45 @@ const Home = () => {
     <>
       {/* Banner Section */}
       <section className="bg-image-home">
-  <div className="container-fluid">
-    <div className="row align-items-center pt-5 pb-5 px-lg-5 px-md-4 px-3">
-      
+        <div className="container-fluid">
+          <div className="row align-items-center pt-5 pb-5 px-lg-5 px-md-4 px-3">
+            {/* Right Image Column */}
+            <div className="col-md-6 col-lg-6 col-sm-12 text-center text-md-end order-1 order-md-2 mb-4 mb-md-0 px-lg-5 px-md-4">
+              <img
+                src={home_banner}
+                className="img-fluid home-banner-img"
+                alt="Doctor holding patient hand"
+                style={{ borderRadius: "20px" }}
+              />
+            </div>
 
-      <div className="col-md-6 col-lg-6 col-sm-12 text-center text-md-end pe-lg-5 pe-md-4 pe-sm-3 order-1 order-md-2 mb-4 mb-md-0">
-        <img
-          src={home_banner}
-          className="img-fluid home-banner-img"
-          alt="Doctor holding patient hand"
-          style={{ borderRadius: "12px" }}
-        />
-      </div>
+            {/* Left Text Column */}
+            <div className="col-md-6 col-lg-6 col-sm-12 text-start order-2 order-md-1 px-lg-4 px-md-4">
+              <h1 className="home_banner_heading">
+                <span
+                  className="fw-bold display-6 mb-5"
+                  style={{ color: "#1a97ad" }}
+                >
+                  Bridging cancer care and technology.
+                </span>
+              </h1>
+              <h5
+                className="home_banner_subheading mb-4 display-6"
+                style={{ color: "#1a97ad", fontWeight: 450 }}
+              >
+                We connect patients, providers and data for a better tomorrow.
+              </h5>
 
-      
-      <div className="col-md-6 col-lg-6 col-sm-12 text-start ps-lg-5 ps-md-4 ps-sm-3 order-2 order-md-1">
-        <h1 className="home_banner_heading">
-          <span className="fw-bold display-5 mb-5 " style={{ color: "var(--primary) !important" }}>Expert</span>
-          <span className="fw-normal " style={{ color: "var(--primary) !important" }}>View</span>
-        </h1>
-        <h5 className="home_banner_subheading mb-4" style={{ color: "var(--primary) !important" }}>
-          Elevating Cancer Care through <br /> Second Opinion
-        </h5>
-
-        <Link to="/secondopinion" className="btn startjourney px-4 py-2 mt-4 ">
-          Start your journey
-        </Link>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-
+              <Link
+                to="/secondopinion"
+                className="btn startjourney px-4 py-2 mt-4"
+              >
+                Start your journey
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* <section className="hero-banner d-flex align-items-center text-white">
         <div className="container">
@@ -497,8 +503,7 @@ const Home = () => {
           <div className="row align-items-center gy-4 gx-5">
             <div className="col-md-6">
               <div className="hero-alt-image-box">
-                <div className="row ">
-                </div>
+                <div className="row "></div>
                 <img
                   src={doctorImage}
                   alt="Empathy in Cancer Care"

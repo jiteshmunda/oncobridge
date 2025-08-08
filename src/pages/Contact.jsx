@@ -37,7 +37,7 @@ function Contact() {
       hospitalCity: formData.hospitalCity || "",
       insuranceName: formData.insuranceName || "",
       insuranceCity: formData.insuranceCity || "",
-      message: formData.message
+      message: formData.message,
     };
 
     emailjs
@@ -50,7 +50,10 @@ function Contact() {
       .then(
         (response) => {
           console.log("SUCCESS!", response.status, response.text);
-          setStatus({ type: "success", message: "Your message has been sent successfully! 🎉" });
+          setStatus({
+            type: "success",
+            message: "Your message has been sent successfully! 🎉",
+          });
 
           // Clear form
           setFormData({
@@ -70,7 +73,10 @@ function Contact() {
         },
         (err) => {
           console.error("FAILED...", err);
-          setStatus({ type: "error", message: "Failed to send message. Please try again later." });
+          setStatus({
+            type: "error",
+            message: "Failed to send message. Please try again later.",
+          });
 
           // Hide alert after 5 seconds
           setTimeout(() => setStatus({ type: "", message: "" }), 5000);
@@ -96,35 +102,30 @@ function Contact() {
         </div>
       </section> */}
 
-     <section className="contact-section py-5 banner-contact">
-  <div className="container-fluid">
-    <div className="row align-items-center px-lg-5 px-md-4 px-3">
+      <section className="contact-section py-5 banner-contact">
+        <div className="container-fluid">
+          <div className="row align-items-center px-lg-5 px-md-4 px-3">
+            {/* Left Side Content */}
+            <div className="col-md-6 col-lg-6 col-sm-12 text-start mb-4 mb-md-0 ps-lg-5 ps-md-4 ps-sm-3">
+              <h1 className=" fw-bold display-5 getintouch animate__animated animate__fadeIn">
+                Get in Touch
+              </h1>
+            </div>
 
-      {/* Left Side Content */}
-      <div className="col-md-6 col-lg-6 col-sm-12 text-start mb-4 mb-md-0 ps-lg-5 ps-md-4 ps-sm-3">
-        <h1 className=" fw-bold display-5 getintouch animate__animated animate__fadeIn about-title">
-          Get in Touch
-        </h1>
-      </div>
-
-      {/* Right Side Image with White Overlay */}
-      <div className="col-md-6 col-lg-6 col-sm-12 text-center position-relative pe-lg-5 pe-md-4 pe-sm-3">
-        <div className="image-overlay-container">
-          <img
-            src={contactImage}
-            className="img-fluid"
-            style={{ borderRadius: "12px", maxHeight: "420px" }}
-          />
-          <div className="white-overlay"></div>
+            {/* Right Side Image with White Overlay */}
+            <div className="col-md-6 col-lg-6 col-sm-12 text-center position-relative pe-lg-5 pe-md-4 pe-sm-3">
+              <div className="image-overlay-container">
+                <img
+                  src={contactImage}
+                  className="img-fluid"
+                  style={{ borderRadius: "12px", maxHeight: "420px" }}
+                />
+                <div className="white-overlay"></div>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-
-
+      </section>
 
       <section className="section contact_block ">
         <div className="container my-5 ">
@@ -151,9 +152,9 @@ function Contact() {
                 <div className="d-flex flex-column align-items-md-start align-items-center text-md-start text-center mb-3">
                   <i className="fas fa-map-marker-alt mb-1"></i>
                   <strong>Address:</strong>
-                  <span>18-2, Ground Floor, </span>
-                  <span>4th Street Gokulam Colony,</span> 
-                  <span>PN Pudur Coimbatore - 641041</span>
+                  <span>18-2, 4th Street, </span>
+                  <span>Gokulam Colony, PN Pudur,</span>
+                  <span>Coimbatore - 641041</span>
                   <span>Tamil Nadu, India</span>
                 </div>
 

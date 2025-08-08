@@ -306,7 +306,7 @@ a {
   display: inline-block;
 }
 
-.bg-image {
+.bg-image-patients {
   background-image: url("../assets/pat_banner.jpg");
   background-size: cover;
   background-position: center;
@@ -347,6 +347,8 @@ a {
   width: 100%;
   height: 79vh !important;
 }
+
+
 
 .bg-image_hospital::before {
   content: "";
@@ -570,7 +572,29 @@ a {
     background: none;
   }
   .bg-image_hospital {
-    height: 90vh !important;
+    height: 80vh !important;
+  }
+   .bg-image_hospital {
+    height: 220px;
+    padding-left: 0;
+    background-position: top;
+  }
+
+  .bg-image_hospital .container,
+  .bg-image_hospital .col-md-7 {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+
+  .bg-image_hospital h1 {
+    font-size: 1.5rem;
+    line-height: 1.4;
+    margin-bottom: 0.5rem;
+  }
+
+  .bg-image_hospital p {
+    font-size: 1rem;
+    margin-bottom: 0;
   }
   .section-title {
     font-size: 2.3rem;
@@ -580,9 +604,6 @@ a {
   }
   .w-25 {
     width: 85% !important;
-  }
-  .bg-image_ins {
-    height: 90vh !important;
   }
   .dropdown-menu {
     height: auto;
@@ -699,17 +720,7 @@ a {
   text-decoration: none;
 }
 
-.bg-image-myths {
-  background-image: url("../assets/myths_bg_main.jpg");
 
-  background-size: cover;
-  background-position: top;
-  background-repeat: no-repeat;
-  position: relative;
-  text-align: left !important;
-  width: 100%;
-  height: 79vh !important;
-}
 
 .bg-image-myths::before {
   content: "";
@@ -799,6 +810,7 @@ a {
   text-decoration: none;
   overflow: hidden;
   z-index: 1;
+  text-align: center;
   transition: color 0.3s ease-in-out, border-color 0.3s ease-in-out;
 }
 
@@ -1029,17 +1041,7 @@ a {
 .footer_heading {
   color: #194d63;
 }
-.bg-image-career {
-  background-image: url("../assets/job.jpg");
 
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  position: relative;
-  text-align: left !important;
-  width: 100%;
-  height: 79vh;
-}
 
 .bg-image-career::before {
   content: "";
@@ -1173,5 +1175,76 @@ a {
 @media (max-width: 576px) {
   .responsive-heading {
     font-size: 2rem;
+  }
+}
+
+
+.getintouch{
+  color: #1a97ad;;
+}
+
+
+
+
+
+
+
+
+
+/* Default (Desktop and Tablet) */
+.bg-image-career {
+  background-image: url("../assets/job.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 100%;
+  height: 79vh; 
+  display: flex;
+  align-items: center;
+  text-align: left;
+  padding-left: 40px;
+}
+
+/* Mobile  (max-width: 768px) */
+@media (max-width: 768px) {
+  .bg-image-career {
+    height: 280px; 
+    background-position: top;
+    padding-left: 0px;
+  }
+
+  .bg-image-career h1 {
+    font-size: 2rem; /* Smaller heading for mobile */
+  }
+}
+
+
+
+
+.bg-image-myths {
+  background-image: url("../assets/myths_bg_main.jpg");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  position: relative;
+  text-align: left;
+  width: 100%;
+  height: 79vh; 
+  display: flex;
+  align-items: center;
+  padding-left: 40px;
+}
+
+/* Responsive for mobile */
+@media (max-width: 768px) {
+  .bg-image-myths {
+    height: 280px; 
+     padding-left: 0 !important;   
+  }
+
+  .bg-image-myths h1 {
+    font-size: 1.75rem;
+    line-height: 1.4;
   }
 }

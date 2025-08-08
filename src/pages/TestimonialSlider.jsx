@@ -1,43 +1,43 @@
-import React from 'react';
-import pat1 from '../assets/pat1.jpg';
-import pat3 from '../assets/pat3.jpg';
-import pat2 from '../assets/pat2.jpg';
+import React from "react";
+import pat1 from "../assets/pat1.jpg";
+import pat3 from "../assets/pat3.jpg";
+import pat2 from "../assets/pat2.jpg";
 const testimonials = [
   {
-    image:pat1,
-    name: 'Alice',
-    role: 'UX Designer',
-    message: 'This service helped me immensely. Highly recommend!',
-  },
-  {
-    image: pat2,
-    name: 'Bob',
-    role: 'Web Developer',
-    message: 'Smooth experience from start to finish.',
-  },
-  {
-    image:pat3,
-    name: 'Carol',
-    role: 'Product Manager',
-    message: 'Professional and reliable team.',
-  },
-  {
     image: pat1,
-    name: 'David',
-    role: 'Engineer',
-    message: 'Everything was handled with care and precision.',
+    name: "Alice",
+    role: "UX Designer",
+    message: "This service helped me immensely. Highly recommend!",
   },
   {
     image: pat2,
-    name: 'Eva',
-    role: 'Consultant',
-    message: 'Truly exceeded my expectations.',
+    name: "Bob",
+    role: "Web Developer",
+    message: "Smooth experience from start to finish.",
   },
   {
     image: pat3,
-    name: 'Frank',
-    role: 'Marketer',
-    message: 'Great communication and support throughout.',
+    name: "Carol",
+    role: "Product Manager",
+    message: "Professional and reliable team.",
+  },
+  {
+    image: pat1,
+    name: "David",
+    role: "Engineer",
+    message: "Everything was handled with care and precision.",
+  },
+  {
+    image: pat2,
+    name: "Eva",
+    role: "Consultant",
+    message: "Truly exceeded my expectations.",
+  },
+  {
+    image: pat3,
+    name: "Frank",
+    role: "Marketer",
+    message: "Great communication and support throughout.",
   },
 ];
 
@@ -55,14 +55,14 @@ const TestimonialSlider = () => {
 
   return (
     <>
-  <div className="d-flex align-items-center justify-content-center vh-100 bg-light text-center">
-      <div className="p-4">
-        <h1 className="display-4 fw-bold text-primary">🚧 Coming Soon</h1>
-        <p className="lead text-muted mb-4">
-          We're working hard to bring you something awesome. Stay tuned!
-        </p>
+      <div className="d-flex align-items-center justify-content-center vh-100 bg-light text-center">
+        <div className="p-4">
+          <h1 className="display-4 fw-bold text-primary">🚧 Coming Soon</h1>
+          <p className="lead text-muted mb-4">
+            We're working hard to bring you something awesome. Stay tuned!
+          </p>
+        </div>
       </div>
-    </div>
     </>
     // <div className="container py-5">
     //   <h2 className="text-center mb-4">What Our Clients Say</h2>
@@ -95,7 +95,6 @@ const TestimonialSlider = () => {
     //       ))}
     //     </div>
 
-     
     //     <button
     //       className="carousel-control-prev"
     //       type="button"

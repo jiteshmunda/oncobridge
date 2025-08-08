@@ -33,12 +33,12 @@ function About() {
 
   return (
     <section className="about-section">
-      <div className="container-fluid">
+      <div className="container-fluid mb-0">
         <div className="row about-row g-0">
           {/* Left Content Scroll */}
           <div className="col-lg-6 col-md-6 about-content" ref={leftContentRef}>
             <div className="m-lg-5">
-              <h1 className="fw-bold display-5 mb-3 animate__animated animate__fadeIn about-title extra-space-bottom">
+              <h1 className="fw-bold display-5 mb-3 animate__animated animate__fadeIn extra-space-bottom">
                 Erasing Cancer,
                 <br /> Embracing Life
               </h1>
@@ -52,7 +52,6 @@ function About() {
                 patient make confident, informed decisions, improve treatment
                 outcomes, and bring peace of mind to them and their families.
               </p>
-              
             </div>
           </div>
 

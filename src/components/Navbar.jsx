@@ -34,7 +34,7 @@ function Navbar() {
       <div className="navbar-logo full-height-logo">
         <Link to="/" className="text-decoration-none">
           <div className="logo_navbar"></div>
-          <h4 className="d-lg-none">OncoBridge</h4>
+          <h4 className="d-lg-none mobile-logo">OncoBridge</h4>
         </Link>
       </div>
 
@@ -74,6 +74,7 @@ function Navbar() {
             <li><NavLink to="/contact" onClick={closeMenu} className={({ isActive }) => isActive ? "menu-link active" : "menu-link"}>Contact</NavLink></li>
           </ul>
         </div>
+        <div className="navbar-bottom-gap"></div>
 
         {/* Bottom White Strip */}
         <div className="navbar-bottom-strip"></div>

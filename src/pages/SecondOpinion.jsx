@@ -4,11 +4,13 @@ import second_op1 from "../assets/doctor-patient.jpg";
 import second_opt2 from "../assets/second_opt2.jpg";
 import second_opt3 from "../assets/second_opt3.jpg";
 import "../styles/SecondOpinion.css";
+import home_banner from "../assets/home_banner.jpg";
+import { FaRegCommentDots } from "react-icons/fa";
 
 function SecondOpinion() {
   return (
     <>
-      <section className="text-center">
+      {/* <section className="text-center">
         <div className="container-fluid px-0">
           <div className="row gx-0 align-items-left">
             <div className="bg-image-second-opt d-flex justify-content-left align-items-center text-left text-white">
@@ -22,11 +24,54 @@ function SecondOpinion() {
             </div>
           </div>
         </div>
+      </section> */}
+
+      {/* Banner Section */}
+      <section className="bg-image-home">
+        <div className="container-fluid">
+          <div className="row align-items-center pt-5 pb-5 px-lg-5 px-md-4 px-3">
+            <div className="col-md-6 col-lg-6 col-sm-12 text-center text-md-end order-1 order-md-2 mb-4 mb-md-0 px-lg-5 px-md-4">
+              <img
+                src={home_banner}
+                className="img-fluid home-banner-img"
+                alt="Doctor holding patient hand"
+                style={{ borderRadius: "20px" }}
+              />
+            </div>
+
+            <div className="col-md-6 col-lg-6 col-sm-12 text-start ps-lg-5 ps-md-4 ps-sm-3 order-2 order-md-1">
+              <h1 className="home_banner_heading">
+                <span
+                  className="fw-bold display-4"
+                  style={{ color: "#1a97ad", lineHeight: "1px" }}
+                >
+                  Expert
+                </span>
+                <span className="fw-normal" style={{ color: "#1a97ad" }}>
+                  View
+                </span>
+              </h1>
+
+              <h5
+                className="home_banner_subheading mb-4"
+                style={{ color: "#1a97ad" }}
+              >
+                Elevating Cancer Care through <br /> Second Opinion
+              </h5>
+
+              <Link
+                to="/secondopinion"
+                className="btn startjourney px-4 py-2 mt-5 "
+              >
+                Start your journey
+              </Link>
+            </div>
+          </div>
+        </div>
       </section>
 
       <div className="container py-3 mt-4 mb-5">
         <div className="background d-flex justify-content-between align-items-start px-4 py-4">
-
           {/* Card 1 */}
           <div className="second-option-card flex-fill px-3">
             <h5>Patients & Family</h5>
@@ -36,9 +81,12 @@ function SecondOpinion() {
               alt="For Patients"
             />
             <p className="mt-3">
-              Access to world-class oncologists, personalized insights, and true peace of mind.
+              Access to world-class oncologists, personalized insights, and true
+              peace of mind.
             </p>
-            <Link to="/patients" className="learn-more-btn">Learn More</Link>
+            <Link to="/patients" className="learn-more-btn">
+              Learn More
+            </Link>
           </div>
 
           <div className="vertical-divider"></div>
@@ -52,9 +100,12 @@ function SecondOpinion() {
               alt="For Hospitals"
             />
             <p className="mt-3">
-              Enhance insight, support patients with second opinions, and collaborate seamlessly.
+              Enhance insight, support patients with second opinions, and
+              collaborate seamlessly.
             </p>
-            <Link to="/hospital" className="learn-more-btn">Learn More</Link>
+            <Link to="/hospital" className="learn-more-btn">
+              Learn More
+            </Link>
           </div>
 
           <div className="vertical-divider"></div>
@@ -68,15 +119,23 @@ function SecondOpinion() {
               alt="For Insurance Providers"
             />
             <p className="mt-3">
-              Ensure the right care, control costs and improve policyholder experience.
+              Ensure the right care, control costs and improve policyholder
+              experience.
             </p>
-            <Link to="/insurance" className="learn-more-btn">Learn More</Link>
+            <Link to="/insurance" className="learn-more-btn">
+              Learn More
+            </Link>
           </div>
-
         </div>
 
         <div className="text-center mt-4">
-          <Link to="/contact" className="lets-connect-btn">Let’s Connect</Link>
+          <Link
+            to="/contact"
+            className="lets-connect-btn d-inline-flex align-items-center gap-2"
+          >
+            <FaRegCommentDots size={18} />
+            Let’s Connect
+          </Link>
         </div>
       </div>
     </>

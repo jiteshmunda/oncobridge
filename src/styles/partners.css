@@ -27,7 +27,7 @@
 }
 .partners-hero {
   background: #fff;
-  padding: 100px 0; /* More top and bottom spacing */
+  padding: 100px 0;
 }
 
 .partners-hero .row {
@@ -52,7 +52,7 @@
 .partners-heading {
   font-size: 2.5rem;
   font-weight: 800;
-  color: #0288d1;
+  color: #1a97ad;
   margin-bottom: 2rem;
 }
 
@@ -79,7 +79,7 @@
 
 /* Heading */
 .partners-details .section-title {
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 700;
   margin-bottom: 20px;
 }
@@ -212,5 +212,67 @@
   .partners-details p,
   .partners-details a {
     font-size: 1rem;
+  }
+}
+
+
+
+/* Base Styles */
+.partners-hero {
+  padding: 60px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.partners-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px 40px;
+}
+
+.partners-heading {
+  font-size: 2.5rem; 
+  white-space: nowrap; 
+}
+
+
+
+
+
+/* Tablet (max-width: 992px) */
+@media (max-width: 992px) {
+  .partners-hero {
+    flex-direction: column;
+    padding: 40px 20px;
+  }
+
+  .partners-left, .partners-right {
+    text-align: center;
+    padding: 20px;
+  }
+
+  .partners-heading {
+    font-size: 2rem;
+    white-space: nowrap;
+  }
+
+}
+
+/* Mobile (max-width: 576px) */
+@media (max-width: 576px) {
+  .partners-heading {
+    font-size: 1.6rem; 
+    white-space: nowrap;
+  }
+
+
+  .partners-right-img {
+    border-radius: 10px;
+  }
+
+  .partners-left, .partners-right {
+    padding: 10px;
   }
 }

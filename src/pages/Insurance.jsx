@@ -12,7 +12,7 @@ function Insurance() {
       <section className="text-left">
         <div className="container-fluid px-0">
           <div className="row gx-0 align-items-center">
-            <div className="bg-image_ins d-flex justify-content-left align-items-center text-left text-white vh-100">
+            <div className="bg-image_ins d-flex justify-content-left align-items-center text-left text-white ">
               <div className="overlay-content">
                 <div className="col-md-7 p-3 ps-lg-5 ms-lg-5 ms-md-5 ms-sm-5">
                   <h1 className="fw-bold text-white display-6 animate__animated animate__fadeIn">
@@ -21,13 +21,15 @@ function Insurance() {
                   </h1>
                   <p className="lead mt-3 animate__animated animate__fadeIn animate__delay-1s">
                     OncoBridge collaborates with insurance companies to ensure
-                    policyholders receive the most appropriate,
-                    
-                    high-quality cancer care, leading to better outcomes and
-                    managed costs.
+                    policyholders receive the most appropriate, high-quality
+                    cancer care, leading to better outcomes and managed costs.
                   </p>
                   <div className="d-flex justify-content-start gap-3 mt-3 animate__animated animate__fadeInUp animate__delay-2s">
-                    <Link to="/contact" target="_blank" className="read-more-btn-white">
+                    <Link
+                      to="/contact"
+                      target="_blank"
+                      className="read-more-btn-white"
+                    >
                       Start Your Second Opinion Request
                     </Link>
                   </div>
@@ -285,7 +287,14 @@ function Insurance() {
       <section className="text-center py-5 bg-light rounded get_start_block">
         <h2 className="fw-bold mb-1">Invest in smarter oncology care.</h2>
         <p>Connect with OncoBridge to discuss a strategic partnership.</p>
-        <Link to="/contact" target="_blank" className="read-more-btn-white-cardbtn">  Schedule a Partnership Discussion</Link>
+        <Link
+          to="/contact"
+          target="_blank"
+          className="read-more-btn-white-cardbtn"
+        >
+          {" "}
+          Schedule a Partnership Discussion
+        </Link>
       </section>
     </>
   );

@@ -9,8 +9,8 @@
 
 .custom-navbar {
   background-color: #c0e2f5;;
-  padding: 0.1rem 0;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -219,7 +219,7 @@
     display: flex;
   }
 
-  .navbar-menu {
+  /* .navbar-menu {
     position: absolute;
     top: 100%;
     left: 0;
@@ -233,7 +233,7 @@
     opacity: 0;
     pointer-events: none;
     transition: all 0.3s ease;
-  }
+  } */
 
   .navbar-menu.open {
     max-height: max-content;
@@ -342,7 +342,7 @@
 
 .custom-navbar {
   background-color: #c0e2f5;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
 
   top: 0;
   left: 0;
@@ -353,7 +353,7 @@
 /* Navbar main container */
 .navbar-container {
   display: flex;
-  justify-content: flex-start; /* Logo left, content right */
+  justify-content: flex-start; 
   align-items: stretch;
   margin: 0;
   padding: 0;
@@ -430,8 +430,14 @@
   padding: 0 2rem;
   width: 100%;
   box-sizing: border-box;
-  border-bottom: 10px solid #0077c2; /* ✅ Blue strip line under menu */
+  border-bottom: 10px solid #1a97ad;
 }
+
+.navbar-bottom-gap {
+  height: 6px;
+  background-color: #c0e2f5; 
+}
+
 
 /* Bottom white strip */
 .navbar-bottom-strip {
@@ -503,7 +509,7 @@
 
   .navbar-menu {
     position: absolute;
-    top: 100%;
+    top: 80%;
     left: 0;
     right: 0;
     background-color: #fff;
@@ -533,6 +539,8 @@
 
 
 
+
+
 @media (max-width: 768px) {
 
   
@@ -554,6 +562,8 @@
 
 
 
+
+
 @media (max-width: 991px) {
   .navbar-logo::before {
     background-image: none;
@@ -569,3 +579,231 @@
     display: none;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.scrolled .custom-navbar{
+  min-height: 30px;
+}
+
+
+
+@media (max-width: 991px) {
+  .navbar-logo::before {
+    display: none;
+  }
+}
+
+/* Hamburger (moved to right) */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  width: 24px;
+  height: 18px;
+  margin-left: auto;
+  z-index: 1101;
+}
+
+
+
+.hamburger span {
+  height: 3px;
+  width: 100%;
+  background-color: #000;
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+
+.hamburger.active span:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+.hamburger.active span:nth-child(2) {
+  opacity: 0;
+}
+.hamburger.active span:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -5px);
+}
+
+/* Menu */
+.navbar-menu {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+/* Responsive */
+@media (max-width: 991px) {
+  .navbar-container {
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  .navbar-menu {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    background-color: #fff;
+    margin-top: 10px;
+    padding: 1rem;
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease;
+  }
+
+  .navbar-menu.open {
+    max-height: 500px;
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .navbar-menu a {
+    width: 100%;
+  }
+}
+
+
+
+.mobile-logo{
+  font-size: 25px !important;
+  font-weight: 600;
+  color: #194d63 !important;
+  padding: 10px;
+}
+
+
+
+.hamburger span {
+
+  background-color: #194d63 !important; 
+
+}
+
+
+
+@media (max-width: 768px) {
+  .menu-link::after {
+    display: none !important;
+    content: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 991px) {
+
+  
+
+  .navbar-top-strip{
+    display: none;
+  }
+  .navbar-bottom-strip{
+    display: none;
+  }
+  .navbar-middle-strip{
+    border-bottom: none;
+  }
+  .hamburger {
+    margin-left: auto;
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 991px) {
+  .navbar-container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  .navbar-menu {
+    position: absolute;
+    top: 80%;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease;
+  }
+
+  .navbar-menu.open {
+    max-height: max-content;
+    opacity: 1;
+    pointer-events: auto;
+    gap: 13px;
+  }
+
+  .navbar-middle-strip {
+    justify-content: space-between;
+    padding: 0 1rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+

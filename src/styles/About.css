@@ -7,6 +7,7 @@
 .about-row {
   display: flex;
   align-items: flex-start;
+  flex-wrap: wrap;
 }
 
 /* Left Content Scroll */
@@ -19,56 +20,32 @@
   scrollbar-width: none;
   -ms-overflow-style: none;
 }
-
 .about-content::-webkit-scrollbar {
   display: none;
 }
 
-/* Right Image Sticky */
+/* Right Image Sticky (Desktop Only) */
 .about-image-wrapper {
   position: sticky;
   top: 220px;
   display: flex;
+  margin-bottom: 45px;
   justify-content: center;
-  align-items: flex-start;
+  align-items: flex-end;
 }
 
 .about-sticky-image {
   width: 85%;
   max-width: 480px;
-  border-radius: 12px;
+  border-radius: 18px !important;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
-/* Responsive */
-@media (max-width: 991px) {
-  .about-row {
-    flex-direction: column;
-  }
-
-  .about-content {
-    max-height: unset;
-    overflow-y: unset;
-  }
-
-  .about-image-wrapper {
-    position: relative;
-    top: unset;
-    margin-top: 30px;
-    justify-content: center;
-    padding-top: 0;
-  }
-
-  .about-sticky-image {
-    width: 100%;
-  }
-}
-
+/* Heading & Decoration */
 .about-title {
   position: relative;
   display: inline-block;
 }
-
 .about-title::after {
   content: "";
   display: inline-block;
@@ -80,23 +57,51 @@
   transform: translateY(-2px);
 }
 
-@media (max-width: 768px) {
+/* Typography */
+.para-font-size {
+  font-size: 20px;
+}
+
+
+.extra-space-bottom {
+  margin-bottom: 16rem !important;
+  margin-top: 5.5rem;
+  color: #1a97ad;;
+}
+
+/* Responsive Styles */
+@media (max-width: 991px) {
   .about-row {
     flex-direction: column;
   }
 
-  .about-image-wrapper {
-    order: 1;
-    margin-top: 0 !important;
-    padding-top: 0 !important;
-    margin-bottom: 20px;
-    padding: 10px;
-  }
-
   .about-content {
-    order: 2;
+    max-height: unset;
+    overflow-y: unset;
     padding: 0 15px;
     text-align: left;
+    order: 2;
+  }
+
+  .about-image-wrapper {
+    position: relative;
+    top: unset;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    order: 1;
+  }
+
+  .about-sticky-image {
+    width: 100%;
+  }
+  
+
+  .extra-space-bottom {
+    margin-bottom: 10px !important;
+    margin-top: 2rem !important;
   }
 
   .about-title {
@@ -121,37 +126,4 @@
   .about-section p {
     font-size: 0.95rem;
   }
-  
 }
-
-@media (max-width: 991px) {
-  .extra-space-bottom {
-    margin: 0 !important;
-  }
-}
-
-
-
-
-
-@media (max-width: 991px) {
-  h1.extra-space-bottom {
-    margin-bottom: 10px !important;
-    margin-top: 2rem !important; 
-  }
-}
-
-
-
-
-
-.para-font-size{
-  font-size: 20px;
-}
-
-
-.extra-space-bottom {
-  margin-bottom: 15rem !important;
-  margin-top: 4rem;
-}
-

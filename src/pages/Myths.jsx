@@ -18,7 +18,7 @@ function Myths() {
       <section className="text-center">
         <div className="container-fluid px-0">
           <div className="row gx-0 align-items-center">
-            <div className="bg-image-myths d-flex justify-content-left align-items-center text-left text-white vh-100">
+            <div className="bg-image-myths d-flex justify-content-left align-items-center text-left text-white">
               <div className="overlay-content">
                 <div className="col-md-7 p-3 ms-lg-5 ms-md-5 ms-sm-4">
                   <h1 className="fw-bold text-white display-4 animate__animated animate__fadeIn">

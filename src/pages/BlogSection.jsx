@@ -1,7 +1,7 @@
-import React from 'react';
+import React from "react";
 import "../styles/Blog.css";
-import doct_blog from '../assets/doct_blog.jpg';
-import { Link } from 'react-router-dom';
+import doct_blog from "../assets/doct_blog.jpg";
+import { Link } from "react-router-dom";
 function Terms() {
   return (
     <section className="section py-5 text-center">
@@ -12,7 +12,11 @@ function Terms() {
           <div className="row">
             {/* tab start  */}
             <div className="container py-4 ">
-              <ul className="nav nav-pills mb-5 justify-content-center" id="pills-tab" role="tablist">
+              <ul
+                className="nav nav-pills mb-5 justify-content-center"
+                id="pills-tab"
+                role="tablist"
+              >
                 <li className="nav-item" role="presentation">
                   <button
                     className="nav-link active"
@@ -64,17 +68,23 @@ function Terms() {
                   role="tabpanel"
                   aria-labelledby="pills-patients-tab"
                 >
-                  <div className='row'>
+                  <div className="row">
                     <div className="col-12 col-lg-4 col-sm-3 col-md-4  d-flex mb-3  d-flex">
                       <div className="card border-0 flex-fill blog_single_card">
                         <figure className="card-img-top m-0 overflow-hidden bsb-overlay-hover">
                           <Link to="/blogdetail">
-                            <img className="img-fluid bsb-scale bsb-hover-scale-up" loading="lazy" src={doct_blog}
-                              alt="Online cancer consultation with expert oncologists" />
+                            <img
+                              className="img-fluid bsb-scale bsb-hover-scale-up"
+                              loading="lazy"
+                              src={doct_blog}
+                              alt="Online cancer consultation with expert oncologists"
+                            />
                           </Link>
                           <figcaption>
                             <i className="fas fa-eye text-white bsb-hover-fadeInLeft fa-2x"></i>
-                            <h4 className="h6 text-white bsb-hover-fadeInRight mt-2">Read More</h4>
+                            <h4 className="h6 text-white bsb-hover-fadeInRight mt-2">
+                              Read More
+                            </h4>
                           </figcaption>
                         </figure>
 
@@ -86,7 +96,10 @@ function Terms() {
                               </li>
                             </ul> */}
                             <h2 className="card-title entry-title h4 mb-0">
-                              <a className="link-dark text-decoration-none" href="#!">
+                              <a
+                                className="link-dark text-decoration-none"
+                                href="#!"
+                              >
                                 Lorem ipsum dolor sit amet
                               </a>
                             </h2>
@@ -99,14 +112,22 @@ function Terms() {
                         <div className="card-footer border border-top-0 bg-white p-4">
                           <ul className="entry-meta list-unstyled d-flex align-items-center m-0">
                             <li>
-                              <a className="fs-7 link-secondary text-decoration-none d-flex align-items-center" href="#!">
+                              <a
+                                className="fs-7 link-secondary text-decoration-none d-flex align-items-center"
+                                href="#!"
+                              >
                                 <i className="fas fa-calendar-alt me-2"></i>
                                 <span className="fs-7">7 Feb 2023</span>
                               </a>
                             </li>
-                            <li><span className="px-3">•</span></li>
                             <li>
-                              <a className="link-secondary text-decoration-none d-flex align-items-center" href="#!">
+                              <span className="px-3">•</span>
+                            </li>
+                            <li>
+                              <a
+                                className="link-secondary text-decoration-none d-flex align-items-center"
+                                href="#!"
+                              >
                                 <i className="fas fa-comment-dots me-2"></i>
                                 <span className="fs-7">55</span>
                               </a>
@@ -119,12 +140,18 @@ function Terms() {
                       <div className="card border-0 flex-fill blog_single_card">
                         <figure className="card-img-top m-0 overflow-hidden bsb-overlay-hover">
                           <Link to="/blogdetail">
-                            <img className="img-fluid bsb-scale bsb-hover-scale-up" loading="lazy" src={doct_blog}
-                              alt="Online cancer consultation with expert oncologists" />
+                            <img
+                              className="img-fluid bsb-scale bsb-hover-scale-up"
+                              loading="lazy"
+                              src={doct_blog}
+                              alt="Online cancer consultation with expert oncologists"
+                            />
                           </Link>
                           <figcaption>
                             <i className="fas fa-eye text-white bsb-hover-fadeInLeft fa-2x"></i>
-                            <h4 className="h6 text-white bsb-hover-fadeInRight mt-2">Read More</h4>
+                            <h4 className="h6 text-white bsb-hover-fadeInRight mt-2">
+                              Read More
+                            </h4>
                           </figcaption>
                         </figure>
 
@@ -136,27 +163,39 @@ function Terms() {
                               </li>
                             </ul> */}
                             <h2 className="card-title entry-title h4 mb-0">
-                              <a className="link-dark text-decoration-none" href="#!">
+                              <a
+                                className="link-dark text-decoration-none"
+                                href="#!"
+                              >
                                 Lorem ipsum dolor sit amet
                               </a>
                             </h2>
                           </div>
                           <p className="card-text entry-summary text-secondary">
-                            Understanding Your Cancer Pathology Report: A Patient's Guide
+                            Understanding Your Cancer Pathology Report: A
+                            Patient's Guide
                           </p>
                         </div>
 
                         <div className="card-footer border border-top-0 bg-white p-4">
                           <ul className="entry-meta list-unstyled d-flex align-items-center m-0">
                             <li>
-                              <a className="fs-7 link-secondary text-decoration-none d-flex align-items-center" href="#!">
+                              <a
+                                className="fs-7 link-secondary text-decoration-none d-flex align-items-center"
+                                href="#!"
+                              >
                                 <i className="fas fa-calendar-alt me-2"></i>
                                 <span className="fs-7">7 Feb 2023</span>
                               </a>
                             </li>
-                            <li><span className="px-3">•</span></li>
                             <li>
-                              <a className="link-secondary text-decoration-none d-flex align-items-center" href="#!">
+                              <span className="px-3">•</span>
+                            </li>
+                            <li>
+                              <a
+                                className="link-secondary text-decoration-none d-flex align-items-center"
+                                href="#!"
+                              >
                                 <i className="fas fa-comment-dots me-2"></i>
                                 <span className="fs-7">55</span>
                               </a>
@@ -169,12 +208,18 @@ function Terms() {
                       <div className="card border-0 flex-fill blog_single_card">
                         <figure className="card-img-top m-0 overflow-hidden bsb-overlay-hover">
                           <Link to="/blogdetail">
-                            <img className="img-fluid bsb-scale bsb-hover-scale-up" loading="lazy" src={doct_blog}
-                              alt="Online cancer consultation with expert oncologists" />
+                            <img
+                              className="img-fluid bsb-scale bsb-hover-scale-up"
+                              loading="lazy"
+                              src={doct_blog}
+                              alt="Online cancer consultation with expert oncologists"
+                            />
                           </Link>
                           <figcaption>
                             <i className="fas fa-eye text-white bsb-hover-fadeInLeft fa-2x"></i>
-                            <h4 className="h6 text-white bsb-hover-fadeInRight mt-2">Read More</h4>
+                            <h4 className="h6 text-white bsb-hover-fadeInRight mt-2">
+                              Read More
+                            </h4>
                           </figcaption>
                         </figure>
 
@@ -186,27 +231,39 @@ function Terms() {
                               </li>
                             </ul> */}
                             <h2 className="card-title entry-title h4 mb-0">
-                              <a className="link-dark text-decoration-none" href="#!">
+                              <a
+                                className="link-dark text-decoration-none"
+                                href="#!"
+                              >
                                 Lorem ipsum dolor sit amet
                               </a>
                             </h2>
                           </div>
                           <p className="card-text entry-summary text-secondary">
-                            Navigating Treatment Options: Chemotherapy, Radiation, Surgery, and Beyond
+                            Navigating Treatment Options: Chemotherapy,
+                            Radiation, Surgery, and Beyond
                           </p>
                         </div>
 
                         <div className="card-footer border border-top-0 bg-white p-4">
                           <ul className="entry-meta list-unstyled d-flex align-items-center m-0">
                             <li>
-                              <a className="fs-7 link-secondary text-decoration-none d-flex align-items-center" href="#!">
+                              <a
+                                className="fs-7 link-secondary text-decoration-none d-flex align-items-center"
+                                href="#!"
+                              >
                                 <i className="fas fa-calendar-alt me-2"></i>
                                 <span className="fs-7">7 Feb 2023</span>
                               </a>
                             </li>
-                            <li><span className="px-3">•</span></li>
                             <li>
-                              <a className="link-secondary text-decoration-none d-flex align-items-center" href="#!">
+                              <span className="px-3">•</span>
+                            </li>
+                            <li>
+                              <a
+                                className="link-secondary text-decoration-none d-flex align-items-center"
+                                href="#!"
+                              >
                                 <i className="fas fa-comment-dots me-2"></i>
                                 <span className="fs-7">55</span>
                               </a>
@@ -219,12 +276,18 @@ function Terms() {
                       <div className="card border-0 flex-fill blog_single_card">
                         <figure className="card-img-top m-0 overflow-hidden bsb-overlay-hover">
                           <Link to="/blogdetail">
-                            <img className="img-fluid bsb-scale bsb-hover-scale-up" loading="lazy" src={doct_blog}
-                              alt="Online cancer consultation with expert oncologists" />
+                            <img
+                              className="img-fluid bsb-scale bsb-hover-scale-up"
+                              loading="lazy"
+                              src={doct_blog}
+                              alt="Online cancer consultation with expert oncologists"
+                            />
                           </Link>
                           <figcaption>
                             <i className="fas fa-eye text-white bsb-hover-fadeInLeft fa-2x"></i>
-                            <h4 className="h6 text-white bsb-hover-fadeInRight mt-2">Read More</h4>
+                            <h4 className="h6 text-white bsb-hover-fadeInRight mt-2">
+                              Read More
+                            </h4>
                           </figcaption>
                         </figure>
 
@@ -236,7 +299,10 @@ function Terms() {
                               </li>
                             </ul> */}
                             <h2 className="card-title entry-title h4 mb-0">
-                              <a className="link-dark text-decoration-none" href="#!">
+                              <a
+                                className="link-dark text-decoration-none"
+                                href="#!"
+                              >
                                 Lorem ipsum dolor sit amet
                               </a>
                             </h2>
@@ -249,14 +315,22 @@ function Terms() {
                         <div className="card-footer border border-top-0 bg-white p-4">
                           <ul className="entry-meta list-unstyled d-flex align-items-center m-0">
                             <li>
-                              <a className="fs-7 link-secondary text-decoration-none d-flex align-items-center" href="#!">
+                              <a
+                                className="fs-7 link-secondary text-decoration-none d-flex align-items-center"
+                                href="#!"
+                              >
                                 <i className="fas fa-calendar-alt me-2"></i>
                                 <span className="fs-7">7 Feb 2023</span>
                               </a>
                             </li>
-                            <li><span className="px-3">•</span></li>
                             <li>
-                              <a className="link-secondary text-decoration-none d-flex align-items-center" href="#!">
+                              <span className="px-3">•</span>
+                            </li>
+                            <li>
+                              <a
+                                className="link-secondary text-decoration-none d-flex align-items-center"
+                                href="#!"
+                              >
                                 <i className="fas fa-comment-dots me-2"></i>
                                 <span className="fs-7">55</span>
                               </a>
@@ -269,12 +343,18 @@ function Terms() {
                       <div className="card border-0 flex-fill blog_single_card">
                         <figure className="card-img-top m-0 overflow-hidden bsb-overlay-hover">
                           <Link to="/blogdetail">
-                            <img className="img-fluid bsb-scale bsb-hover-scale-up" loading="lazy" src={doct_blog}
-                              alt="Online cancer consultation with expert oncologists" />
+                            <img
+                              className="img-fluid bsb-scale bsb-hover-scale-up"
+                              loading="lazy"
+                              src={doct_blog}
+                              alt="Online cancer consultation with expert oncologists"
+                            />
                           </Link>
                           <figcaption>
                             <i className="fas fa-eye text-white bsb-hover-fadeInLeft fa-2x"></i>
-                            <h4 className="h6 text-white bsb-hover-fadeInRight mt-2">Read More</h4>
+                            <h4 className="h6 text-white bsb-hover-fadeInRight mt-2">
+                              Read More
+                            </h4>
                           </figcaption>
                         </figure>
 
@@ -286,7 +366,10 @@ function Terms() {
                               </li>
                             </ul> */}
                             <h2 className="card-title entry-title h4 mb-0">
-                              <a className="link-dark text-decoration-none" href="#!">
+                              <a
+                                className="link-dark text-decoration-none"
+                                href="#!"
+                              >
                                 Lorem ipsum dolor sit amet
                               </a>
                             </h2>
@@ -299,14 +382,22 @@ function Terms() {
                         <div className="card-footer border border-top-0 bg-white p-4">
                           <ul className="entry-meta list-unstyled d-flex align-items-center m-0">
                             <li>
-                              <a className="fs-7 link-secondary text-decoration-none d-flex align-items-center" href="#!">
+                              <a
+                                className="fs-7 link-secondary text-decoration-none d-flex align-items-center"
+                                href="#!"
+                              >
                                 <i className="fas fa-calendar-alt me-2"></i>
                                 <span className="fs-7">7 Feb 2023</span>
                               </a>
                             </li>
-                            <li><span className="px-3">•</span></li>
                             <li>
-                              <a className="link-secondary text-decoration-none d-flex align-items-center" href="#!">
+                              <span className="px-3">•</span>
+                            </li>
+                            <li>
+                              <a
+                                className="link-secondary text-decoration-none d-flex align-items-center"
+                                href="#!"
+                              >
                                 <i className="fas fa-comment-dots me-2"></i>
                                 <span className="fs-7">55</span>
                               </a>
@@ -319,12 +410,18 @@ function Terms() {
                       <div className="card border-0 flex-fill blog_single_card">
                         <figure className="card-img-top m-0 overflow-hidden bsb-overlay-hover">
                           <Link to="/blogdetail">
-                            <img className="img-fluid bsb-scale bsb-hover-scale-up" loading="lazy" src={doct_blog}
-                              alt="Online cancer consultation with expert oncologists" />
+                            <img
+                              className="img-fluid bsb-scale bsb-hover-scale-up"
+                              loading="lazy"
+                              src={doct_blog}
+                              alt="Online cancer consultation with expert oncologists"
+                            />
                           </Link>
                           <figcaption>
                             <i className="fas fa-eye text-white bsb-hover-fadeInLeft fa-2x"></i>
-                            <h4 className="h6 text-white bsb-hover-fadeInRight mt-2">Read More</h4>
+                            <h4 className="h6 text-white bsb-hover-fadeInRight mt-2">
+                              Read More
+                            </h4>
                           </figcaption>
                         </figure>
 
@@ -336,27 +433,39 @@ function Terms() {
                               </li>
                             </ul> */}
                             <h2 className="card-title entry-title h4 mb-0">
-                              <a className="link-dark text-decoration-none" href="#!">
+                              <a
+                                className="link-dark text-decoration-none"
+                                href="#!"
+                              >
                                 Lorem ipsum dolor sit amet
                               </a>
                             </h2>
                           </div>
                           <p className="card-text entry-summary text-secondary">
-                            Coping with a Cancer Diagnosis: Emotional Support and Resources
+                            Coping with a Cancer Diagnosis: Emotional Support
+                            and Resources
                           </p>
                         </div>
 
                         <div className="card-footer border border-top-0 bg-white p-4">
                           <ul className="entry-meta list-unstyled d-flex align-items-center m-0">
                             <li>
-                              <a className="fs-7 link-secondary text-decoration-none d-flex align-items-center" href="#!">
+                              <a
+                                className="fs-7 link-secondary text-decoration-none d-flex align-items-center"
+                                href="#!"
+                              >
                                 <i className="fas fa-calendar-alt me-2"></i>
                                 <span className="fs-7">7 Feb 2023</span>
                               </a>
                             </li>
-                            <li><span className="px-3">•</span></li>
                             <li>
-                              <a className="link-secondary text-decoration-none d-flex align-items-center" href="#!">
+                              <span className="px-3">•</span>
+                            </li>
+                            <li>
+                              <a
+                                className="link-secondary text-decoration-none d-flex align-items-center"
+                                href="#!"
+                              >
                                 <i className="fas fa-comment-dots me-2"></i>
                                 <span className="fs-7">55</span>
                               </a>
@@ -369,12 +478,18 @@ function Terms() {
                       <div className="card border-0 flex-fill blog_single_card">
                         <figure className="card-img-top m-0 overflow-hidden bsb-overlay-hover">
                           <Link to="/blogdetail">
-                            <img className="img-fluid bsb-scale bsb-hover-scale-up" loading="lazy" src={doct_blog}
-                              alt="Online cancer consultation with expert oncologists" />
+                            <img
+                              className="img-fluid bsb-scale bsb-hover-scale-up"
+                              loading="lazy"
+                              src={doct_blog}
+                              alt="Online cancer consultation with expert oncologists"
+                            />
                           </Link>
                           <figcaption>
                             <i className="fas fa-eye text-white bsb-hover-fadeInLeft fa-2x"></i>
-                            <h4 className="h6 text-white bsb-hover-fadeInRight mt-2">Read More</h4>
+                            <h4 className="h6 text-white bsb-hover-fadeInRight mt-2">
+                              Read More
+                            </h4>
                           </figcaption>
                         </figure>
 
@@ -386,7 +501,10 @@ function Terms() {
                               </li>
                             </ul> */}
                             <h2 className="card-title entry-title h4 mb-0">
-                              <a className="link-dark text-decoration-none" href="#!">
+                              <a
+                                className="link-dark text-decoration-none"
+                                href="#!"
+                              >
                                 Lorem ipsum dolor sit amet
                               </a>
                             </h2>
@@ -399,14 +517,22 @@ function Terms() {
                         <div className="card-footer border border-top-0 bg-white p-4">
                           <ul className="entry-meta list-unstyled d-flex align-items-center m-0">
                             <li>
-                              <a className="fs-7 link-secondary text-decoration-none d-flex align-items-center" href="#!">
+                              <a
+                                className="fs-7 link-secondary text-decoration-none d-flex align-items-center"
+                                href="#!"
+                              >
                                 <i className="fas fa-calendar-alt me-2"></i>
                                 <span className="fs-7">7 Feb 2023</span>
                               </a>
                             </li>
-                            <li><span className="px-3">•</span></li>
                             <li>
-                              <a className="link-secondary text-decoration-none d-flex align-items-center" href="#!">
+                              <span className="px-3">•</span>
+                            </li>
+                            <li>
+                              <a
+                                className="link-secondary text-decoration-none d-flex align-items-center"
+                                href="#!"
+                              >
                                 <i className="fas fa-comment-dots me-2"></i>
                                 <span className="fs-7">55</span>
                               </a>
@@ -419,12 +545,18 @@ function Terms() {
                       <div className="card border-0 flex-fill blog_single_card">
                         <figure className="card-img-top m-0 overflow-hidden bsb-overlay-hover">
                           <Link to="/blogdetail">
-                            <img className="img-fluid bsb-scale bsb-hover-scale-up" loading="lazy" src={doct_blog}
-                              alt="Online cancer consultation with expert oncologists" />
+                            <img
+                              className="img-fluid bsb-scale bsb-hover-scale-up"
+                              loading="lazy"
+                              src={doct_blog}
+                              alt="Online cancer consultation with expert oncologists"
+                            />
                           </Link>
                           <figcaption>
                             <i className="fas fa-eye text-white bsb-hover-fadeInLeft fa-2x"></i>
-                            <h4 className="h6 text-white bsb-hover-fadeInRight mt-2">Read More</h4>
+                            <h4 className="h6 text-white bsb-hover-fadeInRight mt-2">
+                              Read More
+                            </h4>
                           </figcaption>
                         </figure>
 
@@ -436,27 +568,39 @@ function Terms() {
                               </li>
                             </ul> */}
                             <h2 className="card-title entry-title h4 mb-0">
-                              <a className="link-dark text-decoration-none" href="#!">
+                              <a
+                                className="link-dark text-decoration-none"
+                                href="#!"
+                              >
                                 Lorem ipsum dolor sit amet
                               </a>
                             </h2>
                           </div>
                           <p className="card-text entry-summary text-secondary">
-                            How Technology is Transforming Cancer Care (Tele-oncology, AI, etc.)"
+                            How Technology is Transforming Cancer Care
+                            (Tele-oncology, AI, etc.)"
                           </p>
                         </div>
 
                         <div className="card-footer border border-top-0 bg-white p-4">
                           <ul className="entry-meta list-unstyled d-flex align-items-center m-0">
                             <li>
-                              <a className="fs-7 link-secondary text-decoration-none d-flex align-items-center" href="#!">
+                              <a
+                                className="fs-7 link-secondary text-decoration-none d-flex align-items-center"
+                                href="#!"
+                              >
                                 <i className="fas fa-calendar-alt me-2"></i>
                                 <span className="fs-7">7 Feb 2023</span>
                               </a>
                             </li>
-                            <li><span className="px-3">•</span></li>
                             <li>
-                              <a className="link-secondary text-decoration-none d-flex align-items-center" href="#!">
+                              <span className="px-3">•</span>
+                            </li>
+                            <li>
+                              <a
+                                className="link-secondary text-decoration-none d-flex align-items-center"
+                                href="#!"
+                              >
                                 <i className="fas fa-comment-dots me-2"></i>
                                 <span className="fs-7">55</span>
                               </a>
@@ -469,12 +613,18 @@ function Terms() {
                       <div className="card border-0 flex-fill blog_single_card">
                         <figure className="card-img-top m-0 overflow-hidden bsb-overlay-hover">
                           <Link to="/blogdetail">
-                            <img className="img-fluid bsb-scale bsb-hover-scale-up" loading="lazy" src={doct_blog}
-                              alt="Online cancer consultation with expert oncologists" />
+                            <img
+                              className="img-fluid bsb-scale bsb-hover-scale-up"
+                              loading="lazy"
+                              src={doct_blog}
+                              alt="Online cancer consultation with expert oncologists"
+                            />
                           </Link>
                           <figcaption>
                             <i className="fas fa-eye text-white bsb-hover-fadeInLeft fa-2x"></i>
-                            <h4 className="h6 text-white bsb-hover-fadeInRight mt-2">Read More</h4>
+                            <h4 className="h6 text-white bsb-hover-fadeInRight mt-2">
+                              Read More
+                            </h4>
                           </figcaption>
                         </figure>
 
@@ -486,7 +636,10 @@ function Terms() {
                               </li>
                             </ul> */}
                             <h2 className="card-title entry-title h4 mb-0">
-                              <a className="link-dark text-decoration-none" href="#!">
+                              <a
+                                className="link-dark text-decoration-none"
+                                href="#!"
+                              >
                                 Lorem ipsum dolor sit amet
                               </a>
                             </h2>
@@ -499,14 +652,22 @@ function Terms() {
                         <div className="card-footer border border-top-0 bg-white p-4">
                           <ul className="entry-meta list-unstyled d-flex align-items-center m-0">
                             <li>
-                              <a className="fs-7 link-secondary text-decoration-none d-flex align-items-center" href="#!">
+                              <a
+                                className="fs-7 link-secondary text-decoration-none d-flex align-items-center"
+                                href="#!"
+                              >
                                 <i className="fas fa-calendar-alt me-2"></i>
                                 <span className="fs-7">7 Feb 2023</span>
                               </a>
                             </li>
-                            <li><span className="px-3">•</span></li>
                             <li>
-                              <a className="link-secondary text-decoration-none d-flex align-items-center" href="#!">
+                              <span className="px-3">•</span>
+                            </li>
+                            <li>
+                              <a
+                                className="link-secondary text-decoration-none d-flex align-items-center"
+                                href="#!"
+                              >
                                 <i className="fas fa-comment-dots me-2"></i>
                                 <span className="fs-7">55</span>
                               </a>
@@ -523,17 +684,23 @@ function Terms() {
                   role="tabpanel"
                   aria-labelledby="pills-doctors-tab"
                 >
-                  <div className='row'>
+                  <div className="row">
                     <div className="col-12 col-lg-4 col-sm-3 col-md-4  d-flex mb-3">
                       <div className="card border-0 flex-fill blog_single_card">
                         <figure className="card-img-top m-0 overflow-hidden bsb-overlay-hover">
                           <Link to="/blogdetail">
-                            <img className="img-fluid bsb-scale bsb-hover-scale-up" loading="lazy" src={doct_blog}
-                              alt="Online cancer consultation with expert oncologists" />
+                            <img
+                              className="img-fluid bsb-scale bsb-hover-scale-up"
+                              loading="lazy"
+                              src={doct_blog}
+                              alt="Online cancer consultation with expert oncologists"
+                            />
                           </Link>
                           <figcaption>
                             <i className="fas fa-eye text-white bsb-hover-fadeInLeft fa-2x"></i>
-                            <h4 className="h6 text-white bsb-hover-fadeInRight mt-2">Read More</h4>
+                            <h4 className="h6 text-white bsb-hover-fadeInRight mt-2">
+                              Read More
+                            </h4>
                           </figcaption>
                         </figure>
 
@@ -545,27 +712,39 @@ function Terms() {
                               </li>
                             </ul> */}
                             <h2 className="card-title entry-title h4 mb-0">
-                              <a className="link-dark text-decoration-none" href="#!">
+                              <a
+                                className="link-dark text-decoration-none"
+                                href="#!"
+                              >
                                 Lorem ipsum dolor sit amet
                               </a>
                             </h2>
                           </div>
                           <p className="card-text entry-summary text-secondary">
-                            Enhancing Patient Referrals Through Collaborative Second Opinion Services
+                            Enhancing Patient Referrals Through Collaborative
+                            Second Opinion Services
                           </p>
                         </div>
 
                         <div className="card-footer border border-top-0 bg-white p-4">
                           <ul className="entry-meta list-unstyled d-flex align-items-center m-0">
                             <li>
-                              <a className="fs-7 link-secondary text-decoration-none d-flex align-items-center" href="#!">
+                              <a
+                                className="fs-7 link-secondary text-decoration-none d-flex align-items-center"
+                                href="#!"
+                              >
                                 <i className="fas fa-calendar-alt me-2"></i>
                                 <span className="fs-7">7 Feb 2023</span>
                               </a>
                             </li>
-                            <li><span className="px-3">•</span></li>
                             <li>
-                              <a className="link-secondary text-decoration-none d-flex align-items-center" href="#!">
+                              <span className="px-3">•</span>
+                            </li>
+                            <li>
+                              <a
+                                className="link-secondary text-decoration-none d-flex align-items-center"
+                                href="#!"
+                              >
                                 <i className="fas fa-comment-dots me-2"></i>
                                 <span className="fs-7">55</span>
                               </a>
@@ -578,12 +757,18 @@ function Terms() {
                       <div className="card border-0 flex-fill blog_single_card">
                         <figure className="card-img-top m-0 overflow-hidden bsb-overlay-hover">
                           <Link to="/blogdetail">
-                            <img className="img-fluid bsb-scale bsb-hover-scale-up" loading="lazy" src={doct_blog}
-                              alt="Online cancer consultation with expert oncologists" />
+                            <img
+                              className="img-fluid bsb-scale bsb-hover-scale-up"
+                              loading="lazy"
+                              src={doct_blog}
+                              alt="Online cancer consultation with expert oncologists"
+                            />
                           </Link>
                           <figcaption>
                             <i className="fas fa-eye text-white bsb-hover-fadeInLeft fa-2x"></i>
-                            <h4 className="h6 text-white bsb-hover-fadeInRight mt-2">Read More</h4>
+                            <h4 className="h6 text-white bsb-hover-fadeInRight mt-2">
+                              Read More
+                            </h4>
                           </figcaption>
                         </figure>
 
@@ -595,27 +780,39 @@ function Terms() {
                               </li>
                             </ul> */}
                             <h2 className="card-title entry-title h4 mb-0">
-                              <a className="link-dark text-decoration-none" href="#!">
+                              <a
+                                className="link-dark text-decoration-none"
+                                href="#!"
+                              >
                                 Lorem ipsum dolor sit amet
                               </a>
                             </h2>
                           </div>
                           <p className="card-text entry-summary text-secondary">
-                            The Value of Multi-Disciplinary Tumor Boards in Complex Cases
+                            The Value of Multi-Disciplinary Tumor Boards in
+                            Complex Cases
                           </p>
                         </div>
 
                         <div className="card-footer border border-top-0 bg-white p-4">
                           <ul className="entry-meta list-unstyled d-flex align-items-center m-0">
                             <li>
-                              <a className="fs-7 link-secondary text-decoration-none d-flex align-items-center" href="#!">
+                              <a
+                                className="fs-7 link-secondary text-decoration-none d-flex align-items-center"
+                                href="#!"
+                              >
                                 <i className="fas fa-calendar-alt me-2"></i>
                                 <span className="fs-7">7 Feb 2023</span>
                               </a>
                             </li>
-                            <li><span className="px-3">•</span></li>
                             <li>
-                              <a className="link-secondary text-decoration-none d-flex align-items-center" href="#!">
+                              <span className="px-3">•</span>
+                            </li>
+                            <li>
+                              <a
+                                className="link-secondary text-decoration-none d-flex align-items-center"
+                                href="#!"
+                              >
                                 <i className="fas fa-comment-dots me-2"></i>
                                 <span className="fs-7">55</span>
                               </a>
@@ -628,12 +825,18 @@ function Terms() {
                       <div className="card border-0 flex-fill blog_single_card">
                         <figure className="card-img-top m-0 overflow-hidden bsb-overlay-hover">
                           <Link to="/blogdetail">
-                            <img className="img-fluid bsb-scale bsb-hover-scale-up" loading="lazy" src={doct_blog}
-                              alt="Online cancer consultation with expert oncologists" />
+                            <img
+                              className="img-fluid bsb-scale bsb-hover-scale-up"
+                              loading="lazy"
+                              src={doct_blog}
+                              alt="Online cancer consultation with expert oncologists"
+                            />
                           </Link>
                           <figcaption>
                             <i className="fas fa-eye text-white bsb-hover-fadeInLeft fa-2x"></i>
-                            <h4 className="h6 text-white bsb-hover-fadeInRight mt-2">Read More</h4>
+                            <h4 className="h6 text-white bsb-hover-fadeInRight mt-2">
+                              Read More
+                            </h4>
                           </figcaption>
                         </figure>
 
@@ -645,26 +848,38 @@ function Terms() {
                               </li>
                             </ul> */}
                             <h2 className="card-title entry-title h4 mb-0">
-                              <a className="link-dark text-decoration-none" href="#!">
+                              <a
+                                className="link-dark text-decoration-none"
+                                href="#!"
+                              >
                                 Lorem ipsum dolor sit amet
                               </a>
                             </h2>
                           </div>
                           <p className="card-text entry-summary text-secondary">
-                            Integrating Tele-Oncology for Improved Patient Access
+                            Integrating Tele-Oncology for Improved Patient
+                            Access
                           </p>
                         </div>
                         <div className="card-footer border border-top-0 bg-white p-4">
                           <ul className="entry-meta list-unstyled d-flex align-items-center m-0">
                             <li>
-                              <a className="fs-7 link-secondary text-decoration-none d-flex align-items-center" href="#!">
+                              <a
+                                className="fs-7 link-secondary text-decoration-none d-flex align-items-center"
+                                href="#!"
+                              >
                                 <i className="fas fa-calendar-alt me-2"></i>
                                 <span className="fs-7">7 Feb 2023</span>
                               </a>
                             </li>
-                            <li><span className="px-3">•</span></li>
                             <li>
-                              <a className="link-secondary text-decoration-none d-flex align-items-center" href="#!">
+                              <span className="px-3">•</span>
+                            </li>
+                            <li>
+                              <a
+                                className="link-secondary text-decoration-none d-flex align-items-center"
+                                href="#!"
+                              >
                                 <i className="fas fa-comment-dots me-2"></i>
                                 <span className="fs-7">55</span>
                               </a>
@@ -677,12 +892,18 @@ function Terms() {
                       <div className="card border-0 flex-fill blog_single_card">
                         <figure className="card-img-top m-0 overflow-hidden bsb-overlay-hover">
                           <Link to="/blogdetail">
-                            <img className="img-fluid bsb-scale bsb-hover-scale-up" loading="lazy" src={doct_blog}
-                              alt="Online cancer consultation with expert oncologists" />
+                            <img
+                              className="img-fluid bsb-scale bsb-hover-scale-up"
+                              loading="lazy"
+                              src={doct_blog}
+                              alt="Online cancer consultation with expert oncologists"
+                            />
                           </Link>
                           <figcaption>
                             <i className="fas fa-eye text-white bsb-hover-fadeInLeft fa-2x"></i>
-                            <h4 className="h6 text-white bsb-hover-fadeInRight mt-2">Read More</h4>
+                            <h4 className="h6 text-white bsb-hover-fadeInRight mt-2">
+                              Read More
+                            </h4>
                           </figcaption>
                         </figure>
 
@@ -694,26 +915,38 @@ function Terms() {
                               </li>
                             </ul> */}
                             <h2 className="card-title entry-title h4 mb-0">
-                              <a className="link-dark text-decoration-none" href="#!">
+                              <a
+                                className="link-dark text-decoration-none"
+                                href="#!"
+                              >
                                 Lorem ipsum dolor sit amet
                               </a>
                             </h2>
                           </div>
                           <p className="card-text entry-summary text-secondary">
-                            Best Practices for Sharing Patient Data Securely for Consultations
+                            Best Practices for Sharing Patient Data Securely for
+                            Consultations
                           </p>
                         </div>
                         <div className="card-footer border border-top-0 bg-white p-4">
                           <ul className="entry-meta list-unstyled d-flex align-items-center m-0">
                             <li>
-                              <a className="fs-7 link-secondary text-decoration-none d-flex align-items-center" href="#!">
+                              <a
+                                className="fs-7 link-secondary text-decoration-none d-flex align-items-center"
+                                href="#!"
+                              >
                                 <i className="fas fa-calendar-alt me-2"></i>
                                 <span className="fs-7">7 Feb 2023</span>
                               </a>
                             </li>
-                            <li><span className="px-3">•</span></li>
                             <li>
-                              <a className="link-secondary text-decoration-none d-flex align-items-center" href="#!">
+                              <span className="px-3">•</span>
+                            </li>
+                            <li>
+                              <a
+                                className="link-secondary text-decoration-none d-flex align-items-center"
+                                href="#!"
+                              >
                                 <i className="fas fa-comment-dots me-2"></i>
                                 <span className="fs-7">55</span>
                               </a>
@@ -726,12 +959,18 @@ function Terms() {
                       <div className="card border-0 flex-fill blog_single_card">
                         <figure className="card-img-top m-0 overflow-hidden bsb-overlay-hover">
                           <Link to="/blogdetail">
-                            <img className="img-fluid bsb-scale bsb-hover-scale-up" loading="lazy" src={doct_blog}
-                              alt="Online cancer consultation with expert oncologists" />
+                            <img
+                              className="img-fluid bsb-scale bsb-hover-scale-up"
+                              loading="lazy"
+                              src={doct_blog}
+                              alt="Online cancer consultation with expert oncologists"
+                            />
                           </Link>
                           <figcaption>
                             <i className="fas fa-eye text-white bsb-hover-fadeInLeft fa-2x"></i>
-                            <h4 className="h6 text-white bsb-hover-fadeInRight mt-2">Read More</h4>
+                            <h4 className="h6 text-white bsb-hover-fadeInRight mt-2">
+                              Read More
+                            </h4>
                           </figcaption>
                         </figure>
 
@@ -743,26 +982,38 @@ function Terms() {
                               </li>
                             </ul> */}
                             <h2 className="card-title entry-title h4 mb-0">
-                              <a className="link-dark text-decoration-none" href="#!">
+                              <a
+                                className="link-dark text-decoration-none"
+                                href="#!"
+                              >
                                 Lorem ipsum dolor sit amet
                               </a>
                             </h2>
                           </div>
                           <p className="card-text entry-summary text-secondary">
-                            How Second Opinions Can Inform Precision Medicine Strategies
+                            How Second Opinions Can Inform Precision Medicine
+                            Strategies
                           </p>
                         </div>
                         <div className="card-footer border border-top-0 bg-white p-4">
                           <ul className="entry-meta list-unstyled d-flex align-items-center m-0">
                             <li>
-                              <a className="fs-7 link-secondary text-decoration-none d-flex align-items-center" href="#!">
+                              <a
+                                className="fs-7 link-secondary text-decoration-none d-flex align-items-center"
+                                href="#!"
+                              >
                                 <i className="fas fa-calendar-alt me-2"></i>
                                 <span className="fs-7">7 Feb 2023</span>
                               </a>
                             </li>
-                            <li><span className="px-3">•</span></li>
                             <li>
-                              <a className="link-secondary text-decoration-none d-flex align-items-center" href="#!">
+                              <span className="px-3">•</span>
+                            </li>
+                            <li>
+                              <a
+                                className="link-secondary text-decoration-none d-flex align-items-center"
+                                href="#!"
+                              >
                                 <i className="fas fa-comment-dots me-2"></i>
                                 <span className="fs-7">55</span>
                               </a>
@@ -775,12 +1026,18 @@ function Terms() {
                       <div className="card border-0 flex-fill blog_single_card">
                         <figure className="card-img-top m-0 overflow-hidden bsb-overlay-hover">
                           <Link to="/blogdetail">
-                            <img className="img-fluid bsb-scale bsb-hover-scale-up" loading="lazy" src={doct_blog}
-                              alt="Online cancer consultation with expert oncologists" />
+                            <img
+                              className="img-fluid bsb-scale bsb-hover-scale-up"
+                              loading="lazy"
+                              src={doct_blog}
+                              alt="Online cancer consultation with expert oncologists"
+                            />
                           </Link>
                           <figcaption>
                             <i className="fas fa-eye text-white bsb-hover-fadeInLeft fa-2x"></i>
-                            <h4 className="h6 text-white bsb-hover-fadeInRight mt-2">Read More</h4>
+                            <h4 className="h6 text-white bsb-hover-fadeInRight mt-2">
+                              Read More
+                            </h4>
                           </figcaption>
                         </figure>
 
@@ -792,26 +1049,38 @@ function Terms() {
                               </li>
                             </ul> */}
                             <h2 className="card-title entry-title h4 mb-0">
-                              <a className="link-dark text-decoration-none" href="#!">
+                              <a
+                                className="link-dark text-decoration-none"
+                                href="#!"
+                              >
                                 Lorem ipsum dolor sit amet
                               </a>
                             </h2>
                           </div>
                           <p className="card-text entry-summary text-secondary">
-                            Navigating Ethical Considerations in Cancer Second Opinions
+                            Navigating Ethical Considerations in Cancer Second
+                            Opinions
                           </p>
                         </div>
                         <div className="card-footer border border-top-0 bg-white p-4">
                           <ul className="entry-meta list-unstyled d-flex align-items-center m-0">
                             <li>
-                              <a className="fs-7 link-secondary text-decoration-none d-flex align-items-center" href="#!">
+                              <a
+                                className="fs-7 link-secondary text-decoration-none d-flex align-items-center"
+                                href="#!"
+                              >
                                 <i className="fas fa-calendar-alt me-2"></i>
                                 <span className="fs-7">7 Feb 2023</span>
                               </a>
                             </li>
-                            <li><span className="px-3">•</span></li>
                             <li>
-                              <a className="link-secondary text-decoration-none d-flex align-items-center" href="#!">
+                              <span className="px-3">•</span>
+                            </li>
+                            <li>
+                              <a
+                                className="link-secondary text-decoration-none d-flex align-items-center"
+                                href="#!"
+                              >
                                 <i className="fas fa-comment-dots me-2"></i>
                                 <span className="fs-7">55</span>
                               </a>
@@ -828,17 +1097,23 @@ function Terms() {
                   role="tabpanel"
                   aria-labelledby="pills-contact-tab"
                 >
-                  <div className='row'>
+                  <div className="row">
                     <div className="col-12 col-lg-4 col-sm-3 col-md-4  d-flex mb-3">
                       <div className="card border-0 flex-fill blog_single_card">
                         <figure className="card-img-top m-0 overflow-hidden bsb-overlay-hover">
                           <Link to="/blogdetail">
-                            <img className="img-fluid bsb-scale bsb-hover-scale-up" loading="lazy" src={doct_blog}
-                              alt="Online cancer consultation with expert oncologists" />
+                            <img
+                              className="img-fluid bsb-scale bsb-hover-scale-up"
+                              loading="lazy"
+                              src={doct_blog}
+                              alt="Online cancer consultation with expert oncologists"
+                            />
                           </Link>
                           <figcaption>
                             <i className="fas fa-eye text-white bsb-hover-fadeInLeft fa-2x"></i>
-                            <h4 className="h6 text-white bsb-hover-fadeInRight mt-2">Read More</h4>
+                            <h4 className="h6 text-white bsb-hover-fadeInRight mt-2">
+                              Read More
+                            </h4>
                           </figcaption>
                         </figure>
 
@@ -850,27 +1125,39 @@ function Terms() {
                               </li>
                             </ul> */}
                             <h2 className="card-title entry-title h4 mb-0">
-                              <a className="link-dark text-decoration-none" href="#!">
+                              <a
+                                className="link-dark text-decoration-none"
+                                href="#!"
+                              >
                                 Lorem ipsum dolor sit amet
                               </a>
                             </h2>
                           </div>
                           <p className="card-text entry-summary text-secondary">
-                            Cost-Benefit Analysis: The ROI of Proactive Cancer Second Opinions for Insurers
+                            Cost-Benefit Analysis: The ROI of Proactive Cancer
+                            Second Opinions for Insurers
                           </p>
                         </div>
 
                         <div className="card-footer border border-top-0 bg-white p-4">
                           <ul className="entry-meta list-unstyled d-flex align-items-center m-0">
                             <li>
-                              <a className="fs-7 link-secondary text-decoration-none d-flex align-items-center" href="#!">
+                              <a
+                                className="fs-7 link-secondary text-decoration-none d-flex align-items-center"
+                                href="#!"
+                              >
                                 <i className="fas fa-calendar-alt me-2"></i>
                                 <span className="fs-7">7 Feb 2023</span>
                               </a>
                             </li>
-                            <li><span className="px-3">•</span></li>
                             <li>
-                              <a className="link-secondary text-decoration-none d-flex align-items-center" href="#!">
+                              <span className="px-3">•</span>
+                            </li>
+                            <li>
+                              <a
+                                className="link-secondary text-decoration-none d-flex align-items-center"
+                                href="#!"
+                              >
                                 <i className="fas fa-comment-dots me-2"></i>
                                 <span className="fs-7">55</span>
                               </a>
@@ -883,12 +1170,18 @@ function Terms() {
                       <div className="card border-0 flex-fill blog_single_card">
                         <figure className="card-img-top m-0 overflow-hidden bsb-overlay-hover">
                           <Link to="/blogdetail">
-                            <img className="img-fluid bsb-scale bsb-hover-scale-up" loading="lazy" src={doct_blog}
-                              alt="Online cancer consultation with expert oncologists" />
+                            <img
+                              className="img-fluid bsb-scale bsb-hover-scale-up"
+                              loading="lazy"
+                              src={doct_blog}
+                              alt="Online cancer consultation with expert oncologists"
+                            />
                           </Link>
                           <figcaption>
                             <i className="fas fa-eye text-white bsb-hover-fadeInLeft fa-2x"></i>
-                            <h4 className="h6 text-white bsb-hover-fadeInRight mt-2">Read More</h4>
+                            <h4 className="h6 text-white bsb-hover-fadeInRight mt-2">
+                              Read More
+                            </h4>
                           </figcaption>
                         </figure>
 
@@ -900,27 +1193,39 @@ function Terms() {
                               </li>
                             </ul> */}
                             <h2 className="card-title entry-title h4 mb-0">
-                              <a className="link-dark text-decoration-none" href="#!">
+                              <a
+                                className="link-dark text-decoration-none"
+                                href="#!"
+                              >
                                 Lorem ipsum dolor sit amet
                               </a>
                             </h2>
                           </div>
                           <p className="card-text entry-summary text-secondary">
-                            Improving Member Satisfaction: The Role of Expert Medical Opinions
+                            Improving Member Satisfaction: The Role of Expert
+                            Medical Opinions
                           </p>
                         </div>
 
                         <div className="card-footer border border-top-0 bg-white p-4">
                           <ul className="entry-meta list-unstyled d-flex align-items-center m-0">
                             <li>
-                              <a className="fs-7 link-secondary text-decoration-none d-flex align-items-center" href="#!">
+                              <a
+                                className="fs-7 link-secondary text-decoration-none d-flex align-items-center"
+                                href="#!"
+                              >
                                 <i className="fas fa-calendar-alt me-2"></i>
                                 <span className="fs-7">7 Feb 2023</span>
                               </a>
                             </li>
-                            <li><span className="px-3">•</span></li>
                             <li>
-                              <a className="link-secondary text-decoration-none d-flex align-items-center" href="#!">
+                              <span className="px-3">•</span>
+                            </li>
+                            <li>
+                              <a
+                                className="link-secondary text-decoration-none d-flex align-items-center"
+                                href="#!"
+                              >
                                 <i className="fas fa-comment-dots me-2"></i>
                                 <span className="fs-7">55</span>
                               </a>
@@ -933,12 +1238,18 @@ function Terms() {
                       <div className="card border-0 flex-fill blog_single_card">
                         <figure className="card-img-top m-0 overflow-hidden bsb-overlay-hover">
                           <Link to="/blogdetail">
-                            <img className="img-fluid bsb-scale bsb-hover-scale-up" loading="lazy" src={doct_blog}
-                              alt="Online cancer consultation with expert oncologists" />
+                            <img
+                              className="img-fluid bsb-scale bsb-hover-scale-up"
+                              loading="lazy"
+                              src={doct_blog}
+                              alt="Online cancer consultation with expert oncologists"
+                            />
                           </Link>
                           <figcaption>
                             <i className="fas fa-eye text-white bsb-hover-fadeInLeft fa-2x"></i>
-                            <h4 className="h6 text-white bsb-hover-fadeInRight mt-2">Read More</h4>
+                            <h4 className="h6 text-white bsb-hover-fadeInRight mt-2">
+                              Read More
+                            </h4>
                           </figcaption>
                         </figure>
 
@@ -950,27 +1261,39 @@ function Terms() {
                               </li>
                             </ul> */}
                             <h2 className="card-title entry-title h4 mb-0">
-                              <a className="link-dark text-decoration-none" href="#!">
+                              <a
+                                className="link-dark text-decoration-none"
+                                href="#!"
+                              >
                                 Lorem ipsum dolor sit amet
                               </a>
                             </h2>
                           </div>
                           <p className="card-text entry-summary text-secondary">
-                            Streamlining Claims: How Early, Informed Decisions Reduce Denials
+                            Streamlining Claims: How Early, Informed Decisions
+                            Reduce Denials
                           </p>
                         </div>
 
                         <div className="card-footer border border-top-0 bg-white p-4">
                           <ul className="entry-meta list-unstyled d-flex align-items-center m-0">
                             <li>
-                              <a className="fs-7 link-secondary text-decoration-none d-flex align-items-center" href="#!">
+                              <a
+                                className="fs-7 link-secondary text-decoration-none d-flex align-items-center"
+                                href="#!"
+                              >
                                 <i className="fas fa-calendar-alt me-2"></i>
                                 <span className="fs-7">7 Feb 2023</span>
                               </a>
                             </li>
-                            <li><span className="px-3">•</span></li>
                             <li>
-                              <a className="link-secondary text-decoration-none d-flex align-items-center" href="#!">
+                              <span className="px-3">•</span>
+                            </li>
+                            <li>
+                              <a
+                                className="link-secondary text-decoration-none d-flex align-items-center"
+                                href="#!"
+                              >
                                 <i className="fas fa-comment-dots me-2"></i>
                                 <span className="fs-7">55</span>
                               </a>
@@ -983,12 +1306,18 @@ function Terms() {
                       <div className="card border-0 flex-fill blog_single_card">
                         <figure className="card-img-top m-0 overflow-hidden bsb-overlay-hover">
                           <Link to="/blogdetail">
-                            <img className="img-fluid bsb-scale bsb-hover-scale-up" loading="lazy" src={doct_blog}
-                              alt="Online cancer consultation with expert oncologists" />
+                            <img
+                              className="img-fluid bsb-scale bsb-hover-scale-up"
+                              loading="lazy"
+                              src={doct_blog}
+                              alt="Online cancer consultation with expert oncologists"
+                            />
                           </Link>
                           <figcaption>
                             <i className="fas fa-eye text-white bsb-hover-fadeInLeft fa-2x"></i>
-                            <h4 className="h6 text-white bsb-hover-fadeInRight mt-2">Read More</h4>
+                            <h4 className="h6 text-white bsb-hover-fadeInRight mt-2">
+                              Read More
+                            </h4>
                           </figcaption>
                         </figure>
 
@@ -1000,7 +1329,10 @@ function Terms() {
                               </li>
                             </ul> */}
                             <h2 className="card-title entry-title h4 mb-0">
-                              <a className="link-dark text-decoration-none" href="#!">
+                              <a
+                                className="link-dark text-decoration-none"
+                                href="#!"
+                              >
                                 Lorem ipsum dolor sit amet
                               </a>
                             </h2>
@@ -1012,14 +1344,22 @@ function Terms() {
                         <div className="card-footer border border-top-0 bg-white p-4">
                           <ul className="entry-meta list-unstyled d-flex align-items-center m-0">
                             <li>
-                              <a className="fs-7 link-secondary text-decoration-none d-flex align-items-center" href="#!">
+                              <a
+                                className="fs-7 link-secondary text-decoration-none d-flex align-items-center"
+                                href="#!"
+                              >
                                 <i className="fas fa-calendar-alt me-2"></i>
                                 <span className="fs-7">7 Feb 2023</span>
                               </a>
                             </li>
-                            <li><span className="px-3">•</span></li>
                             <li>
-                              <a className="link-secondary text-decoration-none d-flex align-items-center" href="#!">
+                              <span className="px-3">•</span>
+                            </li>
+                            <li>
+                              <a
+                                className="link-secondary text-decoration-none d-flex align-items-center"
+                                href="#!"
+                              >
                                 <i className="fas fa-comment-dots me-2"></i>
                                 <span className="fs-7">55</span>
                               </a>

@@ -13,7 +13,7 @@ function Hospitals() {
       <section className="text-left">
         <div className="container-fluid px-0">
           <div className="row gx-0 align-items-center">
-            <div className="bg-image_hospital d-flex justify-content-left align-items-center text-left text-white vh-100">
+            <div className="bg-image_hospital d-flex justify-content-left align-items-center text-left text-white">
               <div className="overlay-content">
                 <div className="col-md-7 p-3 ps-lg-5 ms-lg-5 ms-md-5 ms-sm-5">
                   <h1 className="fw-bold text-white display-6 animate__animated animate__fadeIn">
@@ -27,7 +27,11 @@ function Hospitals() {
                     extending your expert reach.
                   </p>
                   <div className="d-flex justify-content-start gap-3 mt-3 animate__animated animate__fadeInUp animate__delay-2s">
-                    <Link to="/contact" target="_blank" className="read-more-btn-white">
+                    <Link
+                      to="/contact"
+                      target="_blank"
+                      className="read-more-btn-white"
+                    >
                       Start Your Second Opinion Request
                     </Link>
                   </div>
@@ -275,8 +279,8 @@ function Hospitals() {
                       <b> For Oncologists</b>
                     </p>
                     <p>
-                      "Peer validation, access to sub-specialists, new
-                      treatment perspectives."
+                      "Peer validation, access to sub-specialists, new treatment
+                      perspectives."
                     </p>
                   </div>
                 </div>
@@ -286,8 +290,8 @@ function Hospitals() {
                       <b> For Hospital Administrators</b>
                     </p>
                     <p>
-                      "Enhanced patient satisfaction, potential for new
-                      revenue streams, competitive advantage."
+                      "Enhanced patient satisfaction, potential for new revenue
+                      streams, competitive advantage."
                     </p>
                   </div>
                 </div>
@@ -296,9 +300,7 @@ function Hospitals() {
                     <p>
                       <b> For Referring Physicians </b>
                     </p>
-                    <p>
-                      "Confident referrals, comprehensive patient support."
-                    </p>
+                    <p>"Confident referrals, comprehensive patient support."</p>
                   </div>
                 </div>
               </div>
@@ -350,37 +352,37 @@ function Hospitals() {
           </div>
           <div className="row  justify-content-center">
             <div className="col-lg-10 col-xl-9">
-            <div className="card mb-3 p-0">
-              <div className="row g-0  align-items-center">
-                <div className="col-md-2 p-0">
-                  <img
-                    src={doct3}
-                    className="img-fluid rounded-start w-100"
-                    alt="Dr. Sanjeev Gupta, Head of Oncology, sharing his hospital's success with OncoBridge"
-                  />
-                </div>
-                <div className="col-md-10">
-                  <div className="card-body">
-                    <h5 className="card-title text-center hospital_story_text">
-                      A professional headshot of Dr. Sanjeev Gupta, an Indian
-                      physician, conveying authority and trust
-                    </h5>
-                    {/* <p className="card-text text-start">
+              <div className="card mb-3 p-0">
+                <div className="row g-0  align-items-center">
+                  <div className="col-md-2 p-0">
+                    <img
+                      src={doct3}
+                      className="img-fluid rounded-start w-100"
+                      alt="Dr. Sanjeev Gupta, Head of Oncology, sharing his hospital's success with OncoBridge"
+                    />
+                  </div>
+                  <div className="col-md-10">
+                    <div className="card-body">
+                      <h5 className="card-title text-center hospital_story_text">
+                        A professional headshot of Dr. Sanjeev Gupta, an Indian
+                        physician, conveying authority and trust
+                      </h5>
+                      {/* <p className="card-text text-start">
                       {" "}
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                       Integer non odio nec odio sollicitudin vulputate. Aenean
                       nec fringilla lorem.{" "}
                     </p> */}
-                    {/* <p className="card-text text-start">
+                      {/* <p className="card-text text-start">
                       <small className="text-muted">
                         Last updated 3 mins ago
                       </small>
                     </p> */}
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
           </div>
         </div>
       </section>
@@ -450,7 +452,14 @@ function Hospitals() {
           <h2 className="fw-bold mb-3">
             Strengthen your oncology program. Partner with OncoBridge today.
           </h2>
-          <Link to="/contact" target="_blank" className="read-more-btn-white-cardbtn">  Schedule a Partnership Discussion</Link>
+          <Link
+            to="/contact"
+            target="_blank"
+            className="read-more-btn-white-cardbtn"
+          >
+            {" "}
+            Schedule a Partnership Discussion
+          </Link>
         </div>
       </section>
     </>

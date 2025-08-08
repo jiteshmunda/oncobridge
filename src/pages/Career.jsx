@@ -16,13 +16,12 @@ export default function CareerPage() {
   const [searchTerm, setSearchTerm] = useState("");
   const [showApplicationForm, setShowApplicationForm] = useState(false);
 
-  // Create a ref for the form
   const form = useRef();
 
   const openModal = (jobCode) => setSelectedJob(jobCode);
   const closeModal = () => {
     setSelectedJob(null);
-    setShowApplicationForm(false); 
+    setShowApplicationForm(false);
   };
 
   useEffect(() => {
@@ -37,17 +36,19 @@ export default function CareerPage() {
     e.preventDefault();
     emailjs
       .sendForm(
-        'service_lfjgn1k', 
-        'template_jex75zr', 
-        form.current, 
-        'l0cD42p3tCb7Pv8LS'
+        "service_lfjgn1k",
+        "template_jex75zr",
+        form.current,
+        "l0cD42p3tCb7Pv8LS"
       )
       .then(
         (result) => {
           console.log(result.text);
-          alert("Application submitted successfully! Please remember to send your resume to the email address provided in the job description.");
-          setShowApplicationForm(false); 
-          closeModal(); 
+          alert(
+            "Application submitted successfully! Please remember to send your resume to the email address provided in the job description."
+          );
+          setShowApplicationForm(false);
+          closeModal();
         },
         (error) => {
           console.log(error.text);
@@ -65,7 +66,7 @@ export default function CareerPage() {
               <div className="overlay-content">
                 <div className="col-md-12 p-3 ms-lg-5 ps-lg-4">
                   <h1 className="fw-bold text-white display-3 animate__animated animate__fadeIn">
-                    Careers
+                    Be a part <br /> of our team
                   </h1>
                 </div>
               </div>
@@ -745,7 +746,7 @@ export default function CareerPage() {
                       <a href="mailto:care@oncobridge.in">care@oncobridge.in</a>{" "}
                       with the Job Code in the subject line.
                     </p>
-                    
+
                     <button type="submit" className="submit-btn">
                       Submit Application
                     </button>
