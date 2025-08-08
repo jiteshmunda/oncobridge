@@ -75,11 +75,11 @@ function Partners() {
               </a>{" "}
               or email us at{" "}
               <a
-                href="mailto:care@oncobridge.com"
+                href="mailto:care@oncobridge.in"
                 className=" fw-bold"
                 style={{ color: "#1a97ad" }}
               >
-                care@oncobridge.com
+                care@oncobridge.in
               </a>
             </p>
           </div>

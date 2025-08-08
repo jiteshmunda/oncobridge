@@ -1248,3 +1248,9 @@ a {
     line-height: 1.4;
   }
 }
+
+
+
+.about_services .card {
+  min-height: 190px; /* Adjust as needed */
+}

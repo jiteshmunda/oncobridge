@@ -150,9 +150,9 @@ function Patients() {
                     Easily submit your medical records (reports, scans,
                     pathology) securely through our platform
                   </p>
-                  <a href="#upload" className="read-more-btn-white-cardbtn">
+                  {/* <a href="#upload" className="read-more-btn-white-cardbtn">
                     Upload Your Documents
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
@@ -202,12 +202,12 @@ function Patients() {
                     follow-up discussions with the expert or our care team are
                     available
                   </p>
-                  <a
+                  {/* <a
                     href="#sample-report"
                     className="read-more-btn-white-cardbtn "
                   >
                     View Sample Report
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
@@ -215,7 +215,7 @@ function Patients() {
         </div>
       </section>
 
-      <section className="py-5  text-center about_services">
+      <section className="py-5  text-center about_services mb-5">
         <div className="container">
           <div class="text-center mb-5">
             <h2 className="section-title fw-bold ">
@@ -234,10 +234,10 @@ function Patients() {
                     Expert review of documents and written report.
                   </p>
                   {/* <a href="#pricing" className="fw-bold me-3"> Pricing</a> */}
-                  <a href="#pricing" className="fw-bold brand_text_color">
+                  {/* <a href="#pricing" className="fw-bold brand_text_color">
                     {" "}
                     Inquire
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
@@ -253,10 +253,10 @@ function Patients() {
                     with the expert
                   </p>
                   {/* <a href="#pricing" className="fw-bold me-3"> Pricing</a> */}
-                  <a href="#pricing" className="fw-bold brand_text_color">
+                  {/* <a href="#pricing" className="fw-bold brand_text_color">
                     {" "}
                     Inquire
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
@@ -272,10 +272,10 @@ function Patients() {
                     virtual consultation.
                   </p>
                   {/* <a href="#pricing" className="fw-bold me-3"> Pricing</a> */}
-                  <a href="#pricing" className="fw-bold brand_text_color">
+                  {/* <a href="#pricing" className="fw-bold brand_text_color">
                     {" "}
                     Inquire
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
@@ -311,7 +311,7 @@ function Patients() {
           </div>
         </section> */}
 
-      <section className="py-5 ">
+      {/* <section className="py-5 ">
         <div className="container text-center">
           <div class="text-center mb-5">
             <h2 className="section-title fw-bold ">What Our Patients Say</h2>
@@ -368,8 +368,8 @@ function Patients() {
             </div>
           </div>
         </div>
-      </section>
-      <section className="text-center py-5 bg-light rounded mt-3 get_start_block">
+      </section> */}
+      {/* <section className="text-center py-5 bg-light rounded mt-3 get_start_block">
         <h2 className="fw-bold mb-3">
           Don't face cancer alone. Get the clarity you deserve.
         </h2>
@@ -377,7 +377,7 @@ function Patients() {
           {" "}
           Get Started
         </Link>
-      </section>
+      </section> */}
     </>
   );
 }

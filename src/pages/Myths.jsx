@@ -1970,20 +1970,7 @@ function Myths() {
                       <span>Kidwai Memorial Institute of Oncology</span>
                     </div>
 
-                    <div className="d-flex align-items-start mb-3">
-                      <i className="fas fa-check me-2 line_ht"></i>
-                      <span>Apollo Cancer Institutes</span>
-                    </div>
-
-                    <div className="d-flex align-items-start mb-3">
-                      <i className="fas fa-check me-2 line_ht"></i>
-                      <span>Fortis Cancer Institute</span>
-                    </div>
-
-                    <div className="d-flex align-items-start">
-                      <i className="fas fa-check me-2 line_ht"></i>
-                      <span>Max Cancer Care</span>
-                    </div>
+                    
                   </div>
 
                   {/* <ul className="ps-4 text-start list-unstyled">

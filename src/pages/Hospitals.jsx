@@ -345,7 +345,7 @@ function Hospitals() {
       </section>
 
       {/* Case Studies */}
-      <section className="py-5 ">
+      {/* <section className="py-5 ">
         <div className="container">
           <div className="text-center mb-4">
             <h2 className="section-title fw-bold ">Success Stories</h2>
@@ -367,17 +367,6 @@ function Hospitals() {
                         A professional headshot of Dr. Sanjeev Gupta, an Indian
                         physician, conveying authority and trust
                       </h5>
-                      {/* <p className="card-text text-start">
-                      {" "}
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Integer non odio nec odio sollicitudin vulputate. Aenean
-                      nec fringilla lorem.{" "}
-                    </p> */}
-                      {/* <p className="card-text text-start">
-                      <small className="text-muted">
-                        Last updated 3 mins ago
-                      </small>
-                    </p> */}
                     </div>
                   </div>
                 </div>
@@ -385,7 +374,7 @@ function Hospitals() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Section: FAQ */}
       {/* <section className="faq-section py-5 bg-white">
@@ -449,7 +438,7 @@ function Hospitals() {
       {/* Final CTA */}
       <section className="text-center py-5 bg-light rounded get_start_block">
         <div className="container">
-          <h2 className="fw-bold mb-3">
+          <h2 className="fw-bold mb-4">
             Strengthen your oncology program. Partner with OncoBridge today.
           </h2>
           <Link
