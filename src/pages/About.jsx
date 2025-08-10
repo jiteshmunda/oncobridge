@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import vision from "../assets/vision.jpg";
+import About_us_banner from "../assets/About-us.png";
 import "../styles/About.css";
 
 function About() {
@@ -61,8 +61,8 @@ function About() {
             ref={rightWrapperRef}
           >
             <img
-              src={vision}
-              className="about-sticky-image rounded shadow"
+              src={About_us_banner}
+              className="about-sticky-image "
               alt="Our Vision and Mission"
             />
           </div>

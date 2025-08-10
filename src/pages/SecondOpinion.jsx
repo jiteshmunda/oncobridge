@@ -4,7 +4,7 @@ import second_op1 from "../assets/doctor-patient.jpg";
 import second_opt2 from "../assets/second_opt2.jpg";
 import second_opt3 from "../assets/second_opt3.jpg";
 import "../styles/SecondOpinion.css";
-import home_banner from "../assets/home_banner.jpg";
+import Expert_view_banner from "../assets/Expert-view.png";
 import { FaRegCommentDots } from "react-icons/fa";
 
 function SecondOpinion() {
@@ -32,7 +32,7 @@ function SecondOpinion() {
           <div className="row align-items-center pt-5 pb-5 px-lg-5 px-md-4 px-3">
             <div className="col-md-6 col-lg-6 col-sm-12 text-center text-md-end order-1 order-md-2 mb-4 mb-md-0 px-lg-5 px-md-4">
               <img
-                src={home_banner}
+                src={Expert_view_banner}
                 className="img-fluid home-banner-img"
                 alt="Doctor holding patient hand"
                 style={{ borderRadius: "20px" }}

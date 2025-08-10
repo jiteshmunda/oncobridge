@@ -10,6 +10,7 @@ import pat_card4_img from "../assets/pat_card4.jpg";
 import { Link } from "react-router-dom";
 import get_key from "../assets/get_key.jpg";
 import pat4 from "../assets/pat4.png";
+import Hospital_banner from "../assets/Doctors and Hospital.png";
 const testimonials = [
   {
     quote:
@@ -35,7 +36,7 @@ const testimonials = [
 function Patients() {
   return (
     <>
-      <section className="text-left">
+      {/* <section className="text-left">
         <div className="container-fluid px-0">
           <div className="row gx-0 align-items-center">
             <div className="bg-image-patients d-flex justify-content-left align-items-center text-left text-white vh-100">
@@ -64,7 +65,48 @@ function Patients() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
+
+      <section className="bg-image-home">
+                    <div className="container-fluid">
+                      <div className="row align-items-center pt-5 pb-5 px-lg-5 px-md-4 px-3">
+                        {/* Right Image Column */}
+                        <div className="col-md-6 col-lg-6 col-sm-12 text-center text-md-end order-1 order-md-2 mb-4 mb-md-0 px-lg-5 px-md-4">
+                          <img
+                            src={Hospital_banner}
+                            className="img-fluid home-banner-img"
+                            alt="Doctor holding patient hand"
+                            style={{ borderRadius: "20px" }}
+                          />
+                        </div>
+            
+                        {/* Left Text Column */}
+                        <div className="col-md-6 col-lg-6 col-sm-12 text-start order-2 order-md-1 px-lg-4 px-md-4">
+                         <h1 className="fw-bold display-6 animate__animated animate__fadeIn" style={{ color: "#1a97ad" }}>
+                    Your Second Opinion Journey: Clearer Answers, Confident
+                    Decisions.
+                  </h1>
+                  <p className="lead mt-3 animate__animated animate__fadeIn animate__delay-1s">
+                    OncoBridge empowers you with expert insights from
+                    world-renowned oncologists, giving you clarity and control
+                    over your cancer treatment path.
+                  </p>
+                  <div className="d-flex justify-content-start gap-3 mt-3 animate__animated animate__fadeInUp animate__delay-2s">
+                    <Link
+                      to="/contact"
+                      className="btn startjourney px-4 py-2 mt-3"
+                    >
+                      Start Your Second Opinion Request
+                    </Link>
+                  </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+
+
+
+
       <section className=" py-5 bg-light">
         <div className="container-fluid">
           <div class="text-center mb-5">
