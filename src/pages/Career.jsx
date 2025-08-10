@@ -94,7 +94,7 @@ export default function CareerPage() {
                                     {/* Left Text Column */}
                                     <div className="col-md-6 col-lg-6 col-sm-12 text-start order-2 order-md-1 px-lg-4 px-md-4">
                                       <h1 className="fw-bold display-5 animate__animated animate__fadeIn" style={{ color: "#1a97ad" }}>
-                    Be a part of our<br/> team
+                    Be a part of our<br/> Team
                   </h1>
                                     </div>
                                   </div>
