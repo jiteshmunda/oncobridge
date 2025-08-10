@@ -1252,5 +1252,53 @@ a {
 
 
 .about_services .card {
-  min-height: 190px; /* Adjust as needed */
+  min-height: 190px;
+}
+
+
+
+.Insurance-banner-img{
+  height: 60vh;
+}
+
+
+/* Tablets (portrait) and below */
+@media (max-width: 991px) {
+  .Insurance-banner-img {
+    height: 40vh;
+  }
+}
+
+/* Mobile phones */
+@media (max-width: 576px) {
+  .Insurance-banner-img {
+    height: 30vh;
+  }
+}
+
+
+
+
+
+
+/* Tablets */
+@media (max-width: 991px) {
+  .hospital_banner_heading {
+    font-size: 2rem;
+  }
+}
+
+/* Large mobiles / small tablets */
+@media (max-width: 768px) {
+  .hospital_banner_heading {
+    font-size: 1.7rem;
+  }
+}
+
+/* Small mobiles */
+@media (max-width: 576px) {
+  .hospital_banner_heading {
+    font-size: 1.4rem;
+    line-height: 1.2;
+  }
 }

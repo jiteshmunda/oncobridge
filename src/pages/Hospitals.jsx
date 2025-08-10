@@ -58,7 +58,7 @@ function Hospitals() {
       
                   {/* Left Text Column */}
                   <div className="col-md-6 col-lg-6 col-sm-12 text-start order-2 order-md-1 px-lg-4 px-md-4">
-                    <h1 className="fw-bold display-6 animate__animated animate__fadeIn" style={{ color: "#1a97ad" }}>
+                    <h1 className="fw-bold display-6 animate__animated animate__fadeIn hospital_banner_heading" style={{ color: "#1a97ad" }}>
                     Collaborate for Excellence: Empowering Your Practice with
                     OncoBridge.
                   </h1>

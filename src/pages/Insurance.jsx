@@ -6,10 +6,12 @@ import teamuser from "../assets/teamuser.png";
 import case1_img from "../assets/case1.jpg";
 import case2_img from "../assets/case2.jpg";
 import { Link } from "react-router-dom";
+import Insurance_banner from "../assets/insurance.png";
+
 function Insurance() {
   return (
     <>
-      <section className="text-left">
+      {/* <section className="text-left">
         <div className="container-fluid px-0">
           <div className="row gx-0 align-items-center">
             <div className="bg-image_ins d-flex justify-content-left align-items-center text-left text-white ">
@@ -38,7 +40,47 @@ function Insurance() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
+
+
+
+      <section className="bg-image-home">
+                    <div className="container-fluid">
+                      <div className="row align-items-center pt-5 pb-5 px-lg-5 px-md-4 px-3">
+                        {/* Right Image Column */}
+                        <div className="col-md-6 col-lg-6 col-sm-12 text-center text-md-end order-1 order-md-2 mb-4 mb-md-0 px-lg-5 px-md-4">
+                          <img
+                            src={Insurance_banner}
+                            className="img-fluid Insurance-banner-img"
+                            alt="Doctor holding patient hand"
+                            style={{ borderRadius: "20px" }}
+                          />
+                        </div>
+            
+                        {/* Left Text Column */}
+                        <div className="col-md-6 col-lg-6 col-sm-12 text-start order-2 order-md-1 px-lg-4 px-md-4">
+                          <h1 className="fw-bold display-6 animate__animated animate__fadeIn hospital_banner_heading" style={{ color: "#1a97ad" }}>
+                    Optimizing Cancer Care: Strategic Partnerships for Insurance
+                    Providers
+                  </h1>
+                  <p className="lead mt-3 animate__animated animate__fadeIn animate__delay-1s">
+                    OncoBridge collaborates with insurance companies to ensure
+                    policyholders receive the most appropriate, high-quality
+                    cancer care, leading to better outcomes and managed costs.
+                  </p>
+                  <div className="d-flex justify-content-start gap-3 mt-3 animate__animated animate__fadeInUp animate__delay-2s">
+                    <Link
+                      to="/contact"
+                      target="_blank"
+                      className="btn startjourney px-4 py-2 mt-3"
+                    >
+                      Start Your Second Opinion Request
+                    </Link>
+                  </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
 
       {/* Why Partner Section */}
       <section className="py-5 bg-light">

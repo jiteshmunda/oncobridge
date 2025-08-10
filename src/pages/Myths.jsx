@@ -11,11 +11,12 @@ import myths_step1 from "../assets/myths_step1.jpg";
 import myths_step2 from "../assets/myths_step2.jpg";
 import myths_step3 from "../assets/myths_step3.jpg";
 import myths_step4 from "../assets/myths_step4.jpg";
+import Myths_banner from "../assets/myths_bg_main.jpg";
 
 function Myths() {
   return (
     <>
-      <section className="text-center">
+      {/* <section className="text-center">
         <div className="container-fluid px-0">
           <div className="row gx-0 align-items-center">
             <div className="bg-image-myths d-flex justify-content-left align-items-center text-left text-white">
@@ -25,14 +26,41 @@ function Myths() {
                     Cancer: Understanding Facts, Dispelling Myths
                   </h1>
                   <p className="lead animate__animated animate__fadeIn animate__delay-1s">
-                    {/* Optional subtitle or leave empty */}
                   </p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
+
+
+
+      <section className="bg-image-home">
+                          <div className="container-fluid">
+                            <div className="row align-items-center pt-5 pb-5 px-lg-5 px-md-4 px-3">
+                              {/* Right Image Column */}
+                              <div className="col-md-6 col-lg-6 col-sm-12 text-center text-md-end order-1 order-md-2 mb-4 mb-md-0 px-lg-5 px-md-4">
+                                <img
+                                  src={Myths_banner}
+                                  className="img-fluid"
+                                  alt="Doctor holding patient hand"
+                                  style={{ borderRadius: "20px" }}
+                                />
+                              </div>
+                  
+                              {/* Left Text Column */}
+                              <div className="col-md-6 col-lg-6 col-sm-12 text-start order-2 order-md-1 px-lg-4 px-md-4">
+                                <h1 className="fw-bold display-5 animate__animated animate__fadeIn" style={{ color: "#1a97ad" }}>
+                    Cancer: Understanding Facts, Dispelling Myths
+                  </h1>
+                  <p className="lead animate__animated animate__fadeIn animate__delay-1s">
+                    {/* Optional subtitle or leave empty */}
+                  </p>
+                              </div>
+                            </div>
+                          </div>
+                        </section>
 
       {/* block 1 */}
       <section className="text-center py-4 px-2">

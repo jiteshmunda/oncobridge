@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "../styles/Disclaimers.css";
+import Disclaimers_banner from "../assets/disclaimer.jpg";
 
 const disclaimerData = [
   {
@@ -280,7 +281,7 @@ const Disclaimer = () => {
   return (
     <>
       {/* Banner Section */}
-      <section className="disclaimer-banner d-flex align-items-center text-white position-relative">
+      {/* <section className="disclaimer-banner d-flex align-items-center text-white position-relative">
         <div className="overlay"></div>
         <div className="container text-left position-relative z-1">
           <div className="col-md-12 p-3 ">
@@ -292,7 +293,34 @@ const Disclaimer = () => {
             </p>
           </div>
         </div>
-      </section>
+      </section> */}
+
+
+      <section className="bg-image-home">
+                                      <div className="container-fluid">
+                                        <div className="row align-items-center pt-5 pb-5 px-lg-5 px-md-4 px-3">
+                                          {/* Right Image Column */}
+                                          <div className="col-md-6 col-lg-6 col-sm-12 text-center text-md-end order-1 order-md-2 mb-4 mb-md-0 px-lg-5 px-md-4">
+                                            <img
+                                              src={Disclaimers_banner}
+                                              className="img-fluid "
+                                              alt="Doctor holding patient hand"
+                                              style={{ borderRadius: "20px" }}
+                                            />
+                                          </div>
+                              
+                                          {/* Left Text Column */}
+                                          <div className="col-md-6 col-lg-6 col-sm-12 text-start order-2 order-md-1 px-lg-4 px-md-4">
+                                           <h1 className="fw-bold  display-5 animate__animated animate__fadeIn" style={{ color: "#1a97ad" }}>
+              Disclaimer & Terms of Use
+            </h1>
+            <p className="lead mt-3 animate__animated animate__fadeInUp animate__delay-1s" style={{ fontSize:'19px' }}>
+              Please read carefully before using our services
+            </p>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </section>
 
       {/* Disclaimer Section 1 */}
       <section className="disclaimer-section">
