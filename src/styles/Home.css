@@ -1436,9 +1436,8 @@
 
   .challenge-row .col-md-6:first-child {
     max-width: 100% !important;
-    width: 94% !important;
+    width: 98% !important;
     flex: 0 0 100% !important;
-    padding: 0 !important;
   }
 
   .challenge-row .hero-alt-image-box {
