@@ -56,6 +56,10 @@ a {
   z-index: 999; */
 }
 
+
+
+
+
 .social-icon {
   display: inline-flex;
   align-items: center;
@@ -344,6 +348,8 @@ a {
   height: 79vh !important;
 }
 
+
+
 .bg-image_hospital::before {
   content: "";
   position: absolute;
@@ -568,7 +574,7 @@ a {
   .bg-image_hospital {
     height: 80vh !important;
   }
-  .bg-image_hospital {
+   .bg-image_hospital {
     height: 220px;
     padding-left: 0;
     background-position: top;
@@ -713,6 +719,8 @@ a {
   font-size: 14px;
   text-decoration: none;
 }
+
+
 
 .bg-image-myths::before {
   content: "";
@@ -1034,6 +1042,7 @@ a {
   color: #194d63;
 }
 
+
 .bg-image-career::before {
   content: "";
   position: absolute;
@@ -1169,9 +1178,18 @@ a {
   }
 }
 
-.getintouch {
-  color: #1a97ad;
+
+.getintouch{
+  color: #1a97ad;;
 }
+
+
+
+
+
+
+
+
 
 /* Default (Desktop and Tablet) */
 .bg-image-career {
@@ -1181,7 +1199,7 @@ a {
   background-repeat: no-repeat;
   position: relative;
   width: 100%;
-  height: 79vh;
+  height: 79vh; 
   display: flex;
   align-items: center;
   text-align: left;
@@ -1191,7 +1209,7 @@ a {
 /* Mobile  (max-width: 768px) */
 @media (max-width: 768px) {
   .bg-image-career {
-    height: 280px;
+    height: 280px; 
     background-position: top;
     padding-left: 0px;
   }
@@ -1201,6 +1219,9 @@ a {
   }
 }
 
+
+
+
 .bg-image-myths {
   background-image: url("../assets/myths_bg_main.jpg");
   background-size: cover;
@@ -1209,7 +1230,7 @@ a {
   position: relative;
   text-align: left;
   width: 100%;
-  height: 79vh;
+  height: 79vh; 
   display: flex;
   align-items: center;
   padding-left: 40px;
@@ -1218,8 +1239,8 @@ a {
 /* Responsive for mobile */
 @media (max-width: 768px) {
   .bg-image-myths {
-    height: 280px;
-    padding-left: 0 !important;
+    height: 280px; 
+     padding-left: 0 !important;   
   }
 
   .bg-image-myths h1 {
@@ -1228,38 +1249,38 @@ a {
   }
 }
 
+
+
 .about_services .card {
   min-height: 190px;
 }
 
-.Insurance-banner-img {
+
+
+.Insurance-banner-img{
   height: 60vh;
 }
+
 
 /* Tablets (portrait) and below */
 @media (max-width: 991px) {
   .Insurance-banner-img {
     height: 30vh;
   }
-  .case-study-img {
+  .case-study-img{
     height: 30vh;
   }
 
-  .expert-network {
-    height: 50vh;
-  }
-
-  .card-images {
+  .card-images{
     height: 10vh;
   }
 }
 
-/* Mobile phones */
-@media (max-width: 576px) {
-  .Insurance-banner-img {
-    height: 30vh;
-  }
-}
+
+
+
+
+
 
 /* Tablets */
 @media (max-width: 991px) {
