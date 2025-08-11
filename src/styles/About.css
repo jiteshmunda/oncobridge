@@ -1,7 +1,7 @@
 /* Section Background */
 .about-section {
   background-color: #f8f9fa;
-  padding: 60px 0;
+  padding: 0px 0;
 }
 
 .about-row {
@@ -63,7 +63,7 @@
 
 .extra-space-bottom {
   margin-bottom: 16rem !important;
-  margin-top: 5.5rem;
+  margin-top: 9rem;
   color: #1a97ad;
 }
 
@@ -113,7 +113,7 @@
 
 @media (max-width: 480px) {
   .about-image-wrapper {
-    margin-bottom: 25px;
+    margin-bottom: 0px;
   }
 
   .about-title {
@@ -145,9 +145,9 @@
     display: block;
   }
 
-  .about-responsive .about-content {
+  /* .about-responsive .about-content {
     padding: 10px 45px;
-  }
+  } */
 
   .about-responsive .about-content .m-lg-5 {
     margin: 0 !important;
