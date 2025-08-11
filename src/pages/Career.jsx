@@ -769,6 +769,11 @@ export default function CareerPage() {
                       <input type="tel" name="user_phone" required />
                     </div>
 
+                    {/* <div className="form-group">
+                      <label>Upload Resume (PDF)</label>
+                      <input type="file" accept=".pdf" required />
+                    </div> */}
+
                     <p className="resume-instruction">
                       Please send your resume to{" "}
                       <a href="mailto:care@oncobridge.in">care@oncobridge.in</a>{" "}
