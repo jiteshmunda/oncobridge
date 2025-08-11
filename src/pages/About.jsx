@@ -34,7 +34,7 @@ function About() {
   return (
     <section className="about-section">
       <div className="container-fluid mb-0">
-        <div className="row about-row g-0">
+        <div className="row about-row g-0 about-responsive">
           {/* Left Content Scroll */}
           <div className="col-lg-6 col-md-6 about-content" ref={leftContentRef}>
             <div className="m-lg-5">

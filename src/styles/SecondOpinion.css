@@ -68,7 +68,7 @@
   }
 
   .vertical-divider {
-    display: none; 
+    display: none;
   }
 
   .second-option-card {
@@ -82,9 +82,9 @@
   border-radius: 10px;
   align-self: stretch;
   margin-top: 45px;
-margin-bottom: 0;
+  margin-bottom: 0;
 
-   width: 1px;
+  width: 1px;
   min-width: 2px;
   max-width: 1px;
 }
@@ -109,10 +109,9 @@ margin-bottom: 0;
   background: rgba(255, 255, 255, 0.3);
 }
 
-
 .second-option-card p {
   margin-top: 15px;
   line-height: 1.5;
-  min-height: 80px; 
+  min-height: 80px;
   flex-grow: 1;
 }

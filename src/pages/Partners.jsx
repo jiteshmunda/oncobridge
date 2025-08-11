@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import iylonLogo from "../assets/iylon logo.jpeg";
+import iylonLogo from "../assets/iylon-logo2.png";
 import teamImage from "../assets/partners image.jpg";
 import "../styles/partners.css";
 

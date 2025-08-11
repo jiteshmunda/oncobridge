@@ -68,44 +68,41 @@ function Patients() {
       </section> */}
 
       <section className="bg-image-home">
-                    <div className="container-fluid">
-                      <div className="row align-items-center pt-5 pb-5 px-lg-5 px-md-4 px-3">
-                        {/* Right Image Column */}
-                        <div className="col-md-6 col-lg-6 col-sm-12 text-center text-md-end order-1 order-md-2 mb-4 mb-md-0 px-lg-5 px-md-4">
-                          <img
-                            src={Hospital_banner}
-                            className="img-fluid home-banner-img"
-                            alt="Doctor holding patient hand"
-                            style={{ borderRadius: "20px" }}
-                          />
-                        </div>
-            
-                        {/* Left Text Column */}
-                        <div className="col-md-6 col-lg-6 col-sm-12 text-start order-2 order-md-1 px-lg-4 px-md-4">
-                         <h1 className="fw-bold display-6 animate__animated animate__fadeIn" style={{ color: "#1a97ad" }}>
-                    Your Second Opinion Journey: Clearer Answers, Confident
-                    Decisions.
-                  </h1>
-                  <p className="lead mt-3 animate__animated animate__fadeIn animate__delay-1s">
-                    OncoBridge empowers you with expert insights from
-                    world-renowned oncologists, giving you clarity and control
-                    over your cancer treatment path.
-                  </p>
-                  <div className="d-flex justify-content-start gap-3 mt-3 animate__animated animate__fadeInUp animate__delay-2s">
-                    <Link
-                      to="/contact"
-                      className="btn startjourney px-4 py-2 mt-3"
-                    >
-                      Start Your Second Opinion Request
-                    </Link>
-                  </div>
-                        </div>
-                      </div>
-                    </div>
-                  </section>
+        <div className="container-fluid">
+          <div className="row align-items-center pt-5 pb-5 px-lg-5 px-md-4 px-3">
+            {/* Right Image Column */}
+            <div className="col-md-6 col-lg-6 col-sm-12 text-center text-md-end order-1 order-md-2 mb-4 mb-md-0 px-lg-5 px-md-4">
+              <img
+                src={Hospital_banner}
+                className="img-fluid home-banner-img"
+                alt="Doctor holding patient hand"
+                style={{ borderRadius: "20px" }}
+              />
+            </div>
 
-
-
+            {/* Left Text Column */}
+            <div className="col-md-6 col-lg-6 col-sm-12 text-start order-2 order-md-1 px-lg-4 px-md-4">
+              <h1
+                className="fw-bold display-6 animate__animated animate__fadeIn"
+                style={{ color: "#1a97ad" }}
+              >
+                Your Second Opinion Journey: Clearer Answers, Confident
+                Decisions.
+              </h1>
+              <p className="lead mt-3 animate__animated animate__fadeIn animate__delay-1s">
+                OncoBridge empowers you with expert insights from world-renowned
+                oncologists, giving you clarity and control over your cancer
+                treatment path.
+              </p>
+              <div className="d-flex justify-content-start gap-3 mt-3 animate__animated animate__fadeInUp animate__delay-2s">
+                <Link to="/contact" className="btn startjourney px-4 py-2 mt-3">
+                  Start Your Second Opinion Request
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <section className=" py-5 bg-light">
         <div className="container-fluid">
@@ -324,102 +321,6 @@ function Patients() {
           </div>
         </div>
       </section>
-
-      {/* <section className="py-5 bg-white">
-            <div className='container'>
-          <div class="text-center mb-5">
-            <h2 className="section-title fw-bold ">Frequently Asked Questions</h2>
-          </div>
-          <div className="accordion" id="faqAccordion">
-            {[
-              "Who are your experts?",
-              "How long does it take?",
-              "Is my data secure?",
-              "What if I don't have all my records?",
-              "Is this covered by insurance?"
-            ].map((question, index) => (
-              <div className="accordion-item" key={index}>
-                <h2 className="accordion-header" id={`heading${index}`}>
-                  <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target={`#collapse${index}`} aria-expanded="false">
-                    {question}
-                  </button>
-                </h2>
-                <div id={`collapse${index}`} className="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                  <div className="accordion-body">Answer coming soon.</div>
-                </div>
-              </div>
-            ))}
-          </div>
-          </div>
-        </section> */}
-
-      {/* <section className="py-5 ">
-        <div className="container text-center">
-          <div class="text-center mb-5">
-            <h2 className="section-title fw-bold ">What Our Patients Say</h2>
-          </div>
-          <div
-            id="testimonialCarousel"
-            className="carousel slide"
-            data-bs-ride="carousel"
-          >
-            <div className="carousel-inner">
-              {testimonials.map((item, index) => (
-                <div
-                  className={`carousel-item ${index === 0 ? "active" : ""}`}
-                  key={index}
-                >
-                  <p
-                    className="fs-5 fst-italic text-dark mx-auto"
-                    style={{ maxWidth: "800px" }}
-                  >
-                    "{item.quote}"
-                  </p>
-                  <p className="text-secondary mt-3 fw-semibold brand_text_color">
-                    <span className="brand_text_color">— {item.author}, </span>
-                    <span className="fw-normal brand_text_color">
-                      {item.title}
-                    </span>
-                  </p>
-                  <img
-                    src={item.image}
-                    alt={item.author}
-                    className="rounded-circle mt-3"
-                    style={{
-                      width: "80px",
-                      height: "80px",
-                      objectFit: "cover",
-                    }}
-                  />
-                </div>
-              ))}
-            </div>
-
-            <div className="carousel-indicators">
-              {testimonials.map((_, index) => (
-                <button
-                  key={index}
-                  type="button"
-                  data-bs-target="#testimonialCarousel"
-                  data-bs-slide-to={index}
-                  className={index === 0 ? "active" : ""}
-                  aria-current={index === 0}
-                  aria-label={`Slide ${index + 1}`}
-                ></button>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section> */}
-      {/* <section className="text-center py-5 bg-light rounded mt-3 get_start_block">
-        <h2 className="fw-bold mb-3">
-          Don't face cancer alone. Get the clarity you deserve.
-        </h2>
-        <Link to="/contact" target="_blank" className="read-more-btn">
-          {" "}
-          Get Started
-        </Link>
-      </section> */}
     </>
   );
 }

@@ -86,22 +86,6 @@ function Contact() {
 
   return (
     <>
-      {/* <section className="text-center">
-        <div className="container-fluid px-0">
-          <div className="row gx-0 align-items-left">
-            <div className="bg-image-contact d-flex justify-content-left align-items-center text-left text-white">
-              <div className="overlay-content">
-                <div className="col-md-12 p-3 ms-lg-5 ps-lg-4">
-                  <h1 className="fw-bold text-white display-3 animate__animated animate__fadeIn">
-                    Contact Us
-                  </h1>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> */}
-
       <section className="contact-section py-5 banner-contact">
         <div className="container-fluid">
           <div className="row align-items-center px-lg-5 px-md-4 px-3">
@@ -129,10 +113,6 @@ function Contact() {
 
       <section className="section contact_block ">
         <div className="container my-5 ">
-          {/* <div className="text-center mb-5">
-            <h1 className="fw-bold">Contact Us</h1>
-          </div> */}
-
           {/* Status Alert */}
           {status.message && (
             <div
@@ -152,9 +132,9 @@ function Contact() {
                 <div className="d-flex flex-column align-items-md-start align-items-center text-md-start text-center mb-3">
                   <i className="fas fa-map-marker-alt mb-1"></i>
                   <strong>Address:</strong>
-                  <span>18-2, 4th Street, </span>
-                  <span>Gokulam Colony, PN Pudur,</span>
-                  <span>Coimbatore - 641041</span>
+                  <span>18-2, 4th Street </span>
+                  <span>Gokulam Colony, PN Pudur</span>
+                  <span>Coimbatore - 641 041</span>
                   <span>Tamil Nadu, India</span>
                 </div>
 

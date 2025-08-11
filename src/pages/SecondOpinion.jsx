@@ -10,22 +10,6 @@ import { FaRegCommentDots } from "react-icons/fa";
 function SecondOpinion() {
   return (
     <>
-      {/* <section className="text-center">
-        <div className="container-fluid px-0">
-          <div className="row gx-0 align-items-left">
-            <div className="bg-image-second-opt d-flex justify-content-left align-items-center text-left text-white">
-              <div className="overlay-content">
-                <div className="col-md-12 p-3 ms-lg-5 ps-lg-4">
-                  <h1 className="text-white display-3 animate__animated animate__fadeIn">
-                    <span className="font_bold">Expert View</span>
-                  </h1>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> */}
-
       {/* Banner Section */}
       <section className="bg-image-home">
         <div className="container-fluid">
@@ -56,12 +40,12 @@ function SecondOpinion() {
                 className="home_banner_subheading mb-4"
                 style={{ color: "#1a97ad" }}
               >
-                Elevating Cancer Care through <br /> Second Opinion
+                Elevating Cancer Care <br /> through Second Opinion
               </h5>
 
               <Link
                 to="/secondopinion"
-                className="btn startjourney px-4 py-2 mt-5 "
+                className="btn startjourney px-4 py-2 mt-4 "
               >
                 Start your journey
               </Link>
@@ -73,7 +57,7 @@ function SecondOpinion() {
       <div className="container py-3 mt-4 mb-5">
         <div className="background d-flex justify-content-between align-items-start px-4 py-4">
           {/* Card 1 */}
-          <div className="second-option-card flex-fill px-3">
+          <div className="second-option-card flex-fill px-2">
             <h5>Patients & Family</h5>
             <img
               src={second_op1}
@@ -92,7 +76,7 @@ function SecondOpinion() {
           <div className="vertical-divider"></div>
 
           {/* Card 2 */}
-          <div className="second-option-card flex-fill px-3">
+          <div className="second-option-card flex-fill px-2">
             <h5>Doctors & Hospitals</h5>
             <img
               src={second_opt2}
@@ -111,7 +95,7 @@ function SecondOpinion() {
           <div className="vertical-divider"></div>
 
           {/* Card 3 */}
-          <div className="second-option-card flex-fill px-3">
+          <div className="second-option-card flex-fill px-2">
             <h5>Insurance Providers</h5>
             <img
               src={second_opt3}

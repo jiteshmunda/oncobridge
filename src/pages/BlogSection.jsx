@@ -90,11 +90,6 @@ function Terms() {
 
                         <div className="card-body border bg-white p-4">
                           <div className="entry-header mb-3">
-                            {/* <ul className="entry-meta list-unstyled d-flex mb-2">
-                              <li>
-                                <a className="link-primary text-decoration-none" href="#!">Business</a>
-                              </li>
-                            </ul> */}
                             <h2 className="card-title entry-title h4 mb-0">
                               <a
                                 className="link-dark text-decoration-none"
@@ -157,11 +152,6 @@ function Terms() {
 
                         <div className="card-body border bg-white p-4">
                           <div className="entry-header mb-3">
-                            {/* <ul className="entry-meta list-unstyled d-flex mb-2">
-                              <li>
-                                <a className="link-primary text-decoration-none" href="#!">Business</a>
-                              </li>
-                            </ul> */}
                             <h2 className="card-title entry-title h4 mb-0">
                               <a
                                 className="link-dark text-decoration-none"
@@ -225,11 +215,6 @@ function Terms() {
 
                         <div className="card-body border bg-white p-4">
                           <div className="entry-header mb-3">
-                            {/* <ul className="entry-meta list-unstyled d-flex mb-2">
-                              <li>
-                                <a className="link-primary text-decoration-none" href="#!">Business</a>
-                              </li>
-                            </ul> */}
                             <h2 className="card-title entry-title h4 mb-0">
                               <a
                                 className="link-dark text-decoration-none"
@@ -293,11 +278,6 @@ function Terms() {
 
                         <div className="card-body border bg-white p-4">
                           <div className="entry-header mb-3">
-                            {/* <ul className="entry-meta list-unstyled d-flex mb-2">
-                              <li>
-                                <a className="link-primary text-decoration-none" href="#!">Business</a>
-                              </li>
-                            </ul> */}
                             <h2 className="card-title entry-title h4 mb-0">
                               <a
                                 className="link-dark text-decoration-none"
@@ -360,11 +340,6 @@ function Terms() {
 
                         <div className="card-body border bg-white p-4">
                           <div className="entry-header mb-3">
-                            {/* <ul className="entry-meta list-unstyled d-flex mb-2">
-                              <li>
-                                <a className="link-primary text-decoration-none" href="#!">Business</a>
-                              </li>
-                            </ul> */}
                             <h2 className="card-title entry-title h4 mb-0">
                               <a
                                 className="link-dark text-decoration-none"
@@ -427,11 +402,6 @@ function Terms() {
 
                         <div className="card-body border bg-white p-4">
                           <div className="entry-header mb-3">
-                            {/* <ul className="entry-meta list-unstyled d-flex mb-2">
-                              <li>
-                                <a className="link-primary text-decoration-none" href="#!">Business</a>
-                              </li>
-                            </ul> */}
                             <h2 className="card-title entry-title h4 mb-0">
                               <a
                                 className="link-dark text-decoration-none"
@@ -495,11 +465,6 @@ function Terms() {
 
                         <div className="card-body border bg-white p-4">
                           <div className="entry-header mb-3">
-                            {/* <ul className="entry-meta list-unstyled d-flex mb-2">
-                              <li>
-                                <a className="link-primary text-decoration-none" href="#!">Business</a>
-                              </li>
-                            </ul> */}
                             <h2 className="card-title entry-title h4 mb-0">
                               <a
                                 className="link-dark text-decoration-none"
@@ -562,11 +527,6 @@ function Terms() {
 
                         <div className="card-body border bg-white p-4">
                           <div className="entry-header mb-3">
-                            {/* <ul className="entry-meta list-unstyled d-flex mb-2">
-                              <li>
-                                <a className="link-primary text-decoration-none" href="#!">Business</a>
-                              </li>
-                            </ul> */}
                             <h2 className="card-title entry-title h4 mb-0">
                               <a
                                 className="link-dark text-decoration-none"
@@ -630,11 +590,6 @@ function Terms() {
 
                         <div className="card-body border bg-white p-4">
                           <div className="entry-header mb-3">
-                            {/* <ul className="entry-meta list-unstyled d-flex mb-2">
-                              <li>
-                                <a className="link-primary text-decoration-none" href="#!">Business</a>
-                              </li>
-                            </ul> */}
                             <h2 className="card-title entry-title h4 mb-0">
                               <a
                                 className="link-dark text-decoration-none"
@@ -706,11 +661,6 @@ function Terms() {
 
                         <div className="card-body border bg-white p-4">
                           <div className="entry-header mb-3">
-                            {/* <ul className="entry-meta list-unstyled d-flex mb-2">
-                              <li>
-                                <a className="link-primary text-decoration-none" href="#!">Business</a>
-                              </li>
-                            </ul> */}
                             <h2 className="card-title entry-title h4 mb-0">
                               <a
                                 className="link-dark text-decoration-none"
@@ -774,11 +724,6 @@ function Terms() {
 
                         <div className="card-body border bg-white p-4">
                           <div className="entry-header mb-3">
-                            {/* <ul className="entry-meta list-unstyled d-flex mb-2">
-                              <li>
-                                <a className="link-primary text-decoration-none" href="#!">Business</a>
-                              </li>
-                            </ul> */}
                             <h2 className="card-title entry-title h4 mb-0">
                               <a
                                 className="link-dark text-decoration-none"
@@ -842,11 +787,6 @@ function Terms() {
 
                         <div className="card-body border bg-white p-4">
                           <div className="entry-header mb-3">
-                            {/* <ul className="entry-meta list-unstyled d-flex mb-2">
-                              <li>
-                                <a className="link-primary text-decoration-none" href="#!">Business</a>
-                              </li>
-                            </ul> */}
                             <h2 className="card-title entry-title h4 mb-0">
                               <a
                                 className="link-dark text-decoration-none"
@@ -909,11 +849,6 @@ function Terms() {
 
                         <div className="card-body border bg-white p-4">
                           <div className="entry-header mb-3">
-                            {/* <ul className="entry-meta list-unstyled d-flex mb-2">
-                              <li>
-                                <a className="link-primary text-decoration-none" href="#!">Business</a>
-                              </li>
-                            </ul> */}
                             <h2 className="card-title entry-title h4 mb-0">
                               <a
                                 className="link-dark text-decoration-none"
@@ -976,11 +911,6 @@ function Terms() {
 
                         <div className="card-body border bg-white p-4">
                           <div className="entry-header mb-3">
-                            {/* <ul className="entry-meta list-unstyled d-flex mb-2">
-                              <li>
-                                <a className="link-primary text-decoration-none" href="#!">Business</a>
-                              </li>
-                            </ul> */}
                             <h2 className="card-title entry-title h4 mb-0">
                               <a
                                 className="link-dark text-decoration-none"
@@ -1043,11 +973,6 @@ function Terms() {
 
                         <div className="card-body border bg-white p-4">
                           <div className="entry-header mb-3">
-                            {/* <ul className="entry-meta list-unstyled d-flex mb-2">
-                              <li>
-                                <a className="link-primary text-decoration-none" href="#!">Business</a>
-                              </li>
-                            </ul> */}
                             <h2 className="card-title entry-title h4 mb-0">
                               <a
                                 className="link-dark text-decoration-none"
@@ -1119,11 +1044,6 @@ function Terms() {
 
                         <div className="card-body border bg-white p-4">
                           <div className="entry-header mb-3">
-                            {/* <ul className="entry-meta list-unstyled d-flex mb-2">
-                              <li>
-                                <a className="link-primary text-decoration-none" href="#!">Business</a>
-                              </li>
-                            </ul> */}
                             <h2 className="card-title entry-title h4 mb-0">
                               <a
                                 className="link-dark text-decoration-none"
@@ -1187,11 +1107,6 @@ function Terms() {
 
                         <div className="card-body border bg-white p-4">
                           <div className="entry-header mb-3">
-                            {/* <ul className="entry-meta list-unstyled d-flex mb-2">
-                              <li>
-                                <a className="link-primary text-decoration-none" href="#!">Business</a>
-                              </li>
-                            </ul> */}
                             <h2 className="card-title entry-title h4 mb-0">
                               <a
                                 className="link-dark text-decoration-none"
@@ -1323,11 +1238,6 @@ function Terms() {
 
                         <div className="card-body border bg-white p-4">
                           <div className="entry-header mb-3">
-                            {/* <ul className="entry-meta list-unstyled d-flex mb-2">
-                              <li>
-                                <a className="link-primary text-decoration-none" href="#!">Business</a>
-                              </li>
-                            </ul> */}
                             <h2 className="card-title entry-title h4 mb-0">
                               <a
                                 className="link-dark text-decoration-none"

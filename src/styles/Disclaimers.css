@@ -11,8 +11,6 @@
   color: #ffffff;
 }
 
-
-
 .disclaimer-banner .overlay {
   position: absolute;
   top: 0;
@@ -351,10 +349,6 @@
   }
 }
 
-
-
-
-
 .disclaimer-banner {
   background-image: url("/src/assets/disclaimer.jpg");
   background-position: center;
@@ -366,7 +360,6 @@
   display: flex;
   align-items: center;
 }
-
 
 .disclaimer-banner .overlay {
   position: absolute;
@@ -401,10 +394,6 @@
   }
 
   .terms-timeline::before {
-  
-  left: 12px;
-  
-}
-
-
+    left: 12px;
+  }
 }

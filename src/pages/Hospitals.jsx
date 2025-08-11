@@ -44,42 +44,44 @@ function Hospitals() {
       </section> */}
 
       <section className="bg-image-home">
-              <div className="container-fluid">
-                <div className="row align-items-center pt-5 pb-5 px-lg-5 px-md-4 px-3">
-                  {/* Right Image Column */}
-                  <div className="col-md-6 col-lg-6 col-sm-12 text-center text-md-end order-1 order-md-2 mb-4 mb-md-0 px-lg-5 px-md-4">
-                    <img
-                      src={Hospital_banner}
-                      className="img-fluid home-banner-img"
-                      alt="Doctor holding patient hand"
-                      style={{ borderRadius: "20px" }}
-                    />
-                  </div>
-      
-                  {/* Left Text Column */}
-                  <div className="col-md-6 col-lg-6 col-sm-12 text-start order-2 order-md-1 px-lg-4 px-md-4">
-                    <h1 className="fw-bold display-6 animate__animated animate__fadeIn hospital_banner_heading" style={{ color: "#1a97ad" }}>
-                    Collaborate for Excellence: Empowering Your Practice with
-                    OncoBridge.
-                  </h1>
-                  <p className="lead mt-3 animate__animated animate__fadeIn animate__delay-1s" style={{ fontSize:'18px' }}>
-                    OncoBridge partners with hospitals and treating physicians
-                    to provide timely,
-                    specialized second opinions, enhancing patient care and
-                    extending your expert reach.
-                  </p>
-                  <div className="d-flex justify-content-start gap-3 mt-3 animate__animated animate__fadeInUp animate__delay-2s">
-                    <Link
-                      to="/contact"
-                      className="btn startjourney px-4 py-2 mt-3"
-                    >
-                      Start Your Second Opinion Request
-                    </Link>
-                  </div>
-                  </div>
-                </div>
+        <div className="container-fluid">
+          <div className="row align-items-center pt-5 pb-5 px-lg-5 px-md-4 px-3">
+            {/* Right Image Column */}
+            <div className="col-md-6 col-lg-6 col-sm-12 text-center text-md-end order-1 order-md-2 mb-4 mb-md-0 px-lg-5 px-md-4">
+              <img
+                src={Hospital_banner}
+                className="img-fluid home-banner-img"
+                alt="Doctor holding patient hand"
+                style={{ borderRadius: "20px" }}
+              />
+            </div>
+
+            {/* Left Text Column */}
+            <div className="col-md-6 col-lg-6 col-sm-12 text-start order-2 order-md-1 px-lg-4 px-md-4">
+              <h1
+                className="fw-bold display-6 animate__animated animate__fadeIn hospital_banner_heading"
+                style={{ color: "#1a97ad" }}
+              >
+                Collaborate for Excellence: Empowering Your Practice with
+                OncoBridge.
+              </h1>
+              <p
+                className="lead mt-3 animate__animated animate__fadeIn animate__delay-1s"
+                style={{ fontSize: "18px" }}
+              >
+                OncoBridge partners with hospitals and treating physicians to
+                provide timely, specialized second opinions, enhancing patient
+                care and extending your expert reach.
+              </p>
+              <div className="d-flex justify-content-start gap-3 mt-3 animate__animated animate__fadeInUp animate__delay-2s">
+                <Link to="/contact" className="btn startjourney px-4 py-2 mt-3">
+                  Start Your Second Opinion Request
+                </Link>
               </div>
-            </section>
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* Why Partner Section */}
       <section className=" py-5 bg-light">
@@ -170,51 +172,6 @@ function Hospitals() {
               </div>
             </div>
           </div>
-          {/* <div className="row">
-              <div className="col-md-12 col-lg-7 col-sm-12">
-                <ul className="list-group list-group-flush text-justify rounded-4 ">
-                  <li className="list-group-item">
-                    <i className="bi bi-shield-check fs-4 text-primary align-middle pe-2"></i>
-                    <strong>Access Global Expertise:</strong> Offer your patients access to a network of world-leading oncologists without geographical limitations.
-                  </li>
-                  <li className="list-group-item">
-                    <i className="bi bi-shield-check fs-4 text-primary align-middle pe-2"></i>
-                    <strong>Validated Treatment Plans:</strong>
-                    Gain external validation for complex cases, reinforcing your treatment strategies
-                  </li>
-                  <li className="list-group-item">
-                    <i className="bi bi-shield-check fs-4 text-primary align-middle pe-2"></i>
-                    <strong>Reduce Patient Outflow:</strong>
-                    Retain patients by offering comprehensive second opinion services within your ecosystem.
-                  </li>
-                  <li className="list-group-item">
-                    <i className="bi bi-shield-check fs-4 text-primary align-middle pe-2"></i>
-                    <strong>Streamlined Process:</strong>
-                    Our platform simplifies the medical record sharing and review process for your team.
-                  </li>
-                  <li className="list-group-item">
-                    <i className="bi bi-shield-check fs-4 text-primary align-middle pe-2"></i>
-                    <strong>Support for Complex Cases:</strong>
-                    Get specialized insights for rare cancers or challenging diagnoses.
-                  </li>
-                  <li className="list-group-item">
-                    <i className="bi bi-shield-check fs-4 text-primary align-middle pe-2"></i>
-                    <strong>Educational Resource:</strong>
-                    Leverage expert opinions for internal learning and professional development.
-                  </li>
-                  <li className="list-group-item">
-                    <i className="bi bi-shield-check fs-4 text-primary align-middle pe-2"></i>
-                    <strong>Image Suggestion:</strong>
-                    A visual metaphor like interconnected gears or a bridge spanning a gap, overlaid with medical symbols or a global map, representing seamless collaboration and extended reach.
-                  </li>
-                </ul>
-              </div>
-              <div className="col-md-12 col-lg-5 col-sm-12  mt-4  mt-lg-0">
-                <div className="text-center">
-                  <img src="http://thumbs.dreamstime.com/b/interconnected-gears-d-render-teamwork-collaboration-network-technology-387327864.jpg" className="img-fluid  unlocking_img rounded shadow" alt="Interconnected gears symbolizing seamless collaboration in healthcare." />
-                </div>
-              </div>
-            </div> */}
         </div>
       </section>
 
@@ -346,133 +303,7 @@ function Hospitals() {
             </div>
           </div>
         </div>
-
-        {/* <div className="row g-4">
-              <div className="col-md-4">
-                <div className="card h-100 shadow-sm">
-                  <div className="card-header card_header_for_hospital">
-                    <h5 className="card-title mb-0">For Oncologists</h5>
-                  </div>
-                  <div className="card-body">
-                    <p className="card-text">Peer validation, access to sub-specialists, new treatment perspectives.</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-md-4">
-                <div className="card h-100 shadow-sm">
-                  <div className="card-header card_header_for_hospital">
-                    <h5 className="card-title mb-0">For Hospital Administrators</h5>
-                  </div>
-                  <div className="card-body">
-                    <p className="card-text">Enhanced patient satisfaction, potential for new revenue streams, competitive advantage.</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-md-4">
-                <div className="card h-100 shadow-sm">
-                  <div className="card-header card_header_for_hospital">
-                    <h5 className="card-title mb-0">For Referring Physicians</h5>
-                  </div>
-                  <div className="card-body">
-                    <p className="card-text">Confident referrals, comprehensive patient support.</p>
-                  </div>
-                </div>
-              </div>
-            </div> */}
       </section>
-
-      {/* Case Studies */}
-      {/* <section className="py-5 ">
-        <div className="container">
-          <div className="text-center mb-4">
-            <h2 className="section-title fw-bold ">Success Stories</h2>
-          </div>
-          <div className="row  justify-content-center">
-            <div className="col-lg-10 col-xl-9">
-              <div className="card mb-3 p-0">
-                <div className="row g-0  align-items-center">
-                  <div className="col-md-2 p-0">
-                    <img
-                      src={doct3}
-                      className="img-fluid rounded-start w-100"
-                      alt="Dr. Sanjeev Gupta, Head of Oncology, sharing his hospital's success with OncoBridge"
-                    />
-                  </div>
-                  <div className="col-md-10">
-                    <div className="card-body">
-                      <h5 className="card-title text-center hospital_story_text">
-                        A professional headshot of Dr. Sanjeev Gupta, an Indian
-                        physician, conveying authority and trust
-                      </h5>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> */}
-
-      {/* Section: FAQ */}
-      {/* <section className="faq-section py-5 bg-white">
-        <div className="container">
-          <div className="text-center mb-5">
-            <h2 className="section-title">Frequently Asked Questions</h2>
-            <p className="section-subtitle">Got questions? We’ve got answers.</p>
-          </div>
-
-          <div className="accordion" id="faqAccordion">
-            {[
-              {
-                question: "Who are your experts?",
-                answer:
-                  "OncoBridge offers virtual tumor boards, second opinions, care coordination, and access to global oncologists and diagnostic tools.",
-              },
-              {
-                question: "How long does it take?",
-                answer:
-                  "You can book an appointment directly through our platform or mobile app. A coordinator will guide you through the process.",
-              },
-              {
-                question: "What if I don't have all my records?",
-                answer:
-                  "Yes, we serve patients worldwide through virtual consultations, international partnerships, and digital tools.",
-              },
-              {
-                question: "Is this covered by insurance?",
-                answer:
-                  "Yes, we serve patients worldwide through virtual consultations, international partnerships, and digital tools.",
-              },
-            ].map((faq, index) => (
-              <div className="accordion-item" key={index}>
-                <h2 className="accordion-header" id={`heading${index}`}>
-                  <button
-                    className={`accordion-button ${index !== 0 ? "collapsed" : ""}`}
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target={`#collapse${index}`}
-                    aria-expanded={index === 0 ? "true" : "false"}
-                    aria-controls={`collapse${index}`}
-                  >
-                    {faq.question}
-                  </button>
-                </h2>
-                <div
-                  id={`collapse${index}`}
-                  className={`accordion-collapse collapse ${index === 0 ? "show" : ""
-                    }`}
-                  aria-labelledby={`heading${index}`}
-                  data-bs-parent="#faqAccordion"
-                >
-                  <div className="accordion-body">{faq.answer}</div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section> */}
 
       {/* Final CTA */}
       <section className="text-center py-5 bg-light rounded get_start_block">

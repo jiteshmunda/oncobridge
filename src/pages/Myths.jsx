@@ -34,33 +34,34 @@ function Myths() {
         </div>
       </section> */}
 
-
-
       <section className="bg-image-home">
-                          <div className="container-fluid">
-                            <div className="row align-items-center pt-5 pb-5 px-lg-5 px-md-4 px-3">
-                              {/* Right Image Column */}
-                              <div className="col-md-6 col-lg-6 col-sm-12 text-center text-md-end order-1 order-md-2 mb-4 mb-md-0 px-lg-5 px-md-4">
-                                <img
-                                  src={Myths_banner}
-                                  className="img-fluid"
-                                  alt="Doctor holding patient hand"
-                                  style={{ borderRadius: "20px" }}
-                                />
-                              </div>
-                  
-                              {/* Left Text Column */}
-                              <div className="col-md-6 col-lg-6 col-sm-12 text-start order-2 order-md-1 px-lg-4 px-md-4">
-                                <h1 className="fw-bold display-5 animate__animated animate__fadeIn" style={{ color: "#1a97ad" }}>
-                    Cancer: Understanding Facts, Dispelling Myths
-                  </h1>
-                  <p className="lead animate__animated animate__fadeIn animate__delay-1s">
-                    {/* Optional subtitle or leave empty */}
-                  </p>
-                              </div>
-                            </div>
-                          </div>
-                        </section>
+        <div className="container-fluid">
+          <div className="row align-items-center pt-5 pb-5 px-lg-5 px-md-4 px-3">
+            {/* Right Image Column */}
+            <div className="col-md-6 col-lg-6 col-sm-12 text-center text-md-end order-1 order-md-2 mb-4 mb-md-0 px-lg-5 px-md-4">
+              <img
+                src={Myths_banner}
+                className="img-fluid"
+                alt="Doctor holding patient hand"
+                style={{ borderRadius: "20px" }}
+              />
+            </div>
+
+            {/* Left Text Column */}
+            <div className="col-md-6 col-lg-6 col-sm-12 text-start order-2 order-md-1 px-lg-4 px-md-4">
+              <h1
+                className="fw-bold display-5 animate__animated animate__fadeIn"
+                style={{ color: "#1a97ad" }}
+              >
+                Cancer: Understanding Facts, Dispelling Myths
+              </h1>
+              <p className="lead animate__animated animate__fadeIn animate__delay-1s">
+                {/* Optional subtitle or leave empty */}
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* block 1 */}
       <section className="text-center py-4 px-2">
@@ -324,28 +325,6 @@ function Myths() {
                                   </span>
                                 </div>
                               </div>
-
-                              {/* <ul className="list-unstyled text-start">
-                                <li>
-                                  <i className="fas fa-check me-2"></i>
-                                  Myth: Only women with a family history get
-                                  breast cancer
-                                </li>
-                                <li>
-                                  <i className="fas fa-check me-2 "></i>
-                                  Fact: About 85% of breast cancers occur in
-                                  women with no family history
-                                </li>
-                                <li>
-                                  <i className="fas fa-check me-2 "></i>
-                                  Myth:Finding a lump means you have cancer
-                                </li>
-                                <li>
-                                  <i className="fas fa-check me-2"></i>
-                                  Fact: 80% of breast lumps are benign
-                                  (non-cancerous)
-                                </li>
-                              </ul> */}
                             </div>
                           </div>
                         </div>
@@ -404,28 +383,6 @@ function Myths() {
                                   </span>
                                 </div>
                               </div>
-
-                              {/* <ul className="list-unstyled text-start">
-                                <li>
-                                  <i className="fas fa-check me-2 "></i>Leading
-                                  cause of cancer death worldwide
-                                </li>
-                                <li>
-                                  <i className="fas fa-check me-2 "></i>Smoking
-                                  is the primary risk factor, but non-smokers
-                                  can also develop lung cancer
-                                </li>
-                                <li>
-                                  <i className="fas fa-check me-2 "></i>Symptoms
-                                  may include persistent cough, chest pain,
-                                  shortness of breath, and coughing up blood
-                                </li>
-                                <li>
-                                  <i className="fas fa-check me-2 "></i>
-                                  Treatment depends on type (small cell vs.
-                                  non-small cell) and stage
-                                </li>
-                              </ul> */}
                             </div>
                           </div>
                         </div>
@@ -469,27 +426,6 @@ function Myths() {
                                   </span>
                                 </div>
                               </div>
-
-                              {/* <ul className="list-unstyled text-start">
-                                <li>
-                                  <i className="fas fa-check me-2"></i>Myth:
-                                  Only smokers get lung cancer
-                                </li>
-                                <li>
-                                  <i className="fas fa-check me-2"></i>Fact:
-                                  10–15% of lung cancers occur in people who
-                                  have never smoked
-                                </li>
-                                <li>
-                                  <i className="fas fa-check me-2"></i>Myth:
-                                  Switching to light cigarettes reduces risk
-                                </li>
-                                <li>
-                                  <i className="fas fa-check me-2"></i>Fact:
-                                  There is no safe level of smoking; all tobacco
-                                  products increase cancer risk
-                                </li>
-                              </ul> */}
                             </div>
                           </div>
                         </div>
@@ -549,28 +485,6 @@ function Myths() {
                                   </span>
                                 </div>
                               </div>
-
-                              {/* <ul className="list-unstyled text-start">
-                                <li>
-                                  <i className="fas fa-check me-2"></i>Third
-                                  most common cancer worldwide
-                                </li>
-                                <li>
-                                  <i className="fas fa-check me-2"></i>Screening
-                                  can prevent cancer by detecting and removing
-                                  precancerous polyps
-                                </li>
-                                <li>
-                                  <i className="fas fa-check me-2"></i>Symptoms
-                                  may include changes in bowel habits, blood in
-                                  stool, and abdominal pain
-                                </li>
-                                <li>
-                                  <i className="fas fa-check me-2"></i>Treatment
-                                  often involves surgery, and may include
-                                  chemotherapy and radiation
-                                </li>
-                              </ul> */}
                             </div>
                           </div>
                         </div>
@@ -614,27 +528,6 @@ function Myths() {
                                   </span>
                                 </div>
                               </div>
-
-                              {/* <ul className="list-unstyled text-start">
-                                <li>
-                                  <i className="fas fa-check me-2"></i>Myth:
-                                  Colorectal cancer only affects older adults
-                                </li>
-                                <li>
-                                  <i className="fas fa-check me-2"></i>Fact:
-                                  While more common after age 50, rates are
-                                  rising in younger adults
-                                </li>
-                                <li>
-                                  <i className="fas fa-check me-2"></i>Myth:
-                                  Colonoscopies are always painful
-                                </li>
-                                <li>
-                                  <i className="fas fa-check me-2"></i>Fact:
-                                  Most people tolerate the procedure well with
-                                  sedation
-                                </li>
-                              </ul> */}
                             </div>
                           </div>
                         </div>
@@ -691,27 +584,6 @@ function Myths() {
                                   </span>
                                 </div>
                               </div>
-
-                              {/* <ul className="list-unstyled text-start">
-                                <li>
-                                  <i className="fas fa-check me-2"></i>Second
-                                  most common cancer in men
-                                </li>
-                                <li>
-                                  <i className="fas fa-check me-2"></i>Often
-                                  grows slowly and may not cause symptoms
-                                  initially
-                                </li>
-                                <li>
-                                  <i className="fas fa-check me-2"></i>PSA
-                                  testing can help with early detection
-                                </li>
-                                <li>
-                                  <i className="fas fa-check me-2"></i>Treatment
-                                  options range from active surveillance to
-                                  surgery and radiation
-                                </li>
-                              </ul> */}
                             </div>
                           </div>
                         </div>
@@ -755,28 +627,6 @@ function Myths() {
                                   </span>
                                 </div>
                               </div>
-
-                              {/* <ul className="list-unstyled text-start">
-                                <li>
-                                  <i className="fas fa-check me-2"></i>Myth:
-                                  Prostate cancer is always aggressive
-                                </li>
-                                <li>
-                                  <i className="fas fa-check me-2"></i>Fact:
-                                  Many prostate cancers grow slowly and may not
-                                  require immediate treatment
-                                </li>
-                                <li>
-                                  <i className="fas fa-check me-2"></i>Myth:
-                                  Prostate cancer treatment always causes
-                                  impotence
-                                </li>
-                                <li>
-                                  <i className="fas fa-check me-2"></i>Fact:
-                                  Modern treatments often preserve sexual
-                                  function
-                                </li>
-                              </ul> */}
                             </div>
                           </div>
                         </div>
@@ -806,6 +656,7 @@ function Myths() {
                 <img
                   src={myths3}
                   className="card-img-top"
+                  style={{ height: "20vh" }}
                   alt="Imaging equipment"
                 />
                 <div className="card-body text-start">
@@ -835,7 +686,12 @@ function Myths() {
             </div>
             <div className="col-md-4">
               <div className="card h-100 shadow-sm">
-                <img src={myths4} className="card-img-top" alt="Lab testing" />
+                <img
+                  src={myths4}
+                  className="card-img-top"
+                  alt="Lab testing"
+                  style={{ height: "20vh" }}
+                />
                 <div className="card-body text-start">
                   <h5 className="card-title mb-3">Laboratory Tests</h5>
                   <div className="d-flex align-items-start mb-2">
@@ -860,6 +716,7 @@ function Myths() {
                 <img
                   src={myths5}
                   className="card-img-top"
+                  style={{ height: "20vh" }}
                   alt="Biopsy procedure"
                 />
                 <div className="card-body text-start">
@@ -1044,65 +901,6 @@ function Myths() {
           </div>
         </div>
       </section>
-      {/* block 7 */}
-      {/* <section className=" py-5">
-        <div className="container-fluid">
-            <div className="text-center mb-5">
-                <h2 className="section-title">Debunking Common Cancer Myths</h2>
-            </div>
-            <div className="">
-                <div className="row">
-                    <div className="col mb-4">
-                        <div className="p-4 border rounded shadow-sm bg-white h-100">
-                            <p><strong>Myth:</strong> "Cancer is always fatal"</p>
-                            <p><strong>Fact:</strong> Cancer survival rates have improved dramatically. Many cancers are
-                                now considered chronic diseases that can be managed for years.</p>
-                        </div>
-                    </div>
-                    <div className="col mb-4">
-                        <div className="p-4 border rounded shadow-sm bg-white h-100">
-                            <p><strong>Myth:</strong> "Cancer treatments are worse than the disease"</p>
-                            <p><strong>Fact:</strong> While treatments can have side effects, supportive care has
-                                advanced significantly. Many people continue working and maintaining quality of life
-                                during treatment.</p>
-                        </div>
-                    </div>
-                    <div className="col mb-4">
-                        <div className="p-4 border rounded shadow-sm bg-white h-100">
-                            <p><strong>Myth:</strong> "Natural remedies can cure cancer"</p>
-                            <p><strong>Fact:</strong> While complementary therapies can support well-being, there's no
-                                scientific evidence that natural remedies alone can cure cancer. Always discuss
-                                supplements with your healthcare team.</p>
-                        </div>
-                    </div>
-                </div>
-                <div className="row">
-                    <div className="mb-4 col-12 col-sm-6 col-lg-6">
-                        <div className="p-4 border rounded shadow-sm bg-white h-100">
-                            <p><strong>Myth:</strong> "Positive thinking can cure cancer"</p>
-                            <p><strong>Fact:</strong> While maintaining hope and a positive outlook can improve quality
-                                of life, cancer is a complex disease that requires medical treatment.</p>
-                        </div>
-                    </div>
-                    <div className=" col-12 col-sm-3 col-lg-3 mb-4">
-                        <div className="p-4 border rounded shadow-sm bg-white h-100">
-                            <p><strong>Myth:</strong> "Cancer is preventable if you live a healthy lifestyle"</p>
-                            <p><strong>Fact:</strong> While healthy habits reduce risk, cancer can affect anyone. Don't
-                                blame yourself if you develop cancer despite living healthily.</p>
-                        </div>
-                    </div>
-                    <div className='col-12 col-sm-3 col-lg-3  mb-4'>
-                        <div className="p-4 border rounded shadow-sm bg-white h-100">
-                            <p><strong>Myth:</strong> "Cancer always comes back"</p>
-                            <p><strong>Fact:</strong> Many people are completely cured of cancer. Even when cancer
-                                returns, it can often be treated successfully.</p>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> */}
 
       <section className="testimonial-section-myths">
         <h2 className="mb-3 text-white">Debunking Common Cancer Myths</h2>
@@ -1271,33 +1069,6 @@ function Myths() {
                       <span>Support groups (in-person and online)</span>
                     </div>
                   </div>
-
-                  {/* <ul className="ps-4 text-start list-unstyled">
-                    <li>
-                      <i className="fas fa-check me-2 t"></i>
-                      Oncologists and specialized nurses
-                    </li>
-                    <li>
-                      <i className="fas fa-check me-2 "></i>Social
-                      workers and patient navigators
-                    </li>
-                    <li>
-                      <i className="fas fa-check me-2 "></i>Mental
-                      health counselors
-                    </li>
-                    <li>
-                      <i className="fas fa-check me-2 "></i>
-                      Dietitians and physical therapists
-                    </li>
-                    <li>
-                      <i className="fas fa-check me-2 "></i>Family
-                      and friends
-                    </li>
-                    <li>
-                      <i className="fas fa-check me-2 "></i>Support
-                      groups (in-person and online)
-                    </li>
-                  </ul> */}
                 </div>
                 <div className="col-md-6">
                   <img
@@ -1348,29 +1119,6 @@ function Myths() {
                       </span>
                     </div>
                   </div>
-
-                  {/* <ul className="ps-4 text-start list-unstyled">
-                    <li>
-                      <i className="fas fa-check me-2 "></i>Most
-                      side effects are temporary and manageable
-                    </li>
-                    <li>
-                      <i className="fas fa-check me-2 "></i>
-                      Anti-nausea medications can help with chemotherapy
-                    </li>
-                    <li>
-                      <i className="fas fa-check me-2 "></i>Fatigue
-                      is common but can be addressed
-                    </li>
-                    <li>
-                      <i className="fas fa-check me-2 "></i>
-                      Nutritional support is important
-                    </li>
-                    <li>
-                      <i className="fas fa-check me-2 "></i>
-                      Exercise, when appropriate, can improve energy and mood
-                    </li>
-                  </ul> */}
                 </div>
                 <div className="col-md-6">
                   <img
@@ -1419,29 +1167,6 @@ function Myths() {
                       </span>
                     </div>
                   </div>
-
-                  {/* <ul className="  text-start list-unstyled">
-                    <li>
-                      <i className="fas fa-check me-2 "></i>It's
-                      normal to feel scared, angry, or sad
-                    </li>
-                    <li>
-                      <i className="fas fa-check me-2 "></i>
-                      Professional counseling can be very helpful
-                    </li>
-                    <li>
-                      <i className="fas fa-check me-2 "></i>Support
-                      groups connect you with others who understand
-                    </li>
-                    <li>
-                      <i className="fas fa-check me-2 "></i>
-                      Mind-body practices like meditation may help
-                    </li>
-                    <li>
-                      <i className="fas fa-check me-2"></i>
-                      Maintaining connections with loved ones is important
-                    </li>
-                  </ul> */}
                 </div>
                 <div className="col-md-6">
                   <img
@@ -1486,29 +1211,6 @@ function Myths() {
                       <span>Social workers can connect you with resources</span>
                     </div>
                   </div>
-
-                  {/* <ul className="text-start list-unstyled">
-                    <li>
-                      <i className="fas fa-check me-2"></i>Cancer
-                      treatment can be expensive
-                    </li>
-                    <li>
-                      <i className="fas fa-check me-2 "></i>
-                      Insurance coverage varies
-                    </li>
-                    <li>
-                      <i className="fas fa-check me-2 "></i>
-                      Financial counselors can help navigate costs
-                    </li>
-                    <li>
-                      <i className="fas fa-check me-2 "></i>Many
-                      organizations offer financial assistance
-                    </li>
-                    <li>
-                      <i className="fas fa-check me-2 "></i>Social
-                      workers can connect you with resources
-                    </li>
-                  </ul> */}
                 </div>
                 <div className="col-md-6">
                   <img
@@ -1521,109 +1223,6 @@ function Myths() {
             </div>
           </div>
         </div>
-        {/* <div className="container ">
-            <div className='row'>
-                <div className='col-md-5'>
-                    <ul className="nav nav-tabs justify-content-center myths_navtab" id="iconTab" role="tablist">
-                        <li className="nav-item" role="presentation">
-                            <button className="nav-link active" id="connect-tab" data-bs-toggle="tab"
-                                data-bs-target="#connect" type="button" role="tab">
-                                <i className="fas fa-comments tab-icon-myths"></i>
-                                Building Your Support Team
-                            </button>
-                        </li>
-                        <li className="nav-item" role="presentation">
-                            <button className="nav-link" id="create-tab" data-bs-toggle="tab" data-bs-target="#create"
-                                type="button" role="tab">
-                                <i className="fab fa-firefox-browser tab-icon-myths"></i>
-                                Managing Side Effects
-                            </button>
-                        </li>
-                        <li className="nav-item" role="presentation">
-                            <button className="nav-link" id="discover-tab" data-bs-toggle="tab"
-                                data-bs-target="#discover" type="button" role="tab">
-                                <i className="fas fa-leaf tab-icon-myths"></i>
-                                Emotional Support
-                            </button>
-                        </li>
-                        <li className="nav-item" role="presentation">
-                            <button className="nav-link" id="align-tab" data-bs-toggle="tab" data-bs-target="#align"
-                                type="button" role="tab">
-                                <i className="fas fa-graduation-cap tab-icon-myths"></i>
-                                Financial Considerations
-                            </button>
-                        </li>
-                    </ul>
-                </div>
-                <div className='col-md-7'>
-                    <div className="tab-content" id="iconTabContent">
-                        <div className="tab-pane  tab-pane-myths fade show active" id="connect" role="tabpanel">
-                            <div className=''>
-                                <ul className="ps-4 text-start list-unstyled">
-                                    <li><i className="fas fa-check me-2 "></i>Oncologists and specialized
-                                        nurses</li>
-                                    <li><i className="fas fa-check me-2 "></i>Social workers and patient
-                                        navigators</li>
-                                    <li><i className="fas fa-check me-2 "></i>Mental health counselors</li>
-                                    <li><i className="fas fa-check me-2 "></i>Dietitians and physical
-                                        therapists</li>
-                                    <li><i className="fas fa-check me-2 "></i>Family and friends</li>
-                                    <li><i className="fas fa-check me-2 "></i>Support groups (in-person and
-                                        online)</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div className="tab-pane  tab-pane-myths fade" id="create" role="tabpanel">
-                            <div className=''>
-                                <ul className="ps-4 text-start list-unstyled">
-                                    <li><i className="fas fa-check me-2 "></i>Most side effects are
-                                        temporary and manageable</li>
-                                    <li><i className="fas fa-check me-2 "></i>Anti-nausea medications can
-                                        help with chemotherapy</li>
-                                    <li><i className="fas fa-check me-2 "></i>Fatigue is common but can be
-                                        addressed</li>
-                                    <li><i className="fas fa-check me-2 "></i>Nutritional support is
-                                        important</li>
-                                    <li><i className="fas fa-check me-2 "></i>Exercise, when appropriate,
-                                        can improve energy and mood</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div className="tab-pane  tab-pane-myths fade" id="discover" role="tabpanel">
-                            <div className=''>
-                                <ul className="  text-start list-unstyled">
-                                    <li><i className="fas fa-check me-2 "></i>It's normal to feel scared,
-                                        angry, or sad</li>
-                                    <li><i className="fas fa-check me-2 "></i>Professional counseling can be
-                                        very helpful</li>
-                                    <li><i className="fas fa-check me-2 "></i>Support groups connect you
-                                        with others who understand</li>
-                                    <li><i className="fas fa-check me-2 "></i>Mind-body practices like
-                                        meditation may help</li>
-                                    <li><i className="fas fa-check me-2 "></i>Maintaining connections with
-                                        loved ones is important</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div className="tab-pane  tab-pane-myths fade" id="align" role="tabpanel">
-                            <div className=''>
-                                <ul className="text-start list-unstyled">
-                                    <li><i className="fas fa-check me-2 "></i>Cancer treatment can be
-                                        expensive</li>
-                                    <li><i className="fas fa-check me-2 "></i>Insurance coverage varies</li>
-                                    <li><i className="fas fa-check me-2 "></i>Financial counselors can help
-                                        navigate costs</li>
-                                    <li><i className="fas fa-check me-2 "></i>Many organizations offer
-                                        financial assistance</li>
-                                    <li><i className="fas fa-check me-2 "></i>Social workers can connect you
-                                        with resources</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> */}
       </section>
 
       {/* block 8 */}
@@ -1708,13 +1307,7 @@ function Myths() {
                 </div>
               </div>
 
-              <div className="col-md-5 ">
-                {/* <img
-                  src={myths_bg}
-                  className="img-fluid bg_question_right d-none d-lg-block d-sm-block d-md-none"
-                  alt="Example Image"
-                /> */}
-              </div>
+              <div className="col-md-5 "></div>
             </div>
           </div>
         </section>
@@ -1809,41 +1402,6 @@ function Myths() {
                       <span>Practice safe sex</span>
                     </div>
                   </div>
-
-                  {/* <ul className="ps-4 text-start list-unstyled">
-                    <li>
-                      <i className="fas fa-check me-2 "></i>Don't
-                      smoke or use tobacco products
-                    </li>
-                    <li>
-                      <i className="fas fa-check me-2 "></i>Limit
-                      alcohol consumption
-                    </li>
-                    <li>
-                      <i className="fas fa-check me-2 "></i>Maintain
-                      a healthy weight
-                    </li>
-                    <li>
-                      <i className="fas fa-check me-2 "></i>Exercise
-                      regularly
-                    </li>
-                    <li>
-                      <i className="fas fa-check me-2 "></i>Eat a
-                      diet rich in fruits and vegetables
-                    </li>
-                    <li>
-                      <i className="fas fa-check me-2 "></i>Protect
-                      your skin from sun exposure
-                    </li>
-                    <li>
-                      <i className="fas fa-check me-2 "></i>Get
-                      vaccinated (HPV, Hepatitis B)
-                    </li>
-                    <li>
-                      <i className="fas fa-check me-2 "></i>Practice
-                      safe sex
-                    </li>
-                  </ul> */}
                 </div>
                 <div className="col-md-4">
                   <div className="mb-3">
@@ -1880,29 +1438,6 @@ function Myths() {
                       </span>
                     </div>
                   </div>
-
-                  {/* <ul className="ps-4 text-start list-unstyled">
-                    <li>
-                      <i className="fas fa-check me-2 "></i>
-                      Mammograms for breast cancer
-                    </li>
-                    <li>
-                      <i className="fas fa-check me-2 "></i>
-                      Colonoscopies for colorectal cancer
-                    </li>
-                    <li>
-                      <i className="fas fa-check me-2 "></i>Pap
-                      smears for cervical cancer
-                    </li>
-                    <li>
-                      <i className="fas fa-check me-2 "></i>Low-dose
-                      CT scans for lung cancer (high-risk individuals)
-                    </li>
-                    <li>
-                      <i className="fas fa-check me-2 "></i>PSA
-                      tests for prostate cancer (discuss with your doctor)
-                    </li>
-                  </ul> */}
                 </div>
                 <div className="col-md-4">
                   <div className="mb-3">
@@ -1934,29 +1469,6 @@ function Myths() {
                       <span>Know your family history</span>
                     </div>
                   </div>
-
-                  {/* <ul className="ps-4 text-start list-unstyled">
-                    <li>
-                      <i className="fas fa-check me-2 "></i>Perform
-                      self-examinations
-                    </li>
-                    <li>
-                      <i className="fas fa-check me-2 "></i>Be aware
-                      of changes in your body
-                    </li>
-                    <li>
-                      <i className="fas fa-check me-2 "></i>Don't
-                      ignore persistent symptoms
-                    </li>
-                    <li>
-                      <i className="fas fa-check me-2 "></i>See your
-                      doctor regularly
-                    </li>
-                    <li>
-                      <i className="fas fa-check me-2 "></i>Know
-                      your family history
-                    </li>
-                  </ul> */}
                 </div>
               </div>
             </div>
@@ -1997,44 +1509,7 @@ function Myths() {
                       <i className="fas fa-check me-2 line_ht"></i>
                       <span>Kidwai Memorial Institute of Oncology</span>
                     </div>
-
-                    
                   </div>
-
-                  {/* <ul className="ps-4 text-start list-unstyled">
-                    <li>
-                      <i className="fas fa-check me-2 "></i>Indian
-                      Cancer Society
-                    </li>
-                    <li>
-                      <i className="fas fa-check me-2 "></i>Cancer
-                      Patients Aid Association (CPAA)
-                    </li>
-                    <li>
-                      <i className="fas fa-check me-2 "></i>Tata
-                      Memorial Centre
-                    </li>
-                    <li>
-                      <i className="fas fa-check me-2 "></i>All
-                      India Institute of Medical Sciences (AIIMS)
-                    </li>
-                    <li>
-                      <i className="fas fa-check me-2 "></i>Kidwai
-                      Memorial Institute of Oncology
-                    </li>
-                    <li>
-                      <i className="fas fa-check me-2 "></i>Apollo
-                      Cancer Institutes
-                    </li>
-                    <li>
-                      <i className="fas fa-check me-2 "></i>Fortis
-                      Cancer Institute
-                    </li>
-                    <li>
-                      <i className="fas fa-check me-2 "></i>Max
-                      Cancer Care
-                    </li>
-                  </ul> */}
                 </div>
                 <div className="col-md-6">
                   <div className="mb-3">
@@ -2102,65 +1577,6 @@ function Myths() {
                       </a>
                     </div>
                   </div>
-
-                  {/* <ul className="ps-4 text-start list-unstyled">
-                    <li>
-                      <i className="fas fa-check me-2 "></i>
-                      <a
-                        href="https://www.cancer.gov"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text_link"
-                      >
-                        Cancer.gov (National Cancer Institute - International
-                        resource)
-                      </a>
-                    </li>
-                    <li>
-                      <i className="fas fa-check me-2 "></i>
-                      <a
-                        href="https://www.indiancancersociety.org"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text_link"
-                      >
-                        Indiancancersociety.org
-                      </a>
-                    </li>
-                    <li>
-                      <i className="fas fa-check me-2"></i>
-                      <a
-                        href="https://www.cpaaonline.org"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text_link"
-                      >
-                        Cpaaonline.org (Cancer Patients Aid Association)
-                      </a>
-                    </li>
-                    <li>
-                      <i className="fas fa-check me-2 "></i>
-                      <a
-                        href="https://www.tmc.gov.in"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text_link"
-                      >
-                        Tmc.gov.in (Tata Memorial Centre)
-                      </a>
-                    </li>
-                    <li>
-                      <i className="fas fa-check me-2 "></i>
-                      <a
-                        href="https://www.cancerindia.org.in"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text_link"
-                      >
-                        Cancerindia.org.in
-                      </a>
-                    </li>
-                  </ul> */}
                 </div>
                 <div className="col-md-6">
                   <div className="mb-3 mt-4">
@@ -2214,41 +1630,6 @@ function Myths() {
                       <span>Local charitable trusts and NGOs</span>
                     </div>
                   </div>
-
-                  {/* <ul className="ps-4 text-start list-unstyled">
-                    <li>
-                      <i className="fas fa-check me-2 "></i>Cancer
-                      Patients Aid Association (CPAA) Financial Support
-                    </li>
-                    <li>
-                      <i className="fas fa-check me-2 "></i>Tata
-                      Memorial Centre Patient Welfare schemes
-                    </li>
-                    <li>
-                      <i className="fas fa-check me-2 "></i>PM-JAY
-                      (Ayushman Bharat) scheme
-                    </li>
-                    <li>
-                      <i className="fas fa-check me-2 "></i>State
-                      government health insurance schemes
-                    </li>
-                    <li>
-                      <i className="fas fa-check me-2 "></i>
-                      Corporate CSR programs (Tata Trusts, Reliance Foundation)
-                    </li>
-                    <li>
-                      <i className="fas fa-check me-2 "></i>
-                      Pharmaceutical company patient assistance programs
-                    </li>
-                    <li>
-                      <i className="fas fa-check me-2 "></i>Indian
-                      Cancer Society support programs
-                    </li>
-                    <li>
-                      <i className="fas fa-check me-2 "></i>Local
-                      charitable trusts and NGOs
-                    </li>
-                  </ul> */}
                 </div>
                 <div className="col-md-6">
                   <div className="mb-3 mt-4">
@@ -2281,25 +1662,6 @@ function Myths() {
                       </span>
                     </div>
                   </div>
-
-                  {/* <ul className="ps-4 text-start list-unstyled">
-                    <li>
-                      <i className="fas fa-check me-2 "></i>Ayushman
-                      Bharat Pradhan Mantri Jan Arogya Yojana (PM-JAY)
-                    </li>
-                    <li>
-                      <i className="fas fa-check me-2 "></i>
-                      Rashtriya Swasthya Bima Yojana (RSBY)
-                    </li>
-                    <li>
-                      <i className="fas fa-check me-2 "></i>
-                      State-specific health insurance schemes
-                    </li>
-                    <li>
-                      <i className="fas fa-check me-2 "></i>Employee
-                      State Insurance (ESI) for organized sector workers
-                    </li>
-                  </ul> */}
                 </div>
               </div>
             </div>

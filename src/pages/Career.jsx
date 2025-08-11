@@ -76,30 +76,32 @@ export default function CareerPage() {
         </div>
       </section> */}
 
-
-
       <section className="bg-image-home">
-                                <div className="container-fluid">
-                                  <div className="row align-items-center pt-5 pb-5 px-lg-5 px-md-4 px-3">
-                                    {/* Right Image Column */}
-                                    <div className="col-md-6 col-lg-6 col-sm-12 text-center text-md-end order-1 order-md-2 mb-4 mb-md-0 px-lg-5 px-md-4">
-                                      <img
-                                        src={Career_banner}
-                                        className="img-fluid "
-                                        alt="Doctor holding patient hand"
-                                        style={{ borderRadius: "20px" }}
-                                      />
-                                    </div>
-                        
-                                    {/* Left Text Column */}
-                                    <div className="col-md-6 col-lg-6 col-sm-12 text-start order-2 order-md-1 px-lg-4 px-md-4">
-                                      <h1 className="fw-bold display-5 animate__animated animate__fadeIn" style={{ color: "#1a97ad" }}>
-                    Be a part of our<br/> Team
-                  </h1>
-                                    </div>
-                                  </div>
-                                </div>
-                              </section>
+        <div className="container-fluid">
+          <div className="row align-items-center pt-5 pb-5 px-lg-5 px-md-4 px-3">
+            {/* Right Image Column */}
+            <div className="col-md-6 col-lg-6 col-sm-12 text-center text-md-end order-1 order-md-2 mb-4 mb-md-0 px-lg-5 px-md-4">
+              <img
+                src={Career_banner}
+                className="img-fluid "
+                alt="Doctor holding patient hand"
+                style={{ borderRadius: "20px" }}
+              />
+            </div>
+
+            {/* Left Text Column */}
+            <div className="col-md-6 col-lg-6 col-sm-12 text-start order-2 order-md-1 px-lg-4 px-md-4">
+              <h1
+                className="fw-bold display-5 animate__animated animate__fadeIn"
+                style={{ color: "#1a97ad" }}
+              >
+                Be a part of our
+                <br /> Team
+              </h1>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <div className="career-page">
         <div className="career-header">

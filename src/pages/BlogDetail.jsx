@@ -103,37 +103,6 @@ function BlogDetail() {
                 </div>
               </div>
             </div>
-            {/* <div class="card">
-                        <div class="header">
-                            <h2>Instagram Post</h2>
-                        </div>
-                        <div class="body widget">
-                            <ul class="list-unstyled instagram-plugin m-b-0">
-                                <li><a href="javascript:void(0);"><img src="https://www.bootdey.com/image/100x100/87CEFA/000000" alt="image description"/></a></li>
-                                <li><a href="javascript:void(0);"><img src="https://www.bootdey.com/image/100x100/87CEFA/000000" alt="image description"/></a></li>
-                                <li><a href="javascript:void(0);"><img src="https://www.bootdey.com/image/100x100/87CEFA/000000" alt="image description"/></a></li>
-                                <li><a href="javascript:void(0);"><img src="https://www.bootdey.com/image/100x100/87CEFA/000000" alt="image description"/></a></li>
-                                <li><a href="javascript:void(0);"><img src="https://www.bootdey.com/image/100x100/87CEFA/000000" alt="image description"/></a></li>
-                                <li><a href="javascript:void(0);"><img src="https://www.bootdey.com/image/100x100/87CEFA/000000" alt="image description"/></a></li>
-                                <li><a href="javascript:void(0);"><img src="https://www.bootdey.com/image/100x100/87CEFA/000000" alt="image description"/></a></li>
-                                <li><a href="javascript:void(0);"><img src="https://www.bootdey.com/image/100x100/87CEFA/000000" alt="image description"/></a></li>
-                                <li><a href="javascript:void(0);"><img src="https://www.bootdey.com/image/100x100/87CEFA/000000" alt="image description"/></a></li>
-                            </ul>
-                        </div>
-                    </div> */}
-            {/* <div class="card">
-                        <div class="header">
-                            <h2>Email Newsletter <small>Get our products/news earlier than others, let’s get in touch.</small></h2>
-                        </div>
-                        <div class="body widget newsletter">                        
-                            <div class="input-group">
-                                <input type="text" class="form-control" placeholder="Enter Email"/>
-                                <div class="input-group-append">
-                                    <span class="input-group-text"><i class="icon-paper-plane"></i></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div> */}
           </div>
         </div>
       </div>

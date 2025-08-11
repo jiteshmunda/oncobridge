@@ -1,0 +1,25 @@
+/* Tablet view: show all sections in one row */
+@media (max-width: 1024px) and (min-width: 768px) {
+  .footer-row {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .footer-row > div {
+    flex: 1 1 0;
+    max-width: 100%;
+  }
+
+  .footer-row ul {
+    padding-left: 0;
+  }
+
+  .footer-row .social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

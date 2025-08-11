@@ -11,76 +11,46 @@ import Insurance_banner from "../assets/insurance.png";
 function Insurance() {
   return (
     <>
-      {/* <section className="text-left">
-        <div className="container-fluid px-0">
-          <div className="row gx-0 align-items-center">
-            <div className="bg-image_ins d-flex justify-content-left align-items-center text-left text-white ">
-              <div className="overlay-content">
-                <div className="col-md-7 p-3 ps-lg-5 ms-lg-5 ms-md-5 ms-sm-5">
-                  <h1 className="fw-bold text-white display-6 animate__animated animate__fadeIn">
-                    Optimizing Cancer Care: Strategic Partnerships for Insurance
-                    Providers
-                  </h1>
-                  <p className="lead mt-3 animate__animated animate__fadeIn animate__delay-1s">
-                    OncoBridge collaborates with insurance companies to ensure
-                    policyholders receive the most appropriate, high-quality
-                    cancer care, leading to better outcomes and managed costs.
-                  </p>
-                  <div className="d-flex justify-content-start gap-3 mt-3 animate__animated animate__fadeInUp animate__delay-2s">
-                    <Link
-                      to="/contact"
-                      target="_blank"
-                      className="read-more-btn-white"
-                    >
-                      Start Your Second Opinion Request
-                    </Link>
-                  </div>
-                </div>
+      <section className="bg-image-home">
+        <div className="container-fluid">
+          <div className="row align-items-center pt-5 pb-5 px-lg-5 px-md-4 px-3">
+            {/* Right Image Column */}
+            <div className="col-md-6 col-lg-6 col-sm-12 text-center text-md-end order-1 order-md-2 mb-4 mb-md-0 px-lg-5 px-md-4">
+              <img
+                src={Insurance_banner}
+                className="img-fluid Insurance-banner-img"
+                alt="Doctor holding patient hand"
+                style={{ borderRadius: "20px" }}
+              />
+            </div>
+
+            {/* Left Text Column */}
+            <div className="col-md-6 col-lg-6 col-sm-12 text-start order-2 order-md-1 px-lg-4 px-md-4">
+              <h1
+                className="fw-bold display-6 animate__animated animate__fadeIn hospital_banner_heading"
+                style={{ color: "#1a97ad" }}
+              >
+                Optimizing Cancer Care: Strategic Partnerships for Insurance
+                Providers
+              </h1>
+              <p className="lead mt-3 animate__animated animate__fadeIn animate__delay-1s">
+                OncoBridge collaborates with insurance companies to ensure
+                policyholders receive the most appropriate, high-quality cancer
+                care, leading to better outcomes and managed costs.
+              </p>
+              <div className="d-flex justify-content-start gap-3 mt-3 animate__animated animate__fadeInUp animate__delay-2s">
+                <Link
+                  to="/contact"
+                  target="_blank"
+                  className="btn startjourney px-4 py-2 mt-3"
+                >
+                  Start Your Second Opinion Request
+                </Link>
               </div>
             </div>
           </div>
         </div>
-      </section> */}
-
-
-
-      <section className="bg-image-home">
-                    <div className="container-fluid">
-                      <div className="row align-items-center pt-5 pb-5 px-lg-5 px-md-4 px-3">
-                        {/* Right Image Column */}
-                        <div className="col-md-6 col-lg-6 col-sm-12 text-center text-md-end order-1 order-md-2 mb-4 mb-md-0 px-lg-5 px-md-4">
-                          <img
-                            src={Insurance_banner}
-                            className="img-fluid Insurance-banner-img"
-                            alt="Doctor holding patient hand"
-                            style={{ borderRadius: "20px" }}
-                          />
-                        </div>
-            
-                        {/* Left Text Column */}
-                        <div className="col-md-6 col-lg-6 col-sm-12 text-start order-2 order-md-1 px-lg-4 px-md-4">
-                          <h1 className="fw-bold display-6 animate__animated animate__fadeIn hospital_banner_heading" style={{ color: "#1a97ad" }}>
-                    Optimizing Cancer Care: Strategic Partnerships for Insurance
-                    Providers
-                  </h1>
-                  <p className="lead mt-3 animate__animated animate__fadeIn animate__delay-1s">
-                    OncoBridge collaborates with insurance companies to ensure
-                    policyholders receive the most appropriate, high-quality
-                    cancer care, leading to better outcomes and managed costs.
-                  </p>
-                  <div className="d-flex justify-content-start gap-3 mt-3 animate__animated animate__fadeInUp animate__delay-2s">
-                    <Link
-                      to="/contact"
-                      target="_blank"
-                      className="btn startjourney px-4 py-2 mt-3"
-                    >
-                      Start Your Second Opinion Request
-                    </Link>
-                  </div>
-                        </div>
-                      </div>
-                    </div>
-                  </section>
+      </section>
 
       {/* Why Partner Section */}
       <section className="py-5 bg-light">
@@ -159,44 +129,6 @@ function Insurance() {
             </div>
           </div>
         </div>
-        {/* <div className="row">
-                        <div className=" col-md-12 col-lg-8 col-sm-12">
-                            <ul className="list-group list-group-flush text-justify rounded-4 ">
-                                <li className="list-group-item">
-                                    <i class="bi bi-shield-check fs-4 text-primary align-middle pe-2"></i>
-                                    <strong>Cost Containment:</strong> Reduce unnecessary or suboptimal treatments by ensuring best-practice care from the outset.</li>
-                                <li className="list-group-item">
-                                    <i class="bi bi-shield-check fs-4 text-primary align-middle pe-2"></i>
-                                    <strong>Improved Outcomes: </strong>
-                                    Facilitate access to expert opinions, leading to more accurate diagnoses and effective treatment plans.
-                                </li>
-                                <li className="list-group-item">
-                                    <i class="bi bi-shield-check fs-4 text-primary align-middle pe-2"></i>
-                                    <strong>Enhanced Policyholder Satisfaction:</strong> Receive tailored recommendations based on the latest research and your unique case</li>
-                                <li className="list-group-item">
-                                    <i class="bi bi-shield-check fs-4 text-primary align-middle pe-2"></i>
-                                    <strong>Access to Top Specialists: </strong>
-                                    Offer a valuable service that empowers policyholders and demonstrates commitment to their well-being.
-                                </li>
-                                <li className="list-group-item">
-                                    <i class="bi bi-shield-check fs-4 text-primary align-middle pe-2"></i>
-                                    <strong>Reduced Claims Appeals: </strong> Strengthen initial treatment decisions, potentially reducing the need for costly appeals.</li>
-                                <li className="list-group-item">
-                                    <i class="bi bi-shield-check fs-4 text-primary align-middle pe-2"></i>
-                                    <strong>Data-Driven Insights:</strong>Potential for aggregate insights on oncology trends and treatment efficacy (anonymized).</li>
-                                <li className="list-group-item">
-                                    <i class="bi bi-shield-check fs-4 text-primary align-middle pe-2"></i>
-                                    <strong>Seamless Integration:</strong>
-                                    Our platform can be integrated to streamline the second opinion process for your members.
-                                </li>
-                            </ul>
-                        </div>
-                        <div className="col-md-12 col-lg-4 col-sm-12  mt-4  mt-lg-0">
-                            <div className="text-center">
-                                <img className='img-fluid rounded-4 shadow-lg unlocking_img  d-none d-lg-block' src={quality} alt="Symbolic image of a key unlocking clarity and new treatment options." />
-                            </div>
-                        </div>
-                    </div> */}
       </section>
 
       {/* Value Proposition Section */}
@@ -208,7 +140,7 @@ function Insurance() {
             </h2>
           </div>
 
-          <div class="bg-cover d-flex align-items-center justify-content-center text-center">
+          <div class="bg-cover d-flex align-items-center justify-content-center text-center expert-network">
             <div class="bg-overlay"></div>
 
             <div class="container content-wrapper col-lg-p-0 p-4">
@@ -311,14 +243,14 @@ function Insurance() {
               <img
                 src={case1_img}
                 alt="Graph showing reduction in healthcare costs"
-                className="img-fluid mb-3 height-50"
+                className="img-fluid mb-3 height-50 case-study-img"
               />
             </div>
             <div className="col-md-6">
               <img
                 src={case2_img}
                 alt="Icon representing improved patient outcomes"
-                className="img-fluid mb-3 height-50"
+                className="img-fluid mb-3 height-50 case-study-img"
               />
             </div>
           </div>
