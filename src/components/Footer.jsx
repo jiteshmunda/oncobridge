@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink, Link } from "react-router-dom";
+import xLogo from "../assets/x-logo.png";
 import "../styles/Footer.css";
 
 function Footer() {
@@ -197,8 +198,7 @@ function Footer() {
                 aria-label="X"
               >
                 <img
-                  src="/src/assets/x-logo.png"
-                  alt="X"
+                  src={xLogo}
                   style={{ width: "15px", height: "auto" }}
                 />
               </Link>
