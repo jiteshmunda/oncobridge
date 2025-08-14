@@ -86,18 +86,17 @@ function Contact() {
 
   return (
     <>
-      <section className="contact-section py-5 banner-contact">
+      <section className="contact-section banner-contact">
         <div className="container-fluid">
-          <div className="row align-items-center px-lg-5 px-md-4 px-3">
+          <div className="row align-items-center px-lg-5 px-md-4 px-3 pt-5 pb-5">
             {/* Left Side Content */}
-            <div className="col-md-6 col-lg-6 col-sm-12 text-start mb-4 mb-md-0 ps-lg-5 ps-md-4 ps-sm-3">
-              <h1 className=" fw-bold display-5 getintouch animate__animated animate__fadeIn">
+            <div className="col-md-6 col-lg-6 col-sm-12 text-start mb-md-0 ps-lg-5 ps-md-4 ps-sm-3 order-2 order-md-1">
+              <h1 className=" fw-bold display-5 getintouch animate__animated animate__fadeIn home_banner_heading">
                 Get in Touch
               </h1>
             </div>
-
             {/* Right Side Image with White Overlay */}
-            <div className="col-md-6 col-lg-6 col-sm-12 text-center position-relative pe-lg-5 pe-md-4 pe-sm-3">
+            <div className="col-md-6 col-lg-6 col-sm-12 text-center position-relative pe-lg-5 pe-md-4 pe-sm-3 mb-4 order-1 order-md-2">
               <div className="image-overlay-container">
                 <img
                   src={contactImage}

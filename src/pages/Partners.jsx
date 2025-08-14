@@ -11,7 +11,7 @@ function Partners() {
       <section className="partners-hero container-fluid">
         <div className="row gx-0 w-100">
           {/* Left */}
-          <div className="col-md-6 partners-left">
+          <div className="col-md-6 partners-left order-2 order-md-1">
             <h2 className="fw-bold mb-4 partners-heading">
               Proudly partnering with
             </h2>
@@ -23,7 +23,7 @@ function Partners() {
           </div>
 
           {/* Right */}
-          <div className="col-md-6 partners-right">
+          <div className="col-md-6 partners-right order-1 order-md-2">
             <img
               src={teamImage}
               alt="Doctors discussing oncology"

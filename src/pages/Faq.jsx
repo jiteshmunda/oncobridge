@@ -4,7 +4,7 @@ function Faq() {
   return (
     <section className="section py-5 faq_block">
       <div className="container">
-        <h2 className="mb-4 section-title treatment-title">
+        <h2 className="mb-4 section-title treatment-title hospital_banner_heading">
           Precision Medicine, Molecular Profiling & Second Opinion Services
         </h2>
         <p>

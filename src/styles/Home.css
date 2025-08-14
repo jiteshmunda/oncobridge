@@ -477,7 +477,6 @@
   color: #5a92a3;
 }
 .home_banner_heading {
-  font-size: 2.5rem;
   text-align: left;
   margin-bottom: 1rem;
   /* color: #5a92a3; */
@@ -486,10 +485,19 @@
 }
 @media (max-width: 768px) {
   .home_banner_subheading {
-    font-size: 1rem;
-  }
-  .home_banner_heading {
     font-size: 1.5rem;
+  }
+   .home_banner_heading{
+     font-size: 1.5rem !important;
+   }
+  .home_banner_heading span.display-6 {
+    font-size: 1.5rem !important;
+  }
+   .home_banner_heading span.display-5 {
+    font-size: 1.5rem !important;
+  }
+   .home_banner_heading span.display-4 {
+    font-size: 1.5rem !important;
   }
   .bg-image-home {
     height: auto;
@@ -550,7 +558,7 @@
 /* Responsive avatar size */
 @media (max-width: 576px) {
   .home_banner_subheading {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   .testimonial-avatar {
     width: 60px;

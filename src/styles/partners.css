@@ -150,10 +150,6 @@
     text-align: center;
   }
 
-  .partners-right {
-    margin-top: 30px;
-  }
-
   .partners-heading {
     font-size: 1.8rem;
     text-align: left;
@@ -257,7 +253,7 @@
 /* Mobile (max-width: 576px) */
 @media (max-width: 576px) {
   .partners-heading {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     white-space: nowrap;
   }
 
