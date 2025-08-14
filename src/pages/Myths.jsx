@@ -67,7 +67,7 @@ function Myths() {
       <section className="text-center py-4 px-2">
         <div className="container ">
           <div className="row  align-items-center">
-            <div className="col-md-12 col-lg-7">
+            <div className="col-md-12 col-lg-7 order-2 order-md-1">
               <div className="text-start  mb-3">
                 <h2 className="section-title fw-bold">
                   A Message to Patients and Families
@@ -95,7 +95,7 @@ function Myths() {
                 patients.
               </p>
             </div>
-            <div className="col-md-12 col-lg-5">
+            <div className="col-md-12 col-lg-5 order-1 order-md-2 mb-4">
               <img
                 src={myths1}
                 alt="myths1"
