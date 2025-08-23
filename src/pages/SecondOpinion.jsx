@@ -31,7 +31,7 @@ function SecondOpinion() {
                 >
                   Expert
                 </span>
-                <span className="fw-normal" style={{ color: "#1a97ad" }}>
+                <span className="fw-normal display-4" style={{ color: "#1a97ad" }}>
                   View
                 </span>
               </h1>
