@@ -92,7 +92,7 @@ function Contact() {
             {/* Left Side Content */}
             <div className="col-md-6 col-lg-6 col-sm-12 text-start mb-md-0 ps-lg-5 ps-md-4 ps-sm-3 order-2 order-md-1">
               <h1 className=" fw-bold display-5 getintouch animate__animated animate__fadeIn home_banner_heading">
-                Get in Touch
+                Contact Us
               </h1>
             </div>
             {/* Right Side Image with White Overlay */}

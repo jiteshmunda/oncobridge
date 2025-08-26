@@ -47,14 +47,14 @@ const Home = () => {
                   className="fw-bold display-6 mb-5"
                   style={{ color: "#1a97ad" }}
                 >
-                  Bridging cancer care and technology.
+                  Bringing you World-class Oncology Expertise
                 </span>
               </h1>
               <h5
                 className="home_banner_subheading mb-4 display-6"
                 style={{ color: "#1a97ad", fontWeight: 450 }}
               >
-                We connect patients, providers and data for a better tomorrow.
+                Get access to global experts, with your trusted doctor guiding every step
               </h5>
 
               <Link

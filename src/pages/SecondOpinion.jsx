@@ -44,7 +44,7 @@ function SecondOpinion() {
               </h5>
 
               <Link
-                to="/secondopinion"
+                to="/contact"
                 className="btn startjourney px-4 py-2 mt-4 "
               >
                 Start your journey
