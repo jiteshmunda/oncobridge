@@ -68,7 +68,7 @@ function SecondOpinion() {
               Access to world-class oncologists, personalized insights, and true
               peace of mind.
             </p>
-            <Link to="/patient-login" className="learn-more-btn">
+            <Link to="/patients" className="learn-more-btn">
               Learn More
             </Link>
           </div>

@@ -34,8 +34,6 @@ import SecondOpinion from './pages/SecondOpinion';
 import TestimonialSlider from './pages/TestimonialSlider';
 import NewsLetter from './pages/NewsLetter';
 import Videos from './pages/Videos';
-import PatientLogin from './pages/PatientLogin';
-import PatientDashboard from './pages/PatientDashboard';
 
 
 function AppWrapper() {
@@ -63,8 +61,6 @@ function AppWrapper() {
         <Navbar />
         <main>
           <Routes>
-            <Route path="/patient-login" element={<PatientLogin />} />
-        <Route path="/patient-dashboard" element={<PatientDashboard />} />
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />

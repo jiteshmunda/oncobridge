@@ -751,7 +751,7 @@ a {
 }
 
 .diagnosis_text img {
-  height: 46vh;
+  height: 45vh !important;
 }
 
 .subtitle_myths {

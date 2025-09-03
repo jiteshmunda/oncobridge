@@ -113,7 +113,7 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div className="row align-items-center gy-4 gx-5 challenge-row">
+          <div className="row align-items-center gy-4 gx-4 challenge-row">
             <div className="col-md-6">
               <div className="hero-alt-image-box">
                 <div className="row "></div>
@@ -126,7 +126,7 @@ const Home = () => {
             </div>
 
             <div className="col-md-6">
-              <div className="challenge-text">
+              <div className="challenge-text" style={{padding:'10px'}}>
                 <h4>
                   Imagine a future where cancer care in India is{" "}
                   <strong>truly connected</strong>.
