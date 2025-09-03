@@ -204,7 +204,7 @@ function Footer() {
               </Link>
 
               <Link
-                to="https://www.linkedin.com/in/oncobridge-b3204b375/"
+                to="https://www.linkedin.com/company/oncobridge/?viewAsMember=true"
                 target="_blank"
                 className="social-icon"
                 aria-label="LinkedIn"
