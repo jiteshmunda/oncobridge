@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink, Link } from "react-router-dom";
 import xLogo from "../assets/x-logo.png";
+import startupIndiaLogo from "../assets/Startup India Hub Logo Vector.svg .png";
 import "../styles/Footer.css";
 
 function Footer() {
@@ -220,6 +221,15 @@ function Footer() {
                 <i className="fab fa-instagram"></i>
               </Link>
             </div>
+             {/* Startup India Logo */}
+  <div className="mt-3">
+     <h5 className="fw-bold  footer_heading" style={{marginTop:'20px'}}>Powered by</h5>
+    <img
+      src={startupIndiaLogo}
+      alt="Startup India"
+      style={{ width: "150px", height: "auto"}}
+    />
+  </div>
           </div>
         </div>
 
