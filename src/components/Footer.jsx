@@ -213,7 +213,7 @@ function Footer() {
                 <i className="fab fa-linkedin-in"></i>
               </Link>
               <Link
-                to="https://www.instagram.com/oncobridge17"
+                to="https://www.instagram.com/onco_bridge?igsh=MXAyYXh6cjUzZzZmbQ%3D%3D&utm_source=qr"
                 target="_blank"
                 className="social-icon"
                 aria-label="Instagram"
