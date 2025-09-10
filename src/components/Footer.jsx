@@ -186,7 +186,7 @@ function Footer() {
             <h5 className="fw-bold mb-3 footer_heading">Follow Us</h5>
             <div className="d-flex gap-2 mt-3">
               <Link
-                to="https://www.facebook.com/share/1WvrTsomYM/"
+                to="https://www.facebook.com/profile.php?id=61580447764189&sk=about"
                 target="_blank"
                 className="social-icon"
                 aria-label="Facebook"
@@ -195,6 +195,7 @@ function Footer() {
               </Link>
               <Link
                 to="https://x.com/OncoBridge"
+                target="_blank"
                 className="social-icon"
                 aria-label="X"
               >
@@ -213,7 +214,7 @@ function Footer() {
                 <i className="fab fa-linkedin-in"></i>
               </Link>
               <Link
-                to="https://www.instagram.com/onco_bridge?igsh=MXAyYXh6cjUzZzZmbQ%3D%3D&utm_source=qr"
+                to="https://www.instagram.com/onco_bridge/"
                 target="_blank"
                 className="social-icon"
                 aria-label="Instagram"
