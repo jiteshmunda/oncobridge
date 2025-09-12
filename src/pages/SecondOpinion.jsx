@@ -6,6 +6,7 @@ import second_opt3 from "../assets/second_opt3.jpg";
 import "../styles/SecondOpinion.css";
 import Expert_view_banner from "../assets/Expert-view.png";
 import { FaRegCommentDots } from "react-icons/fa";
+import iylonLogo from "../assets/iylon-logo3-min.png";
 
 function SecondOpinion() {
   return (
@@ -45,10 +46,52 @@ function SecondOpinion() {
 
               <Link
                 to="/contact"
-                className="btn startjourney px-4 py-2 mt-3 "
+                className="btn startjourney px-4 py-2 mt-1 mb-3"
               >
                 Contact Us
               </Link>
+
+             {/* New text block with image on the left */}
+<div className="btn-like-info-row mt-2 mb-0">
+  <img
+    src={iylonLogo}
+    alt="OncoBridge logo"
+    className="iylon-image"
+    width="48"
+    height="48"
+  />
+
+  <p className="btn-like-info mb-0">
+    OncoBridge partners with iylon to deliver trusted, expert-driven cancer second opinion services for better patient care. For more information visit:&nbsp;
+    <a
+      href="https://oncobridge.iylon.com"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="iylon-link"
+      aria-label="Visit oncobridge.iylon.com"
+    >
+      oncobridge.iylon.com
+    </a>
+  </p>
+</div>
+
+
+ {/* New text below the button */}
+{/* <p className="btn-like-info mt-2 mb-0">
+  OncoBridge partners with iylon to deliver trusted, expert-driven cancer second opinion services for better patient care. For more information visit:&nbsp;
+  <a
+    href="https://oncobridge.iylon.com"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="iylon-link"
+    aria-label="Visit oncobridge.iylon.com"
+  >
+    oncobridge.iylon.com
+  </a>
+</p> */}
+
+
+
             </div>
           </div>
         </div>

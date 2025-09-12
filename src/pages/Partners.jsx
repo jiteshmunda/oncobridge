@@ -65,13 +65,13 @@ function Partners() {
             <p className="text-start mt-4">
               For more information visit{" "}
               <a
-                href="https://iylon.com"
+                href="https://oncobridge.iylon.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className=" fw-bold"
                 style={{ color: "#1a97ad" }}
               >
-                iylon.com
+                oncobridge.iylon.com
               </a>{" "}
               or email us at{" "}
               <a
