@@ -34,6 +34,8 @@ import SecondOpinion from './pages/SecondOpinion';
 import TestimonialSlider from './pages/TestimonialSlider';
 import NewsLetter from './pages/NewsLetter';
 import Videos from './pages/Videos';
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 
 function AppWrapper() {
@@ -82,6 +84,7 @@ function AppWrapper() {
             <Route path="/faq" element={<Faq />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
+          <ToastContainer position="top-center" autoClose={3000} />
         </main>
         <Footer />
         <ScrollToTopButton />
