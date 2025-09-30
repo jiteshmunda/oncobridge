@@ -3,8 +3,6 @@ import "../styles/CareerPage.css";
 import { FiArrowUpRight } from "react-icons/fi";
 import emailjs from "emailjs-com";
 import Career_banner from "../assets/../assets/job.jpg";
-import axios from "axios";
-import { toast } from "react-toastify";
 
 const filters = [
   "View all",
@@ -18,49 +16,8 @@ export default function CareerPage() {
   const [selectedJob, setSelectedJob] = useState(null);
   const [searchTerm, setSearchTerm] = useState("");
   const [showApplicationForm, setShowApplicationForm] = useState(false);
-  const [isSubmitting, setIsSubmitting] = useState(false);
 
   const form = useRef();
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    setIsSubmitting(true); // start loading
-
-    const data = new FormData();
-    data.append("job_code", selectedJob);
-    data.append("user_name", e.target.user_name.value);
-    data.append("user_email", e.target.user_email.value);
-    data.append("user_phone", e.target.user_phone.value);
-
-    if (e.target.attachments.files[0]) {
-      data.append("attachments", e.target.attachments.files[0]);
-    }
-
-    try {
-      const response = await axios.post(
-        "https://piquota.ai/apis/testmail",
-        data,
-        {
-          headers: {
-            "Content-Type": "multipart/form-data",
-          },
-        }
-      );
-
-      if (response.data.success) {
-        toast.success(
-          response.data.message || "Application submitted successfully!"
-        );
-        setShowApplicationForm(false);
-        closeModal();
-      } else {
-        toast.error(response.data.message || "Form submission failed.");
-      }
-    } catch (error) {
-      toast.error("Error submitting form: " + error.message);
-    } finally {
-      setIsSubmitting(false); // stop loading regardless of success or error
-    }
-  };
 
   const openModal = (jobCode) => setSelectedJob(jobCode);
   const closeModal = () => {
@@ -103,6 +60,22 @@ export default function CareerPage() {
 
   return (
     <>
+      {/* <section className="text-center">
+        <div className="container-fluid px-0">
+          <div className="row gx-0 align-items-left">
+            <div className="bg-image-career d-flex justify-content-left align-items-center text-left text-white">
+              <div className="overlay-content">
+                <div className="col-md-12 p-3 ms-lg-5 ps-lg-4">
+                  <h1 className="fw-bold text-white display-3 animate__animated animate__fadeIn">
+                    Be a part <br /> of our team
+                  </h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> */}
+
       <section className="bg-image-home">
         <div className="container-fluid">
           <div className="row align-items-center pt-5 pb-5 px-lg-5 px-md-4 px-3">
@@ -132,6 +105,7 @@ export default function CareerPage() {
 
       <div className="career-page">
         <div className="career-header">
+          {/* <div className="tag">We’re hiring!</div> */}
           <h1>Career Opportunities at OncoBridge</h1>
           <p>
             Below are the career opportunities currently available at
@@ -770,9 +744,14 @@ export default function CareerPage() {
                     Apply Now <FiArrowUpRight />
                   </button>
                 ) : (
-                  <form className="application-form" onSubmit={handleSubmit}>
+                  <form
+                    className="application-form"
+                    ref={form}
+                    onSubmit={sendEmail}
+                  >
                     <h4>Apply for this position</h4>
 
+                    {/* Hidden input to include the job code in the email */}
                     <input type="hidden" name="job_code" value={selectedJob} />
 
                     <div className="form-group">
@@ -791,27 +770,18 @@ export default function CareerPage() {
                     </div>
 
                     <div className="form-group">
-                      <label>Upload Resume (PDF/DOCX)</label>
-                      <input
-                        type="file"
-                        name="attachments"
-                        accept=".pdf,.docx"
-                        required
-                      />
+                      <label>Upload Resume (PDF)</label>
+                      <input type="file" accept=".pdf" required />
                     </div>
 
-                    <button
-                      type="submit"
-                      className={`submit-btn ${isSubmitting ? "disabled" : ""}`}
-                      disabled={isSubmitting}
-                    >
-                      {isSubmitting ? (
-                        <>
-                          <span className="spinner"></span> Submitting...
-                        </>
-                      ) : (
-                        "Submit Application"
-                      )}
+                    <p className="resume-instruction">
+                      Please send your resume to{" "}
+                      <a href="mailto:care@oncobridge.in">care@oncobridge.in</a>{" "}
+                      with the Job Code in the subject line.
+                    </p>
+
+                    <button type="submit" className="submit-btn">
+                      Submit Application
                     </button>
                   </form>
                 )}
