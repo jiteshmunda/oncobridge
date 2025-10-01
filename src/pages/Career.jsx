@@ -2,7 +2,8 @@ import React, { useState, useEffect, useRef } from "react";
 import "../styles/CareerPage.css";
 import { FiArrowUpRight } from "react-icons/fi";
 import emailjs from "emailjs-com";
-import Career_banner from "../assets/../assets/job.jpg";
+import Career_banner from "../assets/job.jpg";
+import { toast } from "react-toastify";
 
 const filters = [
   "View all",
@@ -12,12 +13,74 @@ const filters = [
 ];
 
 export default function CareerPage() {
-  const [activeFilter, setActiveFilter] = useState("View all");
   const [selectedJob, setSelectedJob] = useState(null);
   const [searchTerm, setSearchTerm] = useState("");
   const [showApplicationForm, setShowApplicationForm] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
   const form = useRef();
+
+  const handleSubmit = async (e) => {
+  e.preventDefault();
+  setIsSubmitting(true);
+
+  const name = e.target.user_name.value;
+  const email = e.target.user_email.value;
+  const phone = e.target.user_phone.value;
+  const file = e.target.attachments.files[0];
+
+  try {
+    let fileLink = "";
+    if (file) fileLink = await uploadToGoFile(file); 
+
+    await emailjs.send(
+      "service_lfjgn1k",
+      "template_jex75zr",
+      {
+        user_name: name,
+        user_email: email,
+        user_phone: phone,
+        file_link: fileLink, 
+        date: new Date().toLocaleString(),
+      },
+      "l0cD42p3tCb7Pv8LS"
+    );
+
+      e.target.reset();
+
+    toast.success("Application submitted successfully!");
+  } catch (error) {
+    console.error(error);
+    toast.error("Error submitting form: " + error.message);
+  } finally {
+    setIsSubmitting(false);
+  }
+};
+
+
+
+const uploadToGoFile = async (file) => {
+  const formData = new FormData();
+  formData.append("file", file);
+  formData.append("token", "tPxHbdUZfhnZGJ4KKu9sJsRySTULxs7T"); 
+
+  // You can also choose folder ID if you organize uploads in folders:
+  // formData.append("folderId", "abc123xyz");
+
+  const res = await fetch("https://store1.gofile.io/uploadFile", {
+    method: "POST",
+    body: formData,
+  });
+
+  const data = await res.json();
+
+  if (data.status === "ok") {
+    return data.data.downloadPage; 
+  } else {
+    throw new Error("GoFile upload failed: " + data.status);
+  }
+};
+
 
   const openModal = (jobCode) => setSelectedJob(jobCode);
   const closeModal = () => {
@@ -32,50 +95,10 @@ export default function CareerPage() {
     };
   }, [selectedJob]);
 
-  // Function to send the email using EmailJS
-  const sendEmail = (e) => {
-    e.preventDefault();
-    emailjs
-      .sendForm(
-        "service_lfjgn1k",
-        "template_jex75zr",
-        form.current,
-        "l0cD42p3tCb7Pv8LS"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-          alert(
-            "Application submitted successfully! Please remember to send your resume to the email address provided in the job description."
-          );
-          setShowApplicationForm(false);
-          closeModal();
-        },
-        (error) => {
-          console.log(error.text);
-          alert("Failed to send the application, please try again.");
-        }
-      );
-  };
+
 
   return (
     <>
-      {/* <section className="text-center">
-        <div className="container-fluid px-0">
-          <div className="row gx-0 align-items-left">
-            <div className="bg-image-career d-flex justify-content-left align-items-center text-left text-white">
-              <div className="overlay-content">
-                <div className="col-md-12 p-3 ms-lg-5 ps-lg-4">
-                  <h1 className="fw-bold text-white display-3 animate__animated animate__fadeIn">
-                    Be a part <br /> of our team
-                  </h1>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> */}
-
       <section className="bg-image-home">
         <div className="container-fluid">
           <div className="row align-items-center pt-5 pb-5 px-lg-5 px-md-4 px-3">
@@ -105,7 +128,6 @@ export default function CareerPage() {
 
       <div className="career-page">
         <div className="career-header">
-          {/* <div className="tag">We’re hiring!</div> */}
           <h1>Career Opportunities at OncoBridge</h1>
           <p>
             Below are the career opportunities currently available at
@@ -744,14 +766,9 @@ export default function CareerPage() {
                     Apply Now <FiArrowUpRight />
                   </button>
                 ) : (
-                  <form
-                    className="application-form"
-                    ref={form}
-                    onSubmit={sendEmail}
-                  >
+                  <form className="application-form" onSubmit={handleSubmit}>
                     <h4>Apply for this position</h4>
 
-                    {/* Hidden input to include the job code in the email */}
                     <input type="hidden" name="job_code" value={selectedJob} />
 
                     <div className="form-group">
@@ -770,18 +787,27 @@ export default function CareerPage() {
                     </div>
 
                     <div className="form-group">
-                      <label>Upload Resume (PDF)</label>
-                      <input type="file" accept=".pdf" required />
+                      <label>Upload Resume (PDF/DOCX)</label>
+                      <input
+                        type="file"
+                        name="attachments"
+                        accept=".pdf,.docx"
+                        required
+                      />
                     </div>
 
-                    <p className="resume-instruction">
-                      Please send your resume to{" "}
-                      <a href="mailto:care@oncobridge.in">care@oncobridge.in</a>{" "}
-                      with the Job Code in the subject line.
-                    </p>
-
-                    <button type="submit" className="submit-btn">
-                      Submit Application
+                    <button
+                      type="submit"
+                      className={`submit-btn ${isSubmitting ? "disabled" : ""}`}
+                      disabled={isSubmitting}
+                    >
+                      {isSubmitting ? (
+                        <>
+                          <span className="spinner"></span> Submitting...
+                        </>
+                      ) : (
+                        "Submit Application"
+                      )}
                     </button>
                   </form>
                 )}
