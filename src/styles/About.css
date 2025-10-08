@@ -1,7 +1,7 @@
 /* Section Background */
 .about-section {
   background-color: #f8f9fa;
-  padding: 0px 0;
+  padding: 30px 0;
 }
 
 .about-row {
@@ -153,3 +153,601 @@
     margin: 0 !important;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+/* ================= TEAM SECTION ================= */
+.team-section {
+  background-color: #f9f9f9;
+  border-radius: 20px;
+    padding: 60px 30px 80px;
+  margin-top: 60px;
+  
+}
+
+/* Section Heading */
+.team-heading {
+  color: #1a97ad;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  text-transform: none;
+  font-size: 3rem;
+}
+
+/* Card */
+.team-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Perfectly centered circular photo wrapper */
+.photo-circle {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  margin: 0 auto 15px auto;
+  background: #fff;
+  border: 8px solid #ffffff;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  position: relative; 
+}
+
+/* Image inside circle */
+.team-photo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 100%;
+  width: auto;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+  object-position: center center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+
+
+/* Name and Title */
+.team-name {
+  color: #194d63;
+  font-weight: 700;
+  font-size: 1.5rem !important;
+  margin-bottom: 4px;
+}
+
+.team-title {
+  color: #194d63;
+  font-size: 1rem;
+  margin-bottom: 10px;
+  line-height: 1.4;
+}
+
+/* Social Icons */
+.linkedin-icon {
+  color: #0077B5;
+  transition: transform 0.3s ease;
+}
+
+.email-icon {
+  color: #004466; 
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.email-icon:hover {
+  color: #0077b6; 
+  transform: scale(1.15);
+}
+
+.linkedin-icon:hover,
+.email-icon:hover {
+  transform: scale(1.15);
+}
+
+/* Adjust row spacing */
+.team-section .row {
+  row-gap: 2.5rem;
+}
+
+/* ============ MODAL (POPUP PROFILE) ============ */
+.team-modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 99999;
+  overflow: hidden; 
+}
+
+/* Outer white background box */
+.team-modal-outer {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 24px;
+  max-width: 750px;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-modal-content {
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 20px;
+  max-width: 700px;
+  max-height: 85vh; 
+  overflow-y: auto; 
+  text-align: center;
+  position: relative;
+
+
+  scrollbar-width: thin; 
+  scrollbar-color: #0077b6 #f0f0f0; 
+}
+
+
+
+.team-modal-content::-webkit-scrollbar {
+  width: 8px;
+}
+
+
+
+.team-modal-content::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 4px;
+}
+
+.team-modal-content::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+
+.team-modal-content {
+  scrollbar-width: thin;
+  scrollbar-color: #ccc transparent;
+}
+
+
+.team-modal-content {
+  scroll-behavior: smooth;
+}
+
+
+
+.modal-photo {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center center;
+  border: 5px solid #ffffff;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  margin-bottom: 20px;
+}
+
+
+
+.team-photo-wrapper,
+.team-name {
+  cursor: pointer;
+}
+
+.team-modal-content h3 {
+  color: #004466;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.team-modal-content p {
+  color: #555;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+.close-btn {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  border: none;
+  background: transparent;
+  font-size: 28px;
+  cursor: pointer;
+  color: #444;
+  transition: color 0.2s ease;
+}
+.close-btn:hover {
+  color: #000;
+}
+
+
+
+
+/* Modal icons */
+.team-modal-content .linkedin-icon {
+  color: #0077B5;
+}
+.team-modal-content .email-icon {
+  color: #EA4335;
+}
+
+/* Animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ================= TEAM SECTION ================= */
+.team-section {
+  background-color: #f9f9f9;
+  border-radius: 20px;
+  padding: 60px 30px;
+  margin-top: 60px;
+}
+
+/* Section Heading */
+.team-heading {
+  color: #1a97ad;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  text-transform: none;
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+/* Card */
+.team-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 0 10px;
+}
+
+/* Centered circular photo wrapper */
+.photo-circle {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  margin: 0 auto 15px auto;
+  background: #fff;
+  border: 8px solid #ffffff;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  position: relative;
+}
+
+/* Image inside circle (perfect center alignment) */
+.team-photo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 100%;
+  width: auto;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+  object-position: center center;
+  transition: transform 0.3s ease;
+}
+
+/* Name and Title */
+.team-name {
+  color: #194d63;
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-bottom: 4px;
+}
+
+.team-title {
+  color: #194d63;
+  font-size: 1rem;
+  margin-bottom: 10px;
+  line-height: 1.4;
+}
+
+/* Social Icons */
+.linkedin-icon {
+  color: #0077B5;
+  transition: transform 0.3s ease;
+}
+
+.email-icon {
+  color: #004466; 
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.email-icon:hover {
+  color: #0077b6; 
+  transform: scale(1.15);
+}
+
+.linkedin-icon:hover,
+.email-icon:hover {
+  transform: scale(1.15);
+}
+
+/* Adjust row spacing */
+.team-section .row {
+  row-gap: 2.5rem;
+}
+
+/* ============ MODAL (POPUP PROFILE) ============ */
+.team-modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 99999;
+  overflow: hidden;
+}
+
+/* Outer white box */
+.team-modal-outer {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 24px;
+  max-width: 750px;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Inner content scrollable */
+.team-modal-content {
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 20px;
+  max-width: 700px;
+  max-height: 85vh;
+  overflow-y: auto;
+  text-align: center;
+  position: relative;
+  scrollbar-width: thin;
+  scrollbar-color: #ccc transparent;
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+.team-modal-content::-webkit-scrollbar {
+  width: 8px;
+}
+.team-modal-content::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 4px;
+}
+.team-modal-content::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.modal-photo {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center center;
+  border: 5px solid #ffffff;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  margin-bottom: 20px;
+}
+
+/* Click Cursor */
+.team-photo-wrapper,
+.team-name {
+  cursor: pointer;
+}
+
+/* Modal Text */
+.team-modal-content h3 {
+  color: #004466;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.team-modal-content p {
+  color: #555;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+/* Close Button */
+.close-btn {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  border: none;
+  background: transparent;
+  font-size: 28px;
+  cursor: pointer;
+  color: #444;
+  transition: color 0.2s ease;
+}
+.close-btn:hover {
+  color: #000;
+}
+
+/* Modal Icons */
+.team-modal-content .linkedin-icon {
+  color: #0077B5;
+}
+.team-modal-content .email-icon {
+  color: #EA4335;
+}
+
+/* Animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ============ RESPONSIVE ============ */
+
+/* Large Tablet (max 1200px) */
+@media (max-width: 1200px) {
+  .photo-circle {
+    width: 220px;
+    height: 220px;
+  }
+  .team-heading {
+    font-size: 2.6rem;
+  }
+
+  /* Modal adjustments */
+  .team-modal-content {
+    padding: 32px;
+  }
+  .team-modal-content p {
+    font-size: 0.95rem;
+  }
+}
+
+/* Tablet (max 992px) */
+@media (max-width: 992px) {
+  .photo-circle {
+    width: 180px;
+    height: 180px;
+  }
+  .team-section {
+    margin-top: 30px;
+    padding: 40px 20px;
+  }
+  .team-heading {
+    font-size: 2rem;
+    margin-bottom: 35px;
+  }
+  .team-name {
+    font-size: 1.2rem;
+  }
+  .team-title {
+    font-size: 0.95rem;
+  }
+
+  /* Modal tweaks */
+  .team-modal-content {
+    max-height: 80vh; /* Slightly less for tablets */
+    padding: 28px;
+  }
+  .team-modal-content p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+  .team-modal-content::-webkit-scrollbar {
+    width: 6px;
+  }
+  .team-modal-content::-webkit-scrollbar-thumb {
+    background-color: #bbb;
+  }
+
+  .team-section .row {
+    row-gap: 0.8rem;
+  }
+}
+
+/* Mobile (max 768px) */
+@media (max-width: 768px) {
+  .photo-circle {
+    width: 180px;
+    height: 180px;
+  }
+  .team-name {
+    font-size: 1rem;
+  }
+  .team-title {
+    font-size: 0.85rem;
+  }
+  .team-section {
+    padding: 30px 15px;
+  }
+  .team-heading {
+    font-size: 1.8rem;
+  }
+
+  .team-section .row {
+    row-gap: 0.8rem;
+  }
+
+  /* Modal smaller scroll + text */
+  .team-modal-content {
+    max-height: 78vh;
+    padding: 24px;
+  }
+  .team-modal-content p {
+    font-size: 0.85rem;
+    line-height: 1.4;
+  }
+  .team-modal-content::-webkit-scrollbar {
+    width: 5px;
+  }
+  .team-modal-content::-webkit-scrollbar-thumb {
+    background-color: #bbb;
+  }
+}
+
+/* Small Mobile (max 480px) */
+@media (max-width: 480px) {
+  .photo-circle {
+    width: 150px;
+    height: 150px;
+  }
+  .team-heading {
+    font-size: 1.6rem;
+  }
+  .team-name {
+    font-size: 0.95rem;
+  }
+  .team-title {
+    font-size: 0.8rem;
+  }
+  .team-section .row {
+    row-gap: 0.8rem;
+  }
+
+  /* Compact modal */
+  .team-modal-content {
+    padding: 20px;
+    max-height: 75vh;
+    border-radius: 16px;
+  }
+  .team-modal-content h3 {
+    font-size: 1.2rem;
+  }
+  .team-modal-content p {
+    font-size: 0.8rem;
+    line-height: 1.4;
+  }
+
+  /* Scrollbar smallest */
+  .team-modal-content::-webkit-scrollbar {
+    width: 4px;
+  }
+  .team-modal-content::-webkit-scrollbar-thumb {
+    background-color: #aaa;
+    border-radius: 2px;
+  }
+}
+
+
