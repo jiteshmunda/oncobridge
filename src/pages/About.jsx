@@ -3,13 +3,19 @@ import About_us_banner from "../assets/About-us.png";
 import "../styles/About.css";
 import { FaLinkedin, FaEnvelope } from "react-icons/fa";
 import { MdOutlineEmail } from "react-icons/md";
+import arunImg from "../assets/team/arun.png";
+import saravananImg from "../assets/team/saravanan.png";
+import kannanImg from "../assets/team/kannan.png";
+import zaheerImg from "../assets/team/zaheer.png";
+import devaImg from "../assets/team/devadharshini.png";
+
 
 
 const teamMembers = [
   {
     name: "Arun Padmanabhan",
     title: "Co-Founder & Director",
-    image: "/src/assets/team/arun.png",
+    image: arunImg,
     linkedin: "https://www.linkedin.com/in/arun-padmanabhan-7529374",
     email: "arun@oncobridge.in",
     bio: `Arun Padmanabhan is a seasoned life sciences executive with over 27 years of leadership in molecular diagnostics, life sciences research, and medtech commercialization. He has held senior roles at Thermo Fisher Scientific, PerkinElmer (now Revvity), and BD Biosciences, driving nationwide growth and launching patient-focused innovations. With a strong foundation in business strategy and precision oncology, Arun as Co-Founder & Director, now leads OncoBridge’s mission to make world-class cancer expertise and advanced diagnostics globally accessible. He holds a Master’s in Biological Sciences and a Bachelor’s in Pharmacy from BITS Pilani, along with the General Management Program from IIM Ahmedabad.`,
@@ -17,7 +23,7 @@ const teamMembers = [
   {
     name: "Saravanan Sankarram",
     title: "Co-Founder & Director",
-    image: "/src/assets/team/saravanan.png",
+    image: saravananImg,
     linkedin: "https://www.linkedin.com/in/saravanansankarram/",
     email: "sara@oncobridge.in",
     bio: `
@@ -30,7 +36,7 @@ const teamMembers = [
   {
     name: "Dr. Kannan Maharajan",
     title: "Chief Medical Officer - Radiation Oncologist",
-    image: "/src/assets/team/kannan.png",
+    image: kannanImg,
     linkedin: "https://www.linkedin.com/in/dr-kannan-maharajan-47b36618a",
     email: "cmo@oncobridge.in",
     bio: `Dr. Kannan Maharajan is the <strong> Chief Medical Officer </strong> with a deep passion for<strong> comprehensive oncology care</strong> With over <strong>3 years of experience </strong>in <strong>precision oncological management</strong>, Dr. Kannan specializes in <strong>advanced radiation techniques, including IMRT, VMAT, Brachytherapy, and Proton Therapy </strong> They have contributed to several<strong> international open-access research publications</strong> and have actively <strong>presented their work at national and state-level conferences</strong>.<br/><br/>Committed to delivering <strong>compassionate, patient-centred cancer care</strong>, Dr. Kannan continually strives to <strong>integrate cutting-edge technology with holistic treatment approaches </strong><br/><br/>In their free time, Dr. Kannan enjoys <strong>playing chess and spending quality time with family</strong>`,
@@ -38,7 +44,7 @@ const teamMembers = [
   {
     name: "Zaheer Ahmed",
     title: "Health Navigator",
-    image: "/src/assets/team/zaheer.png",
+    image: zaheerImg,
     linkedin: "https://www.linkedin.com/in/zaheer-ahmed-261487b3",
     email: "admin@oncobridge.in",
     bio: `Zaheer Ahmed is a <strong>Health Navigator</strong> who is passionate about <strong>compassion and healthcare advocacy</strong><br/><br/>
@@ -50,7 +56,7 @@ Zaheer likes to<strong> read, play cricket, take digital photos, and pick up new
   {
     name: "G. Devadharshini",
     title: "Health Navigator",
-    image: "/src/assets/team/devadharshini.png",
+    image: devaImg,
     linkedin: "https://www.linkedin.com/in/deva-dharshini-0092a71a2/",
     email: "admin@oncobridge.in",
     bio: `G. Devadharshini is a <strong>Health Navigator</strong> with a passion for <strong>counselling for diagnosed patients and caregivers, psychotherapy, AI Annotation and 3D Lidar</strong>.<br/><br/>
