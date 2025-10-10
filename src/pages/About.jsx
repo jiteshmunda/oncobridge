@@ -112,7 +112,7 @@ function About() {
           {/* Left Content Scroll */}
           <div className="col-lg-6 col-md-6 about-content" ref={leftContentRef}>
             <div className="m-lg-5">
-              <h1 className="fw-bold display-5 mb-3 animate__animated animate__fadeIn extra-space-bottom home_banner_heading">
+              <h1 className="fw-bold display-5 mb-3 mt-3 animate__animated animate__fadeIn home_banner_heading">
                 Erasing Cancer,
                 <br /> Embracing Life
               </h1>
@@ -268,6 +268,10 @@ function About() {
           </div>
         </div>
       )}
+
+      
+
+      
     </section>
   );
 }
