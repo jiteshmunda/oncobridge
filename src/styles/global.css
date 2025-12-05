@@ -1305,10 +1305,58 @@ a {
 }
 
 
+/* Light blue background section  */
+.linkedin-section {
+  background: #d9eaf7;
+  padding: 40px 0 60px; 
+}
 
+/* Title */
+.linkedin-title {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #004b6f;
+  margin-bottom: 15px; 
+}
 
+/* Description */
+.linkedin-description {
+  color: #333;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  margin-bottom: 25px;
+  max-width: 900px;
+}
 
+/* White card — full width inside container */
+.linkedin-card {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  width: 100%;
+  border: 1px solid #e5e5e5;
+  box-shadow: 0px 3px 14px rgba(0, 0, 0, 0.08);
+}
 
+/* iframe styling */
+.linkedin-iframe {
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+}
 
+/* Mobile styles */
+@media (max-width: 768px) {
+  .linkedin-title {
+    font-size: 1.8rem;
+  }
 
+  .linkedin-card {
+    padding: 12px;
+  }
+
+  .linkedin-section {
+    padding: 30px 0 50px;
+  }
+}
 

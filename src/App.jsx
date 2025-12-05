@@ -34,6 +34,7 @@ import SecondOpinion from './pages/SecondOpinion';
 import TestimonialSlider from './pages/TestimonialSlider';
 import NewsLetter from './pages/NewsLetter';
 import Videos from './pages/Videos';
+import LinkedinPosts from "./pages/LinkedinPosts";
 
 
 function AppWrapper() {
@@ -81,6 +82,7 @@ function AppWrapper() {
             <Route path="/blogdetail" element={<BlogDetail />} />
             <Route path="/faq" element={<Faq />} />
             <Route path="*" element={<NotFound />} />
+            <Route path="/linkedin-posts" element={<LinkedinPosts />} />
           </Routes>
         </main>
         <Footer />

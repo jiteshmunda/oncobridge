@@ -94,6 +94,7 @@ function Navbar() {
                 <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton">
                   <li><NavLink to="/myths" onClick={closeMenu} className={({ isActive }) => isActive ? "menu-link active" : "dropdown-item"}>Myths & Facts</NavLink></li>
                   <li><NavLink to="/faq" onClick={closeMenu} className={({ isActive }) => isActive ? "menu-link active" : "dropdown-item"}>FAQ</NavLink></li>
+                  <li><NavLink to="/linkedin-posts" onClick={closeMenu} className={({ isActive }) => isActive ? "menu-link active" : "dropdown-item"}>LinkedIn Updates</NavLink></li>
                 </ul>
               </div>
 
