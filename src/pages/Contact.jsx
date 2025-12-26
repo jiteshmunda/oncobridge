@@ -91,9 +91,25 @@ function Contact() {
           <div className="row align-items-center px-lg-5 px-md-4 px-3 pt-5 pb-5">
             {/* Left Side Content */}
             <div className="col-md-6 col-lg-6 col-sm-12 text-start mb-md-0 ps-lg-5 ps-md-4 ps-sm-3 order-2 order-md-1">
-              <h1 className=" fw-bold display-5 getintouch animate__animated animate__fadeIn home_banner_heading">
-                Contact Us
-              </h1>
+              <h1 className="fw-bold display-5 getintouch animate__animated animate__fadeIn home_banner_heading text-center text-md-start">
+  Contact Us
+</h1>
+
+<div className="mt-3 text-center text-md-start">
+  <a
+    href="tel:+919025665212"
+    className="callnowcontact btn startjourney px-4 py-2 mt-1 mb-3 me-2"
+    onClick={() => {
+      if (window.gtag_report_conversion) {
+        window.gtag_report_conversion();
+      }
+    }}
+  >
+    Call Now
+  </a>
+</div>
+
+
             </div>
             {/* Right Side Image with White Overlay */}
             <div className="col-md-6 col-lg-6 col-sm-12 text-center position-relative pe-lg-5 pe-md-4 pe-sm-3 mb-4 order-1 order-md-2">

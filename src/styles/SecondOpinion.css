@@ -251,8 +251,30 @@
 }
 
 
+.callnowbtn {
+  background-color: #ffffff;
+  color: #1a97ad;
+  border: 1px solid #1a97ad !important;
+}
+
+.callnowcontact,
+.callnowcontact:hover,
+.callnowcontact:focus,
+.callnowcontact:active {
+  background-color: #16879a !important;
+  color: #ffffff !important;
+  border-color: #16879a !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
 
 
+
+
+.callnowbtn:hover{
+background-color: #1a97ad;
+color: white;
+}
 
 
 

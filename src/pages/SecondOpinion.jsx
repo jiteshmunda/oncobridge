@@ -45,11 +45,29 @@ function SecondOpinion() {
               </h5>
 
               <Link
-                to="/contact"
-                className="btn startjourney px-4 py-2 mt-1 mb-3"
-              >
-                Contact Us
-              </Link>
+  to="/contact"
+  className="btn startjourney px-4 py-2 mt-1 mb-3 me-2"
+  onClick={() => {
+    if (window.gtag_report_conversion) {
+      window.gtag_report_conversion();
+    }
+  }}
+>
+  Contact Us
+</Link>
+<a
+  href="tel:+919025665212"
+  className="callnowbtn btn startjourney px-4 py-2 mt-1 mb-3 me-2"
+  onClick={() => {
+    if (window.gtag_report_conversion) {
+      window.gtag_report_conversion();
+    }
+  }}
+>
+  Call Now
+</a>
+
+              
 
              {/* New text block with image on the left */}
 <div className="btn-like-info-row mt-2 mb-0">
